@@ -1,5 +1,8 @@
+import pandas
 import numpy as np
+
 import hxform
+
 from hapiclient import hapi
 from hapiclient import hapitime2datetime
 
@@ -18,9 +21,10 @@ R_E = 6378.16
 
 # "Its four spacecraft are flying only four-and-a-half miles apart" => 7.24 km
 angle = 7.24/(8.79*R_E)
-hxform.xprint(f"4.5 miles separation => {np.degrees(angle):.2e} deg at 8.79 R_E")
 
-def report(times, positions, title):
+hxform.xprint(f"4.5 miles ({7.24} km) separation => {np.degrees(angle):.2e} deg at 8.79 R_E")
+
+def report(times, positions, title, fname):
 
   for i in range(4):
     r = np.linalg.norm(positions[i], axis=1)
@@ -45,9 +49,9 @@ def report(times, positions, title):
       angle = np.degrees(min_sep/r_ave)
       hxform.xprint(f'  Minimum separation distance and angle: {min_sep:.2f} km  and {angle:.2e} deg')
 
-  plot(times, separations, labels, title)
+  plot(times, separations, labels, title, fname)
 
-def plot(times, separations, labels, title):
+def plot(times, separations, labels, title, fname):
   from matplotlib import pyplot as plt
   from hapiplot.plot.datetick import datetick
 
@@ -60,7 +64,6 @@ def plot(times, separations, labels, title):
   plt.legend()
   datetick(dir='x')
 
-  fname = 'mms_separation_' + title.replace(" ", "_").replace("(", "").replace(")", "")
   writefig(fname)
   plt.close()
 
@@ -90,47 +93,76 @@ opts  = {'logging': False, 'usecache': True, 'cachedir': './data/hapi'}
 
 print("Start: {start}, Stop: {stop}".format(start=start, stop=stop))
 
+#frame = 'GSM'
+frame_cdaweb = 'GSE'
+#frame_cdaweb = 'ECI'
 
 server = 'https://cdaweb.gsfc.nasa.gov/hapi'
-frame = 'GSE'
 dataset_suffix = 'MEC_SRVY_L2_EPHT89D'
-title = f'CDAWeb {frame} (MMSi_{dataset_suffix})'
+title = f'CDAWeb {frame_cdaweb} (MMSi_{dataset_suffix})'
+fname = 'mms_separation_' + title.replace(" ", "_").replace("(", "").replace(")", "")
+
 hxform.xprint(title)
 
-times = []
-positions = []
+times = {'cdaweb': [], 'sscweb': []}
+positions = {'cdaweb': [], 'sscweb': []}
+dfs = {'cdaweb': [], 'sscweb': []}
+
 for s in range(1, 5):
   sc   = f'mms{s}'
   dataset = f'{sc.upper()}_MEC_SRVY_L2_EPHT89D'
-  parameters = f'{sc}_mec_r_gse'
+  parameters = f'{sc}_mec_r_{frame_cdaweb.lower()}'
   # EPD data has time stamps that differ between s/c
   #dataset = f'{sc.upper()}_EPD-EIS_SRVY_L2_ELECTRONENERGY'
-  #parameters = f'{sc}_epd_eis_srvy_l2_electronenergy_position_{frame.lower()}'
+  #parameters = f'{sc}_epd_eis_srvy_l2_electronenergy_position_{frame_cdaweb.lower()}'
   data, meta = hapi(server, dataset, parameters, start, stop, **opts)
+  times['cdaweb'].append(hapitime2datetime(data['Time']))
+  positions['cdaweb'].append(data[parameters])
+  dfs['cdaweb'].append(pandas.DataFrame(data[parameters], columns=['x', 'y', 'z'], index=times['cdaweb'][-1]))
 
-  times.append(hapitime2datetime(data['Time']))
-  positions.append(data[parameters])
 
-report(times, positions, title)
+report(times['cdaweb'], positions['cdaweb'], title, fname)
 
 hxform.xprint('')
 
 
 server = 'http://hapi-server.org/servers/SSCWeb/hapi'
-frame = 'GSE'
-times = []
-positions = []
-title = f'SSCWeb {frame}'
-hxform.xprint(title)
+if frame_cdaweb == 'ECI':
+  frame_sscweb = 'J2K'
+else:
+  frame_sscweb = frame_cdaweb
+
+title = f'SSCWeb {frame_sscweb}'
 for s in range(1, 5):
   dataset    = f'mms{s}'
-  parameters = f'X_{frame},Y_{frame},Z_{frame}'
+  parameters = f'X_{frame_sscweb},Y_{frame_sscweb},Z_{frame_sscweb}'
 
   data, meta = hapi(server, dataset, parameters, start, stop, **opts)
 
-  xyz = np.column_stack((data[f'X_{frame}'], data[f'Y_{frame}'], data[f'Z_{frame}']))
+  xyz = np.column_stack((data[f'X_{frame_sscweb}'], data[f'Y_{frame_sscweb}'], data[f'Z_{frame_sscweb}']))
 
-  times.append(hapitime2datetime(data['Time']))
-  positions.append(xyz*R_E)
+  times['sscweb'].append(hapitime2datetime(data['Time']))
+  positions['sscweb'].append(xyz*R_E)
+  dfs['sscweb'].append(pandas.DataFrame(xyz*R_E, columns=['x', 'y', 'z'], index=times['sscweb'][-1]))
 
-report(times, positions, title)
+fname = 'mms_separation_' + title.replace(" ", "_").replace("(", "").replace(")", "")
+
+report(times['sscweb'], positions['sscweb'], title, fname)
+
+for i in range(4):
+  hxform.xprint(40*'-')
+  hxform.xprint(f'MMS{i+1}')
+  hxform.xprint(40*'-')
+
+  # Show first few lines of each dataframe
+  hxform.xprint(f"CDAWeb {frame_cdaweb} {dataset_suffix}:")
+  hxform.xprint(dfs['cdaweb'][i].head())
+
+  hxform.xprint(f"\nSSCWeb {frame_sscweb}:")
+  hxform.xprint(dfs['sscweb'][i].head())
+
+import os
+log_dir = 'mms_separation'
+if not os.path.exists(log_dir):
+  os.makedirs(log_dir)
+os.rename('mms_separation.log', f'{fname}.log')

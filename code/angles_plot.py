@@ -9,27 +9,6 @@ in_file = os.path.join('data','angles', f'{run}.pkl')
 out_dir = os.path.join('figures', 'angles', run)
 
 
-def fig_save(fname):
-  import os
-  from matplotlib import pyplot as plt
-
-  for fmt in ['svg', 'png', 'pdf']:
-    kwargs = {'bbox_inches': 'tight'}
-    if fmt == 'png':
-      kwargs['dpi'] = 300
-
-    if fmt == 'pdf':
-      fname_full = os.path.join(out_dir, f'{fname}.{fmt}')
-    else:
-      fname_full = os.path.join(out_dir, fmt, f'{fname}.{fmt}')
-
-    os.makedirs(os.path.dirname(fname_full), exist_ok=True)
-    print(f"  Writing {fname_full}")
-    plt.savefig(fname_full, bbox_inches='tight')
-
-  plt.close()
-
-
 def fig_prep():
   from matplotlib import pyplot as plt
   gs = plt.gcf().add_gridspec(3, hspace=0.07)
@@ -94,6 +73,7 @@ def plot(df, tranform_str):
   # Set y-axis major tick increment to 0.01 for the difference subplot
   axes[1].grid(which='minor', axis='y', linestyle=':', linewidth=0.5)
   axes[1].yaxis.set_minor_locator(MultipleLocator(0.01))
+  axes[1].xaxis.set_minor_locator(MultipleLocator(1))
 
   axes[1].legend(ncols=3, fontsize=14, columnspacing=0.85)
 
@@ -145,4 +125,4 @@ for transform_key in list(data.keys()):
   tranform_str = fr"$\angle$ {pair}"
 
   plot(df, tranform_str)
-  fig_save(f'{transform_key}')
+  utilrsw.mpl.savefig(f'{transform_key}', fdir=out_dir, subdirs=['svg', 'png'])
