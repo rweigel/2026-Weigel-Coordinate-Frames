@@ -21,7 +21,7 @@ def plot(df, tranform_str):
   from matplotlib.dates import DateFormatter, YearLocator
   from matplotlib.ticker import MultipleLocator
 
-  fontsize = 20
+  fontsize = 22
 
   line_map = {
     'geopack_08_dp': ['black', '-'],
@@ -55,8 +55,7 @@ def plot(df, tranform_str):
   # Use MaxNLocator to get nice ticks that enclose the data
   locator0 = MaxNLocator(nbins='auto', prune=None)
   axes[0].yaxis.set_major_locator(locator0)
-  axes[0].set_ylim(locator0.tick_values(y0, y1)[0], locator0.tick_values(y0, y1)[-1])
-  axes[0].legend(handlelength=1.0, loc='upper center')
+  axes[0].legend(handlelength=1.0, fontsize=fontsize)
 
   # Plot and adjust y-limits and major ticks for axes[1]
   y1_min = df['diffs'].min(axis=1).min()
@@ -73,9 +72,9 @@ def plot(df, tranform_str):
       'linestyle': line_map[column][1]
     }
     axes[1].plot(df['diffs'].index, df['diffs'][column], **kwargs)
-  locator1 = MaxNLocator(nbins='auto', prune=None)
-  axes[1].yaxis.set_major_locator(locator1)
-  axes[1].set_ylim(locator1.tick_values(y1_min, y1_max)[0], locator1.tick_values(y1_min, y1_max)[-1])
+
+  #locator1 = MaxNLocator(nbins='auto', prune=None)
+  #axes[1].yaxis.set_major_locator(locator1)
 
   axes[1].grid(True)
   axes[1].set_ylabel('$\\Delta$ [deg]', fontsize=fontsize)
@@ -90,7 +89,7 @@ def plot(df, tranform_str):
 
   # Set y-axis major tick increment to 0.01 for the difference subplot
   axes[1].grid(which='minor', axis='y', linestyle=':', linewidth=0.5)
-  axes[1].yaxis.set_minor_locator(MultipleLocator(0.01))
+  #axes[1].yaxis.set_minor_locator(MultipleLocator(0.01))
   axes[1].legend(ncols=2, fontsize=fontsize, columnspacing=0.65, handlelength=1.0, loc='upper center')
 
   # Plot and adjust y-limits and major ticks for axes[2]
@@ -101,36 +100,55 @@ def plot(df, tranform_str):
   }
   axes[2].plot(df['diffs'].index, df['diffs']['|max-min|'], **kwargs)
   y2 = df['diffs']['|max-min|']
-  locator2 = MaxNLocator(nbins='auto', prune=None)
-  axes[2].yaxis.set_major_locator(locator2)
-  axes[2].set_ylim(locator2.tick_values(y2.min(), y2.max())[0], locator2.tick_values(y2.min(), y2.max())[-1])
-
 
   axes[2].grid(True)
   axes[2].set_ylabel('|max-min| [deg]', fontsize=fontsize)
-  axes[2].set_xlabel('Year', fontsize=fontsize, labelpad=32)
+  axes[2].set_xlabel('Year', fontsize=fontsize)
   axes[2].xaxis.set_major_locator(YearLocator())
   axes[2].xaxis.set_major_formatter(DateFormatter('%Y'))
-
-  # Remove custom bottom y-limit logic for axes[2] (now handled by tick_values)
-  #axes[2].legend(loc='upper center')
+  yticks = axes[2].get_yticks()
+  ytick_delta = yticks[1] - yticks[0]
+  axes[2].set_ylim(axes[2].get_ylim()[0] - 0.1*ytick_delta, axes[2].get_ylim()[1])
 
   min_date = df['values'].index.min()
   max_date = df['values'].index.max() + numpy.timedelta64(1, 'D')
 
   for ax in axes:
-    # Prevent offset notation on x-axis (e.g., 2.01e4)
+    # Prevent offset notation on y-axis (e.g., 2.01e4)
     ax.get_yaxis().get_major_formatter().set_useOffset(False)
     # Remove short tick lines next to axis numbers
     ax.tick_params(axis='x', length=0)
     ax.tick_params(axis='y', which='minor', length=0)
     ax.tick_params(axis='y', length=0)
-    utilrsw.mpl.adjust_legend(ax)
     ax.spines['bottom'].set_visible(False)
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
     ax.spines['left'].set_visible(False)
     ax.set_xlim(min_date, max_date)
+
+    if False:
+      yticks = ax.get_yticks()
+      ytick_delta = ax.get_yticks()[1] - ax.get_yticks()[0]
+      ax.set_yticks(numpy.arange(yticks[0], yticks[-1], ytick_delta))
+      print(yticks)
+      all_y = numpy.concatenate([line.get_ydata() for line in ax.get_lines()])
+      min_y = all_y.min()
+      max_y = all_y.max()
+      print(min_y, max_y)
+      # If no data below second tick label, remove that tick label
+      if min_y > yticks[1]:
+        print(f"Removing y-tick {yticks[1]} for {ax} since min_y={min_y} > {yticks[1]}")
+        ax.set_yticks(yticks[1:])
+      continue
+    if False:
+      # Now set y-limits after legend adjustment
+      if ax == axes[0]:
+        ax.set_ylim(locator0.tick_values(y0, y1)[0], locator0.tick_values(y0, y1)[-1])
+      elif ax == axes[1]:
+        ax.set_ylim(locator1.tick_values(y1_min, y1_max)[0], locator1.tick_values(y1_min, y1_max)[-1])
+      elif ax == axes[2]:
+        ax.set_ylim(locator2.tick_values(y2.min(), y2.max())[0], locator2.tick_values(y2.min(), y2.max())[-1])
+    utilrsw.mpl.adjust_legend(ax)
 
   fig = axes[0].get_figure()
   fig.align_ylabels()
@@ -149,4 +167,6 @@ for transform_key in list(data.keys()):
   tranform_str = fr"$\angle$ {pair}"
 
   plot(df, tranform_str)
-  utilrsw.mpl.savefig(f'{transform_key}', fdir=out_dir, subdirs=['svg', 'png'])
+  #from matplotlib import pyplot as plt
+  #plt.savefig('a.png')
+  utilrsw.mpl.savefig(f'{transform_key}', fdir=out_dir, subdirs=['svg', 'png'], bbox_inches=None)
