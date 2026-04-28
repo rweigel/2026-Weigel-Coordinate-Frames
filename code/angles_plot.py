@@ -21,7 +21,7 @@ def plot(df, tranform_str):
   from matplotlib.dates import DateFormatter, YearLocator
   from matplotlib.ticker import MultipleLocator
 
-  fontsize = 22
+  fontsize = 21
 
   line_map = {
     'geopack_08_dp': ['black', '-'],
@@ -55,7 +55,7 @@ def plot(df, tranform_str):
   # Use MaxNLocator to get nice ticks that enclose the data
   locator0 = MaxNLocator(nbins='auto', prune=None)
   axes[0].yaxis.set_major_locator(locator0)
-  axes[0].legend(handlelength=1.0, fontsize=fontsize)
+  #axes[0].legend(handlelength=1.0, fontsize=fontsize)
 
   # Plot and adjust y-limits and major ticks for axes[1]
   y1_min = df['diffs'].min(axis=1).min()
@@ -90,7 +90,7 @@ def plot(df, tranform_str):
   # Set y-axis major tick increment to 0.01 for the difference subplot
   axes[1].grid(which='minor', axis='y', linestyle=':', linewidth=0.5)
   #axes[1].yaxis.set_minor_locator(MultipleLocator(0.01))
-  axes[1].legend(ncols=2, fontsize=fontsize, columnspacing=0.65, handlelength=1.0, loc='upper center')
+  axes[1].legend(ncols=2, fontsize=fontsize, columnspacing=0.65, handlelength=1.0, borderaxespad=0.0, loc='upper center')
 
   # Plot and adjust y-limits and major ticks for axes[2]
   kwargs = {
@@ -108,7 +108,7 @@ def plot(df, tranform_str):
   axes[2].xaxis.set_major_formatter(DateFormatter('%Y'))
   yticks = axes[2].get_yticks()
   ytick_delta = yticks[1] - yticks[0]
-  axes[2].set_ylim(axes[2].get_ylim()[0] - 0.1*ytick_delta, axes[2].get_ylim()[1])
+  axes[2].set_ylim(axes[2].get_ylim()[0] - 0.15*ytick_delta, axes[2].get_ylim()[1])
 
   min_date = df['values'].index.min()
   max_date = df['values'].index.max() + numpy.timedelta64(1, 'D')
@@ -117,9 +117,9 @@ def plot(df, tranform_str):
     # Prevent offset notation on y-axis (e.g., 2.01e4)
     ax.get_yaxis().get_major_formatter().set_useOffset(False)
     # Remove short tick lines next to axis numbers
-    ax.tick_params(axis='x', length=0)
-    ax.tick_params(axis='y', which='minor', length=0)
-    ax.tick_params(axis='y', length=0)
+    ax.tick_params(axis='x', length=0, labelsize=fontsize)
+    ax.tick_params(axis='y', which='minor', length=0, labelsize=fontsize)
+    ax.tick_params(axis='y', length=0, labelsize=fontsize)
     ax.spines['bottom'].set_visible(False)
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
@@ -169,4 +169,4 @@ for transform_key in list(data.keys()):
   plot(df, tranform_str)
   #from matplotlib import pyplot as plt
   #plt.savefig('a.png')
-  utilrsw.mpl.savefig(f'{transform_key}', fdir=out_dir, subdirs=['svg', 'png'], bbox_inches=None)
+  utilrsw.mpl.savefig(f'{transform_key}', fdir=out_dir, subdirs=['svg', 'png'], bbox_inches='tight')
