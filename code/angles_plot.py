@@ -18,6 +18,7 @@ def fig_prep():
 
 def plot(df, tranform_str):
 
+  from matplotlib.dates import DateFormatter, YearLocator
   from matplotlib.ticker import MultipleLocator
 
   line_map = {
@@ -43,8 +44,8 @@ def plot(df, tranform_str):
   }
   axes[0].plot(df['values'].index, df['values'][lib], **kwargs)
   axes[0].grid(True)
-  axes[0].set_ylabel(f"{tranform_str} [deg]")
-  axes[0].legend()
+  axes[0].set_ylabel(f"{tranform_str} [deg]", fontsize=16)
+  axes[0].legend(handlelength=1.0, loc='upper center')
 
   for column in df['diffs'].columns:
     if column == '|max-min|':
@@ -60,7 +61,7 @@ def plot(df, tranform_str):
     axes[1].plot(df['diffs'].index, df['diffs'][column], **kwargs)
 
   axes[1].grid(True)
-  axes[1].set_ylabel('Diff. relative to geopack_08_dp [deg]')
+  axes[1].set_ylabel('$\\Delta$ [deg]', fontsize=16)
 
   # Add zero line to the difference subplot
   axes[1].axhline(0, color='black', linestyle='-', linewidth=1, zorder=0)
@@ -73,9 +74,8 @@ def plot(df, tranform_str):
   # Set y-axis major tick increment to 0.01 for the difference subplot
   axes[1].grid(which='minor', axis='y', linestyle=':', linewidth=0.5)
   axes[1].yaxis.set_minor_locator(MultipleLocator(0.01))
-  #axes[1].xaxis.set_minor_locator(MultipleLocator(1))
 
-  axes[1].legend(ncols=3, fontsize=14, columnspacing=0.85)
+  axes[1].legend(ncols=2, fontsize=16, columnspacing=0.65, handlelength=1.0, loc='upper center')
 
   kwargs = {
     'label': '|max-min|',
@@ -86,13 +86,18 @@ def plot(df, tranform_str):
 
 
   axes[2].grid(True)
-  axes[2].set_ylabel('|max-min| [deg]')
-  axes[2].set_xlabel('Year')
+  axes[2].set_ylabel('|max-min| [deg]', fontsize=16)
+  axes[2].set_xlabel('Year', fontsize=16)
+  axes[2].xaxis.set_major_locator(YearLocator())
+  axes[2].xaxis.set_major_formatter(DateFormatter('%Y'))
 
   yl0 = axes[2].get_ylim()[0]
   yl1 = axes[2].get_ylim()[1]
   axes[2].set_ylim(bottom=0 - (yl1-yl0)*0.05)
-  axes[2].legend()
+  axes[2].legend(loc='upper center')
+
+  min_date = df['values'].index.min()
+  max_date = df['values'].index.max() + numpy.timedelta64(1, 'D')
 
   for ax in axes:
     # Prevent offset notation on x-axis (e.g., 2.01e4)
@@ -106,7 +111,7 @@ def plot(df, tranform_str):
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
     ax.spines['left'].set_visible(False)
-    ax.set_xlim(df['values'].index.min(), df['values'].index.max())
+    ax.set_xlim(min_date, max_date)
 
   fig = axes[0].get_figure()
   fig.align_ylabels()
