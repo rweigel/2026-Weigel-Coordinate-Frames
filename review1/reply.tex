@@ -3,6 +3,7 @@
 \usepackage{sectsty}
 \usepackage{graphicx}
 \usepackage{xcolor}
+\usepackage{url}
 % Margins
 \topmargin=-0.45in
 \evensidemargin=0in
@@ -71,7 +72,7 @@ Figure 3 (d): Why is the result of PySPEDAS missing in these plots? If there is 
 \\
 \\
 {\color{violet}\noindent
-Reply
+We had previously disabled transforms involving \texttt{MAG} and PySPEDAS due to an implementation error (\url{https://github.com/spedas/pyspedas/issues/1207}). After this issue was resolved, we neglected to re-enable these transforms. We have updated Figure 3(d) to include the PySPEDAS result.
 }
 \\
 \\
@@ -79,7 +80,10 @@ L419-422: One striking result from the comparison here would be that the result 
 \\
 \\
 {\color{violet}\noindent
-Reply
+In section 4.2 we noted that the PySPEDAS transformation code originated from ROCTOLIB (we have modified the text to improve the wording and make clear that \texttt{SPEDAS} is written in IDL).
+\\
+\\
+To address this comment, we have added ``From inspection of the source code for \texttt{geopack\_08\_dp} and \texttt{pyspedas}, we find that they appear to be different implementations of the algorithms in Russell (1971), which is consistent with the closeness of their transform results shown in Figure~3."
 }
 
 \subsection{Minor comments}
@@ -88,7 +92,7 @@ L46: There is a typo around ``...for a the transformation a vector from one coor
 \\
 \\
 {\color{violet}\noindent
-Fixed
+This has been corrected.
 }
 \\
 \\
@@ -96,7 +100,7 @@ L622: Move the parentheses for Stall et al., 2013 to correct positions.
 \\
 \\
 {\color{violet}\noindent
-This was fixed, but the change is not annotated because the trackchanges package does not work for citation changes.
+This was corrected, but the change is not annotated because the trackchanges package does not work for citation changes.
 }
 
 
