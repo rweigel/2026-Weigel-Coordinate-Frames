@@ -21,6 +21,8 @@ def plot(df, tranform_str):
   from matplotlib.dates import DateFormatter, YearLocator
   from matplotlib.ticker import MultipleLocator
 
+  fontsize = 20
+
   line_map = {
     'geopack_08_dp': ['black', '-'],
     'spacepy': ['blue', '-'],
@@ -42,11 +44,23 @@ def plot(df, tranform_str):
     'color': line_map[lib][0],
     'linestyle': line_map[lib][1]
   }
+  # Plot and adjust y-limits and major ticks for axes[0]
+  y0 = df['values'][lib].min()
+  y1 = df['values'][lib].max()
+  # Choose a reasonable major tick interval (auto or fixed)
+  from matplotlib.ticker import MaxNLocator
   axes[0].plot(df['values'].index, df['values'][lib], **kwargs)
   axes[0].grid(True)
-  axes[0].set_ylabel(f"{tranform_str} [deg]", fontsize=16)
+  axes[0].set_ylabel(f"{tranform_str} [deg]", fontsize=fontsize)
+  # Use MaxNLocator to get nice ticks that enclose the data
+  locator0 = MaxNLocator(nbins='auto', prune=None)
+  axes[0].yaxis.set_major_locator(locator0)
+  axes[0].set_ylim(locator0.tick_values(y0, y1)[0], locator0.tick_values(y0, y1)[-1])
   axes[0].legend(handlelength=1.0, loc='upper center')
 
+  # Plot and adjust y-limits and major ticks for axes[1]
+  y1_min = df['diffs'].min(axis=1).min()
+  y1_max = df['diffs'].max(axis=1).max()
   for column in df['diffs'].columns:
     if column == '|max-min|':
       continue
@@ -59,9 +73,12 @@ def plot(df, tranform_str):
       'linestyle': line_map[column][1]
     }
     axes[1].plot(df['diffs'].index, df['diffs'][column], **kwargs)
+  locator1 = MaxNLocator(nbins='auto', prune=None)
+  axes[1].yaxis.set_major_locator(locator1)
+  axes[1].set_ylim(locator1.tick_values(y1_min, y1_max)[0], locator1.tick_values(y1_min, y1_max)[-1])
 
   axes[1].grid(True)
-  axes[1].set_ylabel('$\\Delta$ [deg]', fontsize=16)
+  axes[1].set_ylabel('$\\Delta$ [deg]', fontsize=fontsize)
 
   # Add zero line to the difference subplot
   axes[1].axhline(0, color='black', linestyle='-', linewidth=1, zorder=0)
@@ -74,27 +91,29 @@ def plot(df, tranform_str):
   # Set y-axis major tick increment to 0.01 for the difference subplot
   axes[1].grid(which='minor', axis='y', linestyle=':', linewidth=0.5)
   axes[1].yaxis.set_minor_locator(MultipleLocator(0.01))
+  axes[1].legend(ncols=2, fontsize=fontsize, columnspacing=0.65, handlelength=1.0, loc='upper center')
 
-  axes[1].legend(ncols=2, fontsize=16, columnspacing=0.65, handlelength=1.0, loc='upper center')
-
+  # Plot and adjust y-limits and major ticks for axes[2]
   kwargs = {
-    'label': '|max-min|',
+    #'label': '|max-min|',
     'color': line_map['|max-min|'][0],
     'linestyle': line_map['|max-min|'][1]
   }
   axes[2].plot(df['diffs'].index, df['diffs']['|max-min|'], **kwargs)
+  y2 = df['diffs']['|max-min|']
+  locator2 = MaxNLocator(nbins='auto', prune=None)
+  axes[2].yaxis.set_major_locator(locator2)
+  axes[2].set_ylim(locator2.tick_values(y2.min(), y2.max())[0], locator2.tick_values(y2.min(), y2.max())[-1])
 
 
   axes[2].grid(True)
-  axes[2].set_ylabel('|max-min| [deg]', fontsize=16)
-  axes[2].set_xlabel('Year', fontsize=16)
+  axes[2].set_ylabel('|max-min| [deg]', fontsize=fontsize)
+  axes[2].set_xlabel('Year', fontsize=fontsize, labelpad=32)
   axes[2].xaxis.set_major_locator(YearLocator())
   axes[2].xaxis.set_major_formatter(DateFormatter('%Y'))
 
-  yl0 = axes[2].get_ylim()[0]
-  yl1 = axes[2].get_ylim()[1]
-  axes[2].set_ylim(bottom=0 - (yl1-yl0)*0.05)
-  axes[2].legend(loc='upper center')
+  # Remove custom bottom y-limit logic for axes[2] (now handled by tick_values)
+  #axes[2].legend(loc='upper center')
 
   min_date = df['values'].index.min()
   max_date = df['values'].index.max() + numpy.timedelta64(1, 'D')
