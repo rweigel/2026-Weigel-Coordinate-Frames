@@ -1,4 +1,4 @@
-\documentclass[draft]{agujournal2019}
+        \documentclass[draft]{agujournal2019}
 \usepackage{xurl}
 \usepackage{lineno}
 \usepackage{subcaption}
@@ -85,7 +85,7 @@ In space physics, acronyms for coordinate systems (e.g., \texttt{GEI}, \texttt{G
 
 In space physics, coordinate systems are usually referenced by an acronym. The coordinate system's definition is typically assumed or given by citing a reference that describes it. This work stems from a project to develop a standard for terms and descriptions for coordinate system acronyms such as \texttt{GEI}, \texttt{GSE}, \texttt{GSM}, and their commonly used variations, e.g., \texttt{GEI\_J2000}, \texttt{GEI\_MOD}; see \ref{sect:glossary} for definitions and \citeA{Russell1971}, \citeA{Hapgood1992}, \citeA{Franz2002}, and \citeA{Laundal2016} for additional details. The objective is that, given a statement such as ``the vector measurements in \texttt{ABC} were transformed into \texttt{XYZ}," a scientist with measurements in \texttt{ABC} would be able to reproduce the transformation with the only uncertainty being due to rounding errors associated with floating point precision.
 
-Currently, this is not possible due to the lack of standards. At present, the best that can be achieved is a citation to the definition in one of the papers above, but this is not sufficient for reproducibility -- in this work we show that how a given coordinate frame definition can be implemented in different ways, leading to different data providers giving different locations for a spacecraft and different software libraries giving different answers for a the transformation a vector from one coordinate system to another.
+Currently, this is not possible due to the lack of standards. At present, the best that can be achieved is a citation to the definition in one of the papers above, but this is not sufficient for reproducibility -- in this work we show that how a given coordinate frame definition can be implemented in different ways, leading to different data providers giving different locations for a spacecraft and different software libraries giving different answers for \remove[r1]{a} the transformation a vector from one coordinate system to another.
 
 As documented in this work, comparing data transformed with different software is complicated by the fact that transform implementations are not unique, introducing unknown uncertainty. In the early era of space physics, uncertainty due to implementation differences was much smaller than measurement uncertainty. Here, we argue that, in some applications, these differences matter and that implementation uncertainty poses an unnecessary impediment to reproducibility and data intercomparison. In addition, as a matter of scientific practice, terms and definitions should be precise.
 
@@ -307,7 +307,7 @@ In Figure~\ref{fig:mms-2}, a comparison is made between data from SSCWeb, CDAWeb
 
 Figure~\ref{fig:mms-2}a shows that the $\Delta \mathbf{r}$ between \texttt{GSE} locations from CDAWeb and SSCWeb match to within ${\sim}3$~km, which is much larger than expected by numerical precision but smaller than the closest separation distance of MMS spacecraft of ${\sim}7$~km \cite{NASA2016}. Figure~\ref{fig:mms-2}b shows that there are larger differences for \texttt{GSM}.
 
-In Figure~\ref{fig:mms-2}c, much larger differences are shown to exist between SSCWeb and JPL than between SSCWeb and CDAWeb, with the maximum angular difference being up to ${\sim}1^\circ$ instead of $0.003^\circ$ found in the comparison of SSCWeb and CDAWeb in Figure~\ref{fig:mms-2}a. A similar conclusion is made by a comparison of Figure~\ref{fig:mms-2}b and Figure~\ref{fig:mms-2}d. A possible explanation for the sharp increase in $\Delta \theta$ near 11:00 is a thruster firing -- the raw JPL Horizons web service output notes that ``The spacecraft may be maneuvered frequently. Therefore, the JSpOC TLE-based [Joint Space Operations Center Two--Line Element] trajectory provided here may at times depart from the actual trajectory. This can happen because TLEs do not model thruster firings; the TLE trajectory solutions must be reinitialized after each event.''
+In Figure~\ref{fig:mms-2}c, much larger differences are shown to exist between SSCWeb and JPL than between SSCWeb and CDAWeb, with the maximum angular difference being up to ${\sim}1^\circ$ instead of $0.003^\circ$ found in the comparison of SSCWeb and CDAWeb in Figure~\ref{fig:mms-2}a. A similar conclusion is made by a comparison of Figure~\ref{fig:mms-2}b and Figure~\ref{fig:mms-2}d. A possible explanation for the sharp increase in $\Delta \theta$ near 11:00 is a thruster firing \add[r2]{near perigee on this day} -- the raw JPL Horizons web service output notes that ``The spacecraft may be maneuvered frequently. Therefore, the JSpOC TLE-based [Joint Space Operations Center Two--Line Element] trajectory provided here may at times depart from the actual trajectory. This can happen because TLEs do not model thruster firings; the TLE trajectory solutions must be reinitialized after each event.''
 
 
 %Ken Bromund wrote for MMS about predicted ephemeris about the usage of MMS attitude and ephemeris data:
@@ -397,7 +397,7 @@ In this section, we compare reference frame calculations using the following sof
     % Use True of date GEI
     \item \texttt{PySPEDAS} 1.7.28, which uses transformation code derived from the IDL version of \texttt{PySPEDAS} \cite{Angelopoulos2024IDL}, which in turn used code from the \texttt{ROCOTLIB} Fortran \cite{ROCOTLIB} library, which was used for data from the Cluster spacecraft mission \cite{ClusterTools1993}.
     \item \texttt{SpacePy} 0.6, which has an option to use the \texttt{IRBEM} Fortran library (\citeA{IRBEM2022}; labeled as \texttt{spacepy-irbem}) or an alternative and native Python implementation (\texttt{spacepy}) of the transforms.
-    \item \texttt{SpiceyPy} 6.0.0 is a Python wrapper for the SPICE toolkit. Two versions of SPICE kernel files were used, indicated by \texttt{spicepy1} and \texttt{spicepy2}. \texttt{spicepy1} was used for reference frame transforms for the Van Allen Probes mission. \texttt{spicepy2} had an update to the \texttt{MAG} frame, which used a more recent version of the IGRF model \cite{Alken2021} to determine the Earth's magnetic dipole orientation.
+    \item \texttt{SpiceyPy} 6.0.0 is a Python wrapper for the SPICE toolkit. Two versions of SPICE kernel files were used, indicated by \texttt{spicepy1} and \texttt{spicepy2}. \texttt{spicepy1} was used for reference frame transforms for the Van Allen Probes mission. \texttt{spicepy2} had an update to the \texttt{MAG} frame, which used a more recent version of the IGRF model \cite{Alken2021} to determine the Earth's magnetic dipole orientation. \add[r2]{(The IGRF model is maintained by the IAGA (IAGA, 2026) V-MOD (IAGA/V-MOD, 2026) Working Group.)}
     \item \texttt{SunPy} version 7.0.0, which extends the AstroPy coordinates framework to include space physics reference frames.
 \end{itemize}
 
@@ -454,7 +454,7 @@ For the SSCWeb data service \cite{SSCWeb}, which provides spacecraft positions, 
 \begin{enumerate}
     \parskip 0.1in 
 
-    \item Mission--developed SPICE kernels for positions that are obtained from the mission team periodically and archived. The \texttt{GEI} position--related SPICE kernel information is used to generate the \texttt{J2000} spacecraft positions. Then, software developed as part of the International Solar-Terrestrial Physics program in the 1990s (ISTP; \citeA{ISTP2025}) is used to compute positions in different coordinate frames, including \texttt{GEI}, \texttt{GEO}, \texttt{GM}, \texttt{GSE}, \texttt{GSM}, and \texttt{SM}. The ISTP software uses proprietary information needed for the reference frames, such as the position of the Sun, calculated by GSFC's Flight Dynamics Facility (FDF).  This approach is only used on ISTP--era missions, i.e., ACE, Polar, Wind, and Geotail.
+    \item Mission--developed SPICE kernels for positions that are obtained from the mission team periodically and archived. The \texttt{GEI} position--related SPICE kernel information is used to generate the \texttt{J2000} spacecraft positions. Then, software developed as part of the International Solar-Terrestrial Physics program in the 1990s (ISTP; \citeA{ISTP2025}) is used to compute positions in different coordinate frames, including \texttt{GEI}, \texttt{GEO}, \texttt{GM}, \texttt{GSE}, \texttt{GSM}, and \texttt{SM}. \remove[r2]{The ISTP software uses proprietary information needed for the reference frames, such as the position of the Sun, calculated by GSFC's Flight Dynamics Facility (FDF).  This approach is only used on ISTP--era missions, i.e., ACE, Polar, Wind, and Geotail.}\add[r2]{For ISTP--era missions, i.e., ACE, Polar, Wind, and Geotail, information needed for the reference frames, such as the position of the Sun, is calculated by GSFC's Flight Dynamics Facility (FDF) using proprietary software.}
 
     \item A mission--computed \texttt{GEI} position--related variable in archival data files delivered to SPDF is then used to compute orbit and attitude data in different reference frames; only data in the \texttt{GEI}--related frame is used. This is a possible source of the differences shown in Figure~\ref{fig:geotail} if the mission computed positions in the archival data products by transforming \texttt{GEI} with software other than that used by SSCWeb. Differences can also occur if the mission uses a different definition of \texttt{GEI} than SSCWeb.
 
@@ -541,7 +541,7 @@ Having a dataset of reference frame transform matrices will address another issu
 
 %https://spdf.gsfc.nasa.gov/pub/data/solar-orbiter/ephemeris/
 
-Ideally all mission-specific SPICE kernels would be available from a single repository, kernels related to standard space physics reference frames would be shared across missions, and these shared kernels would either be used to generate the standard dataset described in section~\ref{sect:reference-dataset} or an evaluation of the differences between transforms using these SPICE kernels and the standard dataset would be provided as documentation.
+Ideally, all mission-specific SPICE kernels would be available from a single repository, kernels related to standard space physics reference frames would be shared across missions, and these shared kernels would either be used to generate the standard dataset described in section~\ref{sect:reference-dataset} or an evaluation of the differences between transforms using these SPICE kernels and the standard dataset would be provided as documentation.
 
 We also recommend using modern version control systems for the SPICE kernels. At present, kernels can be found on various websites, and kernel versions are sometimes indicated in the file name, but prior versions are not always provided, thereby inhibiting reproducibility. Storing kernels in a source code repository, which provides versioning and simplifies change tracking, will improve this. Additionally, we recommend assigning unique identifiers, such as DOIs, to kernels to facilitate their citation.
 
@@ -575,7 +575,7 @@ We also recommend using modern version control systems for the SPICE kernels. At
 
 In this work, we have been primarily interested in the problem of transforming a vector from one reference frame to another. In the case of positions provided in a given reference frame, there is an uncertainty due to what is meant by that reference frame, which is addressed by the recommendation in section~\ref{sect:standard-for}.
 
-There is an additional source of uncertainty --- the source of the positions. Missions have used direct GPS measurements, commercial software such as STK (Systems Tool Kit), and data from facilities such as the GSFC Flight Dynamics Facility (FDF), the Deep Space Network (DSN), NAIF, and NORAD to produce the spacecraft positions for the mission.  In section~\ref{sect:comparisons_ephemeris}, we showed examples where the positions for two different data providers for the same spacecraft differed in a way that was unlikely to be due to differences in how the data providers implemented the reference frame. 
+There is an additional source of uncertainty --- the source of the positions. Missions have used direct \remove[r2]{GPS}\add[r2]{GNSS} measurements, commercial software such as STK (Systems Tool Kit), and data from facilities such as the GSFC Flight Dynamics Facility (FDF), the Deep Space Network (DSN), NAIF, and NORAD to produce the spacecraft positions for the mission.  In section~\ref{sect:comparisons_ephemeris}, we showed examples where the positions for two different data providers for the same spacecraft differed in a way that was unlikely to be due to differences in how the data providers implemented the reference frame. 
 
 % Note from Niehof:
 %There are really three pieces here:
@@ -595,9 +595,12 @@ We recommend the following for general software and data documentation.
 
 \begin{itemize}
   \item Software package developers provide documentation on implementation choices (e.g., model used for obliquity and its parameters). If data from an external resource is used, for example, if the IGRF coefficients are dynamically downloaded, the user should have an option to easily view the data used, so that, if necessary, the values used can be documented in a publication.
-  Software should have a DOI for each major version, so the version used can be referenced rather than just a top-level DOI. Additional software citation recommendations are given in \citeA{Jackson2012}, \citeA{Smith2016}, and \cite{Stall2023}.
+  Software should have a DOI for each major version, so the version used can be referenced rather than just a top-level DOI. Additional software citation recommendations are given in \citeA{Jackson2012}, \citeA{Smith2016}, and \citeA{Stall2023}.
+
   \item Data providers ensure that metadata associated with positions and variables that are transformed include details about the software version used for the transforms or the data used for the transform, such as SPICE kernels. The metadata description should be validated by having a third party assess whether it contains sufficient information to re-implement the transform.
+
   \item When data are provided that have been transformed to a reference frame that depends on a magnetic field model (such as IGRF), data are also provided in a frame such as GEI/J2000 or ECI/J2000. The motivation is that there is variability in the implementation of the field model. 
+  
   \item Paper authors include the version of software, a DOI for that version if available, and the options passed to the transform function. If SPICE kernels are used, they should be permanently publicly accessible and citable with a version-specific identifier. 
 
 \end{itemize}
@@ -618,13 +621,15 @@ We recommend the following for general software and data documentation.
 \item  \texttt{GEI} -- Geocentric Equatorial Inertial (reference system)
 \item  \texttt{GEO} -- Geographic (reference system)
 \item  \texttt{GM} -- Geomagnetic (reference system, often called MAG)
+\item  \texttt{GNSS} -- Global Navigation Satellite System
 \item  \texttt{GSE} -- Geocentric Solar Ecliptic (reference system)
 \item  \texttt{GSM} -- Geocentric Solar Magnetospheric (reference system)
 \item  \texttt{GCI} -- Geocentric Celestial Inertial (reference system)
 \item  \texttt{GCRS} -- Geocentric Celestial Reference System (reference system)
-\item  \texttt{GPS} -- Global Positioning System
+\item \add[r2]{\texttt{GPS} -- Global Positioning System}
 \item GSFC -- Goddard Space Flight Center (NASA center)
-\item IGRF -- International Geomagnetic Reference Field (geomagnetic model)
+\item IAGA -- \add[r2]{International Association of Geomagnetism and Aeronomy}
+\item IGRF -- International Geomagnetic Reference Field (geomagnetic model)\add[r2]{; maintained by the IAGA (IAGA, 2026) V-MOD (IAGA/V-MOD, 2026) Working Group.}
 \item ISTP -- International Solar-Terrestrial Physics (NASA program)
 \item IRBEM -- International Radiation Belt Environment Modeling (software library)
 \item ICRF -- International Celestial Reference Frame (reference frame)
@@ -648,6 +653,7 @@ We recommend the following for general software and data documentation.
 \item TLE -- Two-Line Element set (satellite orbital elements)
 \item  \texttt{TEME} -- True Equator, Mean Equinox (reference system)
 \item UT1 -- Universal Time 1 (time standard)
+\item \add[r2]{UTC -- Coordinated Universal Time}
 \end{itemize}
 
 \section*{Open Data}
