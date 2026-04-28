@@ -73,7 +73,7 @@ def plot(df, tranform_str):
   # Set y-axis major tick increment to 0.01 for the difference subplot
   axes[1].grid(which='minor', axis='y', linestyle=':', linewidth=0.5)
   axes[1].yaxis.set_minor_locator(MultipleLocator(0.01))
-  axes[1].xaxis.set_minor_locator(MultipleLocator(1))
+  #axes[1].xaxis.set_minor_locator(MultipleLocator(1))
 
   axes[1].legend(ncols=3, fontsize=14, columnspacing=0.85)
 
