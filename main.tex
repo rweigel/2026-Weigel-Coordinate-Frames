@@ -1,4 +1,4 @@
-        \documentclass[draft]{agujournal2019}
+\documentclass[draft]{agujournal2019}
 \usepackage{xurl}
 \usepackage{lineno}
 \usepackage{subcaption}
@@ -416,6 +416,7 @@ The range of the maximum absolute differences, $0.001^\circ$-$0.04^\circ$, shown
 In summary, in this section, we have shown that differences in library implementations of reference frames range from $0.001^\circ$ to $0.04^\circ$ for the chosen set of coordinate frames and comparison axis.
 This range of differences is comparable to the range of angles identified in section~\ref{sect:comparisons_ephemeris}, which includes the average angular change in Earth's dipole $Z$--axis over the past 45 years, the precession of Earth's rotation axis, changes in nutation of Earth's rotation axis over one year, and the precession of the ecliptic. The implication is that inter-comparison of measurements transformed with different libraries may require an analysis of the differences in the transform implementations if the differences in the measurements are not significantly larger than these differences. This type of analysis is challenging because it requires access to the transform software, which may not be maintained or available, and because calculations are needed to quantify differences due to transform implementation choices.
 
+\clearpage
 \begin{figure}[htb]
      \begin{subfigure}[b]{0.49\textwidth}
          (a) $\angle (Z_{GEO}, Z_{GSE})$
