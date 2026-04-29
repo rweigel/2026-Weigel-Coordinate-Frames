@@ -79,7 +79,7 @@ def plot(df, tranform_str):
     "ncols": 2,
     "columnspacing": 0.65,
     "handlelength": 1.0,
-    "borderaxespad": -0.5,
+    "borderaxespad": 0.0,
     "loc": 'upper center'
   }
   axes[1].legend(**kwargs)
