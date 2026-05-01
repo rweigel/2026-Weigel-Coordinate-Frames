@@ -304,4 +304,3 @@ def plot(satellite, info1, info2, opts):
   datetick('x', adjust_first_xlabel=True, adjust_last_xlabel=True)
 
   _savefigs(fname)
-  exit()
