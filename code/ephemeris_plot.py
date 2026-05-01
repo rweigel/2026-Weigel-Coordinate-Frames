@@ -241,7 +241,7 @@ def _plot_diffs(ax, t, r_ave, Δr, Δθ, R_E):
   ax.plot(t, Δθ, 'g-', lw=lw, label='$Δθ$ [deg]')
 
   #_adjust_y_range(ax, bottom=0, gap_fraction=1)
-  legend_kwargs.update({'ncols': 2})
+  legend_kwargs.update({'ncols': 2, "handlelength": 1.0})
   ax.legend(**legend_kwargs)
   ax.grid()
 
@@ -276,21 +276,6 @@ def _savefigs(fname):
     plt.savefig(fname_full, bbox_inches=bbox_inches)
   plt.close()
 
-def adjust_endxlabels(axes):
-  import matplotlib.transforms as mtransforms
-
-  xticklabels = axes.get_xticklabels()
-
-  if False and '\n' in xticklabels[0].get_text():
-    # Set justification of first tick label to 'left' and nudge it right
-    xticklabels[0].set_ha('left')
-    offset = mtransforms.ScaledTranslation(6/72, 0, axes.figure.dpi_scale_trans)
-    xticklabels[0].set_transform(xticklabels[0].get_transform() - offset)
-  if '\n' in xticklabels[-1].get_text():
-    # Set justification of last tick label to 'right' and nudge it left
-    xticklabels[-1].set_ha('right')
-    offset = mtransforms.ScaledTranslation(-6/72, 0, axes.figure.dpi_scale_trans)
-    xticklabels[-1].set_transform(xticklabels[-1].get_transform() - offset)
 
 def plot(satellite, info1, info2, opts):
 
@@ -316,8 +301,7 @@ def plot(satellite, info1, info2, opts):
   utilrsw.mpl.adjust_axes(axes)
   utilrsw.mpl.adjust_legend(axes, debug=True)
 
-  datetick('x')
-
-  adjust_endxlabels(axes[1])
+  datetick('x', adjust_first_xlabel=True, adjust_last_xlabel=True)
 
   _savefigs(fname)
+  exit()
