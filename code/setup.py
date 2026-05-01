@@ -6,6 +6,7 @@ install_requires = [
   'pandas',
   'matplotlib',
   'hapiclient',
+  'hapiplot',
   'sunpy>=6.1.0', # https://github.com/sunpy/sunpy/pull/8193
   'datetick @ git+https://github.com/rweigel/datetick',
   'hxform @ git+https://github.com/rweigel/hxform',

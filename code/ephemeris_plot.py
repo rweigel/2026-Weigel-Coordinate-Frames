@@ -18,6 +18,14 @@ legend_kwargs = {
   'columnspacing': 0.75,
 }
 
+legend_kwargs = {
+  "columnspacing": 0.65,
+  'handletextpad': 0.5,
+  "handlelength": 1.5,
+  "borderaxespad": 0.0,
+  "loc": 'upper center'
+}
+
 def _compute_diffs(info1, info2, opts):
   from collections import Counter
 
@@ -191,14 +199,16 @@ def _plot_xyz(ax, info1, info2, t, r_ave):
     ax.plot(info2['time'], info2['xyz'][:,c],
             label=label2, lw=3, linestyle='--', color=colors[c])
 
-  label = '$\\overline{r}$'
-  ax.plot(t, r_ave, label=label, lw=2, linestyle='-', color='k')
+  #label = '$\\overline{r}$'
+  #ax.plot(t, r_ave, label=label, lw=2, linestyle='-', color='k')
+  ax.plot(t, r_ave, lw=2, linestyle='-', color='k')
 
-  _adjust_y_range(ax, gap_fraction=1)
+  #_adjust_y_range(ax, gap_fraction=1)
   ax.set_ylabel('$R_E$', rotation=0)
   ax.grid()
 
-  ax.legend(**{**legend_kwargs, 'ncol': 4})
+  legend_kwargs.update({'ncols': 3})
+  ax.legend(**legend_kwargs)
   ax.set_xticklabels([])
 
 
@@ -222,12 +232,14 @@ def _plot_diffs(ax, t, r_ave, Δr, Δθ, R_E):
   ax.plot(t, Δr_rel, 'b-', lw=lw, label=f'$|Δ\\mathbf{{r}}|/\\overline{{r}}$ {Δr_rel_max_str}')
   ax.plot(t, Δθ, 'g-', lw=lw, label='$Δθ$ [deg]')
 
-  _adjust_y_range(ax, bottom=0, gap_fraction=1)
+  #_adjust_y_range(ax, bottom=0, gap_fraction=1)
+  legend_kwargs.update({'ncols': 2})
   ax.legend(**legend_kwargs)
   ax.grid()
 
 
 def _figprep():
+  plt.gcf().set_size_inches(170/25.4, 228/25.4)
   gs = plt.gcf().add_gridspec(2)
   axes = gs.subplots(sharex=True)
 
@@ -247,7 +259,9 @@ def _figprep():
 def _savefigs(fname):
   import os
   for fmt in ['svg', 'png', 'pdf']:
-    kwargs = {'bbox_inches': 'tight'}
+    bbox_inches = None
+    #kwargs = {'bbox_inches': 'tight'}
+    kwargs = {'bbox_inches': bbox_inches}
     if fmt == 'png':
       kwargs['dpi'] = 300
 
@@ -257,17 +271,8 @@ def _savefigs(fname):
       fname_full = f'figures/ephemeris/{fmt}/{fname}.{fmt}'
     os.makedirs(os.path.dirname(fname_full), exist_ok=True)
     print(f"  Writing {fname_full}")
-    plt.savefig(fname_full, bbox_inches='tight')
+    plt.savefig(fname_full, bbox_inches=bbox_inches)
   plt.close()
-
-
-def _adjust_y_range(ax, gap_fraction=0.25, bottom=None):
-  ylim = ax.get_ylim()
-  yticks = ax.get_yticks()
-  gap = gap_fraction * (yticks[1] - yticks[0])
-  if bottom is None:
-    bottom = ylim[0]
-  ax.set_ylim(bottom, ylim[1] + gap)
 
 
 def plot(satellite, info1, info2, opts):
@@ -276,7 +281,7 @@ def plot(satellite, info1, info2, opts):
 
   title = f"{satellite} {info1['name']}/{info1['frame']} "
   title += f"vs. {info2['name']}/{info2['frame']}"
-  axes[0].set_title(title)
+  #axes[0].set_title(title)
 
   fname = f"{satellite}_{info1['name']}-{info1['frame']}"
   fname += f"_vs_{info2['name']}-{info2['frame']}"
@@ -289,6 +294,10 @@ def plot(satellite, info1, info2, opts):
 
   _plot_xyz(axes[0], info1, info2, t, r_ave)
   _plot_diffs(axes[1], t, r_ave, Δr, Δθ, opts['R_E'])
+
+  utilrsw.mpl.set_fontsize(axes, fontsize=20)
+  utilrsw.mpl.adjust_axes(axes)
+  utilrsw.mpl.adjust_legend(axes, debug=True)
 
   datetick('x')
   _savefigs(fname)
