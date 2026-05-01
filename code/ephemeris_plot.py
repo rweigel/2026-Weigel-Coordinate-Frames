@@ -200,7 +200,6 @@ def _plot_xyz(ax, info1, info2, t, r_ave):
             label=label2, lw=3, linestyle='--', color=colors[c])
 
   #label = '$\\overline{r}$'
-  #ax.plot(t, r_ave, label=label, lw=2, linestyle='-', color='k')
   r_ave_line, = ax.plot(t, r_ave, lw=2, linestyle='-', color='k')
 
   #_adjust_y_range(ax, gap_fraction=1)
@@ -210,12 +209,13 @@ def _plot_xyz(ax, info1, info2, t, r_ave):
   legend_kwargs.update({'ncols': 3})
   ax.legend(**legend_kwargs)
 
-  # Annotate r_ave with a short line segment + textbox in the lower left
-  #ax.plot([0.02, 0.06], [0.08, 0.08], color='k', lw=2,
-  #        transform=ax.transAxes, clip_on=False, solid_capstyle='butt')
+  # Short black line + textbox label for r_ave in the lower left
+  ax.plot([0.02, 0.06], [0.08, 0.08], color='k', lw=2,
+          transform=ax.transAxes, clip_on=False, solid_capstyle='butt')
   ax.annotate('$\\overline{r}$',
-              xy=(0.4, 0.6), xycoords='axes fraction',
-              va='center', ha='left', bbox=dict(boxstyle='round,pad=0.2', fc='white', ec='none'))
+              xy=(0.07, 0.08), xycoords='axes fraction',
+              va='center', ha='left',
+              bbox=dict(boxstyle='round,pad=0.2', fc='white', ec='none'))
 
   ax.set_xticklabels([])
 
@@ -252,12 +252,6 @@ def _figprep():
   axes = gs.subplots(sharex=True)
 
   for ax in axes:
-    ax.spines['bottom'].set_visible(True)
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
-    ax.spines['left'].set_visible(False)
-    ax.tick_params(axis='y', which='minor', length=0)
-    ax.tick_params(axis='y', length=0)
     ax.grid(which='minor', linestyle=':', linewidth=0.5, color=[0.75]*3)
     ax.minorticks_on()
 
@@ -282,6 +276,21 @@ def _savefigs(fname):
     plt.savefig(fname_full, bbox_inches=bbox_inches)
   plt.close()
 
+def adjust_endxlabels(axes):
+  import matplotlib.transforms as mtransforms
+
+  xticklabels = axes.get_xticklabels()
+
+  if False and '\n' in xticklabels[0].get_text():
+    # Set justification of first tick label to 'left' and nudge it right
+    xticklabels[0].set_ha('left')
+    offset = mtransforms.ScaledTranslation(6/72, 0, axes.figure.dpi_scale_trans)
+    xticklabels[0].set_transform(xticklabels[0].get_transform() - offset)
+  if '\n' in xticklabels[-1].get_text():
+    # Set justification of last tick label to 'right' and nudge it left
+    xticklabels[-1].set_ha('right')
+    offset = mtransforms.ScaledTranslation(-6/72, 0, axes.figure.dpi_scale_trans)
+    xticklabels[-1].set_transform(xticklabels[-1].get_transform() - offset)
 
 def plot(satellite, info1, info2, opts):
 
@@ -308,4 +317,7 @@ def plot(satellite, info1, info2, opts):
   utilrsw.mpl.adjust_legend(axes, debug=True)
 
   datetick('x')
+
+  adjust_endxlabels(axes[1])
+
   _savefigs(fname)
