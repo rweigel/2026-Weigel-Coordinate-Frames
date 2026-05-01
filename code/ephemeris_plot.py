@@ -211,10 +211,10 @@ def _plot_xyz(ax, info1, info2, t, r_ave):
   ax.legend(**legend_kwargs)
 
   # Annotate r_ave with a short line segment + textbox in the lower left
-  ax.plot([0.02, 0.06], [0.08, 0.08], color='k', lw=2,
-          transform=ax.transAxes, clip_on=False, solid_capstyle='butt')
+  #ax.plot([0.02, 0.06], [0.08, 0.08], color='k', lw=2,
+  #        transform=ax.transAxes, clip_on=False, solid_capstyle='butt')
   ax.annotate('$\\overline{r}$',
-              xy=(0.07, 0.08), xycoords='axes fraction',
+              xy=(0.4, 0.6), xycoords='axes fraction',
               va='center', ha='left', bbox=dict(boxstyle='round,pad=0.2', fc='white', ec='none'))
 
   ax.set_xticklabels([])
