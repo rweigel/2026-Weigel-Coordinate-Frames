@@ -241,7 +241,7 @@ def _plot_diffs(ax, t, r_ave, Δr, Δθ, R_E):
   ax.plot(t, Δθ, 'g-', lw=lw, label='$Δθ$ [deg]')
 
   #_adjust_y_range(ax, bottom=0, gap_fraction=1)
-  legend_kwargs.update({'ncols': 2, "handlelength": 1.0})
+  legend_kwargs.update({'ncols': 2, "handlelength": 1.5})
   ax.legend(**legend_kwargs)
   ax.grid()
 
