@@ -2,8 +2,12 @@
 \usepackage{xurl}
 \usepackage{lineno}
 \usepackage{subcaption}
-\usepackage[inline]{trackchanges} %for better track changes. finalnew option will compile document with changes incorporated.
-\usepackage{soul}
+%\usepackage[inline]{trackchanges} %for better track changes. finalnew option will compile document with changes incorporated.
+%\usepackage{soul}
+\usepackage{changes}
+\definechangesauthor[color=blue]{r1}
+\definechangesauthor[color=green]{r2}
+
 \linenumbers
 %%%%%%%
 % As of 2018 we recommend use of the TrackChanges package to mark revisions.
@@ -18,6 +22,11 @@
 % complete documentation is here: http://trackchanges.sourceforge.net/
 %%%%%%%
 
+% 8.5 in = 215.9 cm
+%\setlength{\textwidth}{170cm}
+%\usepackage[left=22cm, right=22cm]{geometry}
+\usepackage{changepage}
+
 \draftfalse
 %\setlength {\marginparwidth }{2cm}
 
@@ -29,20 +38,17 @@
 
 \authors{R.S. Weigel, A.Y. Shih, R. Ringuette, I. Christopher, S.M. Petrinec, S. Turner, R.M. Candey, G.K. Stephens, and B. Cecconi}
 
-%\todo[inline]{Christopher, Cecconi -- verify that no middle initial used in papers.}
-
-%\todo[inline]{Petrinec and Turner -- verify that you don't have ORCID}
 
 %\todo[inline]{All others -- verify ORCID below}
-
-%\todo[inline]{(Bobby): Would we want to ask Russell or Hapgood or others to review?}
 
 %https://archive.org/details/referenceframesi0000unse/page/47/mode/1up?view=theater
 
 % Send Steve Joy draft
 
-
 \noindent
+
+%\todo[inline]{Christopher, Cecconi -- verify that no middle initial used in papers.}
+%\todo[inline]{Petrinec and Turner -- verify that you don't have ORCID}
 %Weigel https://orcid.org/0000-0002-9521-5228\\
 %Shih https://orcid.org/0000-0001-6874-2594\\
 %Ringuette https://orcid.org/0000-0003-0875-2023\\
@@ -68,16 +74,22 @@
 \item We present recommendations to improve reproducibility and reduce effort duplication by missions.
 \end{keypoints}
 
-%\item Reproducing coordinate system transforms is difficult due to variations in definitions and implementations; recommendations are given to address.
-%\item Ephemeris from different providers can differ significantly (${\sim}0.3^\circ$), as do Z--axis orientations from surveyed software libraries (${\sim}0.03^\circ$).
-%\item There is duplication of effort by spacecraft missions related to coordinate system transform calculations.
-%\item Recommendations are given to make reproducibility easier and reduce duplication of effort.
-
-% Albert - we will add although the focus is on space physics, similar issues and recommendations apply to solar. Can you give a few examples?
-
 \begin{abstract}
 In space physics, acronyms for coordinate systems (e.g., \texttt{GEI}, \texttt{GSM}) are commonly used; however, differences in their definitions and implementations can prevent reproducibility. In this work, we compare definitions in online resources, software packages, and frequently cited journal articles and show that implementation differences can lead to transformations between same-named coordinate systems and position values from different data providers to differ significantly. Based on these comparisons and results, and to enable reproducibility, we recommend that (a) a standard for acronyms and definitions for coordinate systems is developed, similar to equivalents in astronomy or earth sciences; (b) a standards body develops a citable database of reference data needed for these transforms; (c) a central authority maintains the SPICE (Spacecraft, Planet, Instrument, C-matrix, Events) kernels used by space physics spacecraft missions to generate data products in different coordinate systems; and (d) software developers provide explicit comparisons of their implementations with the results of (b) and documentation on implementation choices. Additionally, we provide recommendations for scientists and metadata developers to ensure that sufficient information is provided to enable reproducibility.
+
+\added[id=r2]{For software that computes coordinate transforms, and we also recommend that their developers provide explicit comparisons of their implementations with the results of (b) and documentation on implementation choices. Additionally, we provide recommendations for scientists and metadata developers to ensure that sufficient information is provided to enable reproducibility.}
+
 \end{abstract}
+
+\section*{Plain Language Summary}
+To facilitate reproducibility in analyses that use measurements transformed into different coordinate systems, standards for the names and definitions of coordinate systems are needed. We motivate this by showing that different data providers and software can produce transforms between same-named coordinate systems that significantly differ. A commonly transformed measurement is spacecraft position. We show that positions from data providers can differ both because of differences in how they implemented transforms and because of differences in the original source of the position data. 
+
+
+%When the transformed quantity is a spacecraft position, it is critical that the source of the positions is known
+
+%advocacy for development of new standards for space physics reference systems and frames, and the transformations between them
+
+%The second element is an analysis of current practice in this area and in the existing literature that supports that practice.
 
 \section{Introduction}
 
@@ -85,7 +97,7 @@ In space physics, acronyms for coordinate systems (e.g., \texttt{GEI}, \texttt{G
 
 In space physics, coordinate systems are usually referenced by an acronym. The coordinate system's definition is typically assumed or given by citing a reference that describes it. This work stems from a project to develop a standard for terms and descriptions for coordinate system acronyms such as \texttt{GEI}, \texttt{GSE}, \texttt{GSM}, and their commonly used variations, e.g., \texttt{GEI\_J2000}, \texttt{GEI\_MOD}; see \ref{sect:glossary} for definitions and \citeA{Russell1971}, \citeA{Hapgood1992}, \citeA{Franz2002}, and \citeA{Laundal2016} for additional details. The objective is that, given a statement such as ``the vector measurements in \texttt{ABC} were transformed into \texttt{XYZ}," a scientist with measurements in \texttt{ABC} would be able to reproduce the transformation with the only uncertainty being due to rounding errors associated with floating point precision.
 
-Currently, this is not possible due to the lack of standards. At present, the best that can be achieved is a citation to the definition in one of the papers above, but this is not sufficient for reproducibility -- in this work we show that how a given coordinate frame definition can be implemented in different ways, leading to different data providers giving different locations for a spacecraft and different software libraries giving different answers for \remove[r1]{a} the transformation a vector from one coordinate system to another.
+Currently, this is not possible due to the lack of standards. At present, the best that can be achieved is a citation to the definition in one of the papers above, but this is not sufficient for reproducibility -- in this work we show that how a given coordinate frame definition can be implemented in different ways, leading to different data providers giving different locations for a spacecraft and different software libraries giving different answers for \deleted[id=r1]{a} the transformation a vector from one coordinate system to another.
 
 As documented in this work, comparing data transformed with different software is complicated by the fact that transform implementations are not unique, introducing unknown uncertainty. In the early era of space physics, uncertainty due to implementation differences was much smaller than measurement uncertainty. Here, we argue that, in some applications, these differences matter and that implementation uncertainty poses an unnecessary impediment to reproducibility and data intercomparison. In addition, as a matter of scientific practice, terms and definitions should be precise.
 
@@ -93,11 +105,13 @@ Our background research revealed additional issues that must be addressed to mee
 
 Second, the standard for terms and descriptions must address their existing ambiguity. Examples of ambiguity are given for the \texttt{GEI} coordinate system in section~\ref{sect:definitions}. The general conclusion is that in space physics, there is no agreed-upon standard for coordinate system acronyms, and descriptions generally lack key implementation details.
 
-To quantify the impact of ambiguity in definitions and implementations, we give examples that demonstrate the reported positions for spacecraft in the same-named reference systems can significantly differ depending on the data source in section~\ref{sect:comparisons_ephemeris}. In section~\ref{sect:comparisons_software} we demonstrate that software that transforms a vector between two coordinate systems exhibits smaller, but possibly significant, differences.
+\added[id=r2]{Finally, we report on an additional issue. We show that different data providers report different positions of spacecraft, and so even if both providers use the same coordinate system definition, different results may be obtained depending on the source of the spacecraft position. And although it is independent of the issue of ambiguity in the definitions of coordinate systems, it is related because the spacecraft position is commonly transformed into a quantity.}
+
+\deleted[id=r1]{To quantify the impact of ambiguity in definitions and implementations, we give examples that demonstrate the reported positions for spacecraft in the same-named reference systems can significantly differ depending on the data source in section~\ref{sect:comparisons_ephemeris}, and that the source of these differences can be due to differences in the definition of a coordinate system and differences in how the positions were computed or derived. In section~\ref{sect:comparisons_software} we demonstrate that software that transforms a vector between two coordinate systems exhibits smaller, but possibly significant, differences.}
 
 % --- developing a list of acronyms and associated definitions for coordinate systems does not address the fundamental problem of reproducibility --- implementations of the same reference system will not necessarily be the same because implementations rely on models, and there are both independent models and multiple versions of the same model that can be used.
 
-Having summarized the problems arising from ambiguity in definitions and implementations, we next consider how spacecraft missions compute transforms. To meet the objective of reproducibility, we must understand how calculations are performed in practice and account for this in our recommendations. In section~\ref{sect:missions}, we describe how missions develop data products in different coordinate systems, which may explain the differences observed in the position results in section~\ref{sect:comparisons_ephemeris}.
+Having summarized the problems arising from ambiguity in definitions and implementations \added[id=r1]{and surveying the state of data and software related to coordinate transforms}, we next consider how spacecraft missions compute transforms. To meet the objective of reproducibility, we must understand how calculations are performed in practice and account for this in our recommendations. In section~\ref{sect:missions}, we describe how missions develop data products in different coordinate systems, which may explain the differences observed in the position results in section~\ref{sect:comparisons_ephemeris}.
 
 In section~\ref{sect:conclusions}, we provide a set of recommendations that address definition issues described in section~\ref{sect:definitions}, the results in section~\ref{sect:comparisons}, and the description in section~\ref{sect:missions}. These recommendations address ambiguity in terminology and definitions, the creation and testing of software for transforms, and how missions compute transformed data products.
 
@@ -138,11 +152,11 @@ In the earth sciences, \citeA{Kovalevsky1981} and \citeA{Mueller1985} use the te
 
 % To be specific, we can define an ideal reference frame as having an origin at the center of Earth and z-axis along the axis of rotation. If we specify the set of model equations (with unknown parameters) used to determine these, we have a reference frame. When we choose a set of parameters, we have a reference frame.
 
-Thus, what space physicists call a ``coordinate system" (e.g., \texttt{GEI}, \texttt{GSM}) is analogous to an ``ideal reference system'' because it only has a general definition for their axes orientation and origin. There are no standards for the constants, models, or algorithms required to transform between observable quantities, which are necessary to define a reference system, nor for the model parameters needed to define a reference frame. For example, the \texttt{GSE} reference frame requires a vector from the center of Earth to the center of the Sun --- \citeA{Russell1971} gives a Fortran program provided through private communication; \citeA{Hapgood1992} uses equations from \citeA{USNO1990}; and \citeA{Franz2002} uses equations from \citeA{Seidelmann1992}. All three cases can be regarded as unique \texttt{GSE} reference frames for the \texttt{GSE} reference system.
+Thus, what space physicists call a ``coordinate system" (e.g., \texttt{GEI}, \texttt{GSM}) is analogous to an ``ideal reference system'' because it only has a general definition for their axes orientation and origin. There are no standards for the constants, models, or algorithms required to transform between observable quantities, which are necessary to define a reference system, nor for the model parameters needed to define a reference frame. For example, the \texttt{GSE} reference frame requires a vector from the center of Earth to the center of the Sun --- \citeA{Russell1971} gives a Fortran program provided through private communication; \citeA{Hapgood1992} uses equations from \citeA{USNO1990}; and \citeA{Franz2002} uses equations from \citeA{USNO1992}. All three cases can be regarded as unique \texttt{GSE} reference frames for the \texttt{GSE} reference system.
 
 % paragraph 1, page 21 of ~\cite{ref:Petit2010}: This recommendation further stipulates that the celestial reference system should have its principal plane as close as possible to the mean equator at J2000.0 and that the origin of this principal plane should be as close as possible to the dynamical equinox of J2000.0. This system was prepared by the IERS and was adopted by the IAU General Assembly in 1997 (23rd IAU GA, Resol. B2) under the name of the International Celestial Reference System (ICRS). It officially replaced the FK5 system on January 1, 1998, considering that all the conditions set up by the 1991 resolutions were fulfilled, including the availability of the Hipparcos optical reference frame realizing the ICRS with an accuracy significantly better than the FK5. Responsibilities for the maintenance of the system, the frame and its link to the Hipparcos reference frame have been defined by the IAU in 2000 (24th IAU GA, Resol. B1.1)
 
-Terminology related to reference systems and frames also varies in other fields. For example, SPICE (Spacecraft, Planet, Instrument, C-matrix, Events; \citeA{NAIFOverview2023}) states ``a reference frame (or simply `frame') is specified by an ordered set of three mutually orthogonal, possibly time-dependent, unit-length direction vectors''; this definition does not include an origin. In robotics, the term ``coordinate frame" refers to a set of three orthogonal axes and an origin relative to a different coordinate frame~\cite{Murray2017}. 
+Terminology related to reference systems and frames also varies in other fields. For example, in SPICE (Spacecraft, Planet, Instrument, C-matrix, Events; \citeA{NAIFOverview2023}) states ``a reference frame (or simply `frame') is specified by an ordered set of three mutually orthogonal, possibly time-dependent, unit-length direction vectors''\deleted{; this definition does not include an origin}. In robotics, the term ``coordinate frame" refers to a set of three orthogonal axes and an origin relative to a different coordinate frame~\cite{Murray2017}. 
 
 \section{Examples of Definition Ambiguity}
 \label{sect:definitions}
@@ -307,7 +321,7 @@ In Figure~\ref{fig:mms-2}, a comparison is made between data from SSCWeb, CDAWeb
 
 Figure~\ref{fig:mms-2}a shows that the $\Delta \mathbf{r}$ between \texttt{GSE} locations from CDAWeb and SSCWeb match to within ${\sim}3$~km, which is much larger than expected by numerical precision but smaller than the closest separation distance of MMS spacecraft of ${\sim}7$~km \cite{NASA2016}. Figure~\ref{fig:mms-2}b shows that there are larger differences for \texttt{GSM}.
 
-In Figure~\ref{fig:mms-2}c, much larger differences are shown to exist between SSCWeb and JPL than between SSCWeb and CDAWeb, with the maximum angular difference being up to ${\sim}1^\circ$ instead of $0.003^\circ$ found in the comparison of SSCWeb and CDAWeb in Figure~\ref{fig:mms-2}a. A similar conclusion is made by a comparison of Figure~\ref{fig:mms-2}b and Figure~\ref{fig:mms-2}d. A possible explanation for the sharp increase in $\Delta \theta$ near 11:00 is a thruster firing \add[r2]{near perigee on this day} -- the raw JPL Horizons web service output notes that ``The spacecraft may be maneuvered frequently. Therefore, the JSpOC TLE-based [Joint Space Operations Center Two--Line Element] trajectory provided here may at times depart from the actual trajectory. This can happen because TLEs do not model thruster firings; the TLE trajectory solutions must be reinitialized after each event.''
+In Figure~\ref{fig:mms-2}c, much larger differences are shown to exist between SSCWeb and JPL than between SSCWeb and CDAWeb, with the maximum angular difference being up to ${\sim}1^\circ$ instead of $0.003^\circ$ found in the comparison of SSCWeb and CDAWeb in Figure~\ref{fig:mms-2}a. A similar conclusion is made by a comparison of Figure~\ref{fig:mms-2}b and Figure~\ref{fig:mms-2}d. A possible explanation for the sharp increase in $\Delta \theta$ near 11:00 is a thruster firing \added[id=r2]{near perigee on this day} -- the raw JPL Horizons web service output notes that ``The spacecraft may be maneuvered frequently. Therefore, the JSpOC TLE-based [Joint Space Operations Center Two--Line Element] trajectory provided here may at times depart from the actual trajectory. This can happen because TLEs do not model thruster firings; the TLE trajectory solutions must be reinitialized after each event.''
 
 
 %Ken Bromund wrote for MMS about predicted ephemeris about the usage of MMS attitude and ephemeris data:
@@ -326,57 +340,63 @@ In Figure~\ref{fig:mms-2}c, much larger differences are shown to exist between S
 
 \clearpage
 \begin{figure}[htb]
-     \begin{subfigure}[b]{0.49\textwidth}
+\vspace{-0.5cm}
+\begin{adjustwidth}{-1cm}{-1cm} % Left and Right margin changes
+     \begin{subfigure}[b]{0.55\textwidth}
          (a) Geotail SSCWeb/\texttt{GEI} vs. CDAWeb/\texttt{GCI}
          \centering
          \includegraphics[width=\textwidth]{code/figures/ephemeris/Geotail_SSCWeb-GEI_vs_CDAWeb-GCI.pdf}
      \end{subfigure}
-     \begin{subfigure}[b]{0.49\textwidth}
+     \begin{subfigure}[b]{0.55\textwidth}
          (b) Geotail SSCWeb/\texttt{J2K} vs. CDAWeb/\texttt{GCI}
          \centering
          \includegraphics[width=\textwidth]{code/figures/ephemeris/Geotail_SSCWeb-J2K_vs_CDAWeb-GCI.pdf}
      \end{subfigure}
      \par\bigskip\bigskip
-     \begin{subfigure}[b]{0.49\textwidth}
+     \begin{subfigure}[b]{0.55\textwidth}
          (c) Geotail SSCWeb/\texttt{GSE} vs. CDAWeb/\texttt{GSE}
          \centering
          \includegraphics[width=\textwidth]{code/figures/ephemeris/Geotail_SSCWeb-GSE_vs_CDAWeb-GSE.pdf}
      \end{subfigure}
-     \begin{subfigure}[b]{0.49\textwidth}
+     \begin{subfigure}[b]{0.55\textwidth}
          (d) Geotail SSCWeb/\texttt{GSM} vs. CDAWeb/\texttt{GSM}
          \centering
          \includegraphics[width=\textwidth]{code/figures/ephemeris/Geotail_SSCWeb-GSM_vs_CDAWeb-GSM.pdf}
      \end{subfigure}
      \caption{Comparison of position values for the Geotail spacecraft from SSCWeb and CDAWeb in four different reference systems. The top panel in each subplot displays the $X$, $Y$, and $Z$ values from each provider (on this scale, differences are not visible) and the average radial distance, $\overline{r}$, between the two providers. The bottom panel of each subplot shows relative differences in the position vector $\Delta\mathbf{r}$ and the angular difference in the position vectors, $\Delta\theta$.}
      \label{fig:geotail}
+\end{adjustwidth}
 \end{figure}
 
 \clearpage
 
 \begin{figure}[h]
-     \begin{subfigure}[b]{0.49\textwidth}
+\vspace{-0.5cm}
+\begin{adjustwidth}{-1cm}{-1cm} % Left and Right margin changes
+     \begin{subfigure}[b]{0.55\textwidth}
          (a) MMS-2 SSCWeb/\texttt{GSE} vs. CDAWeb/\texttt{GSE}
          \centering
          \includegraphics[width=\textwidth]{code/figures/ephemeris/MMS-2_SSCWeb-GSE_vs_CDAWeb-GSE.pdf}
      \end{subfigure}
-     \begin{subfigure}[b]{0.49\textwidth}
+     \begin{subfigure}[b]{0.55\textwidth}
          (b) MMS-2 SSCWeb/\texttt{GSM} vs. CDAWeb/\texttt{GSM}
          \centering
          \includegraphics[width=\textwidth]{code/figures/ephemeris/MMS-2_SSCWeb-GSM_vs_CDAWeb-GSM.pdf}
      \end{subfigure}
      \par\bigskip\bigskip
-     \begin{subfigure}[b]{0.49\textwidth}
+     \begin{subfigure}[b]{0.55\textwidth}
          (c) MMS-2 SSCWeb/\texttt{GSE} vs. JPL/\texttt{GSE}
          \centering
          \includegraphics[width=\textwidth]{code/figures/ephemeris/MMS-2_SSCWeb-GSE_vs_JPL-GSE.pdf}
      \end{subfigure}
-     \begin{subfigure}[b]{0.49\textwidth}
+     \begin{subfigure}[b]{0.55\textwidth}
          (d) MMS-2 SSCWeb/\texttt{GSM} vs. JPL/\texttt{GSM}
          \centering
          \includegraphics[width=\textwidth]{code/figures/ephemeris/MMS-2_SSCWeb-GSM_vs_JPL-GSM.pdf}
      \end{subfigure}
      \caption{Comparison of position values for the MMS-2 spacecraft from (a)--(b) SSCWeb and CDAWeb; (c)--(d) SSCWeb and JPL Horizons in two different reference systems.}
      \label{fig:mms-2}
+\end{adjustwidth}
 \end{figure}
 
 \clearpage
@@ -395,52 +415,58 @@ In this section, we compare reference frame calculations using the following sof
 \begin{itemize}
     \item \texttt{Geopack-2008} double precision (\citeA{Tsyganenko2008}; labeled as \texttt{geopack\_08\_dp} in the figures in this section), a Fortran library that was upgraded from earlier versions to support calculations using 64-bit floating point values.
     % Use True of date GEI
-    \item \texttt{PySPEDAS} 1.7.28, which uses transformation code derived from \remove[]{the IDL version of \texttt{PySPEDAS}}\add[r1]{\texttt{SPEDAS}, which is written in IDL} \cite{Angelopoulos2024IDL}\remove[r1]{, which}\add{ \texttt{SPEDAS}} was from the \texttt{ROCOTLIB} Fortran \cite{ROCOTLIB} library, which was used for data from the Cluster spacecraft mission \cite{ClusterTools1993}.
+    \item \texttt{PySPEDAS} 1.7.28, which uses transformation code derived from \deleted[id=r1]{the IDL version of \texttt{PySPEDAS}}\added[id=r1]{\texttt{SPEDAS}, which is written in IDL} \cite{Angelopoulos2024IDL}\deleted[id=r1]{, which}\added[id=r1]{ \texttt{SPEDAS}} was from the \texttt{ROCOTLIB} Fortran \cite{ROCOTLIB} library, which was used for data from the Cluster spacecraft mission \cite{ClusterTools1993}.
     \item \texttt{SpacePy} 0.6, which has an option to use the \texttt{IRBEM} Fortran library (\citeA{IRBEM2022}; labeled as \texttt{spacepy-irbem}) or an alternative and native Python implementation (\texttt{spacepy}) of the transforms.
-    \item \texttt{SpiceyPy} 6.0.0 is a Python wrapper for the SPICE toolkit. Two versions of SPICE kernel files were used, indicated by \texttt{spicepy1} and \texttt{spicepy2}. \texttt{spicepy1} was used for reference frame transforms for the Van Allen Probes mission. \texttt{spicepy2} had an update to the \texttt{MAG} frame, which used a more recent version of the IGRF model \cite{Alken2021} to determine the Earth's magnetic dipole orientation. \add[r2]{(The IGRF model is maintained by the IAGA (IAGA, 2026) V-MOD (IAGA/V-MOD, 2026) Working Group.)}
+    \item \texttt{SpiceyPy} 6.0.0 is a Python wrapper for the SPICE toolkit. Two versions of SPICE kernel files were used, indicated by \texttt{spicepy1} and \texttt{spicepy2}. \texttt{spicepy1} was used for reference frame transforms for the Van Allen Probes mission. \texttt{spicepy2} had an update to the \texttt{MAG} frame, which used a more recent version of the IGRF model \cite{Alken2021} to determine the Earth's magnetic dipole orientation. \added[id=r2]{(The IGRF model is maintained by the IAGA (IAGA, 2026) V-MOD (IAGA/V-MOD, 2026) Working Group.)}
     \item \texttt{SunPy} version 7.0.0, which extends the AstroPy coordinates framework to include space physics reference frames.
 \end{itemize}
 
-The top subplots in Figure~\ref{fig:angles} show the angles between the $Z$ axis of four coordinate frame pairs. The angle between the $Z$ axis in frame $A$ and the $Z$ axis in frame $B$, $\angle (Z_A, Z_B)$, was computed by transforming the $Z$ axis in frame $A$ into frame $B$, and the angle was computed between this transformed axis and the $Z$ axis in frame $B$. 
+\deleted[id=r1]{The top subplots in Figure~\ref{fig:angles} show the angles between the Z axis of four coordinate frame pairs.} \added[id=r1]{In Figure~\ref{fig:angles}(a)-(d), the top subplots show the angles between the $Z$ axis of four coordinate frame pairs as computed by \texttt{geopack\_08\_dp}}. 
 
-The middle subplots in Figure~\ref{fig:angles} show the difference of the angles between the $Z$ axes for each library with respect to that for \texttt{geopack\_08\_dp}. The choice of library used as the baseline for this comparison is arbitrary, and it should not be interpreted as implying that this library is preferred; in general, we are interested in the maximum differences among the libraries, which are shown in the lower panel of each subplot. The maximum absolute values range from $4\cdot 10^{-9}$ degrees for \texttt{pyspedas} in Figure~\ref{fig:angles}(a) to $1\cdot 10^{-2}$ degrees for \texttt{spicepy1} in Figure~\ref{fig:angles}(c); the values for each library are given in the legend in the middle panel of each subplot. \add[r2]{From inspection of the source code for \texttt{geopack\_08\_dp} and \texttt{pyspedas}, we find that they appear to be different implementations of the algorithms in Russell (1971), which is consistent with the closeness of their transform results shown in Figure~3.}
+The angle between the $Z$ axis in frame $A$ and the $Z$ axis in frame $B$, $\angle (Z_A, Z_B)$, was computed by transforming the $Z$ axis in frame $A$ into frame $B$, and the angle was computed between this transformed axis and the $Z$ axis in frame $B$. 
+
+The middle subplots in Figure~\ref{fig:angles}\added[id=r1]{(a)-(d)} show the difference of the angles between the $Z$ axes for each library with respect to that for \texttt{geopack\_08\_dp}. The choice of library used as the baseline for this comparison is arbitrary, and it should not be interpreted as implying that this library is preferred; in general, we are interested in the maximum differences among the libraries, which are shown in the lower panel of each subplot. The maximum absolute values \added[id=r1]{Figure~\ref{fig:angles}(a)-(d)} range from $4\cdot 10^{-9}$ degrees for \texttt{pyspedas} in Figure~\ref{fig:angles}(a) to $1\cdot 10^{-2}$ degrees for \texttt{spicepy1} in Figure~\ref{fig:angles}(c); the values for each library are given in the legend in the middle panel of each subplot. \added[id=r1]{From inspection of the source code for \texttt{geopack\_08\_dp} and \texttt{pyspedas}, we find that they appear to be different implementations of the algorithms in Russell (1971), which is consistent with the closeness of their transform results shown in Figure~3.}
 
 %These values can be used as an uncertainty estimate when comparing data transformed using different software libraries.
 
-The bottom panels of Figure~\ref{fig:angles} shows that across all libraries, the maximum absolute value of lines in the middle panel are ${\sim}0.01^\circ$ for \texttt{GEO}/\texttt{GSE}, ${\sim} 0.03^\circ$ for \texttt{GEO}/\texttt{GSM}, ${\sim}0.04^\circ$ for \texttt{GSE}/\texttt{GSM}, and ${\sim}0.03^\circ$ for \texttt{GSE}/\texttt{GSM}, all of which are comparable to the average angular change in Earth's dipole $Z$ axis of ${\sim}0.04^\circ$ per year.
+The bottom panels of Figure~\ref{fig:angles}\addded[id=r1]{(a)-(d)} shows that across all libraries, the maximum absolute value of lines in the middle panel are ${\sim}0.01^\circ$ for \texttt{GEO}/\texttt{GSE}, ${\sim} 0.03^\circ$ for \texttt{GEO}/\texttt{GSM}, ${\sim}0.04^\circ$ for \texttt{GSE}/\texttt{GSM}, and ${\sim}0.03^\circ$ for \texttt{GSE}/\texttt{GSM}, all of which are comparable to the average angular change in Earth's dipole $Z$ axis of ${\sim}0.04^\circ$ per year.
 
 We have also performed coordinate transforms using the \citeA{SSCWebCoordinateCalculator} coordinate calculator web service. However, this service outputs values only to two decimal places, leading to angular differences of $0.3^\circ$. These values are not plotted so that the other library differences are clearly visible.
 
-The range of the maximum absolute differences, $0.001^\circ$-$0.04^\circ$, shown in the bottom panels of the subplots in Figure~\ref{fig:angles} is smaller than the range, $0^\circ$-$1^\circ$, of angular difference in spacecraft position vectors in the same coordinate system from two different data providers found in section~\ref{sect:comparisons_ephemeris}. The position vectors can differ for two reasons: differences in the source of the position data and differences in the data providers' software libraries, if a transformation is needed. To determine the magnitude of each, one must analyze the source code used to generate the positions, which is not readily available.
+The range of the maximum absolute differences, $0.001^\circ$-$0.04^\circ$, shown in the bottom panels of the subplots in Figure~\ref{fig:angles}\added[id=r1]{(a)-(d)} is smaller than the range, $0^\circ$-$1^\circ$, of angular difference in spacecraft position vectors in the same coordinate system from two different data providers found in section~\ref{sect:comparisons_ephemeris}. The position vectors can differ for two reasons: differences in the source of the position data and differences in the data providers' software libraries, if a transformation is needed. To determine the magnitude of each, one must analyze the source code used to generate the positions, which is not readily available.
 
 In summary, in this section, we have shown that differences in library implementations of reference frames range from $0.001^\circ$ to $0.04^\circ$ for the chosen set of coordinate frames and comparison axis.
 This range of differences is comparable to the range of angles identified in section~\ref{sect:comparisons_ephemeris}, which includes the average angular change in Earth's dipole $Z$--axis over the past 45 years, the precession of Earth's rotation axis, changes in nutation of Earth's rotation axis over one year, and the precession of the ecliptic. The implication is that inter-comparison of measurements transformed with different libraries may require an analysis of the differences in the transform implementations if the differences in the measurements are not significantly larger than these differences. This type of analysis is challenging because it requires access to the transform software, which may not be maintained or available, and because calculations are needed to quantify differences due to transform implementation choices.
 
 \clearpage
 \begin{figure}[htb]
-     \begin{subfigure}[b]{0.49\textwidth}
+\vspace{-0.5cm}
+\begin{adjustwidth}{-1cm}{-1cm} % Left and Right margin changes
+     \begin{subfigure}[b]{0.55\textwidth}
          (a) $\angle (Z_{GEO}, Z_{GSE})$
          \centering
          \includegraphics[width=\textwidth]{code/figures/angles/z-delta=1days_20100101-20150101/GEO_GSE.pdf}
      \end{subfigure}
-     \begin{subfigure}[b]{0.49\textwidth}
+     \begin{subfigure}[b]{0.55\textwidth}
          (b) $\angle (Z_{GEO}, Z_{GSM})$
          \centering
          \includegraphics[width=\textwidth]{code/figures/angles/z-delta=1days_20100101-20150101/GEO_GSM.pdf}
      \end{subfigure}
      \par\bigskip\bigskip
-     \begin{subfigure}[b]{0.49\textwidth}
+\vspace{-0.4cm}
+     \begin{subfigure}[b]{0.55\textwidth}
          (c) $\angle (Z_{GSE}, Z_{GSM})$
          \centering
          \includegraphics[width=\textwidth]{code/figures/angles/z-delta=1days_20100101-20150101/GSE_GSM.pdf}
      \end{subfigure}
-     \begin{subfigure}[b]{0.49\textwidth}
+     \begin{subfigure}[b]{0.55\textwidth}
          (d) $\angle (Z_{MAG}, Z_{GSM})$
          \centering
          \includegraphics[width=\textwidth]{code/figures/angles/z-delta=1days_20100101-20150101/MAG_GSM.pdf}
      \end{subfigure}
-     \caption{Angles between $Z$ axes in select coordinate frames as computed by different software packages. In the top panels of each subplot, the notation $\angle (Z_A, Z_B)$ means the angle between the $Z$ axis of coordinate frame $A$ and the $Z$ axis of coordinate frame $B$ computed using \texttt{geopack\_08\_dp}. The middle panel of each subplot shows the difference\add[r2]{, $\Delta$,} between $\angle (Z_A, Z_B)$ computed using \texttt{geopack\_08\_dp} and that computed using the library indicated in the legend; the maximum of the absolute value of each line is shown in parentheses. The bottom panels show the maximum absolute differences in the middle panel.}
+     \caption{Angles between $Z$ axes in select coordinate frames as computed by different software packages. In the top panels of each subplot, the notation $\angle (Z_A, Z_B)$ means the angle between the $Z$ axis of coordinate frame $A$ and the $Z$ axis of coordinate frame $B$ computed using \texttt{geopack\_08\_dp}. The middle panel of each subplot shows the difference\added[id=r2]{, $\Delta$,} between $\angle (Z_A, Z_B)$ computed using \texttt{geopack\_08\_dp} and that computed using the library indicated in the legend; the maximum of the absolute value of each line is shown in parentheses. The bottom panels show the maximum absolute differences in the middle panel.}
      \label{fig:angles}
+\end{adjustwidth}
 \end{figure}
 
 \clearpage
@@ -457,7 +483,7 @@ For the SSCWeb data service \cite{SSCWeb}, which provides spacecraft positions, 
 \begin{enumerate}
     \parskip 0.1in 
 
-    \item Mission--developed SPICE kernels for positions that are obtained from the mission team periodically and archived. The \texttt{GEI} position--related SPICE kernel information is used to generate the \texttt{J2000} spacecraft positions. Then, software developed as part of the International Solar-Terrestrial Physics program in the 1990s (ISTP; \citeA{ISTP2025}) is used to compute positions in different coordinate frames, including \texttt{GEI}, \texttt{GEO}, \texttt{GM}, \texttt{GSE}, \texttt{GSM}, and \texttt{SM}. \remove[r2]{The ISTP software uses proprietary information needed for the reference frames, such as the position of the Sun, calculated by GSFC's Flight Dynamics Facility (FDF).  This approach is only used on ISTP--era missions, i.e., ACE, Polar, Wind, and Geotail.}\add[r2]{For ISTP--era missions, i.e., ACE, Polar, Wind, and Geotail, information needed for the reference frames, such as the position of the Sun, is calculated by GSFC's Flight Dynamics Facility (FDF) using proprietary software.}
+    \item Mission--developed SPICE kernels for positions that are obtained from the mission team periodically and archived. The \texttt{GEI} position--related SPICE kernel information is used to generate the \texttt{J2000} spacecraft positions. Then, software developed as part of the International Solar-Terrestrial Physics program in the 1990s (ISTP; \citeA{ISTP2025}) is used to compute positions in different coordinate frames, including \texttt{GEI}, \texttt{GEO}, \texttt{GM}, \texttt{GSE}, \texttt{GSM}, and \texttt{SM}. \deleted[id=r2]{The ISTP software uses proprietary information needed for the reference frames, such as the position of the Sun, calculated by GSFC's Flight Dynamics Facility (FDF).  This approach is only used on ISTP--era missions, i.e., ACE, Polar, Wind, and Geotail.}\added[id=r2]{For ISTP--era missions, i.e., ACE, Polar, Wind, and Geotail, information needed for the reference frames, such as the position of the Sun, is calculated by GSFC's Flight Dynamics Facility (FDF) using proprietary software.}
 
     \item A mission--computed \texttt{GEI} position--related variable in archival data files delivered to SPDF is then used to compute orbit and attitude data in different reference frames; only data in the \texttt{GEI}--related frame is used. This is a possible source of the differences shown in Figure~\ref{fig:geotail} if the mission computed positions in the archival data products by transforming \texttt{GEI} with software other than that used by SSCWeb. Differences can also occur if the mission uses a different definition of \texttt{GEI} than SSCWeb.
 
@@ -576,9 +602,11 @@ We also recommend using modern version control systems for the SPICE kernels. At
 \subsection{Versioning and Documenting Positions}
 \label{sect:ephemeris-version}
 
-In this work, we have been primarily interested in the problem of transforming a vector from one reference frame to another. In the case of positions provided in a given reference frame, there is an uncertainty due to what is meant by that reference frame, which is addressed by the recommendation in section~\ref{sect:standard-for}.
+In this work, we have been primarily interested in the problem of transforming a vector from one reference frame to another. In the case of positions provided in a given reference frame, there is an uncertainty due to what is meant by that reference frame, which is addressed by the recommendation in section~\ref{sect:standard-for}. 
 
-There is an additional source of uncertainty --- the source of the positions. Missions have used direct \remove[r2]{GPS}\add[r2]{GNSS} measurements, commercial software such as STK (Systems Tool Kit), and data from facilities such as the GSFC Flight Dynamics Facility (FDF), the Deep Space Network (DSN), NAIF, and NORAD to produce the spacecraft positions for the mission.  In section~\ref{sect:comparisons_ephemeris}, we showed examples where the positions for two different data providers for the same spacecraft differed in a way that was unlikely to be due to differences in how the data providers implemented the reference frame. 
+There is an additional source of uncertainty --- the source of the positions. Missions have used direct \added[id=r2]{Doppler and }\deleted[id=r2]{GPS}\added[id=r2]{GNSS} measurements, commercial software such as STK (Systems Tool Kit), and data from facilities such as the GSFC Flight Dynamics Facility (FDF), the Deep Space Network (DSN), NAIF, and NORAD to produce the spacecraft positions for the mission. \deleted[id=r2]{In section~\ref{sect:comparisons_ephemeris}, we showed examples where the positions for two different data providers for the same spacecraft differed in a way that was unlikely to be due to differences in how the data providers implemented the reference frame.}
+
+\added[id=r2]{Accurate sources of spacecraft position data are also important -- even if two researchers compute the location of a spacecraft in a given reference using the same transformation algorithm, their results can differ significantly if the source of the position data differs. In section~\ref{sect:comparisons_ephemeris}, we gave an example in which differences in reported spacecraft positions between two data providers were likely due to one using mission-provided positions and the other using two-line elements that did not capture a spacecraft maneuver. In general, the mission has access to positions derived from the most accurate tracking data, including direct Doppler and on-board GNSS measurements, which are more accurate than two-line element-derived positions and may include spacecraft maneuvers that are not resolved by two-line elements.}
 
 % Note from Niehof:
 %There are really three pieces here:
@@ -598,7 +626,7 @@ We recommend the following for general software and data documentation.
 
 \begin{itemize}
   \item Software package developers provide documentation on implementation choices (e.g., model used for obliquity and its parameters). If data from an external resource is used, for example, if the IGRF coefficients are dynamically downloaded, the user should have an option to easily view the data used, so that, if necessary, the values used can be documented in a publication.
-  Software should have a DOI for each major version, so the version used can be referenced rather than just a top-level DOI. Additional software citation recommendations are given in \citeA{Jackson2012}, \citeA{Smith2016}, and \citeA{Stall2023}.
+  Software should have a DOI for each major version, so the version used can be referenced rather than just a top-level DOI. Additional software citation recommendations are given in \citeA{Jackson2012}, \citeA{Smith2016}, and \deleted[id=r1]{\cite{Stall2023}}\added[id=r1]{\citeA{Stall2023}}.
 
   \item Data providers ensure that metadata associated with positions and variables that are transformed include details about the software version used for the transforms or the data used for the transform, such as SPICE kernels. The metadata description should be validated by having a third party assess whether it contains sufficient information to re-implement the transform.
 
@@ -629,10 +657,10 @@ We recommend the following for general software and data documentation.
 \item  \texttt{GSM} -- Geocentric Solar Magnetospheric (reference system)
 \item  \texttt{GCI} -- Geocentric Celestial Inertial (reference system)
 \item  \texttt{GCRS} -- Geocentric Celestial Reference System (reference system)
-\item \add[r2]{\texttt{GPS} -- Global Positioning System}
+\item \added[id=r2]{\texttt{GPS} -- Global Positioning System}
 \item GSFC -- Goddard Space Flight Center (NASA center)
-\item IAGA -- \add[r2]{International Association of Geomagnetism and Aeronomy}
-\item IGRF -- International Geomagnetic Reference Field (geomagnetic model)\add[r2]{; maintained by the IAGA (IAGA, 2026) V-MOD (IAGA/V-MOD, 2026) Working Group.}
+\item IAGA -- \added[id=r2]{International Association of Geomagnetism and Aeronomy}
+\item IGRF -- International Geomagnetic Reference Field (geomagnetic model)\added[id=r2]{; maintained by the IAGA (IAGA, 2026) V-MOD (IAGA/V-MOD, 2026) Working Group.}
 \item ISTP -- International Solar-Terrestrial Physics (NASA program)
 \item IRBEM -- International Radiation Belt Environment Modeling (software library)
 \item ICRF -- International Celestial Reference Frame (reference frame)
@@ -641,7 +669,7 @@ We recommend the following for general software and data documentation.
 \item J2000.0 -- Reference epoch associated with  \texttt{J2000}
 \item  \texttt{J2K} -- Abbreviation of  \texttt{J2000}
 \item JPL -- Jet Propulsion Laboratory
-\item  \texttt{MAG} -- Geomagnetic (reference frame). Also referred to as Centered Dipole (CD) and GM.
+\item  \texttt{MAG} -- Geomagnetic (reference frame). Also referred to as Centered Dipole (\texttt{CD}) and \texttt{GM}.
 \item MMS -- Magnetospheric Multiscale Misson 
 \item NAIF -- Navigation and Ancillary Information Facility 
 \item MOD -- Mean of Date (reference frame modifier, precession only)
@@ -656,7 +684,7 @@ We recommend the following for general software and data documentation.
 \item TLE -- Two-Line Element set (satellite orbital elements)
 \item  \texttt{TEME} -- True Equator, Mean Equinox (reference system)
 \item UT1 -- Universal Time 1 (time standard)
-\item \add[r2]{UTC -- Coordinated Universal Time}
+\item \added[id=r2]{UTC -- Coordinated Universal Time}
 \end{itemize}
 
 \section*{Open Data}

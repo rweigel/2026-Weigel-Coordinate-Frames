@@ -3,7 +3,8 @@
 \usepackage{sectsty}
 \usepackage{graphicx}
 \usepackage{xcolor}
-\usepackage{url}
+\usepackage{hyperref}
+%\usepackage{url}
 % Margins
 \topmargin=-0.45in
 \evensidemargin=0in
@@ -52,55 +53,59 @@ What the authors argue is very informative and relevant to all studies using vec
 \subsection{Major comments}
 
 L142-145: The statement here about SPICE is not quite true. The definition of a reference frame in SPICE can be accompanied by a clear definition of the origin. For example, space physics-related reference frames described in the frame kernel below have their origins defined.
-%\url{https://naif.jpl.nasa.gov/pub/naif/pds/pds4/bc/bc_spice/spice_kernels/fk/rssd0002.tf}
-\\
-\\
+\url{https://naif.jpl.nasa.gov/pub/naif/pds/pds4/bc/bc_spice/spice_kernels/fk/rssd0002.tf}
+
+\vspace{0.25in}
 {\color{violet}\noindent
 We have removed the sentence. Our intention was to make the point that in SPICE, one can define two reference frames that are identical except for their origin. For example, in the RBSP SPICE kernel, \texttt{GEI} is defined with \texttt{TKFRAME\_-362900\_RELATIVE = 'J2000'} and \texttt{FRAME\_-362900\_CENTER = -399}, which means ``use the J2000 frame except with a center of Earth instead of the solar system barycenter". In retrospect, this point is not important, so we have removed the sentence.
 }
-\\
-\\
+\vspace{0.25in}
+
 L411-414: No results of Fig. 3 (a) and (b) are described in this paragraph. The authors should argue the results and their implication(s).
-\\
-\\
+\vspace{0.25in}
+
 {\color{violet}\noindent
-Reply
+We have revised the text to make it clear that we are summarizing the differences in results across all libraries. We have chosen not to attempt to explain the behavior shown in the middle panel of Figure~3, as it would require a significant amount of analysis, and the figure is intended only to show that different libraries yield different results. The last paragraph of Section 4.2 provides a summary and interpretation of the general results shown in Figure~3.
 }
-\\
-\\
+\vspace{0.25in}
+
 Figure 3 (d): Why is the result of PySPEDAS missing in these plots? If there is a specific reason, that should be mentioned, at least, briefly in the text.
-\\
-\\
+\vspace{0.25in}
+
 {\color{violet}\noindent
-We had previously disabled transforms involving \texttt{MAG} and PySPEDAS due to an implementation error (\url{https://github.com/spedas/pyspedas/issues/1207}). After this issue was resolved, we neglected to re-enable these transforms. We have updated Figure 3(d) to include the PySPEDAS result.
+We had previously disabled transforms involving \texttt{MAG} and PySPEDAS due to an \href{https://github.com/spedas/pyspedas/issues/1207}{implementation error}. After this issue was resolved, we neglected to re-enable these transforms. We have updated Figure 3(d) to include the PySPEDAS result.
 }
-\\
-\\
+\vspace{0.25in}
+
 L419-422: One striking result from the comparison here would be that the result with PySPEDAS matches exceptionally well (dtheta $\sim 4\cdot 10^{-9}$) with that of Geopack-2008, indicating that they match nearly within the double precision level. The authors should examine the reason for it and give an explanation in the text. The source code of both libraries are available.
-\\
-\\
+
+\vspace{0.25in}
 {\color{violet}\noindent
-In section 4.2 we noted that the PySPEDAS transformation code originated from ROCTOLIB (we have modified the text to improve the wording and make clear that \texttt{SPEDAS} is written in IDL).
-\\
-\\
+In section 4.2 we noted that the PySPEDAS transformation code originated from ROCTOLIB.
+
+\noindent
 To address this comment, we have added ``From inspection of the source code for \texttt{geopack\_08\_dp} and \texttt{pyspedas}, we find that they appear to be different implementations of the algorithms in Russell (1971), which is consistent with the closeness of their transform results shown in Figure~3."
+\\
+
+\noindent
+We have also modified the text in section 4.2 to make clear that \texttt{SPEDAS} is written in IDL.
 }
 
 \subsection{Minor comments}
 
 L46: There is a typo around ``...for a the transformation a vector from one coordinate system to...".
-\\
-\\
+
+\vspace{0.25in}
 {\color{violet}\noindent
 This has been corrected.
 }
-\\
-\\
+\vspace{0.25in}
+
 L622: Move the parentheses for Stall et al., 2013 to correct positions.
-\\
-\\
+
+\vspace{0.25in}
 {\color{violet}\noindent
-This was corrected, but the change is not annotated because the trackchanges package does not work for citation changes.
+This has been corrected.
 }
 
 
@@ -110,7 +115,11 @@ This was corrected, but the change is not annotated because the trackchanges pac
 
 {\color{violet}
 \noindent
-We thank the reviewer for their extensive feedback. As noted in the acknowledgments, we have received feedback from 10 non-coauthors, and this feedback has been the most helpful regarding issues the authors are not experts in, especially regarding the historical context and details about .... In the revised manuscript, changes made in response to this reviewer's comments are labeled as \texttt{r2}.
+We thank the reviewer for their extensive feedback. As noted in the acknowledgments, we have received feedback from 10 non-coauthors, and so additional detailed feedback is welcome. The provided feedback has been helpful regarding issues the authors are not experts in, especially regarding the historical context.
+
+When writing this manuscript, we have at various times attempted to provide additional details on historical context. The lead author felt that he did not have enough experience and therefore reduced the level of detail about the evolution to a minimum to avoid inaccuracies. However, we agree that additional historical context will be helpful to the reader. In our revision, we have added as much detail as we are certain of. Based on the comments in this review and other informal conversations, we believe there is a need for a paper that provides details on the historical development and the rationale for the decisions. I expect that such a paper will be valuable as the standards proposed in this manuscript are discussed.
+
+In the revised manuscript, changes made in response to this reviewer's comments are labeled as \texttt{r2}. We have replied to specific comments below.
 \\
 }
 
@@ -133,140 +142,359 @@ Reviewer \#2 (Formal Review for Authors (shown to authors)):
 \\
 This is a very timely piece of work that shows the need to align the reference systems and frames used in space physics with those that have been developed in astronomy since the late 1990s. This is an issue that needs study, so I commend the authors for taking the initiative with this manuscript. I have provided a detailed review in the attached PDF. My apologies it is quite lengthy, but I hope that shows my interest in the topic and in encouraging the authors to take the issue forward at an international level.
 
+\subsection{Major concerns}
+
+\subsubsection{What are the three distinct elements?}
+
+The most important of the three elements that I identified is advocacy for development of new standards for
+space physics reference systems and frames, and the transformations between them. This is an excellent
+and timely idea as I will discuss further below. The second element is an analysis of current practice in this
+area and in the existing literature that supports that practice. Whilst this clearly shows the need for new
+standards, it is hard to follow, in part because of the high level of detail, but also because it is not set in
+context of the historical and astronomical background that has guided development of current practice over
+the past 50+ years. As I outline in my detailed comments below, this lack of context is at the root of many
+inconsistencies and misunderstandings noted in the manuscript, e.g. in the definitions of concepts such as
+epoch, equinox, J2000, etc. The third element in the manuscript is the extensive discussion of SPICE as an
+example of a software tool that utilises space physics reference systems and frames, and carries out
+transformations between them. Whilst this is a great example of the need for standards, the discussion of
+SPICE seems to get intertwined with the discussion of standards and fails to make the vital distinction
+between (a) the need for generic standards for space physics reference systems, and (b) the implementation
+of those standards on a specific software platform, namely SPICE.
+
+Whilst I strongly concur with the call for standards as proposed by the authors, I recommend that they revise
+the manuscript to clearly separate these three elements. In particular, I recommend that the authors
+restructure and revise their analysis of current practice so that it provides a more focused view of that
+practice, set in context of the historical and astronomical background that I discuss in my detailed
+comments. I am concerned that the depth of detail, as currently presented, may be a barrier to engaging the
+wider space physics community in this call for standards. I suggest that the authors consider whether some
+of the current detail might be moved into Supplementary Information, so that the main text can provide the
+reader with a more concise analysis that points to the need for new standards, whilst allowing those who
+seek greater detail to move on to the Supplementary Information. It may seem odd that I suggest to add
+historical and astronomical context, whilst reducing detail. But I think that context will increase the impact of
+the manuscript by showing that new standards are a natural and timely step forward: that these standards
+will harmonise space physics reference frames with those that have been adopted in astronomy over recent
+decades.
+
+\vspace{0.25in}
+{\color{violet}\noindent
+We agree that the three elements and the implementation issue are not clear. The fact that the reviewer identified SPICE as a major element, at the same level of advocacy for standards and community actions, and justification for proposed standards and actions, is evidence of this.
+
+%The third element in the manuscript is the extensive discussion of SPICE as an example of a software tool that utilises space physics reference systems and frames, and carries out transformations between them.
+}
+\vspace{0.25in}
+
+In addition, and most importantly, I recommend that the authors highlight their call for new standards by
+discussing practical steps to establish such standards at a global level. In particular, I encourage the authors
+to discuss which international bodies can provide the scientific authority for establishing standards in space
+physics. To have that authority, it needs to be an international scientific body working under the auspices of
+the International Science Council (ISC, https://council.science/), the successor to ICSU, the old International
+Council of Scientific Unions. I don’t seek to recommend any particular body for the standards role, nor do I
+ask the authors to recommend any one body. Rather I encourage the authors to discuss how to engage the
+wider space physics community in advancing the standards role in one or more of these bodies, for example
+by considering how some bodies in ISC system are linked with services and models (e.g. IERS and IAGA/IGRF)
+that already contribute to space physics reference frames, as I discuss in my detailed comments below.
+
+\subsubsection{How space physics coordinate systems developed from astronomy}
+A striking omission in the manuscript is an apparent lack of awareness that GEI coordinates (and their
+equivalents by other names), as used in the existing literature on space physics coordinate systems, are
+conceptually an expansion (via the addition of geocentric distance, and conversion from spherical to
+cartesian coordinates) of the traditional Earth-centred astronomical coordinates of right ascension and
+declination (as defined prior to the adoption of the International Celestial Reference System). Many
+inconsistencies noted by the authors arise from the evolution of astronomical standards between 1950 and
+2000: (a) in particular the transition from 1950 to 2000 as the reference epoch for Earth-centred right
+ascension and declination, but also (b) the growth of software for astronomical applications and the
+introduction of simplified formulae for use in that software. I strongly encourage the authors to include a
+brief summary of this history and put their discussions of existing methods in that context. Then the reader
+can understand how the existing methods developed – and the authors can make an even more robust case
+that we need to go further and establish new standards for space physics reference systems. It also shows
+that those new standards need to be set in context of modern astronomical standards such as the ICRS and
+its associated reference frames.
+
+\vspace{0.25in}
+{\color{violet}\noindent
+We agree that this additional context would be helpful to the reader. In the submitted draft, we provide only information on the state of terminology and definitions, but don't explain how we arrived at this state.
+
+In the revised draft, we have added the paragraphs ...
+
+Providers of spacecraft positional data read the results as being a criticism of their services, and I think addressing this comment will help allay these concerns.
+}
+\vspace{0.25in}
+
+I would also strongly encourage the authors to discuss how astronomical standards have evolved in the way
+that they handle the precession of the Earth’s rotation axis. The old system of Earth-centred right ascension
+and declination required periodic revision, with well-documented examples going back at least to the early
+nineteenth century. At the beginning of space exploration in 1957, the primary reference frame was based
+on the orientation of that axis at the beginning of 1950. After 1976 the astronomy community transitioned
+to use a reference frame based of the orientation of the axis at the beginning of 2000; this is the origin of the
+J2000 reference frame that appears in much of existing literature and in the current manuscript. The ICRS
+enabled a move away from frames based on Earth’s rotation axis, and so brought an end to this process of
+periodically updating astronomical reference frames. But it avoided an abrupt transition by adopting
+reference frame axes close to those of J2000.
+
+In this context I encourage the authors to note that the papers by Hapgood (1992) and Fränz and Harper
+(2002) both use an Earth-centred J2000 reference frame for GEI – and that they both used the same source
+for the model parameters used to transform to other geometric reference frames such as GSE, i.e. data
+published by the Nautical Almanac Offices of the US and the UK. Fränz and Harper (2002) used the detailed
+model published in 1992 edition of Explanatory Supplement to the Astronomical Almanac, whilst Hapgood
+(1992) used the simplified formulae provided in the Almanac for Computers (1989). To bring out this
+common source it might be best to cite USNO as the primary source name rather than the individual author
+names, i.e. USNO (1992) rather than Seidelmann et al (1992), and USNO (1989) rather than Doggett et
+(1989). Note that the manuscript incorrectly gives the year of the latter as 1990. As an additional minor
+comment here, please note that the acronym for the Nautical Almanac Office of the UK is HMNAO, not
+GBNA as used in line 800 of the present manuscript.
+
+\vspace{0.25in}
+{\color{violet}\noindent
+We have changed the in-line citation format and put the authors as editors in the biliography. In Seidelmann et al. (1992) (now USNO (1992)), we have excluded the list of entities in the ``Prepared by" list at in
+\href{the book}{https://archive.org/details/131123ExplanatorySupplementAstronomicalAlmanac}, which included the H.M. Nautical Almanac Office. 
+}
+\vspace{0.25in}
+
+I also encourage the authors to note that the paper by Russell (1971) pre-dates the adoption of the J2000
+reference frame and so uses an earlier reference frame, probably the Earth-centred B1950 frame then in use
+across the astronomy community. I strongly encourage the authors to make this heritage clear to the reader,
+in particular to emphasise that these reference frames have changed over the years and that the
+implementation of transformations for reference frame transformations can be simplified, if that
+simplification meets applicable requirements for accuracy. This heritage is essential to understanding the
+current state of the field and thus providing a firm basis for developing new standards as the authors
+advocate.
+
+\vspace{0.25in}
+{\color{violet}\noindent
+In the submitted draft, we noted that Russell (1971) cites a Fortran program provided through private communication.
+}
+\vspace{0.25in}
+
+\subsubsection{Nomenclature from astronomy}
+The astronomical background to the existing literature also provides long-established definitions of many
+terms queried by the authors, e.g. Epoch, Vernal Equinox, etc, also some useful terms they do not use, e.g.
+First Point of Aries. So I strongly recommend that they encourage readers to learn the basics of positional
+astronomy as foundational material for the field of space physics reference frames. I encourage people
+working on spacecraft positions to regard a foundation in astronomy as equivalent to learning the basics of
+map reading before venturing on terrestrial journeys that use maps for navigation. To my thinking this
+reinforces the need for new standards for space physics reference systems to be aligned with astronomical
+standards and nomenclature.
+
+\subsubsection{Time standards from astronomy}
+I am also very concerned by the limited discussion of astronomical time standards in the present manuscript.
+Some key concepts are mentioned including UTC, UT1 and leap seconds, but the key concept of sidereal time
+is not. There is also a reference to the interesting historical review of timescales by McCarthy (2011), but
+there is no discussion of what this implies for how time must be part of future standards for space physics
+reference systems. I strongly recommend that the authors include such discussion in the present manuscript,
+and that they specifically note:
+
+\begin{itemize}
+\item[a)] that UT1 and Greenwich Sidereal Time (GST) are measures of spin phase of the Earth (24 hours = 1
+spin), relative respectively to the Sun and to distant stars, and hence essential parameters when
+transforming from inertial reference frames to frames that rotate with the Earth and with its motion
+around the Sun. I also suggest to note that UT1 is routinely measured by a worldwide network of
+observatories under the auspices of the International Earth Rotation Service (IERS).
+
+\item[b)] that UTC (Coordinated Universal Time) is the global standard for time services and is derived from
+atomic clocks using an international standard that defines the second in terms of energy transitions
+in caesium atoms. UTC was aligned with UT1 when UTC was introduced in 1972.
+
+\item[c)] that natural changes in the rotation period of the Earth cause UT1 to diverge from UTC; so, to
+maintain close alignment (<0.9 seconds) of the two time standards, extra seconds have been added to UTC as directed by IERS. These leap seconds have allowed UTC to be used as a reasonable
+approximation of UT1 for many celestial navigation and space applications, including
+transformations between space physics reference systems as discussed by Hapgood (1992) and
+Fränz and Harper (2002).
+
+\item[d)] However, leap seconds cause problems for many precision time applications, e.g. synchronisation of
+communications networks, timestamping of stock market transactions. Thus there has long been
+pressure to remove leap seconds from international time standards and efforts to find a
+compromise between precision and celestial time standards have not found success. As a result it is
+likely that leap-seconds will soon be removed from international time standards. Thus any new
+standards for transformations between space physics reference systems should incorporate
+methods for determining the appropriate value of UT1 and not assume that UT1 ~ UTC. This might
+be done through reference to future services that disseminate measured and forecast values of
+DUT1 = UT1 – UTC. The development of new standards, as proposed by the authors, may be timely
+to influence how these services will be provided, especially to international audiences.
+\end{itemize}
+
+\subsubsection{Sources of spacecraft position data}
+I strongly encourage the authors to highlight the need for accurate sources of spacecraft position data as an
+input to space physics coordinate transformations. At present this is discussed briefly in section 4, line 435;
+many parts of section 5; and section 6.4, lines 588 to 594. I recommend that the authors highlight the key
+role of mission flight dynamics teams (whether in-house to the agency leading the scientific observations or
+outsourced to an organisation expert in satellite tracking) in providing accurate information of the positions
+of space physics missions. Those mission teams will have access to the most accurate tracking data, which
+will likely include ranging and Doppler measurements, as well as on-board GNSS as discussed in the current
+manuscript. They will also have good knowledge of any manoeuvres undertaken by the spacecraft. All this
+information must be assimilated into the team’s model of the orbit in order to refine the accuracy of the
+position data derived from that model. Thus I encourage the authors to stress that accurate position data is
+best sourced by dedicated mission teams and not by third parties.
+
+\vspace{0.25in}
+{\color{violet}\noindent
+
+}
+\vspace{0.25in}
+
+In this respect I encourage the authors to further highlight problems with use of two-line elements
+generated by the former JSpOC (since 2018, the Combined Space Operations Center) as widely disseminated
+via the Space-Track system (https://www.space-track.org/). As the authors discuss at lines 386 to 390, those
+elements are often inaccurate as they are generated without knowledge of manoeuvres. Thus they can be
+unsuitable for space physics studies that require accurate knowledge of spacecraft positions, in particular
+studies using multi-spacecraft constellations. Experience with ESA’s Cluster mission has demonstrated that
+Space-Track elements can be highly inaccurate not just in terms of location within an orbit, but can also fail
+to correctly identify individual spacecraft within a multi-spacecraft constellation, an important issue for
+space physics missions. A detailed analysis of this experience is being transferred to the Cluster Science
+Archive for long-term preservation. It is temporarily available at
+\url{http://www.jsoc.rl.ac.uk/pub/cluster\_ids.php}
+
+\vspace{0.25in}
+{\color{violet}\noindent
+
+}
+\vspace{0.25in}
+
 \subsection{Minor Comments}
 
 1. Graphics. One practical problem that I encountered whilst reviewing the manuscript is that many of the fonts used to annotate the figures are too small. These include axis labels and numbering, and legends for plotted data, in figures 1, 2 and 3. Please can the authors use larger fonts, and/or move some information to figure captions?
 \\
 \\
 {\color{violet}\noindent
-We have increased the font size for all text annotations in the figures.
+We have increased the font size of all text annotations in the figures to exceed the journal's minimum requirement.
 }
 \\
 \\
 2. The manuscript does not include a Plain Language Summary. For that reason I have responded “No” to the question “Does the Plain Language Summary clearly summarize the manuscript…”. On checking the requirements for publication in JGR Space Physics, it seems that use of a PLS is strongly encouraged but not mandatory. In this case I would add my strong encouragement for provision of a PLS. The authors are seeking to promote the development of new standards for space physics reference frames, so need to reach out to a wide audience beyond subject specialists, an audience that will welcome a PLS.
-\\
-\\
+
+\vspace{0.25in}
 {\color{violet}\noindent
 We have added a Plain Language Summary.
 }
-\\
-\\
+\vspace{0.25in}
+
 3. At lines 193/194 the authors write that J2000 is used “by SPICE to refer to a system with origin at the solar system barycenter (Acton (1997); NAIF (2025))”. From carefully reading the NAIF reference I can see why the authors write this (I could not see any relevant discussion in the Acton reference). However I note that it requires the reader to link ideas presented on separate pages, so perhaps some clarification is needed. But if it is really true that NAIF consider J2000 as having its origin at the solar system barycenter, this is worrying as it seeks to redefine the historical meaning of J2000 and thus creates confusion when compared with a large body of existing literature. Because of the good alignment of the ICRS and J2000 axes, Earth-centred J2000 continues to be used operationally in a variety of Earth-based astronomical and navigational applications, e.g. in annual handbooks and almanacs. (Note that celestial navigation remains a key alternative to GNSS, especially for maritime applications.) As the USNO (2026) web site notes, for applications that require a pointing accuracy no more stringent than about 0.1 arcseconds, the distinctions between the ICRS and the dynamical equator and equinox of J2000.0 are not significant. Thus I recommend that the authors highlight the need for any new standards to recognise J2000 as an Earth-centred system.
-\\
-\\
+
+\vspace{0.25in}
 {\color{violet}\noindent
-Reply
+This was partially the motivation for the statement discussed in the reply to the first major comment of reviewer 1.
 }
-\\
-\\
+\vspace{0.25in}
+
 4. In several places, e.g. line 266, also lines 321-322, it is noted that MMS achieved a closest spacecraft separation of 7.2 km. The authors might also add that Cluster reached even closer inter-spacecraft separations 4 km in September 2013, 3 km in 2016 and 2.5 km in December 2018 (Escoubet et al, 2021). This will reinforce the case for development of standards as an international activity.
-\\
-\\
+
+\vspace{0.25in}
 {\color{violet}\noindent
 We have added this reference. Thanks.
-
+\\
+\\
+\noindent
 A side note:
-
+\\
+\\
 Escoubet et al., 2021 states ``With careful maneuvering and monitoring the team managed to achieve a separation of 4 km between Cluster 3 and Cluster 4 on September 19, 2013. This first achievement paved the way to future tight formations to study the Earth's bow shock at even smaller scales: with 3 km separation reached in January 2016 and 2.5 km achieved in December 2018.''
 
-Using the ephemeris data from CDAWeb and SSCWeb datasets mentioned in the manuscript, we find the minimum MMS inter-spacecraft separation of 2.2~km and the minimum separation of any s/c from the centroid of 3~km on Sept. 15, 2016. We don't know if ``Its four spacecraft are flying only four-and-a-half miles apart, the closest separation ever of any multi-spacecraft formation." from \url{https://www.nasa.gov/missions/mms/nasas-mms-achieves-closest-ever-flying-formation/} means inter-spacecraft or some other measure, such as separation from the centroid. Given that the minimum Cluster inter-spacecraft separation was smaller than 7.2~km earlier, we suspect ``closest separation" in the quote does not mean inter-spacecraft. We have also not been able to obtain an explanation for how 7.2~km was determined.
+Using the ephemeris data from CDAWeb and SSCWeb datasets mentioned in the manuscript, we find the minimum MMS inter-spacecraft separation of 2.2~km and the minimum separation of any s/c from the centroid of 3~km on Sept. 15, 2016. We don't know if ``Its four spacecraft are flying only four-and-a-half miles apart, the closest separation ever of any multi-spacecraft formation." from \href{https://www.nasa.gov/missions/mms/nasas-mms-achieves-closest-ever-flying-formation/}{https://www.nasa.gov/.../nasas-mms-achieves-closest-ever-flying-formation/} means inter-spacecraft or some other measure, such as separation from the centroid. Given that the minimum Cluster inter-spacecraft separation was smaller than 7.2~km earlier, we suspect ``closest separation" in the quote does not mean inter-spacecraft. We have also not been able to obtain an explanation for how 7.2~km was determined.
 
 Although the above details reinforce our recommendations regarding spacecraft positions, we have chosen not to include them.
 }
-\\
-\\
-5. The large differences shown in the bottom panel of Figure 1a clearly suggest that one of the two datasets shows GEI coordinates in the J2000 frame, and the other is GEI adjusted for 21 years of precession so that it matches the orientation of the Earth in 2021. I have seen similar large differences in some Cluster work that failed to incorporate the systematic effects of precession. I strongly recommend that the authors use this as an example of the importance of precession when transforming from a fully inertial reference frame such as the ICRF. In many ways this is not a standards issue, it’s more a matter of understanding the physics of planetary and satellite dynamics. Standards will help by pointing folks at that physics and making sure that they document their work thoroughly. It perhaps suggests that we now need to limit the term “inertial” to the ICRF and hence GEI based on J2000, and recognise that the old “epoch-of-date” GEI is not truly inertial and give it a new name. That could avoid problems as shown
-in Figure 1a.
-\\
-\\
+\vspace{0.25in}
+
+5. The large differences shown in the bottom panel of Figure 1a clearly suggest that one of the two datasets shows GEI coordinates in the J2000 frame, and the other is GEI adjusted for 21 years of precession so that it matches the orientation of the Earth in 2021. I have seen similar large differences in some Cluster work that failed to incorporate the systematic effects of precession. I strongly recommend that the authors use this as an example of the importance of precession when transforming from a fully inertial reference frame such as the ICRF. In many ways this is not a standards issue, it’s more a matter of understanding the physics of planetary and satellite dynamics. Standards will help by pointing folks at that physics and making sure that they document their work thoroughly. It perhaps suggests that we now need to limit the term “inertial” to the ICRF and hence GEI based on J2000, and recognise that the old “epoch-of-date” GEI is not truly inertial and give it a new name. That could avoid problems as shown in Figure 1a.
+
+\vspace{0.25in}
 {\color{violet}\noindent
-Reply
+We agree on the likely explanation for the large differences shown in the bottom panel of Figure 1a and have made initial attempts to explain the observed differences in all figures. We have found this difficult because legacy software is used that is neither publicly available nor executable on modern operating systems. As a result, we had avoided providing explanations.
+
+We believe this is a standards issue. The fact is that what is meant by GEI depends on the models used for the ecliptic plane, precession, and nutation model. The standard needs to account for the fact that ``GEI`` should always be qualified. 
+\href{https://github.com/spacepy/spacepy/blob/main/spacepy/ctrans/__init__.py}{SpacePy})
+defines ECI2000, ECITOD, and ECIMOD. This is part of the qualification needed, but these definitions also need to be associated with options for the models needed to realize them, so that two people reading the definition can produce the same implementation.
+
+SunPy defines ``GeocentricEarthEquatorial as “A coordinate or frame in the Geocentric Earth Equatorial (GEI) system.” The choice not to use ``inertial" is possibly motivated by recognition of the issue with the term mentioned by the reviewer (their implementation allows the equinox not to be \texttt{J2000}, but \texttt{J2000} is the default).
 }
-\\
-\\
+\vspace{0.25in}
+
 6. Lines 271 to 280. I am sorry to say that I am puzzled by the authors’ concern over accuracy of predicted boundary crossings in geospace. The prediction uncertainty arising from the underlying models is generally much greater than any uncertainty in spacecraft positions. The prediction uncertainty will be dominated by the natural variability of geospace. So whilst you can make a technical case here for better accuracy of spacecraft positions, this is a weak example in your advocacy for new standards. I suggest to drop it and focus on the many stronger examples that you have.
-\\
-\\
+
+\vspace{0.25in}
 {\color{violet}\noindent
 The motivation for this example was that the ambiguity prevented a full verification of an implementation of models used to compute the time of a boundary crossing. If our implementation was correct, we should obtain exact matches in the boundary-crossing time. If there is a mismatch, it could be due to either our implementation or other factors. Without removing the other factors, it is impossible to fully verify our implementation. Although in a science application, a small ``implementation uncertainty" may not be important, we don't think it is helpful to the community to produce implementations with the caveat ``differences from the SSCWeb boundary-crossing times could be due to errors in our implementation or differences in reference frame transforms used by the two implementations".
 }
-\\
-\\
+\vspace{0.25in}
+
 7. Line 306 I recommend to flag that any new space physics standards need a debate on what value to use for Earth radius. Should it be the equatorial value as here, or the mean value, 6371.2 km as some missions have used as their standard?
-\\
-\\
+
+\vspace{0.25in}
 {\color{violet}\noindent
 Indeed, in developing this work, we struggled with this and appear to have neglected to include it in our recommendations. Early on, the positional data from one data provider differed significantly due to an error in their metadata regarding the value of $R_E$ (6.4e6 was reported).
-
+\\
+\\
+\noindent
 We have added a subsection in section 6 titled ``On the use of $R_E$". 
 }
-\\
-\\
-8. Lines 384-385. The authors suggest that the large spikes in Δθ near 11:00 as shown in Figures 2c and 2d may be due to a thruster firing, one not reflected in TLE data. In case it is helpful, I note that the spike occurs near perigee, so may indicate a manoeuvre to change apogee altitude.
-\\
-\\
+\vspace{0.25in}
+
+8. Lines 384-385. The authors suggest that the large spikes in $\Delta\theta$ near 11:00 as shown in Figures 2c and 2d may be due to a thruster firing, one not reflected in TLE data. In case it is helpful, I note that the spike occurs near perigee, so may indicate a manoeuvre to change apogee altitude.
+
+\vspace{0.25in}
 {\color{violet}\noindent
 This is helpful context. We have added ``... firing near perigee on this day".
 }
-\\
-\\
+\vspace{0.25in}
+
 9. Throughout. The use of the IGRF to determine the orientation of the geomagnetic field is discussed in several places. In view of thus I suggest that the authors identify IAGA, and specifically its working group V-MOD as a key partner in the development of their proposed new standards (alongside other international groups such IERS, which maintains the ICRS).
-\\
-\\
+
+\vspace{0.25in}
 {\color{violet}\noindent
 We have cited both IAGA and V-MOD in the definitions of IGRF by adding ``maintained by the IAGA (IAGA, 2026) V-MOD (IAGA/V-MOD, 2026) Working Group.". We have also added this after the first use of IGRF in section 4.2. Finally, ``IAGA" was added to the definitions section.
 }
-\\
-\\
+\vspace{0.25in}
+
 10. Line 474. The word “proprietary” seems inappropriate in respect of information used to calculate reference frames, such as the position of the Sun. Such information has been openly available for decades, e.g. from the Nautical Almanac Offices of the UK and US, who have worked jointly on standards for these data since at least 1960. Please revise the text to make this openness clear. I can appreciate that Goddard flight dynamics provided a route to feed this information into ISTP. But please be clear that this information is openly available.
-\\
-\\
+
+\vspace{0.25in}
 {\color{violet}\noindent
 We have rewritten the sentence to make clear that the source code for the FDF calculations is proprietary.
 }
-\\
-\\
+\vspace{0.25in}
+
 11. Line 589. Please use the acronym GNSS rather than GPS for generic applications of satellite navigation systems. I understand that NASA satellites use signals from the Galileo satellites as well as signals from the GPS satellites.
-\\
-\\
+
+\vspace{0.25in}
 {\color{violet}\noindent
 Done
 }
-\\
-\\
+\vspace{0.25in}
+
 12. Acronyms. Please add GNSS (Global Navigation Satellite System) and UTC (Coordinated Universal Time)
-\\
-\\
+
+\vspace{0.25in}
 {\color{violet}\noindent
 Done
 }
-\\
-\\
+\vspace{0.25in}
+
 13. Reference to Cluster Software Tools Part I - Coordinate Transformations Library by Robert (1993). The author of ROCOTLIB was Patrick Robert, so please correct his initial in this reference.
-\\
-\\
+
+\vspace{0.25in}
 {\color{violet}\noindent
 We have fixed the initial.
 %We have also changed the URL associated with this reference because the original, \url{https://www.lpp.polytechnique.fr/IMG/pdf/1993\_robert\_dtcrpe1231\_rocotlib.pdf} no longer works. The new URL is \url{https://cdpp.irap.omp.eu/index.php/services/scientific-librairies/rocotlib}.
 }
-\\
-\\
+\vspace{0.25in}
+
 14. Line 572. The idea of having a single repository for SPICE kernels lacks resilience. It is a long-established principle in the archiving of scientific data that there should be multiple repositories in different locations to ensure data are not at risk from natural or human disruption of a single repository. So I encourage the authors to consider instead having multiple archives that are tasked to ensure that their products are mutually consistent. I also suggest that they apply an international perspective to this issue for example with NASA and ESA generating SPICE kernels for their own missions and exchanging data with the other. I was also wondering how much SPICE is used by colleagues in other countries, e.g. China and India for their space physics missions.
-\\
-\\
+
+\vspace{0.25in}
 {\color{violet}\noindent
-Reply
+We agree. ``Single repository" was poor phrasing as it was using terminology from source code management. (In the `git` source code management repository model, there is a `master` repository and then many copies available elsewhere that are continuously updated to always be consistent with the `master`.)
+\\
+\\
+\noindent
+We have modified the sentence to be ``a single collaboratively managed master repository with copies available at multiple locations.
 }
-\\
-\\
+\vspace{0.25in}
+
 15. The Open Data section points to a reference (Weigel et al, 2025) as a source for software, data, and associated calculations used in the work reported in the manuscript. That reference is named as “hxform” followed by “TBD” and an access date. I suspect TBD should be a URL, and a Google search suggests that this may be material archived on Zenodo. Please can the authors update the reference.
-\\
-\\
+
+\vspace{0.25in}
 {\color{violet}\noindent
-The bibliography entry has been modified to have \url{https://zenodo.org/records/18663932} in place of ``TBD''. We have also added a link to the code that uses \texttt{hxform} for the analysis in this manuscript. https://github.com/rweigel/2026-Weigel-Coordinate-Frames
+The bibliography entry has been modified to have \url{https://zenodo.org/records/18663932} in place of ``TBD''. We have also a Zenodo reference to the code that uses \texttt{hxform} for the analysis in this manuscript. https://github.com/rweigel/2026-Weigel-Coordinate-Frames
 }
-\\
-\\
 \end{document}
 
 

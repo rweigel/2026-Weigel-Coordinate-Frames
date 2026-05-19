@@ -1,0 +1,57 @@
+----------------------------------------------------------------------
+Reviewer #1 Evaluations:
+Recommendation (Required): Return to author for minor revisions
+Significant: The paper has some unclear or incomplete reasoning but will likely be a significant contribution with revision and clarification.
+Supported: Mostly yes, but some further information and/or data are needed.
+Referencing: Yes
+Quality: Yes, it is well-written, logically organized, and the figures and tables are appropriate.
+Data: Yes
+Accurate Key Points: Yes
+
+Reviewer #1 (Formal Review for Authors (shown to authors)):
+
+Review report
+
+Manuscript ID#: 2026JA035196
+Manuscript title: Coordinate Systems and Transforms in Space Physics: Terms, Definitions, Implementations, and Recommendations for Reproducibility
+Authors: Weigel, R. S., et al.
+Journal name: Journal of Geophysical Research Space Physics
+
+The manuscript reports how different the position vectors of a spacecraft are for different data providers and also conducts a detailed comparison of coordinate transformations performed by several software packages that are commonly used in the space physics community. On the basis of the detailed comparisons, the authors propose some recommendations for coordinate transformation software as well as a standard database in order to guarantee reproducibility of research data.
+What the authors argue is very informative and relevant to all studies using vector data derived through coordinate transformation from spacecraft observations. The content of the manuscript is beneficial to the space physics community and thus would be worth publishing. However, there are some points in the manuscript that should be clarified or examined in more detail, which are described below. They must be properly addressed before recommending the manuscript for publication.
+
+Major comments
+
+L142-145:
+The statement here about SPICE is not quite true. The definition of a reference frame in SPICE can be accompanied by a clear definition of the origin. For example, space physics-related reference frames described in the frame kernel below have their origins defined.
+https://naif.jpl.nasa.gov/pub/naif/pds/pds4/bc/bc_spice/spice_kernels/fk/rssd0002.tf
+
+L411-414:
+No results of Fig. 3 (a) and (b) are described in this paragraph. The authors should argue the results and their implication(s).
+
+Figure 3 (d):
+Why is the result of PySPEDAS missing in these plots? If there is a specific reason, that should be mentioned, at least, briefly in the text.
+
+L419-422:
+One striking result from the comparison here would be that the result with PySPEDAS matches exceptionally well (dtheta ~4 x 10^-9) with that of Geopack-2008, indicating that they match nearly within the double precision level. The authors should examine the reason for it and give an explanation in the text. The source code of both libraries are available.
+
+Minor comments
+L46: There is a typo around "...for a the transformation a vector from one coordinate system to...".
+
+L622:
+Move the parentheses for Stall et al., 2013 to correct positions.
+
+
+
+Reviewer #2 Evaluations:
+Recommendation (Required): Return to author for major revisions
+Significant: The paper has some unclear or incomplete reasoning but will likely be a significant contribution with revision and clarification.
+Supported: Mostly yes, but some further information and/or data are needed.
+Referencing: Mostly yes, but some additions are necessary.
+Quality: The organization of the manuscript and presentation of the data and results need some improvement.
+Data: Yes
+Accurate Key Points: Yes
+
+Reviewer #2 (Formal Review for Authors (shown to authors)):
+
+This is a very timely piece of work that shows the need to align the reference systems and frames used in space physics with those that have been developed in astronomy since the late 1990s. This is an issue that needs study, so I commend the authors for taking the initiative with this manuscript. I have provided a detailed review in the attached PDF. My apologies it is quite lengthy, but I hope that shows my interest in the topic and in encouraging the authors to take the issue forward at an international level.
