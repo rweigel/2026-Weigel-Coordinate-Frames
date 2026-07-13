@@ -1,0 +1,1864 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Acton%
+}{%
+Acton%
+}{%
+{\protect \APACyear {1997}}%
+}]{%
+Acton1997}
+\APACinsertmetastar {%
+Acton1997}%
+\begin{APACrefauthors}%
+Acton, C\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1997}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{NASA’s SPICE System Models the Solar System}}
+  {{NASA’s SPICE System Models the Solar System}}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{Dynamics and Astrometry of Natural and Artificial
+  Celestial Bodies}} {{Dynamics and Astrometry of Natural and Artificial
+  Celestial Bodies}}\ (\BPG~257-262).
+\newblock
+\APACaddressPublisher{}{Springer Netherlands}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-94-011-5534-2_34} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Alken%
+\ \protect \BOthers {.}}{%
+Alken%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Alken2021}
+\APACinsertmetastar {%
+Alken2021}%
+\begin{APACrefauthors}%
+Alken, P.%
+, Thébault, E.%
+, Beggan, C\BPBI D.%
+, Amit, H.%
+, Aubert, J.%
+, Baerenzung, J.%
+\BDBL {}Zhou, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{International Geomagnetic Reference Field: the
+  thirteenth generation}} {{International Geomagnetic Reference Field: the
+  thirteenth generation}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Earth, Planets and Space}{73}{1}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1186/s40623-020-01288-x} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Angelopoulos%
+\ \protect \BOthers {.}}{%
+Angelopoulos%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+Angelopoulos2024}
+\APACinsertmetastar {%
+Angelopoulos2024}%
+\begin{APACrefauthors}%
+Angelopoulos, V.%
+, Lewis, J.%
+, McTiernan, J.%
+, Grimes, E.%
+, Russell, C.%
+, Drozdov, A.%
+\BDBL {}Flores, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024{\protect \BCnt {1}}}{}{}.
+\newblock
+\APACrefbtitle {{SPEDAS (Space Physics Environment Data Analysis System)}.}
+  {{SPEDAS (Space Physics Environment Data Analysis System)}.}
+\newblock
+\APACaddressPublisher{}{Zenodo}.
+\newblock
+\begin{APACrefDOI} \doi{10.5281/ZENODO.14919975} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Angelopoulos%
+\ \protect \BOthers {.}}{%
+Angelopoulos%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+Angelopoulos2024IDL}
+\APACinsertmetastar {%
+Angelopoulos2024IDL}%
+\begin{APACrefauthors}%
+Angelopoulos, V.%
+, Lewis, J.%
+, McTiernan, J.%
+, Grimes, E.%
+, Russell, C.%
+, Drozdov, A.%
+\BDBL {}Flores, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024{\protect \BCnt {2}}}{}{}.
+\newblock
+\APACrefbtitle {{SPEDAS (Space Physics Environment Data Analysis System)}.}
+  {{SPEDAS (Space Physics Environment Data Analysis System)}.}
+\newblock
+\APACaddressPublisher{}{Zenodo}.
+\newblock
+\begin{APACrefDOI} \doi{10.5281/zenodo.15023025} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Aoki%
+\ \protect \BOthers {.}}{%
+Aoki%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1982}}%
+}]{%
+Aoki1982}
+\APACinsertmetastar {%
+Aoki1982}%
+\begin{APACrefauthors}%
+Aoki, S.%
+, Kinoshita, H.%
+, Guinot, B.%
+, Kaplan, G\BPBI H.%
+, McCarthy, D\BPBI D.%
+\BCBL {}\ \BBA {} Seidelmann, P\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1982}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The new definition of universal time}} {{The new
+  definition of universal time}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Astronomy \& Astrophysics}{105}{2}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Boller%
+\ \BBA {} Santiago%
+}{%
+Boller%
+\ \BBA {} Santiago%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+cxform}
+\APACinsertmetastar {%
+cxform}%
+\begin{APACrefauthors}%
+Boller, R.%
+\BCBT {}\ \BBA {} Santiago, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+\APACrefbtitle {{Space Physics Coordinate Transforms based on Hapgood 1985
+  Algorithm}.} {{Space Physics Coordinate Transforms based on Hapgood 1985
+  Algorithm}.}
+\newblock
+\APAChowpublished {\url{https://github.com/edsantiago/cxform}}.
+\newblock
+\APACrefnote{Accessed: 2025-02-19}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Boscher%
+\ \protect \BOthers {.}}{%
+Boscher%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+IRBEM2022}
+\APACinsertmetastar {%
+IRBEM2022}%
+\begin{APACrefauthors}%
+Boscher, D.%
+, Bourdarie, S.%
+, O'Brien, P.%
+, Guild, T.%
+, Heynderickx, D.%
+, Morley, S.%
+\BDBL {}{IRBEM Contributor Community}%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+\APACrefbtitle {{PRBEM/IRBEM: v5.0.0}.} {{PRBEM/IRBEM: v5.0.0}.}
+\newblock
+\APACaddressPublisher{}{Zenodo}.
+\newblock
+\begin{APACrefDOI} \doi{10.5281/ZENODO.6867552} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Brodowski%
+}{%
+Brodowski%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+NORADSGP4c}
+\APACinsertmetastar {%
+NORADSGP4c}%
+\begin{APACrefauthors}%
+Brodowski, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+\APACrefbtitle {{The March 19th, 2002 c translation of the NORAD SGP4 Pascal
+  Library}.} {{The March 19th, 2002 c translation of the NORAD SGP4 Pascal
+  Library}.}
+\newblock
+\APAChowpublished {http://www.brodo.de/english/pub/sgp/}.
+\newblock
+\APACrefnote{Accessed: 2025-04-01}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Burch, J. L. and Giles, Barbara L. and Ahmadi, Narges and Argall, Matthew, R.
+  and Baker, Daniel N. and Blake, J. Bernard and Bromund, Kenneth R. and Cohen,
+  Ian J. and Ergun, Robert E. and Fennell, Joseph F. and Fischer, David and
+  Fuselier, Stephen A. and Gabrielse, Christine E. and Gershman, Daniel J. and
+  Gomez, Roman G. and Graham, Daniel Bruce and Hans, Ulrich and Henderson,
+  Michael G. and Huang, B.G. and Jeszenszky, Harald and Eichelberger, Hans
+  UlrichLe, Guan and Le Contel, Olivier and Leinweber, Hannes Karl, Lindqvist,
+  Per-Arne and Magnes, Werner and Mauk, Barry H. and Mirioni, Laurent and
+  Moore, Thomas E. and Morley, Steven Karl and Nakamura, Rumi and Plaschke,
+  Ferdinand and Pollock, Craig J. and Russell, Christopher T. and Strangeway,
+  Robert J. and Torkar, Klaus M. and Torbert, Roy B. and Turner, Drew L. and
+  Wei, Hanying and Young, David T.}%
+}{%
+{Burch, J. L. and Giles, Barbara L. and Ahmadi, Narges and Argall, Matthew, R.
+  and Baker, Daniel N. and Blake, J. Bernard and Bromund, Kenneth R. and Cohen,
+  Ian J. and Ergun, Robert E. and Fennell, Joseph F. and Fischer, David and
+  Fuselier, Stephen A. and Gabrielse, Christine E. and Gershman, Daniel J. and
+  Gomez, Roman G. and Graham, Daniel Bruce and Hans, Ulrich and Henderson,
+  Michael G. and Huang, B.G. and Jeszenszky, Harald and Eichelberger, Hans
+  UlrichLe, Guan and Le Contel, Olivier and Leinweber, Hannes Karl, Lindqvist,
+  Per-Arne and Magnes, Werner and Mauk, Barry H. and Mirioni, Laurent and
+  Moore, Thomas E. and Morley, Steven Karl and Nakamura, Rumi and Plaschke,
+  Ferdinand and Pollock, Craig J. and Russell, Christopher T. and Strangeway,
+  Robert J. and Torkar, Klaus M. and Torbert, Roy B. and Turner, Drew L. and
+  Wei, Hanying and Young, David T.}%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+Burch2026}
+\APACinsertmetastar {%
+Burch2026}%
+\begin{APACrefauthors}%
+{Burch, J. L. and Giles, Barbara L. and Ahmadi, Narges and Argall, Matthew, R.
+  and Baker, Daniel N. and Blake, J. Bernard and Bromund, Kenneth R. and Cohen,
+  Ian J. and Ergun, Robert E. and Fennell, Joseph F. and Fischer, David and
+  Fuselier, Stephen A. and Gabrielse, Christine E. and Gershman, Daniel J. and
+  Gomez, Roman G. and Graham, Daniel Bruce and Hans, Ulrich and Henderson,
+  Michael G. and Huang, B.G. and Jeszenszky, Harald and Eichelberger, Hans
+  UlrichLe, Guan and Le Contel, Olivier and Leinweber, Hannes Karl, Lindqvist,
+  Per-Arne and Magnes, Werner and Mauk, Barry H. and Mirioni, Laurent and
+  Moore, Thomas E. and Morley, Steven Karl and Nakamura, Rumi and Plaschke,
+  Ferdinand and Pollock, Craig J. and Russell, Christopher T. and Strangeway,
+  Robert J. and Torkar, Klaus M. and Torbert, Roy B. and Turner, Drew L. and
+  Wei, Hanying and Young, David T.}%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+\APACrefbtitle {{Magnetospheric Multiscale (MMS) Project Calibration and
+  Measurement Algorithms Document (CMAD), Version 2.4}.} {{Magnetospheric
+  Multiscale (MMS) Project Calibration and Measurement Algorithms Document
+  (CMAD), Version 2.4}.}
+\newblock
+\APAChowpublished
+  {\url{https://spdf.gsfc.nasa.gov/pub/data/mms/documents/MMS-CMAD.pdf}}.
+\newblock
+\APACrefnote{Accessed: 2026-07-13}
+\newblock
+\begin{APACrefDOI} \doi{10.48322/VSHD-SV21} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Capitaine%
+, Wallace%
+\BCBL {}\ \BBA {} Chapront%
+}{%
+Capitaine%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2005}}%
+}]{%
+Capitaine2005}
+\APACinsertmetastar {%
+Capitaine2005}%
+\begin{APACrefauthors}%
+Capitaine, N.%
+, Wallace, P\BPBI T.%
+\BCBL {}\ \BBA {} Chapront, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Improvement of the IAU 2000 precession model}}
+  {{Improvement of the IAU 2000 precession model}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Astronomy \& Astrophysics}{432}{1}{355-367}.
+\newblock
+\begin{APACrefDOI} \doi{10.1051/0004-6361:20041908} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Capitaine%
+, Wallace%
+\BCBL {}\ \BBA {} McCarthy%
+}{%
+Capitaine%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2003}}%
+}]{%
+Capitaine2003}
+\APACinsertmetastar {%
+Capitaine2003}%
+\begin{APACrefauthors}%
+Capitaine, N.%
+, Wallace, P\BPBI T.%
+\BCBL {}\ \BBA {} McCarthy, D\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Expressions to implement the IAU 2000 definition of
+  UT1}} {{Expressions to implement the IAU 2000 definition of UT1}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Astronomy \& Astrophysics}{406}{3}{1135–1149}.
+\newblock
+\begin{APACrefDOI} \doi{10.1051/0004-6361:20030817} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+CDPP/IRAP%
+}{%
+CDPP/IRAP%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+ROCOTLIB}
+\APACinsertmetastar {%
+ROCOTLIB}%
+\begin{APACrefauthors}%
+CDPP/IRAP.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+\APACrefbtitle {{ROCOTLIB}.} {{ROCOTLIB}.}
+\newblock
+\APAChowpublished
+  {\url{https://cdpp.irap.omp.eu/index.php/services/scientific-librairies/rocotlib}}.
+\newblock
+\APACrefnote{Accessed: 2026-06-11}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Charlot%
+\ \protect \BOthers {.}}{%
+Charlot%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+Charlot2020}
+\APACinsertmetastar {%
+Charlot2020}%
+\begin{APACrefauthors}%
+Charlot, P.%
+, Jacobs, C\BPBI S.%
+, Gordon, D.%
+, Lambert, S.%
+, de Witt, A.%
+, B\"{o}hm, J.%
+\BDBL {}Gaume, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The third realization of the International Celestial
+  Reference Frame by very long baseline interferometry}} {{The third
+  realization of the International Celestial Reference Frame by very long
+  baseline interferometry}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Astronomy \& Astrophysics}{644}{}{A159}.
+\newblock
+\begin{APACrefDOI} \doi{10.1051/0004-6361/202038368} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Common Data Format}%
+}{%
+{Common Data Format}%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+CDF2025}
+\APACinsertmetastar {%
+CDF2025}%
+\begin{APACrefauthors}%
+{Common Data Format}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+\APACrefbtitle {{Common Data Format}.} {{Common Data Format}.}
+\newblock
+\APAChowpublished {\url{https://cdf.gsfc.nasa.gov/}}.
+\newblock
+\APACrefnote{Accessed: 2026-05-21}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{COSPAR}%
+}{%
+{COSPAR}%
+}{%
+{\protect \APACyear {2026}}%
+}]{%
+COSPAR}
+\APACinsertmetastar {%
+COSPAR}%
+\begin{APACrefauthors}%
+{COSPAR}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{}{}.
+\newblock
+\APACrefbtitle {{Committee on Space Research}.} {{Committee on Space
+  Research}.}
+\newblock
+\APACrefnote{Accessed: 2026-05-21}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Davis%
+}{%
+Davis%
+}{%
+{\protect \APACyear {1974}}%
+}]{%
+Davis1974}
+\APACinsertmetastar {%
+Davis1974}%
+\begin{APACrefauthors}%
+Davis, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1974}{}{}.
+\newblock
+\APACrefbtitle {{Coordinate Systems for the Space Shuttle Program}.}
+  {{Coordinate Systems for the Space Shuttle Program}.}
+\newblock
+\APAChowpublished {https://ntrs.nasa.gov/citations/19740026178}.
+\newblock
+\APACrefnote{Accessed: 2025-04-29}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dong%
+, Yunck%
+\BCBL {}\ \BBA {} Heflin%
+}{%
+Dong%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2003}}%
+}]{%
+Dong2003}
+\APACinsertmetastar {%
+Dong2003}%
+\begin{APACrefauthors}%
+Dong, D.%
+, Yunck, T.%
+\BCBL {}\ \BBA {} Heflin, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Origin of the International Terrestrial Reference
+  Frame}} {{Origin of the International Terrestrial Reference Frame}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research: Solid
+  Earth}{108}{B4}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2002jb002035} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Escoubet%
+\ \protect \BOthers {.}}{%
+Escoubet%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Escoubet2021}
+\APACinsertmetastar {%
+Escoubet2021}%
+\begin{APACrefauthors}%
+Escoubet, C\BPBI P.%
+, Masson, A.%
+, Laakso, H.%
+, Goldstein, M\BPBI L.%
+, Dimbylow, T.%
+, Bogdanova, Y\BPBI V.%
+\BDBL {}Taylor, M\BPBI G\BPBI G\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Cluster After 20 Years of Operations: Science Highlights
+  and Technical Challenges} {Cluster after 20 years of operations: Science
+  highlights and technical challenges}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research: Space
+  Physics}{126}{8}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2021ja029474} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fr\"{a}nz%
+\ \BBA {} Harper%
+}{%
+Fr\"{a}nz%
+\ \BBA {} Harper%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+Franz2002}
+\APACinsertmetastar {%
+Franz2002}%
+\begin{APACrefauthors}%
+Fr\"{a}nz, M.%
+\BCBT {}\ \BBA {} Harper, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Heliospheric coordinate systems}} {{Heliospheric
+  coordinate systems}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Planetary and Space Science}{50}{2}{217-233}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/s0032-0633(01)00119-2} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+G{\'e}not%
+\ \protect \BOthers {.}}{%
+G{\'e}not%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Genot2021}
+\APACinsertmetastar {%
+Genot2021}%
+\begin{APACrefauthors}%
+G{\'e}not, V.%
+, Budnik, E.%
+, Jacquey, C.%
+, Bouchemit, M.%
+, Renard, B.%
+, Dufourg, N.%
+\BDBL {}others%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Automated Multi-Dataset Analysis (AMDA): An on-line
+  database and analysis tool for heliospheric and planetary plasma data}}
+  {{Automated Multi-Dataset Analysis (AMDA): An on-line database and analysis
+  tool for heliospheric and planetary plasma data}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Planetary and Space Science}{201}{}{105214}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hapgood%
+}{%
+Hapgood%
+}{%
+{\protect \APACyear {1992}}%
+}]{%
+Hapgood1992}
+\APACinsertmetastar {%
+Hapgood1992}%
+\begin{APACrefauthors}%
+Hapgood, M\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1992}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Space physics coordinate transformations: A user
+  guide}} {{Space physics coordinate transformations: A user guide}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Planetary and Space Science}{40}{5}{711–717}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/0032-0633(92)90012-d} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hapgood%
+}{%
+Hapgood%
+}{%
+{\protect \APACyear {1995}}%
+}]{%
+Hapgood1995}
+\APACinsertmetastar {%
+Hapgood1995}%
+\begin{APACrefauthors}%
+Hapgood, M\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1995}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Space physics coordinate transformations: the role of
+  precession}} {{Space physics coordinate transformations: the role of
+  precession}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Annales Geophysicae}{13}{7}{713-716}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s00585-995-0713-8} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hapgood%
+}{%
+Hapgood%
+}{%
+{\protect \APACyear {2026}}%
+}]{%
+Hapgood2026}
+\APACinsertmetastar {%
+Hapgood2026}%
+\begin{APACrefauthors}%
+Hapgood, M\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{}{}.
+\newblock
+\APAChowpublished {Private communication from the author}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+HMNAO%
+}{%
+HMNAO%
+}{%
+{\protect \APACyear {1961}}%
+}]{%
+HMNAO1961}
+\APACinsertmetastar {%
+HMNAO1961}%
+\begin{APACrefauthors}%
+HMNAO.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1961}.
+\newblock
+\APACrefbtitle {{Explanatory Supplement to the Astronomical Ephemeris and the
+  American Ephemeris and Nautical Almanac}} {{Explanatory Supplement to the
+  Astronomical Ephemeris and the American Ephemeris and Nautical Almanac}}.
+\newblock
+\APACaddressPublisher{}{Nautical Almanac Offices of the United Kingdom and the
+  United States of America}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{IAGA}%
+}{%
+{IAGA}%
+}{%
+{\protect \APACyear {2026}}%
+}]{%
+IAGA2026}
+\APACinsertmetastar {%
+IAGA2026}%
+\begin{APACrefauthors}%
+{IAGA}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{}{}.
+\newblock
+\APACrefbtitle {{International Association of Geomagnetism and Aeronomy}.}
+  {{International Association of Geomagnetism and Aeronomy}.}
+\newblock
+\APAChowpublished {\url{https://www.iaga-aiga.org/}}.
+\newblock
+\APACrefnote{Accessed: 2026-06-11}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{IERS}%
+}{%
+{IERS}%
+}{%
+{\protect \APACyear {2026}}%
+}]{%
+IERS}
+\APACinsertmetastar {%
+IERS}%
+\begin{APACrefauthors}%
+{IERS}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{}{}.
+\newblock
+\APACrefbtitle {{International Earth Rotation and Reference Systems Service}.}
+  {{International Earth Rotation and Reference Systems Service}.}
+\newblock
+\APAChowpublished {\url{https://www.iers.org/}}.
+\newblock
+\APACrefnote{Accessed: 2026-06-11}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{IHDEA}%
+}{%
+{IHDEA}%
+}{%
+{\protect \APACyear {2026}}%
+}]{%
+IHDEA}
+\APACinsertmetastar {%
+IHDEA}%
+\begin{APACrefauthors}%
+{IHDEA}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{}{}.
+\newblock
+\APACrefbtitle {{International Heliophysics Data Environment Alliance}.}
+  {{International Heliophysics Data Environment Alliance}.}
+\newblock
+\APAChowpublished {\url{https://ihdea.net/}}.
+\newblock
+\APACrefnote{Accessed: 2026-05-21}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{International Solar Terrestrial Physics}%
+}{%
+{International Solar Terrestrial Physics}%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+ISTP2025}
+\APACinsertmetastar {%
+ISTP2025}%
+\begin{APACrefauthors}%
+{International Solar Terrestrial Physics}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+\APACrefbtitle {{International Solar Terrestrial Physics}.} {{International
+  Solar Terrestrial Physics}.}
+\newblock
+\APAChowpublished {\url{https://pwg.gsfc.nasa.gov/istp/}}.
+\newblock
+\APACrefnote{Accessed: 2026-06-11}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{IVOA}%
+}{%
+{IVOA}%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+IVOA}
+\APACinsertmetastar {%
+IVOA}%
+\begin{APACrefauthors}%
+{IVOA}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {{International Virtual Observatory Alliance}.} {{International
+  Virtual Observatory Alliance}.}
+\newblock
+\APAChowpublished {\url{https://www.ivoa.net/}}.
+\newblock
+\APACrefnote{Accessed: 2026-06-11}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jackson%
+}{%
+Jackson%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+Jackson2012}
+\APACinsertmetastar {%
+Jackson2012}%
+\begin{APACrefauthors}%
+Jackson, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+\APACrefbtitle {{How to cite and describe the software you used in your
+  research - top ten tips}.} {{How to cite and describe the software you used
+  in your research - top ten tips}.}
+\newblock
+\APAChowpublished
+  {\url{https://www.software.ac.uk/guide/how-cite-and-describe-software-you-used-your-research-top-ten-tips}}.
+\newblock
+\APACrefnote{Accessed: 2025-09-23}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+JPL%
+}{%
+JPL%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+JPLHorizons}
+\APACinsertmetastar {%
+JPLHorizons}%
+\begin{APACrefauthors}%
+JPL.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+\APACrefbtitle {{JPL Horizons manual}.} {{JPL Horizons manual}.}
+\newblock
+\APAChowpublished {\url{https://ssd.jpl.nasa.gov/horizons/manual.html}}.
+\newblock
+\APACrefnote{Accessed: 2026-06-11}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kovalevsky%
+\ \BBA {} Mueller%
+}{%
+Kovalevsky%
+\ \BBA {} Mueller%
+}{%
+{\protect \APACyear {1981}}%
+}]{%
+Kovalevsky1981}
+\APACinsertmetastar {%
+Kovalevsky1981}%
+\begin{APACrefauthors}%
+Kovalevsky, J.%
+\BCBT {}\ \BBA {} Mueller, I\BPBI I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1981}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Comments on Conventional Terrestrial and Quasi-Inertial
+  Reference Systems}} {{Comments on Conventional Terrestrial and Quasi-Inertial
+  Reference Systems}}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{Reference Coordinate Systems for Earth Dynamics}}
+  {{Reference Coordinate Systems for Earth Dynamics}}\ (\BPG~375–384).
+\newblock
+\APACaddressPublisher{}{Springer Netherlands}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-94-009-8456-1_48} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Laundal%
+\ \BBA {} Richmond%
+}{%
+Laundal%
+\ \BBA {} Richmond%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+Laundal2016}
+\APACinsertmetastar {%
+Laundal2016}%
+\begin{APACrefauthors}%
+Laundal, K\BPBI M.%
+\BCBT {}\ \BBA {} Richmond, A\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Magnetic Coordinate Systems}} {{Magnetic Coordinate
+  Systems}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Space Science Reviews}{206}{1–4}{27–59}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s11214-016-0275-y} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+McCarthy%
+}{%
+McCarthy%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+McCarthy2011}
+\APACinsertmetastar {%
+McCarthy2011}%
+\begin{APACrefauthors}%
+McCarthy, D\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Evolution of timescales from astronomy to physical
+  metrology} {Evolution of timescales from astronomy to physical
+  metrology}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Metrologia}{48}{4}{S132–S144}.
+\newblock
+\begin{APACrefDOI} \doi{10.1088/0026-1394/48/4/S03} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Meeus%
+}{%
+Meeus%
+}{%
+{\protect \APACyear {1998}}%
+}]{%
+Meeus1998}
+\APACinsertmetastar {%
+Meeus1998}%
+\begin{APACrefauthors}%
+Meeus, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1998}.
+\newblock
+\APACrefbtitle {{Astronomical Algorithms 2nd Edition}} {{Astronomical
+  Algorithms 2nd Edition}}.
+\newblock
+\APACaddressPublisher{}{Willmann-Bell}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Morley%
+\ \protect \BOthers {.}}{%
+Morley%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+SpacePy}
+\APACinsertmetastar {%
+SpacePy}%
+\begin{APACrefauthors}%
+Morley, S\BPBI K.%
+, Niehof, J\BPBI T.%
+, Welling, D\BPBI T.%
+, Larsen, B\BPBI A.%
+, Brunet, A.%
+, Engel, M\BPBI A.%
+\BDBL {}Stricklan, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+\APACrefbtitle {{SpacePy}.} {{SpacePy}.}
+\newblock
+\APACaddressPublisher{}{Zenodo}.
+\newblock
+\begin{APACrefDOI} \doi{10.5281/ZENODO.3252523} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mueller%
+}{%
+Mueller%
+}{%
+{\protect \APACyear {1985}}%
+}]{%
+Mueller1985}
+\APACinsertmetastar {%
+Mueller1985}%
+\begin{APACrefauthors}%
+Mueller, I\BPBI I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1985}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Reference coordinate systems and frames: Concepts and
+  realization}} {{Reference coordinate systems and frames: Concepts and
+  realization}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geodesy}{59}{2}{181–188}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/bf02520609} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mumford%
+\ \protect \BOthers {.}}{%
+Mumford%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2025}}%
+}]{%
+SunPy}
+\APACinsertmetastar {%
+SunPy}%
+\begin{APACrefauthors}%
+Mumford, S\BPBI J.%
+, Freij, N.%
+, Stansby, D.%
+, Shih, A\BPBI Y.%
+, Christe, S.%
+, Ireland, J.%
+\BDBL {}Murray, S\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+\APACrefbtitle {{SunPy: A Core Package for Solar Physics}.} {{SunPy: A Core
+  Package for Solar Physics}.}
+\newblock
+\APACaddressPublisher{}{Zenodo}.
+\newblock
+\begin{APACrefDOI} \doi{10.5281/zenodo.17857260} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+NAIF%
+}{%
+NAIF%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+NAIFOverview2023}
+\APACinsertmetastar {%
+NAIFOverview2023}%
+\begin{APACrefauthors}%
+NAIF.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {{An Overview of Reference Frames and Coordinate Systems in the
+  SPICE Context}.} {{An Overview of Reference Frames and Coordinate Systems in
+  the SPICE Context}.}
+\newblock
+\APAChowpublished
+  {\url{https://naif.jpl.nasa.gov/pub/naif/toolkit_docs/Tutorials/pdf/individual_docs/17_frames_and_coordinate_systems.pdf}}.
+\newblock
+\APACrefnote{Accessed: 2026-06-11}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+NAIF%
+}{%
+NAIF%
+}{%
+{\protect \APACyear {2025}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+NAIFFrames2025}
+\APACinsertmetastar {%
+NAIFFrames2025}%
+\begin{APACrefauthors}%
+NAIF.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025{\protect \BCnt {1}}}{}{}.
+\newblock
+\APACrefbtitle {{SPICE Toolkit Frames Documentation}.} {{SPICE Toolkit Frames
+  Documentation}.}
+\newblock
+\APAChowpublished
+  {\url{https://naif.jpl.nasa.gov/pub/naif/toolkit_docs/C/req/frames.html}}.
+\newblock
+\APACrefnote{Accessed: 2026-06-11}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+NAIF%
+}{%
+NAIF%
+}{%
+{\protect \APACyear {2025}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+NAIFGeneral2025}
+\APACinsertmetastar {%
+NAIFGeneral2025}%
+\begin{APACrefauthors}%
+NAIF.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025{\protect \BCnt {2}}}{}{}.
+\newblock
+\APACrefbtitle {{SPICE Toolkit General Documentation}.} {{SPICE Toolkit General
+  Documentation}.}
+\newblock
+\APAChowpublished {\url{https://naif.jpl.nasa.gov/naif/documentation.html}}.
+\newblock
+\APACrefnote{Accessed: 2026-06-11}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+NASA%
+}{%
+NASA%
+}{%
+{\protect \APACyear {1970}}%
+}]{%
+NASA1970}
+\APACinsertmetastar {%
+NASA1970}%
+\begin{APACrefauthors}%
+NASA.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1970}{}{}.
+\newblock
+\APACrefbtitle {{Coordinate transformations used in OGO satellite data
+  analysis}.} {{Coordinate transformations used in OGO satellite data
+  analysis}.}
+\newblock
+\APAChowpublished {\url{https://ntrs.nasa.gov/citations/19700010008}}.
+\newblock
+\APACrefnote{Accessed: 2025-02-19}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+NASA%
+}{%
+NASA%
+}{%
+{\protect \APACyear {1972}}%
+}]{%
+NASA1972}
+\APACinsertmetastar {%
+NASA1972}%
+\begin{APACrefauthors}%
+NASA.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1972}{}{}.
+\newblock
+\APACrefbtitle {{Equatorial radius of the earth: A dynamical determination}.}
+  {{Equatorial radius of the earth: A dynamical determination}.}
+\newblock
+\APAChowpublished
+  {\url{https://ntrs.nasa.gov/api/citations/19730006684/downloads/19730006684.pdf}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+NASA%
+}{%
+NASA%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+NASA2016}
+\APACinsertmetastar {%
+NASA2016}%
+\begin{APACrefauthors}%
+NASA.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACrefbtitle {{NASA's MMS Achieves Closest-Ever Flying Formation}.} {{NASA's
+  MMS Achieves Closest-Ever Flying Formation}.}
+\newblock
+\APAChowpublished
+  {\url{https://www.nasa.gov/missions/mms/nasas-mms-achieves-closest-ever-flying-formation/}}.
+\newblock
+\APACrefnote{Accessed: 2025-02-19}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+NASA%
+}{%
+NASA%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+SPDF}
+\APACinsertmetastar {%
+SPDF}%
+\begin{APACrefauthors}%
+NASA.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+\APACrefbtitle {{Space Physics Data Facility}.} {{Space Physics Data
+  Facility}.}
+\newblock
+\APAChowpublished {https://spdf.gsfc.nasa.gov/}.
+\newblock
+\APACrefnote{Accessed: 2025-04-29}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{National Geospatial-Intelligence Agency}%
+}{%
+{National Geospatial-Intelligence Agency}%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+NGA2014}
+\APACinsertmetastar {%
+NGA2014}%
+\begin{APACrefauthors}%
+{National Geospatial-Intelligence Agency}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+\APACrefbtitle {{Department of Defense World Geodetic System 1984: its
+  definition and relationships with local geodetic systems}.} {{Department of
+  Defense World Geodetic System 1984: its definition and relationships with
+  local geodetic systems}.}
+\newblock
+\APAChowpublished {\url{https://nsgreg.nga.mil/doc/view?i=4085}}.
+\newblock
+\APACrefnote{Accessed: 2026-06-11}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Newcomb%
+}{%
+Newcomb%
+}{%
+{\protect \APACyear {1898}}%
+}]{%
+Newcomb1898}
+\APACinsertmetastar {%
+Newcomb1898}%
+\begin{APACrefauthors}%
+Newcomb, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1898}.
+\newblock
+\APACrefbtitle {{Astronomical Papers Prepared for the use of the American
+  Ephemeris and Nautical Almanac, Second Edition, Vol. VI, Tables of the Four
+  Inner Planets}} {{Astronomical Papers Prepared for the use of the American
+  Ephemeris and Nautical Almanac, Second Edition, Vol. VI, Tables of the Four
+  Inner Planets}}.
+\newblock
+\APACaddressPublisher{}{Bereau of Equipment, Navy Department}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Niehof%
+, Morley%
+, Welling%
+\BCBL {}\ \BBA {} Larsen%
+}{%
+Niehof%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Niehof2022}
+\APACinsertmetastar {%
+Niehof2022}%
+\begin{APACrefauthors}%
+Niehof, J\BPBI T.%
+, Morley, S\BPBI K.%
+, Welling, D\BPBI T.%
+\BCBL {}\ \BBA {} Larsen, B\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The SpacePy space science package at 12 years}} {{The
+  SpacePy space science package at 12 years}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Frontiers in Astronomy and Space Sciences}{9}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.3389/fspas.2022.1023612} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Open Geospatial Consortium}%
+}{%
+{Open Geospatial Consortium}%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+OGC2023}
+\APACinsertmetastar {%
+OGC2023}%
+\begin{APACrefauthors}%
+{Open Geospatial Consortium}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {{Geographic information — Well-known text representation of
+  coordinate reference systems}.} {{Geographic information — Well-known text
+  representation of coordinate reference systems}.}
+\newblock
+\APAChowpublished {\url{https://www.ogc.org/standards/wkt-crs/}}.
+\newblock
+\APACrefnote{Accessed: 2026-06-11}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Petit}%
+\ \BBA {} {Luzum}%
+}{%
+{Petit}%
+\ \BBA {} {Luzum}%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+Petit2010}
+\APACinsertmetastar {%
+Petit2010}%
+\begin{APACrefauthors}%
+{Petit}, G.%
+\BCBT {}\ \BBA {} {Luzum}, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{IERS Conventions (2010)}} {{IERS Conventions
+  (2010)}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IERS Technical Note}{36}{}{1}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Price-Whelan%
+\ \protect \BOthers {.}}{%
+Price-Whelan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+AstroPy2022}
+\APACinsertmetastar {%
+AstroPy2022}%
+\begin{APACrefauthors}%
+Price-Whelan, A\BPBI M.%
+, Lim, P\BPBI L.%
+, Earl, N.%
+, Starkman, N.%
+, Bradley, L.%
+, Shupe, D\BPBI L.%
+\BDBL {}Zonca, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The Astropy Project: Sustaining and Growing a
+  Community-oriented Open-source Project and the Latest Major Release (v5.0) of
+  the Core Package}} {{The Astropy Project: Sustaining and Growing a
+  Community-oriented Open-source Project and the Latest Major Release (v5.0) of
+  the Core Package}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Astrophysical Journal}{935}{2}{167}.
+\newblock
+\begin{APACrefDOI} \doi{10.3847/1538-4357/ac7c74} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Robert%
+}{%
+Robert%
+}{%
+{\protect \APACyear {1993}}%
+}]{%
+ClusterTools1993}
+\APACinsertmetastar {%
+ClusterTools1993}%
+\begin{APACrefauthors}%
+Robert, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1993}{}{}.
+\newblock
+\APACrefbtitle {{ROCOTLIB: A Coordinate Transformation Library for
+  Solar-Terrestrial studies, LPP, Issue 3, Rev 2}.} {{ROCOTLIB: A Coordinate
+  Transformation Library for Solar-Terrestrial studies, LPP, Issue 3, Rev 2}.}
+\newblock
+\APAChowpublished
+  {\url{https://cdpp.irap.omp.eu/index.php/services/scientific-librairies/rocotlib}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Roberts%
+\ \protect \BOthers {.}}{%
+Roberts%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+Roberts2018}
+\APACinsertmetastar {%
+Roberts2018}%
+\begin{APACrefauthors}%
+Roberts, D\BPBI A.%
+, Thieman, J.%
+, Génot, V.%
+, King, T.%
+, Gangloff, M.%
+, Perry, C.%
+\BDBL {}Hess, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The SPASE Data Model: A Metadata Standard for
+  Registering, Finding, Accessing, and Using Heliophysics Data Obtained From
+  Observations and Modeling} {The spase data model: A metadata standard for
+  registering, finding, accessing, and using heliophysics data obtained from
+  observations and modeling}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Space Weather}{16}{12}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2018sw002038} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Russell%
+}{%
+Russell%
+}{%
+{\protect \APACyear {1971}}%
+}]{%
+Russell1971}
+\APACinsertmetastar {%
+Russell1971}%
+\begin{APACrefauthors}%
+Russell, C\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1971}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Geophysical coordinate transformations}} {{Geophysical
+  coordinate transformations}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cosmic Electrodynamics}{}{2}{184-196}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Satellite Situation Center System and Services}%
+}{%
+{Satellite Situation Center System and Services}%
+}{%
+{\protect \APACyear {2025}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+SSCWebCoordinateCalculator}
+\APACinsertmetastar {%
+SSCWebCoordinateCalculator}%
+\begin{APACrefauthors}%
+{Satellite Situation Center System and Services}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025{\protect \BCnt {1}}}{}{}.
+\newblock
+\APACrefbtitle {{SSCWeb Coordinate Calculator}.} {{SSCWeb Coordinate
+  Calculator}.}
+\newblock
+\APAChowpublished {https://sscweb.gsfc.nasa.gov/cgi-bin/CoordCalculator.cgi}.
+\newblock
+\APACrefnote{Accessed: 2025-02-19}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Satellite Situation Center System and Services}%
+}{%
+{Satellite Situation Center System and Services}%
+}{%
+{\protect \APACyear {2025}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+SSCWebProvenance}
+\APACinsertmetastar {%
+SSCWebProvenance}%
+\begin{APACrefauthors}%
+{Satellite Situation Center System and Services}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025{\protect \BCnt {2}}}{}{}.
+\newblock
+\APACrefbtitle {{SSCWeb Data Provenance Table}.} {{SSCWeb Data Provenance
+  Table}.}
+\newblock
+\APAChowpublished
+  {\url{https://sscweb.gsfc.nasa.gov/sscweb_data_provenance.html}}.
+\newblock
+\APACrefnote{Accessed: 2025-03-20}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Satellite Situation Center System and Services}%
+}{%
+{Satellite Situation Center System and Services}%
+}{%
+{\protect \APACyear {2025}}%
+{\protect \APACexlab {{\protect \BCnt {3}}}}}]{%
+SSCWeb}
+\APACinsertmetastar {%
+SSCWeb}%
+\begin{APACrefauthors}%
+{Satellite Situation Center System and Services}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025{\protect \BCnt {3}}}{}{}.
+\newblock
+\APACrefbtitle {{SSCWeb User Guide}.} {{SSCWeb User Guide}.}
+\newblock
+\APAChowpublished
+  {\newline\url{https://sscweb.gsfc.nasa.gov/users_guide/Appendix_C.shtml}}.
+\newblock
+\APACrefnote{Accessed: 2025-02-19}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Seitz%
+\ \protect \BOthers {.}}{%
+Seitz%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+Seitz2014}
+\APACinsertmetastar {%
+Seitz2014}%
+\begin{APACrefauthors}%
+Seitz, M.%
+, Angermann, D.%
+, Gerstl, M.%
+, Bloßfeld, M.%
+, Sánchez, L.%
+\BCBL {}\ \BBA {} Seitz, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Geometrical Reference Systems}} {{Geometrical Reference
+  Systems}}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{Handbook of Geomathematics}} {{Handbook of
+  Geomathematics}}\ (\BPG~1–35).
+\newblock
+\APACaddressPublisher{}{Springer Berlin Heidelberg}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-3-642-27793-1_79-2} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Smith%
+, Katz%
+\BCBL {}\ \BBA {} Niemeyer%
+}{%
+Smith%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Smith2016}
+\APACinsertmetastar {%
+Smith2016}%
+\begin{APACrefauthors}%
+Smith, A\BPBI M.%
+, Katz, D\BPBI S.%
+\BCBL {}\ \BBA {} Niemeyer, K\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Software citation principles} {Software citation
+  principles}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{PeerJ Computer Science}{2}{}{e86}.
+\newblock
+\begin{APACrefDOI} \doi{10.7717/peerj-cs.86} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Stall%
+\ \protect \BOthers {.}}{%
+Stall%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+Stall2023}
+\APACinsertmetastar {%
+Stall2023}%
+\begin{APACrefauthors}%
+Stall, S.%
+, Bilder, G.%
+, Cannon, M.%
+, Chue~Hong, N.%
+, Edmunds, S.%
+, Erdmann, C\BPBI C.%
+\BDBL {}Clark, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Journal Production Guidance for Software and Data
+  Citations} {Journal production guidance for software and data
+  citations}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Scientific Data}{10}{1}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1038/s41597-023-02491-7} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tsyganenko%
+}{%
+Tsyganenko%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+Tsyganenko2008}
+\APACinsertmetastar {%
+Tsyganenko2008}%
+\begin{APACrefauthors}%
+Tsyganenko, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+\APACrefbtitle {{Geopack 2008}.} {{Geopack 2008}.}
+\newblock
+\APAChowpublished
+  {\url{https://geo.phys.spbu.ru/~tsyganenko/empirical-models/coordinate_systems/geopack/}}.
+\newblock
+\APACrefnote{Accessed: 2025-04-16}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{US Naval Observatory}%
+}{%
+{US Naval Observatory}%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+USNOICRS}
+\APACinsertmetastar {%
+USNOICRS}%
+\begin{APACrefauthors}%
+{US Naval Observatory}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+\APACrefbtitle {{International Celestial Reference System (ICRS)}.}
+  {{International Celestial Reference System (ICRS)}.}
+\newblock
+\APAChowpublished {https://aa.usno.navy.mil/faq/ICRS\_doc}.
+\newblock
+\APACrefnote{Accessed: 2025-03-20}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+USNO%
+}{%
+USNO%
+}{%
+{\protect \APACyear {1989}}%
+}]{%
+USNO1989}
+\APACinsertmetastar {%
+USNO1989}%
+\begin{APACrefauthors}%
+USNO.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1989}.
+\newblock
+\APACrefbtitle {{Almanac for Computers, 1990}} {{Almanac for Computers, 1990}}\
+  (L\BPBI E.~Doggett, W\BPBI J.~Tangren\BCBL {}\ \BBA {} S.~Panossian,
+  \BEDS{}).
+\newblock
+\APACaddressPublisher{}{Nautical Almanac Office, United States Naval
+  Observatory}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+USNO%
+}{%
+USNO%
+}{%
+{\protect \APACyear {1992}}%
+}]{%
+USNO1992}
+\APACinsertmetastar {%
+USNO1992}%
+\begin{APACrefauthors}%
+USNO.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1992}.
+\newblock
+\APACrefbtitle {{Explanatory Supplement to the Astronomical Almanac}}
+  {{Explanatory Supplement to the Astronomical Almanac}}\ (P.~Seidelmann,
+  \BED{}).
+\newblock
+\APACaddressPublisher{}{Nautical Almanac Office, United States Naval
+  Observatory}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{V-MOD}%
+}{%
+{V-MOD}%
+}{%
+{\protect \APACyear {2026}}%
+}]{%
+IAGA_V-MOD2026}
+\APACinsertmetastar {%
+IAGA_V-MOD2026}%
+\begin{APACrefauthors}%
+{V-MOD}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{}{}.
+\newblock
+\APACrefbtitle {{International Association of Geomagnetism and Aeronomy V-MOD
+  Working Group}.} {{International Association of Geomagnetism and Aeronomy
+  V-MOD Working Group}.}
+\newblock
+\APAChowpublished
+  {\url{https://www.ncei.noaa.gov/services/world-data-system/v-mod-working-group}}.
+\newblock
+\APACrefnote{Accessed: 2026-06-11}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Weigel%
+}{%
+Weigel%
+}{%
+{\protect \APACyear {2026}}%
+}]{%
+Weigel2026}
+\APACinsertmetastar {%
+Weigel2026}%
+\begin{APACrefauthors}%
+Weigel, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{}{}.
+\newblock
+\APACrefbtitle {{Code for Weigel et al., 2026, Coordinate Systems and
+  Transforms in Space Physics: Terms, Definitions, Implementations, and
+  Recommendations for Reproducibility}.} {{Code for Weigel et al., 2026,
+  Coordinate Systems and Transforms in Space Physics: Terms, Definitions,
+  Implementations, and Recommendations for Reproducibility}.}
+\newblock
+\APACaddressPublisher{}{Zenodo}.
+\newblock
+\begin{APACrefDOI} \doi{10.5281/zenodo.21347327} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Weigel%
+, Gutarra-Leon%
+\BCBL {}\ \BBA {} Quaresima%
+}{%
+Weigel%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2025}}%
+}]{%
+Weigel2025}
+\APACinsertmetastar {%
+Weigel2025}%
+\begin{APACrefauthors}%
+Weigel, R.%
+, Gutarra-Leon, A.%
+\BCBL {}\ \BBA {} Quaresima, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+\APACrefbtitle {{rweigel/hxform}.} {{rweigel/hxform}.}
+\newblock
+\APACaddressPublisher{}{Zenodo}.
+\newblock
+\begin{APACrefDOI} \doi{10.5281/zenodo.21347284} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

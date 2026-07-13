@@ -1,8 +1,8 @@
 \documentclass[draft]{agujournal2019}
-\usepackage{xurl}
+%\PassOptionsToPackage{hidelinks}{hyperref}
+%\usepackage{xurl}
 \usepackage{lineno}
 \usepackage{subcaption}
-
 %\usepackage[inline]{trackchanges} %for better track changes. finalnew option will compile document with changes incorporated.
 
 \usepackage[finalnew]{trackchanges} %for better track changes. finalnew option will compile document with changes incorporated.
@@ -166,12 +166,12 @@ In the Earth sciences, \citeA{Kovalevsky1981} and \citeA{Mueller1985} use the te
 Thus, what space physicists call a ``coordinate system'' (e.g., \texttt{GEI}, \texttt{GSM}) is analogous to an ``ideal reference system'' because it only has a general definition for \change{their}{its} axes orientation and origin. 
 There are no standards for the constants, models, or algorithms required to transform between observable quantities, which are necessary to define a reference system, nor for the model parameters needed to define a reference frame. 
 For example, the transformation of the \change[a]{\texttt{GSM}}{\texttt{GEI}} reference frame to \texttt{GEO} requires a \change[r2]{vector from the center of Earth to the center of the Sun}{rotation by the Greenwich Mean Sidereal Time (GMST)} ---
-\remove[r2]{\mbox{\citeA{Russell1971}} gives a Fortran program provided through private communication; \mbox{\citeA{Hapgood1992}} uses equations from Doggett et al. (1990); and \mbox{\citeA{Franz2002}} uses equations from \mbox{\citeA{USNO1992}}. All three cases can be regarded as unique \texttt{GSM} reference frames for the \texttt{GSM} reference system.}
-\add[r2]{\mbox{\citeA{Franz2002}} cites an equation from \mbox{\citeA{Meeus1998}}, which also appears in \mbox{\citeA{USNO1992}}; \mbox{\citeA{Hapgood1992}} uses a reduced-accuracy and reduced-order GMST equation that is based on an equation in \mbox{\citeA{USNO1989}}; both use J2000.0 as the epoch. \mbox{\citeA{Russell1971}} gives a Fortran program for GMST that uses December 31, 1899, at 12:00 UT as the epoch and was provided through private communication. The equation used appears to be a reduced-accuracy and reduced-order version of that in \mbox{\citeA{Newcomb1898}}; see also \mbox{\citeA{HMNAO1961}} and \mbox{\citeA{Hapgood1995}}. Thus, \mbox{\citeA{Russell1971}}, \mbox{\citeA{Hapgood1992}}, and \mbox{\citeA{Franz2002}} each define unique \texttt{GEI} to \texttt{GEO} reference frame transforms.}
+\remove[r2]{\citeA{Russell1971} gives a Fortran program provided through private communication; \citeA{Hapgood1992} uses equations from Doggett et al. (1990); and \citeA{Franz2002} uses equations from \citeA{USNO1992}. All three cases can be regarded as unique \texttt{GSM} reference frames for the \texttt{GSM} reference system.}
+\add[r2]{\citeA{Franz2002} cites an equation from \citeA{Meeus1998}, which also appears in \citeA{USNO1992}; \citeA{Hapgood1992} uses a reduced-accuracy and reduced-order GMST equation that is based on an equation in \citeA{USNO1989}; both use J2000.0 as the epoch. \citeA{Russell1971} gives a Fortran program for GMST that uses December 31, 1899, at 12:00 UT as the epoch and was provided through private communication. The equation used appears to be a reduced-accuracy and reduced-order version of that in \citeA{Newcomb1898}; see also \citeA{HMNAO1961} and \citeA{Hapgood1995}. Thus, \citeA{Russell1971}, \citeA{Hapgood1992}, and \citeA{Franz2002} each define unique \texttt{GEI} to \texttt{GEO} reference frame transforms.}
 
 % paragraph 1, page 21 of ~\cite{ref:Petit2010}: This recommendation further stipulates that the celestial reference system should have its principal plane as close as possible to the mean equator at J2000.0 and that the origin of this principal plane should be as close as possible to the dynamical equinox of J2000.0. This system was prepared by the IERS and was adopted by the IAU General Assembly in 1997 (23rd IAU GA, Resol. B2) under the name of the International Celestial Reference System (ICRS). It officially replaced the FK5 system on January 1, 1998, considering that all the conditions set up by the 1991 resolutions were fulfilled, including the availability of the Hipparcos optical reference frame realizing the ICRS with an accuracy significantly better than the FK5. Responsibilities for the maintenance of the system, the frame and its link to the Hipparcos reference frame have been defined by the IAU in 2000 (24th IAU GA, Resol. B1.1)
 
-\remove[r2]{Terminology related to reference systems and frames also varies in other fields. For example, SPICE (Spacecraft, Planet, Instrument, C-matrix, Events; NAIF (2023)) states ``a reference frame (or simply `frame') is specified by an ordered set of three mutually orthogonal, possibly time-dependent, unit-length direction vectors''; this definition does not include an origin. In robotics, the term ``coordinate frame'' refers to a set of three orthogonal axes and an origin relative to a different coordinate frame \mbox{\cite{Murray2017}}}.
+\remove[r2]{Terminology related to reference systems and frames also varies in other fields. For example, SPICE (Spacecraft, Planet, Instrument, C-matrix, Events; NAIF (2023)) states ``a reference frame (or simply `frame') is specified by an ordered set of three mutually orthogonal, possibly time-dependent, unit-length direction vectors''; this definition does not include an origin. In robotics, the term ``coordinate frame'' refers to a set of three orthogonal axes and an origin relative to a different coordinate frame \cite{Murray2017}}.
 
 \section{Examples of Definition Ambiguity}
 \label{sect:definitions}
@@ -211,7 +211,7 @@ The objective of the following summary is to demonstrate the diversity in the te
      ``Geocentric Equatorial Inertial for epoch J2000.0 (\texttt{GEI2000}), also known as Mean Equator and Mean Equinox of J2000.0 (Julian date 2451545.0 TT (Terrestrial Time), or 2000 January 1 noon TT, or 2000 January 1 11:59:27.816 TAI or 2000 January 1 11:58:55.816 UTC.) This system has X-axis aligned with the mean equinox for epoch \texttt{J2000}; Z-axis is parallel to the rotation axis of the Earth, and Y completes the right-handed orthogonal set.''
 
 
-    \add[r2]{For the SPICE (Spacecraft, Planet, Instrument, C-matrix, Events; \mbox{\citeA{Acton1997}}, \mbox{\citeA{NAIFGeneral2025}}) library, }\citeA{NAIFFrames2025} notes that \texttt{J2000} is ``generally used in SPICE to refer to the \texttt{ICRF}"; ``The rotational offset between the \texttt{J2000} frame and the \texttt{ICRS} has magnitude of under 0.1 arcseconds [$2.\overline{7}\cdot 10^{-5}$ degrees]."; ``The \texttt{ICRF} frame is defined by the adopted locations of 295 extragalactic radio sources."; ``The \texttt{J2000} (aka \texttt{EME2000}) frame definition is based on the Earth’s equator and equinox, determined from observations of planetary motions, plus other data.''; and ``The realization of \texttt{ICRF} was made to coincide almost exactly with the \texttt{J2000} frame.'' 
+    \add[r2]{For the SPICE (Spacecraft, Planet, Instrument, C-matrix, Events; \citeA{Acton1997}, \citeA{NAIFGeneral2025}) library, }\citeA{NAIFFrames2025} notes that \texttt{J2000} is ``generally used in SPICE to refer to the \texttt{ICRF}"; ``The rotational offset between the \texttt{J2000} frame and the \texttt{ICRS} has magnitude of under 0.1 arcseconds [$2.\overline{7}\cdot 10^{-5}$ degrees]."; ``The \texttt{ICRF} frame is defined by the adopted locations of 295 extragalactic radio sources."; ``The \texttt{J2000} (aka \texttt{EME2000}) frame definition is based on the Earth’s equator and equinox, determined from observations of planetary motions, plus other data.''; and ``The realization of \texttt{ICRF} was made to coincide almost exactly with the \texttt{J2000} frame.'' 
 
     %\todo[inline]{Why are both ICRF and ICRS used in the quotes above? It seems both should be ICRS or a specific realization such as ICRF1.}
 
@@ -229,10 +229,10 @@ The objective of the following summary is to demonstrate the diversity in the te
 
     \item \texttt{ECI2000} -- Earth Centered Inertial for \texttt{J2000} epoch; used in SpacePy \cite{Niehof2022}.
 
-    \item \texttt{ECI} -- Earth Centered Inertial; used in \citeA{MMS2024} with the note ``\texttt{GEI/J2000} – Earth-Centered Inertial (\texttt{ECI}). To fully specify the system the equinox must be defined. This system uses the mean equinox at the J2000 epoch."
-    
+    \item \texttt{ECI} -- Earth Centered Inertial; used in \citeA{Burch2026} with the note ``\texttt{GEI/J2000} - Earth-Centered Inertial (\texttt{ECI}). To fully specify the system the equinox must be defined. This system uses the mean equinox at the J2000 epoch."
+
     %Also used by the PUNCH MOC.
-    
+
    \item \texttt{GCI} -- Geocentric Celestial Inertial; used in OGO satellite data analysis \cite{NASA1970} and stated in \citeA{Russell1971} as equivalent to \texttt{GEI}.
     %\url{https://www.reddit.com/r/gis/comments/16wf78z/understanding_ecef_wgs_and_nad_coordinate_systems/}
 
@@ -270,13 +270,13 @@ It is sometimes argued that, although reference-frame implementations may yield 
 
 Although this statement was made thirty years ago, based on the results in this section give\add[a]{n} below, it appears the convention in space physics is that differences at this level are considered negligible. That is, we find angular differences in spacecraft positions from different providers of ${\sim}0.3^\circ$ and coordinate transforms from different software packages of ${\sim} 0.03^\circ$, and this uncertainty is not discussed in the documentation, suggesting it is considered small enough to be ignored.
 
-Although the convention for determining which uncertainties are considered negligible may have been appropriate at one time, we suggest revisiting these assumptions. \remove[r2]{First, spacecraft constellations now have a nearest separation of 7~km \mbox{\cite{NASA2016}}. This separation was achieved for the MMS constellation when the spacecraft were at a radial distance of ${\sim}8.9$~$R_E$ from Earth's center. At this radial distance, the angular separation between two points 7~km apart is $0.007^\circ$.} 
+Although the convention for determining which uncertainties are considered negligible may have been appropriate at one time, we suggest revisiting these assumptions. \remove[r2]{First, spacecraft constellations now have a nearest separation of 7~km \cite{NASA2016}. This separation was achieved for the MMS constellation when the spacecraft were at a radial distance of ${\sim}8.9$~$R_E$ from Earth's center. At this radial distance, the angular separation between two points 7~km apart is $0.007^\circ$.} 
 
-\add[r2]{First, spacecraft constellations have achieved separations that correspond to an angular separation relative to Earth's center of ${\sim} 0.003^\circ$ --- based on SSCWeb data, MMS-2 and MMS-3 had a separation of 4.5~ km at 2016-09-15T21:47:30Z, corresponding to an angular separation of $0.0034^\circ$. Cluster 3 and Cluster 4 were separated by 2.4~km at 2018-12-02T00:31:30Z, corresponding to an angular separation of $0.0029^\circ$ (see also \mbox{\citeA{Escoubet2021}})}.
+\add[r2]{First, spacecraft constellations have achieved separations that correspond to an angular separation relative to Earth's center of ${\sim} 0.003^\circ$ --- based on SSCWeb data, MMS-2 and MMS-3 had a separation of 4.5~ km at 2016-09-15T21:47:30Z, corresponding to an angular separation of $0.0034^\circ$. Cluster 3 and Cluster 4 were separated by 2.4~km at 2018-12-02T00:31:30Z, corresponding to an angular separation of $0.0029^\circ$ (see also \citeA{Escoubet2021})}.
 
 Second, having different data providers or software libraries compute transforms in different ways can impede validation, for example, 
 
-%\add[r2]{and 2.5~km for the spacecraft of the Cluster mission \mbox{\cite{Escoubet2021}} at a radial distance of ${\sim}9.9$~$R_E$, which corresponds to ${\sim}0.002^\circ$.}}
+%\add[r2]{and 2.5~km for the spacecraft of the Cluster mission \cite{Escoubet2021} at a radial distance of ${\sim}9.9$~$R_E$, which corresponds to ${\sim}0.002^\circ$.}}
 
 \begin{itemize}
 \item In an attempt to develop a 3D visualization program that returns the region of geospace (e.g., plasma sheet, interplanetary medium, plasmasphere) given an arbitrary position, we implemented the models used by SSCWeb \cite{SSCWeb} and attempted to validate our work by comparing our predicted regions at the positions provided by its web service for spacecraft. Although our predictions were generally consistent, we were unable to reproduce the exact time at which a spacecraft \change[r2]{crossed}{is predicted to cross} from one region to another. After a search for errors in our model implementation failed to explain the differences, we realized that the discrepancies were due to the software that we used for reference-frame transformation differing from that used by SSCWeb. \add[r2]{Although the uncertainty in the models is much larger than the uncertainty due to the differences in the transform implementations, the transform differences led to difficulty in validating that our implementation of an idealized model matched that of SSCWeb. That is, ideally, one does not want to report that an implementation matches the original implementation except for errors that could be due to differences in how reference frame transforms are implemented.}
@@ -327,7 +327,7 @@ In Figure~\ref{fig:geotail}(a), and based on the documentation for \citeA{SSCWeb
 
 In Figure~\ref{fig:geotail}(b), there is a much closer match between SSCWeb/J2K and CDAWeb/GCI positions, with an average angular difference in the position vector of ${\sim}0.001^\circ$ and an average error relative to an Earth radius of ${\sim}0.05$\%. 
 
-In summary, Figure~\ref{fig:geotail}(a) and (b) show that what is labeled as \texttt{GCI} in the CDAWeb positions is much closer to SSCWeb/\texttt{J2K} positions than SSCWeb/\texttt{GEI}, which is unexpected given the SSCWeb documentation that notes \texttt{GCI} and \texttt{GEI} are equivalent. Although the CDAWeb/\texttt{GCI} positions are a better match to the SSCWeb/\texttt{J2K} positions, the differences are not explained by the numerical precision of the reported values. They may be due to whether or how precession and nutation in items 2--4 listed above were accounted for \add[r2]{(see \mbox{\citeA{Hapgood1995}} for a related discussion}).
+In summary, Figure~\ref{fig:geotail}(a) and (b) show that what is labeled as \texttt{GCI} in the CDAWeb positions is much closer to SSCWeb/\texttt{J2K} positions than SSCWeb/\texttt{GEI}, which is unexpected given the SSCWeb documentation that notes \texttt{GCI} and \texttt{GEI} are equivalent. Although the CDAWeb/\texttt{GCI} positions are a better match to the SSCWeb/\texttt{J2K} positions, the differences are not explained by the numerical precision of the reported values. They may be due to whether or how precession and nutation in items 2--4 listed above were accounted for \add[r2]{(see \citeA{Hapgood1995} for a related discussion}).
 
 In Figure~\ref{fig:geotail}(c), a comparison is made for the \texttt{GSE} reference system. To transform a vector from \texttt{GEI} to \texttt{GSE}, two rotations are required: a rotation around \texttt{GEI}$_X$ to align Earth's equator with the ecliptic plane and a rotation around the \texttt{GEI}$_Z$ axis (as it is after the first rotation) to orient \texttt{GEI}$_X$ to point to center of the Sun. These two angles are the obliquity of the ecliptic and the ecliptic longitude of the Sun, respectively (\citeA{Hapgood1992}).
 
@@ -370,63 +370,19 @@ In Figure~\ref{fig:mms-2}c, much larger differences are shown to exist between S
 
 \clearpage
 \begin{figure}[htb]
-\vspace{-0.5cm}
-\begin{adjustwidth}{-1cm}{-1cm} % Left and Right margin changes
-     \begin{subfigure}[b]{0.55\textwidth}
-         (a) Geotail SSCWeb/\texttt{GEI} vs. CDAWeb/\texttt{GCI}
-         \centering
-         \includegraphics[width=\textwidth]{figures/positions/Geotail_SSCWeb-GEI_vs_CDAWeb-GCI.pdf}
-     \end{subfigure}
-     \begin{subfigure}[b]{0.55\textwidth}
-         (b) Geotail SSCWeb/\texttt{J2K} vs. CDAWeb/\texttt{GCI}
-         \centering
-         \includegraphics[width=\textwidth]{figures/positions/Geotail_SSCWeb-J2K_vs_CDAWeb-GCI.pdf}
-     \end{subfigure}
-     \par\bigskip\bigskip
-     \begin{subfigure}[b]{0.55\textwidth}
-         (c) Geotail SSCWeb/\texttt{GSE} vs. CDAWeb/\texttt{GSE}
-         \centering
-         \includegraphics[width=\textwidth]{figures/positions/Geotail_SSCWeb-GSE_vs_CDAWeb-GSE.pdf}
-     \end{subfigure}
-     \begin{subfigure}[b]{0.55\textwidth}
-         (d) Geotail SSCWeb/\texttt{GSM} vs. CDAWeb/\texttt{GSM}
-         \centering
-         \includegraphics[width=\textwidth]{figures/positions/Geotail_SSCWeb-GSM_vs_CDAWeb-GSM.pdf}
-     \end{subfigure}
-     \caption{Comparison of position values for the Geotail spacecraft from SSCWeb and CDAWeb in four different reference systems. The top panel in each subplot displays the $X$, $Y$, and $Z$ values from each provider (on this scale, differences are not visible) and the average radial distance, $\overline{r}$, between the two providers. The bottom panel of each subplot shows relative differences in the position vector $\Delta\mathbf{r}$ and the angular difference in the position vectors, $\Delta\theta$.}
-     \label{fig:geotail}
-\end{adjustwidth}
+    \vspace{-0.5cm}
+    \includegraphics[width=1.1\textwidth]{figures/combined/figure1}
+    \caption{Comparison of position values for the Geotail spacecraft from SSCWeb and CDAWeb in four different reference systems. The top panel in each subplot displays the $X$, $Y$, and $Z$ values from each provider (on this scale, differences are not visible) and the average radial distance, $\overline{r}$, between the two providers. The bottom panel of each subplot shows relative differences in the position vector $\Delta\mathbf{r}$ and the angular difference in the position vectors, $\Delta\theta$.}
+    \label{fig:geotail}
 \end{figure}
 
 \clearpage
 
 \begin{figure}[h]
-\vspace{-0.5cm}
-\begin{adjustwidth}{-1cm}{-1cm} % Left and Right margin changes
-     \begin{subfigure}[b]{0.55\textwidth}
-         (a) MMS-2 SSCWeb/\texttt{GSE} vs. CDAWeb/\texttt{GSE}
-         \centering
-         \includegraphics[width=\textwidth]{figures/positions/MMS-2_SSCWeb-GSE_vs_CDAWeb-GSE.pdf}
-     \end{subfigure}
-     \begin{subfigure}[b]{0.55\textwidth}
-         (b) MMS-2 SSCWeb/\texttt{GSM} vs. CDAWeb/\texttt{GSM}
-         \centering
-         \includegraphics[width=\textwidth]{figures/positions/MMS-2_SSCWeb-GSM_vs_CDAWeb-GSM.pdf}
-     \end{subfigure}
-     \par\bigskip\bigskip
-     \begin{subfigure}[b]{0.55\textwidth}
-         (c) MMS-2 SSCWeb/\texttt{GSE} vs. JPL/\texttt{GSE}
-         \centering
-         \includegraphics[width=\textwidth]{figures/positions/MMS-2_SSCWeb-GSE_vs_JPL-GSE.pdf}
-     \end{subfigure}
-     \begin{subfigure}[b]{0.55\textwidth}
-         (d) MMS-2 SSCWeb/\texttt{GSM} vs. JPL/\texttt{GSM}
-         \centering
-         \includegraphics[width=\textwidth]{figures/positions/MMS-2_SSCWeb-GSM_vs_JPL-GSM.pdf}
-     \end{subfigure}
-     \caption{Comparison of position values for the MMS-2 spacecraft from (a)--(b) SSCWeb and CDAWeb; (c)--(d) SSCWeb and JPL Horizons in two different reference systems.}
-     \label{fig:mms-2}
-\end{adjustwidth}
+    \vspace{-0.5cm}
+    \includegraphics[width=1.1\textwidth]{figures/combined/figure2}
+    \caption{Comparison of position values for the MMS-2 spacecraft from (a)--(b) SSCWeb and CDAWeb; (c)--(d) SSCWeb and JPL Horizons in two different reference systems.}
+    \label{fig:mms-2}
 \end{figure}
 
 \clearpage
@@ -447,7 +403,7 @@ In this section, we compare reference frame calculations using the following sof
     % Use True of date GEI
     \item PySPEDAS 1.7.28, which uses transformation code derived from \remove[r1]{the IDL version of PySPEDAS}\add[r1]{SPEDAS, which is written in IDL} \cite{Angelopoulos2024IDL}\remove[r1]{, which}\add[r1]{; SPEDAS transformations are based on the} the ROCOTLIB Fortran \cite{ROCOTLIB} library, which was used for data from the Cluster spacecraft mission \cite{ClusterTools1993}.
     \item SpacePy 0.6, which has an option to use the IRBEM Fortran library (\citeA{IRBEM2022}; labeled as \texttt{spacepy-irbem}) or an alternative and native Python implementation (\texttt{spacepy}) of the transforms.
-    \item SpiceyPy 6.0.0 is a Python wrapper for the SPICE toolkit. Two versions of SPICE kernel files were used, indicated by \texttt{spicepy1} and \texttt{spicepy2}. \texttt{spicepy1} was used for reference frame transforms for the Van Allen Probes mission. \texttt{spicepy2} had an update to the \texttt{MAG} frame, which used a more recent version of the IGRF model \cite{Alken2021} to determine the Earth's magnetic dipole orientation. \add[r2]{(The IGRF model is maintained by the IAGA \mbox{\cite{IAGA2026}} V-MOD \mbox{\cite{IAGA_V-MOD2026}} Working Group.)}
+    \item SpiceyPy 6.0.0 is a Python wrapper for the SPICE toolkit. Two versions of SPICE kernel files were used, indicated by \texttt{spicepy1} and \texttt{spicepy2}. \texttt{spicepy1} was used for reference frame transforms for the Van Allen Probes mission. \texttt{spicepy2} had an update to the \texttt{MAG} frame, which used a more recent version of the IGRF model \cite{Alken2021} to determine the Earth's magnetic dipole orientation. \add[r2]{(The IGRF model is maintained by the IAGA \cite{IAGA2026} V-MOD \cite{IAGA_V-MOD2026} Working Group.)}
     \item SunPy version 7.0.0, which extends the Astropy coordinates framework to include space physics reference frames.
 \end{itemize}
 
@@ -465,34 +421,12 @@ In summary, in this section, we have shown that differences in library implement
 This range of differences is comparable to the range of angles identified in section~\ref{sect:comparisons_ephemeris}, which includes the average angular change in Earth's dipole $Z$-axis over the past 45 years, the precession of Earth's rotation axis, changes in nutation of Earth's rotation axis over one year, and the precession of the ecliptic. The implication is that intercomparison of measurements transformed with different libraries may require an analysis of the differences in the transform implementations if the differences in the measurements are not significantly larger than these differences. This type of analysis is challenging because it requires access to the transform software, which may not be maintained or available, and because calculations are needed to quantify differences due to transform implementation choices.
 
 \clearpage
+
 \begin{figure}[htb]
-\vspace{-0.5cm}
-\begin{adjustwidth}{-1cm}{-1cm} % Left and Right margin changes
-     \begin{subfigure}[b]{0.55\textwidth}
-         (a) $\angle (Z_{\mathtt{GEO}}, Z_{\mathtt{GSE}})$
-         \centering
-         \includegraphics[width=\textwidth]{figures/angles/z-delta=1days_20100101-20150101/GEO_GSE.pdf}
-     \end{subfigure}
-     \begin{subfigure}[b]{0.55\textwidth}
-         (b) $\angle (Z_\mathtt{{GEO}}, Z_\mathtt{{GSM}})$
-         \centering
-         \includegraphics[width=\textwidth]{figures/angles/z-delta=1days_20100101-20150101/GEO_GSM.pdf}
-     \end{subfigure}
-     \par\bigskip\bigskip
-\vspace{-0.4cm}
-     \begin{subfigure}[b]{0.55\textwidth}
-         (c) $\angle (Z_\mathtt{{GSE}}, Z_\mathtt{{GSM}})$
-         \centering
-         \includegraphics[width=\textwidth]{figures/angles/z-delta=1days_20100101-20150101/GSE_GSM.pdf}
-     \end{subfigure}
-     \begin{subfigure}[b]{0.55\textwidth}
-         (d) $\angle (Z_\mathtt{{MAG}}, Z_\mathtt{{GSM}})$
-         \centering
-         \includegraphics[width=\textwidth]{figures/angles/z-delta=1days_20100101-20150101/MAG_GSM.pdf}
-     \end{subfigure}
-     \caption{Angles between $Z$ axes in select coordinate frames as computed by different software packages. In the top panels of each subplot, the notation $\angle (Z_\mathtt{A}, Z_\mathtt{B})$ means the angle between the $Z$ axis of coordinate frame $\mathtt{A}$ and the $Z$ axis of coordinate frame $\mathtt{B}$ computed using \texttt{geopack\_08\_dp}. The middle panel of each subplot shows the difference\add[r2]{, $\Delta$,} between $\angle (Z_\mathtt{A}, Z_\mathtt{B})$ computed using \texttt{geopack\_08\_dp} and that computed using the library indicated in the legend; the maximum of the absolute value of each line is shown in parentheses. The bottom panels show the maximum absolute differences in the middle panel.}
-     \label{fig:angles}
-\end{adjustwidth}
+    \vspace{-0.65cm}
+    \includegraphics[width=\textwidth]{figures/combined/figure3}
+    \caption{Angles between $Z$ axes in select coordinate frames as computed by different software packages. In the top panels of each subplot, the notation $\angle (Z_\mathtt{A}, Z_\mathtt{B})$ means the angle between the $Z$ axis of coordinate frame $\mathtt{A}$ and the $Z$ axis of coordinate frame $\mathtt{B}$ computed using \texttt{geopack\_08\_dp}. The middle panel of each subplot shows the difference\add[r2]{, $\Delta$,} between $\angle (Z_\mathtt{A}, Z_\mathtt{B})$ computed using \texttt{geopack\_08\_dp} and that computed using the library indicated in the legend; the maximum of the absolute value of each line is shown in parentheses. The bottom panels show the maximum absolute differences in the middle panel.}
+    \label{fig:angles}
 \end{figure}
 
 \clearpage
@@ -546,17 +480,17 @@ In this section, we provide recommendations to address the issues identified in 
 
 \begin{itemize}
 
-    \item \add[r2]{The Committee on Space Research \mbox{\cite{COSPAR}}, which issues resolutions on data and metadata standards;}
+    \item \add[r2]{The Committee on Space Research \cite{COSPAR}, which issues resolutions on data and metadata standards;}
 
-    \item \add[r2]{The International Association of Geomagnetism and Aeronomy \mbox{\cite{IAGA2026}}; the IAGA V-MOD Working Group \mbox{\cite{IAGA_V-MOD2026}} is responsible for the IGRF model specification;}
+    \item \add[r2]{The International Association of Geomagnetism and Aeronomy \cite{IAGA2026}; the IAGA V-MOD Working Group \cite{IAGA_V-MOD2026} is responsible for the IGRF model specification;}
 
-    \item \add[r2]{The International Earth Rotation and Reference Systems Service \mbox{\cite{IERS}}, which provides data for Earth orientation, the International Celestial Reference System/Frame (ICRS/ICRF), and the International Terrestrial Reference System/Frame (ITRS/ITRF) and also maintains the IERS Conventions, which include models, constants, and standards;}
+    \item \add[r2]{The International Earth Rotation and Reference Systems Service \cite{IERS}, which provides data for Earth orientation, the International Celestial Reference System/Frame (ICRS/ICRF), and the International Terrestrial Reference System/Frame (ITRS/ITRF) and also maintains the IERS Conventions, which include models, constants, and standards;}
 
-    \item \add[r2]{The International Heliophysics Data Environment Alliance \mbox{\cite{IHDEA}}, which encourages the use of common standards and services;}
+    \item \add[r2]{The International Heliophysics Data Environment Alliance \cite{IHDEA}, which encourages the use of common standards and services;}
     
-    \item \add[r2]{The International Virtual Observatories Alliance \mbox{\cite{IVOA}}, which has the Astronomical Coordinates and Coordinate Systems metadata model and a reference frame vocabulary; and}
+    \item \add[r2]{The International Virtual Observatories Alliance \cite{IVOA}, which has the Astronomical Coordinates and Coordinate Systems metadata model and a reference frame vocabulary; and}
     
-    \item \add[r2]{Space Physics Search and Extract (SPASE;  \mbox{\citeA{Roberts2018}}), which has a list of definitions of coordinate frame acronyms.}
+    \item \add[r2]{Space Physics Search and Extract (SPASE;  \citeA{Roberts2018}), which has a list of definitions of coordinate frame acronyms.}
 \end{itemize}
 
 \subsection{Standards for Reference System and Frame Definitions}
@@ -574,16 +508,16 @@ A community-developed standard for acronyms and definitions should be created. T
 
 The reference system definitions will involve key quantities, such as the position of the Sun and Earth's dipole orientation. As a result, these key quantities will need to be precisely defined along with the model and methodology for computing them. 
 
-\add[r2]{Although this article did not provide details on the relevance of time standards to reference frame transforms, this topic is an important part of the definition of a reference frame. Several space physics reference frames depend on time-related quantities. Both \mbox{\citeA{Hapgood1992}} and \mbox{\citeA{Franz2002}} discuss the relevance of time scales to reference-frame calculations and approximations that may be used (for example, using UTC in place of UT1). Even if using an approximation is justified for the precision needed in most calculations, we must account for the fact that, when defining a reference frame, all quantities used in the calculation must be explicitly specified.}
+\add[r2]{Although this article did not provide details on the relevance of time standards to reference frame transforms, this topic is an important part of the definition of a reference frame. Several space physics reference frames depend on time-related quantities. Both \citeA{Hapgood1992} and \citeA{Franz2002} discuss the relevance of time scales to reference-frame calculations and approximations that may be used (for example, using UTC in place of UT1). Even if using an approximation is justified for the precision needed in most calculations, we must account for the fact that, when defining a reference frame, all quantities used in the calculation must be explicitly specified.}
 
-\add[r2]{There exist standards that reference frame definitions can be built upon. For example, in the past 50 years, the astronomy community, through International Astronomical Union (IAU) resolutions, has adopted standards related to quantities used in space physics reference frame transforms in 1982~\mbox{\cite{Aoki1982}}, 2000~\mbox{\cite{Capitaine2003}}, and 2006~\mbox{\cite{Capitaine2005}}. The IGRF model \mbox{\cite{IAGA_V-MOD2026}} is a standard for specifying Earth's dipole orientation, which is required for defining geomagnetic reference frames.}
+\add[r2]{There exist standards that reference frame definitions can be built upon. For example, in the past 50 years, the astronomy community, through International Astronomical Union (IAU) resolutions, has adopted standards related to quantities used in space physics reference frame transforms in 1982~\cite{Aoki1982}, 2000~\cite{Capitaine2003}, and 2006~\cite{Capitaine2005}. The IGRF model \cite{IAGA_V-MOD2026} is a standard for specifying Earth's dipole orientation, which is required for defining geomagnetic reference frames.}
 
 %\subsection{\add[r2]{Time-Related Standards}}
 
 
-%For example, \mbox{\citeA{Russell1971}}, \mbox{\citeA{Kivelson1995}}, and \mbox{\citeA{Russell2016}} provide a Fortran program for computing Greenwich Mean Sidereal Time (GMST) that differs from that in \mbox{\citeA{Hapgood1992}} and \mbox{\citeA{Franz2002}}. We find that the angular differences of the latter two on 2020-01-01T00:00:00 are ${\sim }0.001^\circ$.}
+%For example, \citeA{Russell1971}, \citeA{Kivelson1995}, and \citeA{Russell2016} provide a Fortran program for computing Greenwich Mean Sidereal Time (GMST) that differs from that in \citeA{Hapgood1992} and \citeA{Franz2002}. We find that the angular differences of the latter two on 2020-01-01T00:00:00 are ${\sim }0.001^\circ$.}
 
-%\add[r2]{\mbox{\citeA{Hapgood1992}} and \mbox{\citeA{Franz2002}} both use a formula for GMST based on the 1982 IAU definition of UT1 \mbox{\cite{Meeus1998}}; \mbox{\citeA{Hapgood1992}} uses a version with higher-order terms omitted, and \mbox{\citeA{Franz2002}} uses the full form but with small differences in the coefficients from \mbox{\cite{Meeus1998}}. Another important consideration is that \mbox{\citeA{Hapgood1992}} and \mbox{\citeA{Franz2002}} use a formula based on the 1982 IAU definition of UT1 (\mbox{\citeA{Meeus1998}}; \mbox{\citeA{Aoki1982}}), and the equation based on the more recent 2000 IAU definition of UT1 differs \mbox{\cite{Capitaine2003}}.}
+%\add[r2]{\citeA{Hapgood1992} and \citeA{Franz2002} both use a formula for GMST based on the 1982 IAU definition of UT1 \cite{Meeus1998}; \citeA{Hapgood1992} uses a version with higher-order terms omitted, and \citeA{Franz2002} uses the full form but with small differences in the coefficients from \cite{Meeus1998}. Another important consideration is that \citeA{Hapgood1992} and \citeA{Franz2002} use a formula based on the 1982 IAU definition of UT1 (\citeA{Meeus1998}; \citeA{Aoki1982}), and the equation based on the more recent 2000 IAU definition of UT1 differs \cite{Capitaine2003}.}
 
 %\add[r2]{Although differences in GMST values calculated in different ways may not matter for many analyses, for a formal and unambiguous definition of space physics reference frames that depend on it, the precise meaning of ``GMST" must be specified.}
 
@@ -661,7 +595,7 @@ We also recommend using modern version control systems for the SPICE kernels. At
 \add[r2]{
 There is no consensus on the definition of $R_E$. For example, 
 \\
-\mbox{\citeA{SSCWeb}} uses 6,378.16~km, \mbox{\citeA{Franz2002}} uses 6,378.14~km. References to these two values and others may be found in \mbox{\citeA{NASA1972}}. The Automated Multi-Dataset Analysis (AMDA) system \mbox{\cite{Genot2021}} and SpacePy \mbox{\cite{SpacePy}} use 6,378.137~km. The value of 6,378.137~km is the semi-major axis length of the reference ellipsoid in the 1984 World Geodetic System (WGS 84) and the 1980 Geodetic Reference System (GRS80) standards. The IRBEM software library \mbox{\cite{IRBEM2022}} uses 6,371.2~km, which is the mean Earth radius used in the IGRF \mbox{\cite{IAGA_V-MOD2026}} model.}
+\citeA{SSCWeb} uses 6,378.16~km, \citeA{Franz2002} uses 6,378.14~km. References to these two values and others may be found in \citeA{NASA1972}. The Automated Multi-Dataset Analysis (AMDA) system \cite{Genot2021} and SpacePy \cite{SpacePy} use 6,378.137~km. The value of 6,378.137~km is the semi-major axis length of the reference ellipsoid in the 1984 World Geodetic System (WGS 84) and the 1980 Geodetic Reference System (GRS80) standards. The IRBEM software library \cite{IRBEM2022} uses 6,371.2~km, which is the mean Earth radius used in the IGRF \cite{IAGA_V-MOD2026} model.}
 
 % https://ui.adsabs.harvard.edu/abs/2016AJ....152...41P/abstract
 
@@ -678,7 +612,7 @@ In this work, we have been primarily interested in the problem of transforming a
 
 There is an additional source of uncertainty --- the source of the positions. Missions have used direct \add[r2]{Doppler and }\change[r2]{GPS}{GNSS} measurements, commercial software such as STK (Systems Tool Kit), and data from facilities such as the GSFC Flight Dynamics Facility (FDF), the Deep Space Network (DSN), NAIF, and NORAD to produce the spacecraft positions for the mission. \remove[r2]{In section~\mbox{\ref{sect:comparisons_ephemeris}}, we showed examples where the positions for two different data providers for the same spacecraft differed in a way that was unlikely to be due to differences in how the data providers implemented the reference frame.}
 
-\add[r2]{Accurate sources of spacecraft position data are also important -- even if two researchers compute the location of a spacecraft in a given reference using the same transformation algorithm, their results can differ significantly if the source of the position data differs. In section~\mbox{\ref{sect:comparisons_ephemeris}}, we gave an example in which differences in reported spacecraft positions between two data providers were likely due to one using mission-provided positions and the other using two-line elements that did not capture a spacecraft maneuver. \mbox{\citeA{Hapgood2026}} found that two-line elements from SpaceTrack map to the wrong Cluster spacecraft in about 10\% of the cases, and the two-line element best-matched perigee time with the ESA Joint Operations Science Center value differed by up to 60~sec in the time interval 2000-09-05 to 2024-08-27. In general, the mission has access to positions derived from the most accurate tracking data, including direct Doppler and on-board GNSS measurements, which are more accurate than two-line element-derived positions and may include spacecraft maneuvers that are not resolved by two-line elements.
+\add[r2]{Accurate sources of spacecraft position data are also important -- even if two researchers compute the location of a spacecraft in a given reference using the same transformation algorithm, their results can differ significantly if the source of the position data differs. In section~\mbox{\ref{sect:comparisons_ephemeris}}, we gave an example in which differences in reported spacecraft positions between two data providers were likely due to one using mission-provided positions and the other using two-line elements that did not capture a spacecraft maneuver. \citeA{Hapgood2026} found that two-line elements from SpaceTrack map to the wrong Cluster spacecraft in about 10\% of the cases, and the two-line element best-matched perigee time with the ESA Joint Operations Science Center value differed by up to 60~sec in the time interval 2000-09-05 to 2024-08-27. In general, the mission has access to positions derived from the most accurate tracking data, including direct Doppler and on-board GNSS measurements, which are more accurate than two-line element-derived positions and may include spacecraft maneuvers that are not resolved by two-line elements.
 }
 
 % Note from Niehof:
@@ -699,7 +633,7 @@ We recommend the following for general software and data documentation.
 
 \begin{itemize}
   \item Software package developers provide documentation on implementation choices (e.g., model used for obliquity and its parameters). If data from an external resource is used, for example, if the IGRF coefficients are dynamically downloaded, the user should have an option to easily view the data used, so that, if necessary, the values used can be documented in a publication.
-  Software should have a DOI for each major version, so the version used can be referenced rather than just a top-level DOI. Additional software citation recommendations are given in \citeA{Jackson2012}, \citeA{Smith2016}, and \change[r1]{\mbox{\cite{Stall2023}}}{\mbox{\citeA{Stall2023}}}.
+  Software should have a DOI for each major version, so the version used can be referenced rather than just a top-level DOI. Additional software citation recommendations are given in \citeA{Jackson2012}, \citeA{Smith2016}, and \change[r1]{\cite{Stall2023}}{\citeA{Stall2023}}.
 
   \item Data providers ensure that metadata associated with positions and variables that are transformed include details about the software version used for the transforms or the data used for the transform, such as SPICE kernels. The metadata description should be validated by having a third party assess whether it contains sufficient information to re-implement the transform.
 
@@ -762,9 +696,9 @@ We recommend the following for general software and data documentation.
 \section*{Open Data}
 
 \remove[r2]{
-The software, data, and associated calculations for this article are available in \mbox{\citeA{Weigel2025}}. The additional software used, its versions, and references are provided in section~\mbox{\ref {sect:comparisons_software}}.}
+The software, data, and associated calculations for this article are available in \citeA{Weigel2025}. The additional software used, its versions, and references are provided in section~\mbox{\ref {sect:comparisons_software}}.}
 
-\add[r2]{The software for the associated calculations and plots is available in \mbox{\citeA{Weigel2026}}. The calculations were made using the \texttt{hxform} package \mbox{\cite{Weigel2025}}, which is an interface to the software packages and libraries used in section~\mbox{\ref {sect:comparisons_software}}.}
+\add[r2]{The software for the associated calculations and plots is available in \citeA{Weigel2026}. The calculations were made using the \texttt{hxform} package \cite{Weigel2025}, which is an interface to the software packages and libraries used in section~\mbox{\ref {sect:comparisons_software}}.}
 % https://www.agu.org/publications/authors/journals/data-software-for-authors#needed#availability-statement
 
 \section*{Acknowledgments}

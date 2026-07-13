@@ -1,0 +1,32 @@
+\documentclass[varwidth]{standalone}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{changepage}
+\begin{document}
+
+\begin{figure}[htb]
+    \begin{subfigure}[b]{0.55\textwidth}
+        (a) $\angle (Z_{\mathtt{GEO}}, Z_{\mathtt{GSE}})$
+        \centering
+        \includegraphics[width=\textwidth]{../angles/z-delta=1days_20100101-20150101/GEO_GSE.pdf}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.55\textwidth}
+        (b) $\angle (Z_\mathtt{{GEO}}, Z_\mathtt{{GSM}})$
+        \centering
+        \includegraphics[width=\textwidth]{../angles/z-delta=1days_20100101-20150101/GEO_GSM.pdf}
+    \end{subfigure}
+    \par\bigskip\bigskip
+    \vspace{-0.5cm}
+    \begin{subfigure}[b]{0.55\textwidth}
+        (c) $\angle (Z_\mathtt{{GSE}}, Z_\mathtt{{GSM}})$
+        \centering
+        \includegraphics[width=\textwidth]{../angles/z-delta=1days_20100101-20150101/GSE_GSM.pdf}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.55\textwidth}
+        (d) $\angle (Z_\mathtt{{MAG}}, Z_\mathtt{{GSM}})$
+        \centering
+        \includegraphics[width=\textwidth]{../angles/z-delta=1days_20100101-20150101/MAG_GSM.pdf}
+    \end{subfigure}
+\end{figure}
+
+\end{document}
