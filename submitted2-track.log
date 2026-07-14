@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  13 JUL 2026 19:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  13 JUL 2026 20:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3659,7 +3659,7 @@ Here is how much of TeX's memory you used:
  34684 multiletter control sequences out of 15000+600000
  638336 words of font info for 77 fonts, out of 8000000 for 9000
  325 hyphenation exceptions out of 8191
- 72i,12n,79p,2090b,860s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,79p,2091b,860s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 0.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/
@@ -3688,7 +3688,7 @@ pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmtt8.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmtt9.pfb>
-Output written on submitted2-track.pdf (27 pages, 991864 bytes).
+Output written on submitted2-track.pdf (27 pages, 991892 bytes).
 PDF statistics:
  1177 PDF objects out of 1200 (max. 8388607)
  471 compressed objects within 5 object streams
