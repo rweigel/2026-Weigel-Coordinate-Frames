@@ -17,8 +17,8 @@ Acton, C\BPBI H.%
 \newblock
 \APACrefYearMonthDay{1997}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {{NASA’s SPICE System Models the Solar System}}
-  {{NASA’s SPICE System Models the Solar System}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {{NASA's SPICE System Models the Solar System}} {{NASA's
+  SPICE System Models the Solar System}}.{\BBCQ}
 \newblock
 \BIn{} \APACrefbtitle {{Dynamics and Astrometry of Natural and Artificial
   Celestial Bodies}} {{Dynamics and Astrometry of Natural and Artificial
@@ -237,64 +237,34 @@ Brodowski, D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-{Burch, J. L. and Giles, Barbara L. and Ahmadi, Narges and Argall, Matthew, R.
-  and Baker, Daniel N. and Blake, J. Bernard and Bromund, Kenneth R. and Cohen,
-  Ian J. and Ergun, Robert E. and Fennell, Joseph F. and Fischer, David and
-  Fuselier, Stephen A. and Gabrielse, Christine E. and Gershman, Daniel J. and
-  Gomez, Roman G. and Graham, Daniel Bruce and Hans, Ulrich and Henderson,
-  Michael G. and Huang, B.G. and Jeszenszky, Harald and Eichelberger, Hans
-  UlrichLe, Guan and Le Contel, Olivier and Leinweber, Hannes Karl, Lindqvist,
-  Per-Arne and Magnes, Werner and Mauk, Barry H. and Mirioni, Laurent and
-  Moore, Thomas E. and Morley, Steven Karl and Nakamura, Rumi and Plaschke,
-  Ferdinand and Pollock, Craig J. and Russell, Christopher T. and Strangeway,
-  Robert J. and Torkar, Klaus M. and Torbert, Roy B. and Turner, Drew L. and
-  Wei, Hanying and Young, David T.}%
-}{%
-{Burch, J. L. and Giles, Barbara L. and Ahmadi, Narges and Argall, Matthew, R.
-  and Baker, Daniel N. and Blake, J. Bernard and Bromund, Kenneth R. and Cohen,
-  Ian J. and Ergun, Robert E. and Fennell, Joseph F. and Fischer, David and
-  Fuselier, Stephen A. and Gabrielse, Christine E. and Gershman, Daniel J. and
-  Gomez, Roman G. and Graham, Daniel Bruce and Hans, Ulrich and Henderson,
-  Michael G. and Huang, B.G. and Jeszenszky, Harald and Eichelberger, Hans
-  UlrichLe, Guan and Le Contel, Olivier and Leinweber, Hannes Karl, Lindqvist,
-  Per-Arne and Magnes, Werner and Mauk, Barry H. and Mirioni, Laurent and
-  Moore, Thomas E. and Morley, Steven Karl and Nakamura, Rumi and Plaschke,
-  Ferdinand and Pollock, Craig J. and Russell, Christopher T. and Strangeway,
-  Robert J. and Torkar, Klaus M. and Torbert, Roy B. and Turner, Drew L. and
-  Wei, Hanying and Young, David T.}%
-}{%
+Burch%
+\ \protect \BOthers {.}}{%
+Burch%
+\ \protect \BOthers {.}}{%
 {\protect \APACyear {2024}}%
 }]{%
 Burch2026}
 \APACinsertmetastar {%
 Burch2026}%
 \begin{APACrefauthors}%
-{Burch, J. L. and Giles, Barbara L. and Ahmadi, Narges and Argall, Matthew, R.
-  and Baker, Daniel N. and Blake, J. Bernard and Bromund, Kenneth R. and Cohen,
-  Ian J. and Ergun, Robert E. and Fennell, Joseph F. and Fischer, David and
-  Fuselier, Stephen A. and Gabrielse, Christine E. and Gershman, Daniel J. and
-  Gomez, Roman G. and Graham, Daniel Bruce and Hans, Ulrich and Henderson,
-  Michael G. and Huang, B.G. and Jeszenszky, Harald and Eichelberger, Hans
-  UlrichLe, Guan and Le Contel, Olivier and Leinweber, Hannes Karl, Lindqvist,
-  Per-Arne and Magnes, Werner and Mauk, Barry H. and Mirioni, Laurent and
-  Moore, Thomas E. and Morley, Steven Karl and Nakamura, Rumi and Plaschke,
-  Ferdinand and Pollock, Craig J. and Russell, Christopher T. and Strangeway,
-  Robert J. and Torkar, Klaus M. and Torbert, Roy B. and Turner, Drew L. and
-  Wei, Hanying and Young, David T.}%
+Burch, J\BPBI L.%
+, Giles, B\BPBI L.%
+, Ahmadi, N.%
+, Argall, R., Matthew%
+, Baker, D\BPBI N.%
+, Blake, J\BPBI B.%
+\BDBL {}Young, D\BPBI T.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2024}{}{}.
 \newblock
-\APACrefbtitle {{Magnetospheric Multiscale (MMS) Project Calibration and
-  Measurement Algorithms Document (CMAD), Version 2.4}.} {{Magnetospheric
+{\BBOQ}\APACrefatitle {{Magnetospheric Multiscale (MMS) Project Calibration and
+  Measurement Algorithms Document (CMAD), Version 2.4}} {{Magnetospheric
   Multiscale (MMS) Project Calibration and Measurement Algorithms Document
-  (CMAD), Version 2.4}.}
+  (CMAD), Version 2.4}}.{\BBCQ}
 \newblock
-\APAChowpublished
-  {\url{https://spdf.gsfc.nasa.gov/pub/data/mms/documents/MMS-CMAD.pdf}}.
-\newblock
-\APACrefnote{Accessed: 2026-07-13}
+
 \newblock
 \begin{APACrefDOI} \doi{10.48322/VSHD-SV21} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -810,7 +780,7 @@ ISTP2025}%
 }{%
 {IVOA}%
 }{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACyear {2026}}%
 }]{%
 IVOA}
 \APACinsertmetastar {%
@@ -820,7 +790,7 @@ IVOA}%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\APACrefYearMonthDay{2026}{}{}.
 \newblock
 \APACrefbtitle {{International Virtual Observatory Alliance}.} {{International
   Virtual Observatory Alliance}.}

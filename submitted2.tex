@@ -230,9 +230,9 @@ The objective of the following summary is to demonstrate the diversity in the te
     \item \texttt{ECI2000} -- Earth Centered Inertial for \texttt{J2000} epoch; used in SpacePy \cite{Niehof2022}.
 
     \item \texttt{ECI} -- Earth Centered Inertial; used in \citeA{Burch2026} with the note ``\texttt{GEI/J2000} – Earth-Centered Inertial (\texttt{ECI}). To fully specify the system the equinox must be defined. This system uses the mean equinox at the J2000 epoch."
-    
+
     %Also used by the PUNCH MOC.
-    
+
    \item \texttt{GCI} -- Geocentric Celestial Inertial; used in OGO satellite data analysis \cite{NASA1970} and stated in \citeA{Russell1971} as equivalent to \texttt{GEI}.
     %\url{https://www.reddit.com/r/gis/comments/16wf78z/understanding_ecef_wgs_and_nad_coordinate_systems/}
 
@@ -371,7 +371,7 @@ In Figure~\ref{fig:mms-2}c, much larger differences are shown to exist between S
 \clearpage
 \begin{figure}[htb]
     \vspace{-0.5cm}
-    \includegraphics[width=1.1\textwidth]{figures/combined/figure1}
+    \includegraphics[width=1.1\textwidth]{submitted2-figure1}
     \caption{Comparison of position values for the Geotail spacecraft from SSCWeb and CDAWeb in four different reference systems. The top panel in each subplot displays the $X$, $Y$, and $Z$ values from each provider (on this scale, differences are not visible) and the average radial distance, $\overline{r}$, between the two providers. The bottom panel of each subplot shows relative differences in the position vector $\Delta\mathbf{r}$ and the angular difference in the position vectors, $\Delta\theta$.}
     \label{fig:geotail}
 \end{figure}
@@ -380,7 +380,7 @@ In Figure~\ref{fig:mms-2}c, much larger differences are shown to exist between S
 
 \begin{figure}[h]
     \vspace{-0.5cm}
-    \includegraphics[width=1.1\textwidth]{figures/combined/figure2}
+    \includegraphics[width=1.1\textwidth]{submitted2-figure2}
     \caption{Comparison of position values for the MMS-2 spacecraft from (a)--(b) SSCWeb and CDAWeb; (c)--(d) SSCWeb and JPL Horizons in two different reference systems.}
     \label{fig:mms-2}
 \end{figure}
@@ -424,7 +424,7 @@ This range of differences is comparable to the range of angles identified in sec
 
 \begin{figure}[htb]
     \vspace{-0.65cm}
-    \includegraphics[width=\textwidth]{figures/combined/figure3}
+    \includegraphics[width=\textwidth]{submitted2-figure3}
     \caption{Angles between $Z$ axes in select coordinate frames as computed by different software packages. In the top panels of each subplot, the notation $\angle (Z_\mathtt{A}, Z_\mathtt{B})$ means the angle between the $Z$ axis of coordinate frame $\mathtt{A}$ and the $Z$ axis of coordinate frame $\mathtt{B}$ computed using \texttt{geopack\_08\_dp}. The middle panel of each subplot shows the difference\add[r2]{, $\Delta$,} between $\angle (Z_\mathtt{A}, Z_\mathtt{B})$ computed using \texttt{geopack\_08\_dp} and that computed using the library indicated in the legend; the maximum of the absolute value of each line is shown in parentheses. The bottom panels show the maximum absolute differences in the middle panel.}
     \label{fig:angles}
 \end{figure}

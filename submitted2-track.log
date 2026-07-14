@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  13 JUL 2026 21:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  13 JUL 2026 22:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1348,75 +1348,9 @@ T1/cmtt/m/n/10 J2000 \OT1/cmr/m/n/10 epoch; used in SpacePy []Niehof et
  []
 
 
-Overfull \hbox (15.89044pt too wide) in paragraph at lines 232--233
+Overfull \hbox (26.29274pt too wide) in paragraph at lines 232--233
 []\OT1/cmtt/m/n/10 ECI \OT1/cmr/m/n/10 -- Earth Cen-tered In-er-tial; used in [
-]Burch, J. L. and Giles, Bar-bara L. and Ah- 
- []
-
-
-Overfull \hbox (19.43239pt too wide) in paragraph at lines 232--233
-\OT1/cmr/m/n/10 madi, Narges and Ar-gall, Matthew, R. and Baker, Daniel N. and 
-Blake, J. Bernard 
- []
-
-
-Overfull \hbox (9.46016pt too wide) in paragraph at lines 232--233
-\OT1/cmr/m/n/10 and Bro-mund, Ken-neth R. and Co-hen, Ian J. and Er-gun, Robert
- E. and Fen-nell, 
- []
-
-
-Overfull \hbox (3.72394pt too wide) in paragraph at lines 232--233
-\OT1/cmr/m/n/10 Joseph F. and Fis-cher, David and Fuse-lier, Stephen A. and Gab
-rielse, Chris-tine 
- []
-
-
-Overfull \hbox (2.71008pt too wide) in paragraph at lines 232--233
-\OT1/cmr/m/n/10 E. and Ger-sh-man, Daniel J. and Gomez, Ro-man G. and Gra-ham, 
-Daniel Bruce 
- []
-
-
-Overfull \hbox (1.0434pt too wide) in paragraph at lines 232--233
-\OT1/cmr/m/n/10 and Hans, Ul-rich and Hen-der-son, Michael G. and Huang, B.G. a
-nd Jeszen-szky, 
- []
-
-
-Overfull \hbox (6.44618pt too wide) in paragraph at lines 232--233
-\OT1/cmr/m/n/10 Har-ald and Eichel-berger, Hans Ul-richLe, Guan and Le Con-tel,
- Olivier and Lein- 
- []
-
-
-Overfull \hbox (6.98787pt too wide) in paragraph at lines 232--233
-\OT1/cmr/m/n/10 we-ber, Hannes Karl, Lindqvist, Per-Arne and Magnes, Werner and
- Mauk, Barry 
- []
-
-
-Overfull \hbox (23.3213pt too wide) in paragraph at lines 232--233
-\OT1/cmr/m/n/10 H. and Miri-oni, Lau-rent and Moore, Thomas E. and Mor-ley, Ste
-ven Karl and Naka- 
- []
-
-
-Overfull \hbox (9.01566pt too wide) in paragraph at lines 232--233
-\OT1/cmr/m/n/10 mura, Rumi and Plaschke, Fer-di-nand and Pol-lock, Craig J. and
- Rus-sell, Christo- 
- []
-
-
-Overfull \hbox (17.82123pt too wide) in paragraph at lines 232--233
-\OT1/cmr/m/n/10 pher T. and Strange-way, Robert J. and Torkar, Klaus M. and Tor
--bert, Roy B. and 
- []
-
-
-Overfull \hbox (52.82079pt too wide) in paragraph at lines 232--233
-\OT1/cmr/m/n/10 Turner, Drew L. and Wei, Hany-ing and Young, David T. (2024) wi
-th the note ``\OT1/cmtt/m/n/10 GEI/J2000 
+]Burch et al.[] (2024) with the note ``\OT1/cmtt/m/n/10 GEI/J2000 
  []
 
 
@@ -1510,9 +1444,6 @@ oller & San-ti-ago, 2025) in C, and Geopack-2008 []Tsyganenko,
  []
 
 
-Underfull \vbox (badness 7944) has occurred while \output is active []
-
- [7]
 Overfull \hbox (6.68236pt too wide) in paragraph at lines 269--270
 []\OT1/cmr/m/n/10 It is some-times ar-gued that, al-though reference-frame im-p
 le-men-ta-tions may yield 
@@ -1567,7 +1498,7 @@ Overfull \hbox (13.80739pt too wide) in paragraph at lines 271--272
 his un-cer-tainty is not dis-cussed in the doc-u-men-ta-tion, sug-gest- 
  []
 
-
+[7]
 Overfull \hbox (4.65451pt too wide) in paragraph at lines 273--274
 []\OT1/cmr/m/n/10 Although the con-ven-tion for de-ter-min-ing which un-cer-tai
 n-ties are con-sid-ered neg- 
@@ -1718,7 +1649,7 @@ Overfull \hbox (5.01566pt too wide) in paragraph at lines 287--288
 i-brary are lost when com- 
  []
 
-[8]
+
 Overfull \hbox (25.93228pt too wide) in paragraph at lines 289--290
 []\OT1/cmr/m/n/10 Even if the un-cer-tainty as-so-ci-ated with how a given ref-
 er-ence frame was im-ple-mented 
@@ -1749,6 +1680,9 @@ Overfull \hbox (10.82132pt too wide) in paragraph at lines 289--290
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
 Overfull \hbox (10.43231pt too wide) in paragraph at lines 297--298
 []\OT1/cmr/m/n/10 In this sec-tion, we give ex-am-ples show-ing how po-si-tion 
 val-ues from data providers 
@@ -1859,9 +1793,6 @@ Overfull \hbox (13.48792pt too wide) in paragraph at lines 322--323
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9]
 Overfull \hbox (3.23788pt too wide) in paragraph at lines 324--325
 []\OT1/cmr/m/n/10 Based on the pre-ci-sion of the data, and if both providers u
 se the same def-i-ni-tion 
@@ -1929,6 +1860,9 @@ it/10 =R[] \OMS/cmsy/m/n/10 ^^X \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n
  []
 
 
+Underfull \vbox (badness 1132) has occurred while \output is active []
+
+ [9]
 Overfull \hbox (33.9739pt too wide) in paragraph at lines 328--329
 []\OT1/cmr/m/n/10 In Fig-ure 1[](b), there is a much closer match be-tween SS-C
 Web/J2K and CDAWeb/GCI 
@@ -2152,15 +2086,11 @@ Overfull \hbox (8.04346pt too wide) in paragraph at lines 354--355
 thruster fir-ings; the TLE 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
-[11]
-<figures/combined/figure1.pdf, id=59, 337.86327pt x 475.19432pt>
-File: figures/combined/figure1.pdf Graphic file (type pdf)
-<use figures/combined/figure1.pdf>
-Package pdftex.def Info: figures/combined/figure1.pdf  used on input line 374.
+[10]
+<submitted2-figure1.pdf, id=56, 337.86327pt x 475.19432pt>
+File: submitted2-figure1.pdf Graphic file (type pdf)
+<use submitted2-figure1.pdf>
+Package pdftex.def Info: submitted2-figure1.pdf  used on input line 374.
 (pdftex.def)             Requested size: 437.2359pt x 614.98997pt.
 
 Overfull \hbox (39.75092pt too wide) in paragraph at lines 374--375
@@ -2201,11 +2131,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 375--375
 
 LaTeX Warning: Float too large for page by 24.26611pt on input line 377.
 
-[12 <./figures/combined/figure1.pdf>]
-<figures/combined/figure2.pdf, id=402, 334.5308pt x 487.19415pt>
-File: figures/combined/figure2.pdf Graphic file (type pdf)
-<use figures/combined/figure2.pdf>
-Package pdftex.def Info: figures/combined/figure2.pdf  used on input line 383.
+[11 <./submitted2-figure1.pdf>]
+<submitted2-figure2.pdf, id=399, 334.5308pt x 487.19415pt>
+File: submitted2-figure2.pdf Graphic file (type pdf)
+<use submitted2-figure2.pdf>
+Package pdftex.def Info: submitted2-figure2.pdf  used on input line 383.
 (pdftex.def)             Requested size: 437.2359pt x 636.82399pt.
 
 Overfull \hbox (39.75092pt too wide) in paragraph at lines 383--384
@@ -2221,7 +2151,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 384--384
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13 <./figures/combined/figure2.pdf>]
+[12 <./submitted2-figure2.pdf>]
 Overfull \hbox (2.8489pt too wide) in paragraph at lines 399--400
 []\OT1/cmr/m/n/10 In this sec-tion, we com-pare ref-er-ence frame cal-cu-la-tio
 ns us-ing the fol-low-ing soft- 
@@ -2445,7 +2375,7 @@ Overfull \hbox (26.37677pt too wide) in paragraph at lines 418--419
 
 Underfull \vbox (badness 3417) has occurred while \output is active []
 
- [14
+ [13
 
 
 
@@ -2516,11 +2446,11 @@ Overfull \hbox (4.48796pt too wide) in paragraph at lines 420--422
 are needed to quan-tify dif-fer- 
  []
 
-[15]
-<figures/combined/figure3.pdf, id=749, 344.99991pt x 540.13396pt>
-File: figures/combined/figure3.pdf Graphic file (type pdf)
-<use figures/combined/figure3.pdf>
-Package pdftex.def Info: figures/combined/figure3.pdf  used on input line 427.
+[14]
+<submitted2-figure3.pdf, id=746, 344.99991pt x 540.13396pt>
+File: submitted2-figure3.pdf Graphic file (type pdf)
+<use submitted2-figure3.pdf>
+Package pdftex.def Info: submitted2-figure3.pdf  used on input line 427.
 (pdftex.def)             Requested size: 397.48499pt x 622.35254pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 428--428
@@ -2570,7 +2500,7 @@ lute dif-fer-ences in the mid-dle
 
 LaTeX Warning: Float too large for page by 51.36093pt on input line 430.
 
-[16 <./figures/combined/figure3.pdf>]
+[15 <./submitted2-figure3.pdf>]
 Overfull \hbox (2.68228pt too wide) in paragraph at lines 437--438
 []\OT1/cmr/m/n/10 Archival data for space physics space-craft mis-sions typ-i-c
 ally in-clude vec-tor mea- 
@@ -2783,7 +2713,7 @@ Overfull \hbox (9.04347pt too wide) in paragraph at lines 477--478
 en-da-tions will be avail-able on the 
  []
 
-[17
+[16
 
 
 ]
@@ -2892,7 +2822,7 @@ se key quan-ti-ties will need to
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
+ [17]
 Overfull \hbox (46.65468pt too wide) in paragraph at lines 513--514
 [][][]\OT1/cmr/m/n/10 space[] [][][]physics[] [][][]ref[]-[]er[]-[]ence[] [][][
 ]frame[] [][][]trans[]-[]forms[] [][][]in[] [][][]1982[] [][][][],[] [][][]2000
@@ -3146,7 +3076,7 @@ i-ble to cite de-scrip-tions of the model,
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+ [18]
 Overfull \hbox (10.2934pt too wide) in paragraph at lines 548--549
 []\OT1/cmr/m/n/10 Having a dataset of ref-er-ence frame trans-form ma-tri-ces w
 ill ad-dress an-other is-sue. 
@@ -3240,7 +3170,7 @@ ences[] [][][]to[] [][][]these[] [][][]two[] [][][]val[]-[]ues[] [][][]and[] []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
+ [19]
 Overfull \hbox (4.21008pt too wide) in paragraph at lines 611--612
 []\OT1/cmr/m/n/10 In this work, we have been pri-mar-ily in-ter-ested in the pr
 ob-lem of trans-form-ing a 
@@ -3424,7 +3354,7 @@ tions are given in []Jackson
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
+ [20]
 Overfull \hbox (11.82127pt too wide) in paragraph at lines 638--639
 []\OT1/cmr/m/n/10 Data providers en-sure that meta-data as-so-ci-ated with po-s
 i-tions and vari-ables that 
@@ -3505,7 +3435,7 @@ d-el-ing (soft-ware li-brary)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
+ [21]
 Overfull \hbox (5.52913pt too wide) in paragraph at lines 678--679
 []\OT1/cmtt/m/n/10 MAG \OT1/cmr/m/n/10 -- Ge-o-mag-netic (ref-er-ence sys-tem).
  Also re-ferred to as Cen-tered Dipole (\OT1/cmtt/m/n/10 CD\OT1/cmr/m/n/10 ) 
@@ -3568,17 +3498,11 @@ Overfull \hbox (5.43239pt too wide) in paragraph at lines 706--707
 and sug-ges-tions that have 
  []
 
-(./submitted2-track.bbl [23]
-Underfull \vbox (badness 1264) has occurred while \output is active []
+(./submitted2-track.bbl [22]
+Underfull \vbox (badness 5260) has occurred while \output is active []
 
- [24]
-Underfull \vbox (badness 3460) has occurred while \output is active []
-
- [25]
-Underfull \vbox (badness 6141) has occurred while \output is active []
-
- [26])
-[27] (./submitted2-track.aux)
+ [23]
+[24]) [25] (./submitted2-track.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -3588,12 +3512,15 @@ L3 programming layer <2026-01-19>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.45pt have occurred.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 6016 strings out of 469006
- 100616 string characters out of 5454814
- 623803 words of memory out of 5000000
- 34625 multiletter control sequences out of 15000+600000
+ 6007 strings out of 469006
+ 100088 string characters out of 5454814
+ 620391 words of memory out of 5000000
+ 34616 multiletter control sequences out of 15000+600000
  638336 words of font info for 77 fonts, out of 8000000 for 9000
  325 hyphenation exceptions out of 8191
  72i,12n,79p,2091b,860s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3625,10 +3552,10 @@ pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmtt8.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmtt9.pfb>
-Output written on submitted2-track.pdf (27 pages, 1002266 bytes).
+Output written on submitted2-track.pdf (25 pages, 999600 bytes).
 PDF statistics:
- 1221 PDF objects out of 1440 (max. 8388607)
- 503 compressed objects within 6 object streams
+ 1214 PDF objects out of 1440 (max. 8388607)
+ 499 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

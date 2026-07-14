@@ -2,9 +2,10 @@ PDFLATEX=/Library/TeX/texbin/pdflatex
 BIBTEX=/Library/TeX/texbin/bibtex
 
 cd ../figures/combined/
-$PDFLATEX figure1.tex
-$PDFLATEX figure2.tex
-$PDFLATEX figure3.tex
+$PDFLATEX submitted2-figure1.tex
+$PDFLATEX submitted2-figure2.tex
+$PDFLATEX submitted2-figure3.tex
+cp submitted2-*.pdf ../../
 
 cd ../..
 

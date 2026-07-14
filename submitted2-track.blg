@@ -12,59 +12,47 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: main.bib
-Warning--entry type for "Weigel2026" isn't style-file defined
---line 202 of file main.bib
-I was expecting a `,' or a `}'---line 558 of file main.bib
- :     
- :     year = 2026,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-Warning--you've exceeded 500, the entry-string-size, for entry Burch2026
-while executing--line 5062 of file apacite.bst
-*Please notify the bibstyle designer*
-Warning--you've exceeded 500, the entry-string-size, for entry Burch2026
-while executing--line 5076 of file apacite.bst
-*Please notify the bibstyle designer*
+Warning--No journal in Burch2026
 You've used 68 entries,
             6951 wiz_defined-function locations,
-            1700 strings with 32897 characters,
-and the built_in function-call counts, 122474 in all, are:
-= -- 15066
-> -- 1039
-< -- 5671
-+ -- 5658
-- -- 198
-* -- 7572
-:= -- 21803
-add.period$ -- 302
+            1698 strings with 32805 characters,
+and the built_in function-call counts, 123254 in all, are:
+= -- 15133
+> -- 1056
+< -- 5713
++ -- 5754
+- -- 196
+* -- 7642
+:= -- 21944
+add.period$ -- 300
 call.type$ -- 68
-change.case$ -- 1201
+change.case$ -- 1214
 chr.to.int$ -- 0
-cite$ -- 136
-duplicate$ -- 3439
-empty$ -- 5089
-format.name$ -- 1757
-if$ -- 23645
+cite$ -- 137
+duplicate$ -- 3503
+empty$ -- 5107
+format.name$ -- 1801
+if$ -- 23752
 int.to.chr$ -- 0
 int.to.str$ -- 218
 missing$ -- 0
-newline$ -- 1740
+newline$ -- 1744
 num.names$ -- 548
-pop$ -- 3697
+pop$ -- 3711
 preamble$ -- 1
-purify$ -- 271
+purify$ -- 272
 quote$ -- 0
-skip$ -- 6850
+skip$ -- 6837
 stack$ -- 0
-substring$ -- 6201
-swap$ -- 1751
+substring$ -- 6312
+swap$ -- 1782
 text.length$ -- 186
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 5704
-warning$ -- 0
-while$ -- 604
+type$ -- 5632
+warning$ -- 1
+while$ -- 619
 width$ -- 0
-write$ -- 2058
-(There was 1 error message)
+write$ -- 2070
+(There was 1 warning)
