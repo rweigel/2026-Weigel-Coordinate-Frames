@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  13 JUL 2026 20:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  13 JUL 2026 21:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -254,20 +254,20 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 ) (./submitted2-track.aux)
 \openout1 = `submitted2-track.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
 
 (/usr/local/texlive/2026basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -305,407 +305,407 @@ Package caption Info: changepage package is loaded.
 \caption@adjustwidth@linewidth=\dimen178
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 77.
+(Font)              <8> on input line 76.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 77.
+(Font)              <6> on input line 76.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 77.
+(Font)              <5> on input line 76.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 84.
+(Font)              <7> on input line 83.
 
-Overfull \hbox (18.26566pt too wide) in paragraph at lines 85--86
+Overfull \hbox (18.26566pt too wide) in paragraph at lines 84--85
 []\OT1/cmr/m/n/10 Reproducing co-or-di-nate sys-tem trans-forms is dif-fi-cult 
 due to in-con-sis-ten-cies in def- 
  []
 
 
-Overfull \hbox (7.55734pt too wide) in paragraph at lines 86--87
+Overfull \hbox (7.55734pt too wide) in paragraph at lines 85--86
 []\OT1/cmr/m/n/10 Spacecraft po-si-tions from dif-fer-ent providers can dif-fer
  sig-nif-i-cantly, as do $\OML/cmm/m/it/10 Z$\OT1/cmr/m/n/10 -axis 
  []
 
 
-Overfull \hbox (7.04343pt too wide) in paragraph at lines 87--88
+Overfull \hbox (7.04343pt too wide) in paragraph at lines 86--87
 []\OT1/cmr/m/n/10 We present rec-om-men-da-tions to im-prove re-pro-ducibil-ity
  and re-duce ef-fort du-pli- 
  []
 
 [1{/usr/local/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (6.07089pt too wide) in paragraph at lines 90--92
+Overfull \hbox (6.07089pt too wide) in paragraph at lines 89--91
 \OT1/cmr/m/n/10 In space physics, acronyms for co-or-di-nate sys-tems (e.g., \O
 T1/cmtt/m/n/10 GEI\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 GSM\OT1/cmr/m/n/10 ) are c
 om-monly used; 
  []
 
 
-Overfull \hbox (5.18234pt too wide) in paragraph at lines 90--92
+Overfull \hbox (5.18234pt too wide) in paragraph at lines 89--91
 \OT1/cmr/m/n/10 how-ever, dif-fer-ences in their def-i-ni-tions and im-ple-men-
 ta-tions can pre-vent re-pro-ducibil- 
  []
 
 
-Overfull \hbox (11.18227pt too wide) in paragraph at lines 90--92
+Overfull \hbox (11.18227pt too wide) in paragraph at lines 89--91
 \OT1/cmr/m/n/10 ity. In this work, we com-pare def-i-ni-tions in on-line re-sou
 rces, soft-ware pack-ages, and fre- 
  []
 
 
-Overfull \hbox (18.79349pt too wide) in paragraph at lines 90--92
+Overfull \hbox (18.79349pt too wide) in paragraph at lines 89--91
 \OT1/cmr/m/n/10 quently cited jour-nal ar-ti-cles and show that im-ple-men-ta-t
 ion dif-fer-ences can lead to trans- 
  []
 
 
-Overfull \hbox (5.62686pt too wide) in paragraph at lines 90--92
+Overfull \hbox (5.62686pt too wide) in paragraph at lines 89--91
 \OT1/cmr/m/n/10 for-ma-tions be-tween same-named co-or-di-nate sys-tems and po-
 si-tion val-ues from dif-fer-ent 
  []
 
 
-Overfull \hbox (14.18237pt too wide) in paragraph at lines 90--92
+Overfull \hbox (14.18237pt too wide) in paragraph at lines 89--91
 \OT1/cmr/m/n/10 data providers to dif-fer sig-nif-i-cantly. Based on these com-
 par-isons and re-sults, and to en- 
  []
 
 
-Overfull \hbox (12.71022pt too wide) in paragraph at lines 90--92
+Overfull \hbox (12.71022pt too wide) in paragraph at lines 89--91
 \OT1/cmr/m/n/10 able re-pro-ducibil-ity, we rec-om-mend that (a) a stan-dard fo
 r acronyms and def-i-ni-tions for 
  []
 
 
-Overfull \hbox (4.37677pt too wide) in paragraph at lines 90--92
+Overfull \hbox (4.37677pt too wide) in paragraph at lines 89--91
 \OT1/cmr/m/n/10 co-or-di-nate sys-tems is de-vel-oped, sim-i-lar to equiv-a-len
 ts in as-tron-omy or earth sci-ences; 
  []
 
 
-Overfull \hbox (53.38725pt too wide) in paragraph at lines 90--92
+Overfull \hbox (53.38725pt too wide) in paragraph at lines 89--91
 \OT1/cmr/m/n/10 (b) a stan-dards body de-vel-ops a citable database of ref-er-e
 nce data needed for these transforms$[]$[][]\OT1/cmr/m/n/8 ;[] 
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 95.
+(Font)              size <10.95> substituted on input line 94.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 95.
+(Font)              size <10.95> substituted on input line 94.
 
 
-Overfull \hbox (1.32114pt too wide) in paragraph at lines 110--111
+Overfull \hbox (1.32114pt too wide) in paragraph at lines 109--110
 []\OT1/cmr/m/n/10 In space physics, co-or-di-nate sys-tems are usu-ally ref-er-
 enced by an acronym. The 
  []
 
 
-Overfull \hbox (16.40459pt too wide) in paragraph at lines 110--111
+Overfull \hbox (16.40459pt too wide) in paragraph at lines 109--110
 \OT1/cmr/m/n/10 co-or-di-nate sys-tem's def-i-ni-tion is typ-i-cally as-sumed o
 r given by cit-ing a ref-er-ence that de- 
  []
 
 
-Overfull \hbox (9.4045pt too wide) in paragraph at lines 110--111
+Overfull \hbox (9.4045pt too wide) in paragraph at lines 109--110
 \OT1/cmr/m/n/10 scribes it. This work stems from a project to de-velop a stan-d
 ard for terms and de-scrip- 
  []
 
 
-Overfull \hbox (4.54297pt too wide) in paragraph at lines 110--111
+Overfull \hbox (4.54297pt too wide) in paragraph at lines 109--110
 \OT1/cmr/m/n/10 tions for co-or-di-nate sys-tem acronyms such as \OT1/cmtt/m/n/
 10 GEI\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 GSE\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 
 GSM\OT1/cmr/m/n/10 , and their com-monly used 
  []
 
 
-Overfull \hbox (10.2693pt too wide) in paragraph at lines 110--111
+Overfull \hbox (10.2693pt too wide) in paragraph at lines 109--110
 \OT1/cmr/m/n/10 vari-a-tions, e.g., \OT1/cmtt/m/n/10 GEI[]J2000\OT1/cmr/m/n/10 
 , \OT1/cmtt/m/n/10 GEI[]MOD\OT1/cmr/m/n/10 ; see Ap-pendix A[] for def-i-ni-tio
 ns and []Russell (1971), 
  []
 
 
-Overfull \hbox (3.9881pt too wide) in paragraph at lines 110--111
+Overfull \hbox (3.9881pt too wide) in paragraph at lines 109--110
 []\OT1/cmr/m/n/10 Hapgood (1992), []Fr^^?anz and Harper (2002), and []Laundal a
 nd Rich-mond (2016) for ad- 
  []
 
 
-Overfull \hbox (3.29338pt too wide) in paragraph at lines 110--111
+Overfull \hbox (3.29338pt too wide) in paragraph at lines 109--110
 \OT1/cmr/m/n/10 di-tional de-tails. The ob-jec-tive is that, given a state-ment
  such as ``the vec-tor mea-sure- 
  []
 
 
-Overfull \hbox (3.93175pt too wide) in paragraph at lines 110--111
+Overfull \hbox (3.93175pt too wide) in paragraph at lines 109--110
 \OT1/cmr/m/n/10 ments in \OT1/cmtt/m/n/10 ABC \OT1/cmr/m/n/10 were trans-formed
  into \OT1/cmtt/m/n/10 XYZ\OT1/cmr/m/n/10 ,'' a sci-en-tist with mea-sure-ments
  in \OT1/cmtt/m/n/10 ABC \OT1/cmr/m/n/10 would 
  []
 
 
-Overfull \hbox (16.30148pt too wide) in paragraph at lines 110--111
+Overfull \hbox (16.30148pt too wide) in paragraph at lines 109--110
 \OT1/cmr/m/n/10 be able to re-pro-duce the transformation$[]$[][],[] with the o
 nly un-cer-tainty be-ing due to round- 
  []
 
 
-Overfull \hbox (0.2378pt too wide) in paragraph at lines 112--113
+Overfull \hbox (0.2378pt too wide) in paragraph at lines 111--112
 []\OT1/cmr/m/n/10 Currently, this is not pos-si-ble due to the lack of stan-dar
 ds. At present, the best 
  []
 
 
-Overfull \hbox (5.59903pt too wide) in paragraph at lines 112--113
+Overfull \hbox (5.59903pt too wide) in paragraph at lines 111--112
 \OT1/cmr/m/n/10 that can be achieved is a ci-ta-tion to the def-i-ni-tion in on
 e of the pa-pers above, but this 
  []
 
 
-Overfull \hbox (5.48788pt too wide) in paragraph at lines 112--113
+Overfull \hbox (5.48788pt too wide) in paragraph at lines 111--112
 \OT1/cmr/m/n/10 is not suf-fi-cient for re-pro-ducibil-ity -- in this work we s
 how that how a given co-or-di-nate 
  []
 
 
-Overfull \hbox (17.3213pt too wide) in paragraph at lines 112--113
+Overfull \hbox (17.3213pt too wide) in paragraph at lines 111--112
 \OT1/cmr/m/n/10 frame def-i-ni-tion can be im-ple-mented in dif-fer-ent ways, l
 ead-ing to dif-fer-ent data providers 
  []
 
 
-Overfull \hbox (0.57127pt too wide) in paragraph at lines 112--113
+Overfull \hbox (0.57127pt too wide) in paragraph at lines 111--112
 \OT1/cmr/m/n/10 giv-ing dif-fer-ent lo-ca-tions for a space-craft and dif-fer-e
 nt soft-ware li-braries giv-ing dif-fer- 
  []
 
 
-Overfull \hbox (20.49834pt too wide) in paragraph at lines 112--113
+Overfull \hbox (20.49834pt too wide) in paragraph at lines 111--112
 \OT1/cmr/m/n/10 ent an-swers for $[]$[][]\OT1/cmr/m/n/8 a[][][] \OT1/cmr/m/n/10
  the trans-for-ma-tion of a vec-tor from one co-or-di-nate sys-tem to an-other.
   
  []
 
 [2]
-Overfull \hbox (5.62679pt too wide) in paragraph at lines 114--115
+Overfull \hbox (5.62679pt too wide) in paragraph at lines 113--114
 []\OT1/cmr/m/n/10 As doc-u-mented in this work, com-par-ing data trans-formed w
 ith dif-fer-ent soft-ware 
  []
 
 
-Overfull \hbox (5.68245pt too wide) in paragraph at lines 114--115
+Overfull \hbox (5.68245pt too wide) in paragraph at lines 113--114
 \OT1/cmr/m/n/10 is com-pli-cated by the fact that trans-form im-ple-men-ta-tion
 s are not unique, in-tro-duc-ing 
  []
 
 
-Overfull \hbox (1.79344pt too wide) in paragraph at lines 114--115
+Overfull \hbox (1.79344pt too wide) in paragraph at lines 113--114
 \OT1/cmr/m/n/10 un-known un-cer-tainty. In the early era of space physics, un-c
 er-tainty due to im-ple-men- 
  []
 
 
-Overfull \hbox (14.96007pt too wide) in paragraph at lines 114--115
+Overfull \hbox (14.96007pt too wide) in paragraph at lines 113--114
 \OT1/cmr/m/n/10 ta-tion dif-fer-ences was much smaller than mea-sure-ment un-ce
 r-tainty. Here, we ar-gue that, 
  []
 
 
-Overfull \hbox (17.48796pt too wide) in paragraph at lines 114--115
+Overfull \hbox (17.48796pt too wide) in paragraph at lines 113--114
 \OT1/cmr/m/n/10 in some ap-pli-ca-tions, these dif-fer-ences mat-ter and that i
 m-ple-men-ta-tion un-cer-tainty poses 
  []
 
 
-Overfull \hbox (1.26581pt too wide) in paragraph at lines 114--115
+Overfull \hbox (1.26581pt too wide) in paragraph at lines 113--114
 \OT1/cmr/m/n/10 an un-nec-es-sary im-ped-i-ment to re-pro-ducibil-ity and data 
 in-ter-com-par-i-son. In ad-di-tion, 
  []
 
 
-Overfull \hbox (16.90451pt too wide) in paragraph at lines 116--117
+Overfull \hbox (16.90451pt too wide) in paragraph at lines 115--116
 []\OT1/cmr/m/n/10 Our back-ground re-search re-vealed ad-di-tional is-sues that
  must be ad-dressed to meet 
  []
 
 
-Overfull \hbox (7.18237pt too wide) in paragraph at lines 116--117
+Overfull \hbox (7.18237pt too wide) in paragraph at lines 115--116
 \OT1/cmr/m/n/10 the ob-jec-tive of re-pro-ducibil-ity in the sense de-fined abo
 ve. First, im-ple-ment-ing a given 
  []
 
 
-Overfull \hbox (6.37682pt too wide) in paragraph at lines 116--117
+Overfull \hbox (6.37682pt too wide) in paragraph at lines 115--116
 \OT1/cmr/m/n/10 co-or-di-nate sys-tem given a gen-eral de-scrip-tion re-quires 
 mak-ing im-ple-men-ta-tion choices. 
  []
 
 
-Overfull \hbox (5.59892pt too wide) in paragraph at lines 116--117
+Overfull \hbox (5.59892pt too wide) in paragraph at lines 115--116
 \OT1/cmr/m/n/10 There-fore, terms and def-i-ni-tions for ref-er-ence im-ple-men
 -ta-tions are also needed. In sec- 
  []
 
 
-Overfull \hbox (8.68231pt too wide) in paragraph at lines 116--117
+Overfull \hbox (8.68231pt too wide) in paragraph at lines 115--116
 \OT1/cmr/m/n/10 tion 2[], we note that in as-tron-omy and the Earth sci-ences, 
 this has been rec-og-nized and 
  []
 
 
-Overfull \hbox (1.96007pt too wide) in paragraph at lines 118--119
+Overfull \hbox (1.96007pt too wide) in paragraph at lines 117--118
 []\OT1/cmr/m/n/10 Second, the stan-dard for terms and de-scrip-tions must ad-dr
 ess their ex-ist-ing am- 
  []
 
 
-Overfull \hbox (18.54337pt too wide) in paragraph at lines 118--119
+Overfull \hbox (18.54337pt too wide) in paragraph at lines 117--118
 \OT1/cmr/m/n/10 bi-gu-ity. Ex-am-ples of am-bi-gu-ity are given for the \OT1/cm
 tt/m/n/10 GEI \OT1/cmr/m/n/10 co-or-di-nate sys-tem in sec-tion 3[]. The 
  []
 
 
-Overfull \hbox (35.80142pt too wide) in paragraph at lines 118--119
+Overfull \hbox (35.80142pt too wide) in paragraph at lines 117--118
 \OT1/cmr/m/n/10 gen-eral con-clu-sion is that in space physics, there is no agr
 eed-upon stan-dard for coordinate$[]$[][]- 
  []
 
 
-Overfull \hbox (3.12685pt too wide) in paragraph at lines 120--121
+Overfull \hbox (3.12685pt too wide) in paragraph at lines 119--120
 []\OT1/cmr/m/n/10 To quan-tify the im-pact of am-bi-gu-ity in def-i-ni-tions an
 d im-ple-men-ta-tions, we give 
  []
 
 
-Overfull \hbox (11.46014pt too wide) in paragraph at lines 120--121
+Overfull \hbox (11.46014pt too wide) in paragraph at lines 119--120
 \OT1/cmr/m/n/10 ex-am-ples that demon-strate the re-ported po-si-tions for spac
 e-craft in the same-named ref- 
  []
 
 
-Overfull \hbox (6.65456pt too wide) in paragraph at lines 120--121
+Overfull \hbox (6.65456pt too wide) in paragraph at lines 119--120
 \OT1/cmr/m/n/10 er-ence sys-tems can sig-nif-i-cantly dif-fer de-pend-ing on th
 e data source in sec-tion 4.1[], and 
  []
 
 
-Overfull \hbox (8.5156pt too wide) in paragraph at lines 120--121
+Overfull \hbox (8.5156pt too wide) in paragraph at lines 119--120
 \OT1/cmr/m/n/10 that the source of these dif-fer-ences can be due to dif-fer-en
 ces in the def-i-ni-tion of a co-or- 
  []
 
 
-Overfull \hbox (12.32112pt too wide) in paragraph at lines 122--123
+Overfull \hbox (12.32112pt too wide) in paragraph at lines 121--122
 []\OT1/cmr/m/n/10 In sec-tion 4.2[], we demon-strate that soft-ware that trans-
 forms a vec-tor be-tween two 
  []
 
 
-Overfull \hbox (19.276pt too wide) in paragraph at lines 124--125
+Overfull \hbox (19.276pt too wide) in paragraph at lines 123--124
 \OT1/cmr/m/n/10 ni-tions and im-ple-men-ta-tions $[]$[][]in[] [][][]prac[]-[]ti
 ce[], we next con-sider how space-craft mis-sions com- 
  []
 
 
-Overfull \hbox (11.04343pt too wide) in paragraph at lines 124--125
+Overfull \hbox (11.04343pt too wide) in paragraph at lines 123--124
 \OT1/cmr/m/n/10 pute trans-forms. To meet the ob-jec-tive of re-pro-ducibil-ity
 , we must un-der-stand how cal- 
  []
 
 
-Overfull \hbox (5.79346pt too wide) in paragraph at lines 124--125
+Overfull \hbox (5.79346pt too wide) in paragraph at lines 123--124
 \OT1/cmr/m/n/10 cu-la-tions are per-formed and ac-count for this in our rec-om-
 men-da-tions. In sec-tion 5[], we 
  []
 
 
-Overfull \hbox (13.18236pt too wide) in paragraph at lines 124--125
+Overfull \hbox (13.18236pt too wide) in paragraph at lines 123--124
 \OT1/cmr/m/n/10 de-scribe how mis-sions de-velop data prod-ucts in dif-fer-ent 
 co-or-di-nate sys-tems, which may 
  []
 
 
-Overfull \hbox (15.76558pt too wide) in paragraph at lines 126--127
+Overfull \hbox (15.76558pt too wide) in paragraph at lines 125--126
 []\OT1/cmr/m/n/10 In sec-tion 6[], we pro-vide a set of rec-om-men-da-tions tha
 t ad-dress def-i-ni-tion is-sues de- 
  []
 
 
-Overfull \hbox (12.34886pt too wide) in paragraph at lines 126--127
+Overfull \hbox (12.34886pt too wide) in paragraph at lines 125--126
 \OT1/cmr/m/n/10 scribed in sec-tion 3[], the re-sults in sec-tion 4[], and the 
 de-scrip-tion in sec-tion 5[]. These rec- 
  []
 
 
-Overfull \hbox (7.98802pt too wide) in paragraph at lines 126--127
+Overfull \hbox (7.98802pt too wide) in paragraph at lines 125--126
 \OT1/cmr/m/n/10 om-men-da-tions ad-dress am-bi-gu-ity in ter-mi-nol-ogy and def
 -i-ni-tions, the cre-ation and test- 
  []
 
 
-Overfull \hbox (1.87686pt too wide) in paragraph at lines 126--127
+Overfull \hbox (1.87686pt too wide) in paragraph at lines 125--126
 \OT1/cmr/m/n/10 ing of soft-ware for trans-forms, and how mis-sions com-pute tr
 ans-formed data prod-ucts.  
  []
 
 
-Overfull \hbox (10.15446pt too wide) in paragraph at lines 131--132
+Overfull \hbox (10.15446pt too wide) in paragraph at lines 130--131
 []\OT1/cmr/m/n/10 Thus far, we have used the term ``co-or-di-nate sys-tem" con-
 sis-tent with com-mon us- 
  []
 
 
-Overfull \hbox (5.84889pt too wide) in paragraph at lines 131--132
+Overfull \hbox (5.84889pt too wide) in paragraph at lines 130--131
 \OT1/cmr/m/n/10 age in space physics as de-scribed in sec-tion 2.1[]. In sec-ti
 on 2.2[], we note that ``ideal ref- 
  []
 
 
-Overfull \hbox (3.82108pt too wide) in paragraph at lines 131--132
+Overfull \hbox (3.82108pt too wide) in paragraph at lines 130--131
 \OT1/cmr/m/n/10 er-ence sys-tem", ``ref-er-ence sys-tem", or ``ref-er-ence fram
 e" is more con-sis-tent with lit-er- 
  []
 
 
-Overfull \hbox (5.98781pt too wide) in paragraph at lines 131--132
+Overfull \hbox (5.98781pt too wide) in paragraph at lines 130--131
 \OT1/cmr/m/n/10 a-ture out-side of space physics and will use these terms in th
 e re-main-der of this ar-ti-cle.  
  []
 
 
-Overfull \hbox (7.01578pt too wide) in paragraph at lines 136--137
+Overfull \hbox (7.01578pt too wide) in paragraph at lines 135--136
 []\OT1/cmr/m/n/10 In ge-om-e-try, in-tro-duc-tory physics, and math-e-mat-ics t
 ext-books, co-or-di-nate val-ues 
  []
 
 
-Overfull \hbox (5.66537pt too wide) in paragraph at lines 136--137
+Overfull \hbox (5.66537pt too wide) in paragraph at lines 135--136
 \OT1/cmr/m/n/10 in a ``co-or-di-nate sys-tem" uniquely iden-tify spa-tial po-si
 -tions rel-a-tive to an \OT1/cmr/m/it/10 ar-bi-trary \OT1/cmr/m/n/10 set 
  []
 
 
-Overfull \hbox (3.37685pt too wide) in paragraph at lines 136--137
+Overfull \hbox (3.37685pt too wide) in paragraph at lines 135--136
 \OT1/cmr/m/n/10 of three or-thog-o-nal vec-tors and an ori-gin. Com-mon co-or-d
 i-nate sys-tems are Carte-sian, 
  []
 
 
-Overfull \hbox (8.1823pt too wide) in paragraph at lines 136--137
+Overfull \hbox (8.1823pt too wide) in paragraph at lines 135--136
 \OT1/cmr/m/n/10 cylin-dri-cal, and spher-i-cal. In the space physics lit-er-a-t
 ure, a co-or-di-nate sys-tem is gen-er- 
  []
 
 
-Overfull \hbox (0.27933pt too wide) in paragraph at lines 136--137
+Overfull \hbox (0.27933pt too wide) in paragraph at lines 135--136
 \OT1/cmr/m/n/10 ally $[]$[][]\OT1/cmr/m/n/8 meant[] [][][]as[][][][][]\OT1/cmr/
 m/n/10 un[]-[]der[]-[]stood[] [][][]to[] [][][]be[] a \OT1/cmr/m/it/10 spe-cifi
 c \OT1/cmr/m/n/10 set of three or-thog-o-nal vec-tors and an ori-gin, 
  []
 
 
-Overfull \hbox (6.26567pt too wide) in paragraph at lines 136--137
+Overfull \hbox (6.26567pt too wide) in paragraph at lines 135--136
 \OT1/cmr/m/n/10 with co-or-di-nate val-ues ex-pressed in a co-or-di-nate sys-te
 m such as Carte-sian, cylin-dri-cal, 
  []
@@ -714,231 +714,231 @@ m such as Carte-sian, cylin-dri-cal,
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-Overfull \hbox (19.718pt too wide) in paragraph at lines 138--139
+Overfull \hbox (19.718pt too wide) in paragraph at lines 137--138
 []\OT1/cmr/m/n/10 This us-age, $[]$[][]in[] which ``co-or-di-nate sys-tem" has 
 two mean-ings, dates back to at least 
  []
 
 
-Overfull \hbox (4.23796pt too wide) in paragraph at lines 138--139
+Overfull \hbox (4.23796pt too wide) in paragraph at lines 137--138
 \OT1/cmr/m/n/10 early doc-u-men-ta-tion of the NASA shut-tle pro-gram []Davis, 
 1974) and has been con-sis- 
  []
 
 
-Overfull \hbox (26.21002pt too wide) in paragraph at lines 138--139
+Overfull \hbox (26.21002pt too wide) in paragraph at lines 137--138
 \OT1/cmr/m/n/10 tently used in fre-quently cited lit-er-a-ture re-lated to spac
 e physics ref-er-ence sys-tems ([]Russell 
  []
 
 
-Overfull \hbox (1.82147pt too wide) in paragraph at lines 138--139
+Overfull \hbox (1.82147pt too wide) in paragraph at lines 137--138
 \OT1/cmr/m/n/10 (1971); []Hapgood (1992); []Hapgood (1995); []Laundal and Rich-
 mond (2016)). (How-ever, 
  []
 
 
-Overfull \hbox (6.76576pt too wide) in paragraph at lines 138--139
+Overfull \hbox (6.76576pt too wide) in paragraph at lines 137--138
 \OT1/cmr/m/n/10 an ear-lier work in-volv-ing anal-y-sis of data from the OGO (O
 r-bit-ing Geo-phys-i-cal Ob-ser- 
  []
 
 
-Overfull \hbox (2.12666pt too wide) in paragraph at lines 138--139
+Overfull \hbox (2.12666pt too wide) in paragraph at lines 137--138
 \OT1/cmr/m/n/10 va-tory; []NASA (1970)) satel-lite used only ``sys-tem" for the
  cen-tral noun, e.g., \OT1/cmtt/m/n/10 GCI \OT1/cmr/m/n/10 sys- 
  []
 
 
-Overfull \hbox (6.32114pt too wide) in paragraph at lines 148--149
+Overfull \hbox (6.32114pt too wide) in paragraph at lines 147--148
 []\OT1/cmr/m/n/10 In as-tron-omy, the terms ``ref-er-ence sys-tem" and ``ref-er
 -ence frame" are used; from 
  []
 
 
-Overfull \hbox (12.09888pt too wide) in paragraph at lines 150--151
+Overfull \hbox (12.09888pt too wide) in paragraph at lines 149--150
 []\OT1/cmr/m/n/10 ``A ref-er-ence sys-tem is the com-plete spec-i-fi-ca-tion of
  how a ce-les-tial co-or-di-nate sys- 
  []
 
 
-Overfull \hbox (0.43234pt too wide) in paragraph at lines 150--151
+Overfull \hbox (0.43234pt too wide) in paragraph at lines 149--150
 \OT1/cmr/m/n/10 tem is to be formed. It de-fines the ori-gin and fun-da-men-tal
  planes (or axes) of the co- 
  []
 
 
-Overfull \hbox (28.32127pt too wide) in paragraph at lines 150--151
+Overfull \hbox (28.32127pt too wide) in paragraph at lines 149--150
 \OT1/cmr/m/n/10 or-di-nate sys-tem. It also spec-i-fies all of the con-stants, 
 mod-els, and al-go-rithms used to trans- 
  []
 
 
-Overfull \hbox (2.15456pt too wide) in paragraph at lines 150--151
+Overfull \hbox (2.15456pt too wide) in paragraph at lines 149--150
 \OT1/cmr/m/n/10 form be-tween ob-serv-able quan-ti-ties and ref-er-ence data th
 at con-form to the sys-tem. A 
  []
 
 
-Overfull \hbox (9.29341pt too wide) in paragraph at lines 150--151
+Overfull \hbox (9.29341pt too wide) in paragraph at lines 149--150
 \OT1/cmr/m/n/10 ref-er-ence frame con-sists of a set of iden-ti-fi-able fidu-ci
 al points on the sky (spe-cific as-tro- 
  []
 
 
-Overfull \hbox (0.82123pt too wide) in paragraph at lines 150--151
+Overfull \hbox (0.82123pt too wide) in paragraph at lines 149--150
 \OT1/cmr/m/n/10 nom-i-cal ob-jects), along with their co-or-di-nates, that serv
 es as the prac-ti-cal re-al-iza-tion 
  []
 
 
-Overfull \hbox (19.48772pt too wide) in paragraph at lines 152--153
+Overfull \hbox (19.48772pt too wide) in paragraph at lines 151--152
 []\OT1/cmr/m/n/10 The terms ``ref-er-ence sys-tem" and ``ref-er-ence frame" are
  also used in the same sense 
  []
 
 
-Overfull \hbox (1.04338pt too wide) in paragraph at lines 154--156
+Overfull \hbox (1.04338pt too wide) in paragraph at lines 153--155
 []\OT1/cmr/m/n/10 A fun-da-men-tal ref-er-ence sys-tem in as-tron-omy is the In
 -ter-na-tional Ce-les-tial Ref- 
  []
 
 
-Overfull \hbox (6.71007pt too wide) in paragraph at lines 154--156
+Overfull \hbox (6.71007pt too wide) in paragraph at lines 153--155
 \OT1/cmr/m/n/10 er-ence Sys-tem (ICRS) []Petit & Luzum, 2010). No unique ref-er
 -ence frame is as-so-ci-ated 
  []
 
 
-Overfull \hbox (12.18233pt too wide) in paragraph at lines 154--156
+Overfull \hbox (12.18233pt too wide) in paragraph at lines 153--155
 \OT1/cmr/m/n/10 with this ref-er-ence sys-tem be-cause cre-at-ing (or, equiv-a-
 lently, ``re-al-iz-ing" or ``im-ple-ment- 
  []
 
 
-Overfull \hbox (15.40454pt too wide) in paragraph at lines 154--156
+Overfull \hbox (15.40454pt too wide) in paragraph at lines 153--155
 \OT1/cmr/m/n/10 ing") one re-quires mea-sure-ments for com-put-ing ref-er-ence 
 sys-tem model pa-ram-e-ters. The 
  []
 
 
-Overfull \hbox (1.04338pt too wide) in paragraph at lines 154--156
+Overfull \hbox (1.04338pt too wide) in paragraph at lines 153--155
 \OT1/cmr/m/n/10 In-ter-na-tional Ce-les-tial Ref-er-ence Frame (ICRF) is the ge
 n-eral term for re-al-iza-tions of 
  []
 
 
-Overfull \hbox (13.12685pt too wide) in paragraph at lines 154--156
+Overfull \hbox (13.12685pt too wide) in paragraph at lines 153--155
 \OT1/cmr/m/n/10 the ICRS that are adopted by a stan-dards body and up-dated as 
 new mea-sure-ments and 
  []
 
 
-Overfull \hbox (6.34895pt too wide) in paragraph at lines 154--156
+Overfull \hbox (6.34895pt too wide) in paragraph at lines 153--155
 \OT1/cmr/m/n/10 model ver-sions be-come avail-able. There are three ver-sions o
 f the ICRF []Charlot et al.[], 
  []
 
 
-Overfull \hbox (8.54337pt too wide) in paragraph at lines 157--158
+Overfull \hbox (8.54337pt too wide) in paragraph at lines 156--157
 []\OT1/cmr/m/n/10 In the Earth sci-ences, an ex-am-ple of a fun-da-men-tal ref-
 er-ence sys-tem is the World 
  []
 
 
-Overfull \hbox (9.93239pt too wide) in paragraph at lines 157--158
-\OT1/cmr/m/n/10 Geode-tic Sys-tem 1984 (WGS 84), used to rep-re-sent lat-i-tude
-, lon-gi-tude, and al-ti-tude lo- 
+Overfull \hbox (5.79344pt too wide) in paragraph at lines 156--157
+\OT1/cmr/m/n/10 Geode-tic Sys-tem 1984 (WGS 84), used to rep-re-sent lo-ca-tion
+s on Earth in terms of lat- 
  []
 
 
-Overfull \hbox (7.52965pt too wide) in paragraph at lines 157--158
-\OT1/cmr/m/n/10 ca-tions rel-a-tive to Earth ([]National Geospatial-Intelligenc
-e Agency (2014)). A stan-dard 
+Overfull \hbox (12.2519pt too wide) in paragraph at lines 156--157
+\OT1/cmr/m/n/10 i-tude, lon-gi-tude, and al-ti-tude ([]National Geospatial-Inte
+lligence Agency (2014)). A stan- 
  []
 
 
-Overfull \hbox (6.07126pt too wide) in paragraph at lines 157--158
-\OT1/cmr/m/n/10 for ex-press-ing machine-readable ref-er-ence frame im-ple-men-
-ta-tion de-tails that fa-cil-i-tates 
+Overfull \hbox (8.82126pt too wide) in paragraph at lines 156--157
+\OT1/cmr/m/n/10 dard for ex-press-ing machine-readable ref-er-ence frame im-ple
+-men-ta-tion de-tails that fa-cil- 
  []
 
 
-Overfull \hbox (6.51566pt too wide) in paragraph at lines 159--160
+Overfull \hbox (6.51566pt too wide) in paragraph at lines 158--159
 []\OT1/cmr/m/n/10 In the Earth sci-ences, []Kovalevsky and Mueller (1981) and [
 ]Mueller (1985) use the 
  []
 
 
-Overfull \hbox (2.26558pt too wide) in paragraph at lines 159--160
+Overfull \hbox (2.26558pt too wide) in paragraph at lines 158--159
 \OT1/cmr/m/n/10 term ``ideal ref-er-ence sys-tem'' to re-fer to ref-er-ence fra
 mes with def-i-ni-tions that are in- 
  []
 
 
-Overfull \hbox (1.0157pt too wide) in paragraph at lines 159--160
+Overfull \hbox (1.0157pt too wide) in paragraph at lines 158--159
 \OT1/cmr/m/n/10 com-plete in the sense that only fun-da-men-tal planes, axes, a
 nd an ori-gin are spec-i-fied: 
  []
 
 
-Overfull \hbox (0.87682pt too wide) in paragraph at lines 159--160
+Overfull \hbox (0.87682pt too wide) in paragraph at lines 158--159
 \OT1/cmr/m/n/10 ``The term `ideal' in-di-cates the con-cep-tual def-i-ni-tion o
 nly and that no means are pro- 
  []
 
 
-Overfull \hbox (16.07129pt too wide) in paragraph at lines 159--160
+Overfull \hbox (16.07129pt too wide) in paragraph at lines 158--159
 \OT1/cmr/m/n/10 posed to ac-tu-ally con-struct the sys-tem". Note that the term
  ``ideal'' in this quote should 
  []
 
 
-Overfull \hbox (4.15451pt too wide) in paragraph at lines 159--160
+Overfull \hbox (4.15451pt too wide) in paragraph at lines 158--159
 \OT1/cmr/m/n/10 be in-ter-preted not as mean-ing ``pre-ferred" but rather means
  ideal in the sense of ``ide- 
  []
 
 
-Overfull \hbox (12.9325pt too wide) in paragraph at lines 159--160
+Overfull \hbox (12.9325pt too wide) in paragraph at lines 158--159
 \OT1/cmr/m/n/10 al-ized model", or a model that has prac-ti-cal or im-por-tant 
 at-tributes omit-ted to sim-plify 
  []
 
 
-Overfull \hbox (1.09859pt too wide) in paragraph at lines 167--172
+Overfull \hbox (1.09859pt too wide) in paragraph at lines 166--171
 []\OT1/cmr/m/n/10 Thus, what space physi-cists call a ``co-or-di-nate sys-tem''
  (e.g., \OT1/cmtt/m/n/10 GEI\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 GSM\OT1/cmr/m/n/
 10 ) is anal-o- 
  []
 
 
-Overfull \hbox (2.43948pt too wide) in paragraph at lines 167--172
+Overfull \hbox (2.43948pt too wide) in paragraph at lines 166--171
 \OT1/cmr/m/n/10 gous to an ``ideal ref-er-ence sys-tem'' be-cause it only has a
  gen-eral def-i-ni-tion for $[]$[][]\OT1/cmr/m/n/8 their[][][][][]\OT1/cmr/m/n/
 10 its[] 
  []
 
 
-Overfull \hbox (5.65459pt too wide) in paragraph at lines 167--172
+Overfull \hbox (5.65459pt too wide) in paragraph at lines 166--171
 \OT1/cmr/m/n/10 axes ori-en-ta-tion and ori-gin. There are no stan-dards for th
 e con-stants, mod-els, or al-go- 
  []
 
 
-Overfull \hbox (7.07115pt too wide) in paragraph at lines 167--172
+Overfull \hbox (7.07115pt too wide) in paragraph at lines 166--171
 \OT1/cmr/m/n/10 rithms re-quired to trans-form be-tween ob-serv-able quan-ti-ti
 es, which are nec-es-sary to de- 
  []
 
 
-Overfull \hbox (15.82115pt too wide) in paragraph at lines 167--172
+Overfull \hbox (15.82115pt too wide) in paragraph at lines 166--171
 \OT1/cmr/m/n/10 fine a ref-er-ence sys-tem, nor for the model pa-ram-e-ters nee
 ded to de-fine a ref-er-ence frame. 
  []
 
 
-Overfull \hbox (9.67282pt too wide) in paragraph at lines 167--172
+Overfull \hbox (9.67282pt too wide) in paragraph at lines 166--171
 \OT1/cmr/m/n/10 For ex-am-ple, the trans-for-ma-tion of the $[]$[][]\OT1/cmtt/m
 /n/8 GSM[][][][][]\OT1/cmtt/m/n/10 GEI[] \OT1/cmr/m/n/10 ref-er-ence frame to \
 OT1/cmtt/m/n/10 GEO \OT1/cmr/m/n/10 re-quires a $[]$[][]\OT1/cmr/m/n/8 vec[]- 
@@ -948,154 +948,154 @@ OT1/cmtt/m/n/10 GEO \OT1/cmr/m/n/10 re-quires a $[]$[][]\OT1/cmr/m/n/8 vec[]-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
-Overfull \hbox (2.34888pt too wide) in paragraph at lines 180--181
+Overfull \hbox (2.34888pt too wide) in paragraph at lines 179--180
 []\OT1/cmr/m/n/10 In the pre-vi-ous sec-tion, ex-am-ples were given of gen-eral
  is-sues with the ter-mi-nol- 
  []
 
 
-Overfull \hbox (26.12668pt too wide) in paragraph at lines 180--181
+Overfull \hbox (26.12668pt too wide) in paragraph at lines 179--180
 \OT1/cmr/m/n/10 ogy used to de-scribe ref-er-ence sys-tems and frames. For spe-
 cific ref-er-ence sys-tems or frames 
  []
 
 
-Overfull \hbox (3.68211pt too wide) in paragraph at lines 182--183
+Overfull \hbox (3.68211pt too wide) in paragraph at lines 181--182
 []\OT1/cmr/m/n/10 tion.[] The \OT1/cmtt/m/n/10 GEI \OT1/cmr/m/n/10 ideal ref-er
 -ence frame has $\OT1/cmr/bx/n/10 Z$ \OT1/cmr/m/n/10 aligned with Earth's ro-ta
 -tion axis with pos- 
  []
 
 
-Overfull \hbox (25.32121pt too wide) in paragraph at lines 182--183
+Overfull \hbox (25.32121pt too wide) in paragraph at lines 181--182
 \OT1/cmr/m/n/10 i-tive north-ward, $\OT1/cmr/bx/n/10 X$ \OT1/cmr/m/n/10 as the 
 in-ter-sec-tion of Earth's equa-to-rial plane with the plane of Earth's 
  []
 
 
-Overfull \hbox (7.40463pt too wide) in paragraph at lines 182--183
+Overfull \hbox (7.40463pt too wide) in paragraph at lines 181--182
 \OT1/cmr/m/n/10 or-bit around the Sun (the eclip-tic plane), with pos-i-tive in
  the di-rec-tion from the Earth 
  []
 
 
-Overfull \hbox (22.5157pt too wide) in paragraph at lines 182--183
+Overfull \hbox (22.5157pt too wide) in paragraph at lines 181--182
 \OT1/cmr/m/n/10 tion of Earth's equa-to-rial plane with the eclip-tic, or the t
 ime that it is com-puted, is some- 
  []
 
 
-Overfull \hbox (6.07114pt too wide) in paragraph at lines 182--183
+Overfull \hbox (6.07114pt too wide) in paragraph at lines 181--182
 \OT1/cmr/m/n/10 times re-ferred to as ``the equinox," and whether a line or tim
 e is meant must be de-ter- 
  []
 
 
-Overfull \hbox (8.12657pt too wide) in paragraph at lines 184--186
+Overfull \hbox (8.12657pt too wide) in paragraph at lines 183--185
 []\OT1/cmr/m/n/10 First, there is no con-sis-tency in the ex-pan-sion of the ac
 ronym \OT1/cmtt/m/n/10 GEI\OT1/cmr/m/n/10 . []Russell (1971) 
  []
 
 
-Overfull \hbox (11.50172pt too wide) in paragraph at lines 184--186
+Overfull \hbox (11.50172pt too wide) in paragraph at lines 183--185
 \OT1/cmr/m/n/10 and []Hapgood (1992) as-so-ciate \OT1/cmtt/m/n/10 GEI \OT1/cmr/
 m/n/10 with ``Geo-cen-tric Equa-to-rial In-er-tial Sys-tem". []Fr^^?anz 
  []
 
 
-Overfull \hbox (24.5295pt too wide) in paragraph at lines 184--186
+Overfull \hbox (24.5295pt too wide) in paragraph at lines 183--185
 \OT1/cmr/m/n/10 and Harper (2002) and []Mumford et al.[] (2025) as-so-ciate \OT
 1/cmtt/m/n/10 GEI \OT1/cmr/m/n/10 with ``Geo-cen-tric Earth Equa- 
  []
 
 
-Overfull \hbox (0.5156pt too wide) in paragraph at lines 184--186
+Overfull \hbox (0.5156pt too wide) in paragraph at lines 183--185
 \OT1/cmr/m/n/10 to-rial". An-other am-bi-gu-ity is in the ex-pan-sion of \OT1/c
 mtt/m/n/10 GCI\OT1/cmr/m/n/10 ; []Satellite Sit-u-a-tion Cen-ter Sys- 
  []
 
 
-Overfull \hbox (5.52936pt too wide) in paragraph at lines 184--186
+Overfull \hbox (5.52936pt too wide) in paragraph at lines 183--185
 \OT1/cmr/m/n/10 tem and Ser-vices (2025c) notes ``Geo-cen-tric In-er-tial (\OT1
 /cmtt/m/n/10 GCI\OT1/cmr/m/n/10 ) and Earth-Centered In-er-tial 
  []
 
 
-Overfull \hbox (19.97345pt too wide) in paragraph at lines 184--186
+Overfull \hbox (19.97345pt too wide) in paragraph at lines 183--185
 \OT1/cmr/m/n/10 (\OT1/cmtt/m/n/10 ECI\OT1/cmr/m/n/10 ) are the same as \OT1/cmt
 t/m/n/10 GEI\OT1/cmr/m/n/10 .", which im-plic-itly de-fines \OT1/cmtt/m/n/10 GC
 I \OT1/cmr/m/n/10 as ``Geo-cen-tric In-er-tial'', in con- 
  []
 
 
-Overfull \hbox (19.95995pt too wide) in paragraph at lines 188--189
+Overfull \hbox (19.95995pt too wide) in paragraph at lines 187--188
 []\OT1/cmr/m/n/10 When re-port-ing po-si-tions for \OT1/cmtt/m/n/10 GEI\OT1/cmr
 /m/n/10 , the ori-gin is taken as the cen-ter of mass of Earth. 
  []
 
 
-Overfull \hbox (1.76561pt too wide) in paragraph at lines 188--189
+Overfull \hbox (1.76561pt too wide) in paragraph at lines 187--188
 \OT1/cmr/m/n/10 To es-tab-lish this as a ref-er-ence sys-tem as de-fined in sec
 -tion 2.2[], Earth's ro-ta-tion axis, 
  []
 
 
-Overfull \hbox (10.93231pt too wide) in paragraph at lines 188--189
+Overfull \hbox (10.93231pt too wide) in paragraph at lines 187--188
 \OT1/cmr/m/n/10 cen-ter, and the eclip-tic plane must be spec-i-fied, along wit
 h the mod-els used to com-pute 
  []
 
 
-Overfull \hbox (7.79333pt too wide) in paragraph at lines 190--191
+Overfull \hbox (7.79333pt too wide) in paragraph at lines 189--190
 []\OT1/cmr/m/n/10 Common vari-a-tions of \OT1/cmtt/m/n/10 GEI \OT1/cmr/m/n/10 d
 e-pend on whether pre-ces-sion and nu-ta-tion of Earth's 
  []
 
 
-Overfull \hbox (25.32133pt too wide) in paragraph at lines 190--191
+Overfull \hbox (25.32133pt too wide) in paragraph at lines 189--190
 \OT1/cmr/m/n/10 ro-ta-tion axis and pre-ces-sion of the eclip-tic plane are ac-
 counted for ([]Davis (1974); []Hapgood 
  []
 
 
-Overfull \hbox (7.62695pt too wide) in paragraph at lines 190--191
+Overfull \hbox (7.62695pt too wide) in paragraph at lines 189--190
 \OT1/cmr/m/n/10 (1995); []Fr^^?anz and Harper (2002)). The term ``mean epoch--o
 f--date" (or mean--of--date) 
  []
 
 
-Overfull \hbox (16.21013pt too wide) in paragraph at lines 190--191
+Overfull \hbox (16.21013pt too wide) in paragraph at lines 189--190
 \OT1/cmr/m/n/10 is used when only pre-ces-sion is ac-counted for; that is, the 
 nu-ta-tion vari-a-tion is es-ti-mated 
  []
 
 
-Overfull \hbox (30.09915pt too wide) in paragraph at lines 190--191
+Overfull \hbox (30.09915pt too wide) in paragraph at lines 189--190
 \OT1/cmr/m/n/10 and re-moved. If nu-ta-tion vari-a-tion is not re-moved, the te
 rm ``true epoch--of--date" or ``true-- 
  []
 
 
-Overfull \hbox (13.29344pt too wide) in paragraph at lines 190--191
+Overfull \hbox (13.29344pt too wide) in paragraph at lines 189--190
 \OT1/cmr/m/n/10 of--date" is used []Hapgood, 1995). If the $\OT1/cmr/bx/n/10 X$
  \OT1/cmr/m/n/10 and $\OT1/cmr/bx/n/10 Z$ \OT1/cmr/m/n/10 ori-en-ta-tions are t
 ime-independent, an 
  []
 
 
-Overfull \hbox (5.76575pt too wide) in paragraph at lines 190--191
+Overfull \hbox (5.76575pt too wide) in paragraph at lines 189--190
 \OT1/cmr/m/n/10 ab-bre-vi-a-tion for a ref-er-ence date and time is spec-i-fied
 , e.g., J2000.0 (2000-01-01T12:00 
  []
 
 
-Overfull \hbox (5.98772pt too wide) in paragraph at lines 190--191
+Overfull \hbox (5.98772pt too wide) in paragraph at lines 189--190
 \OT1/cmr/m/n/10 Ter-res-trial Time), at which they were de-ter-mined. The ref-e
 r-ence date and time are re- 
  []
 
 
-Overfull \hbox (5.82118pt too wide) in paragraph at lines 190--191
+Overfull \hbox (5.82118pt too wide) in paragraph at lines 189--190
 \OT1/cmr/m/n/10 ferred to as an ``epoch" in the sense of a ref-er-ence time in-
 stant rather than a pe-riod of 
  []
@@ -1104,204 +1104,204 @@ stant rather than a pe-riod of
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-Overfull \hbox (0.8765pt too wide) in paragraph at lines 199--200
+Overfull \hbox (0.8765pt too wide) in paragraph at lines 198--199
 []\OT1/cmr/m/n/10 Two ba-sic cat-e-gories of \OT1/cmtt/m/n/10 GEI\OT1/cmr/m/n/1
 0 -related ref-er-ence frames and sys-tems are com-monly 
  []
 
 
-Overfull \hbox (0.40454pt too wide) in paragraph at lines 199--200
+Overfull \hbox (0.40454pt too wide) in paragraph at lines 198--199
 \OT1/cmr/m/n/10 used: in-er-tial and non-inertial. The list of acronyms later i
 n this sec-tion is as-so-ci-ated 
  []
 
 
-Overfull \hbox (6.43231pt too wide) in paragraph at lines 199--200
+Overfull \hbox (6.43231pt too wide) in paragraph at lines 198--199
 \OT1/cmr/m/n/10 with an in-er-tial ref-er-ence sys-tem: an ide-al-ized sys-tem 
 that is not ro-tat-ing with re-spect 
  []
 
 
-Overfull \hbox (12.57126pt too wide) in paragraph at lines 199--200
+Overfull \hbox (12.57126pt too wide) in paragraph at lines 198--199
 \OT1/cmr/m/n/10 to the dis-tant stars, i.e., stars at an ef-fec-tively in-fi-ni
 te dis-tance from its ori-gin, and with 
  []
 
 
-Overfull \hbox (8.01578pt too wide) in paragraph at lines 199--200
+Overfull \hbox (8.01578pt too wide) in paragraph at lines 198--199
 \OT1/cmr/m/n/10 an ori-gin that trans-lates with a con-stant ve-loc-ity []NAIF,
  2023). Note that if the ori-gin 
  []
 
 
-Overfull \hbox (2.37666pt too wide) in paragraph at lines 199--200
+Overfull \hbox (2.37666pt too wide) in paragraph at lines 198--199
 \OT1/cmr/m/n/10 is spec-i-fied as Earth's cen-ter (usu-ally its cen-ter of mass
  rather than its cen-troid is im- 
  []
 
 
-Overfull \hbox (14.04332pt too wide) in paragraph at lines 199--200
+Overfull \hbox (14.04332pt too wide) in paragraph at lines 198--199
 \OT1/cmr/m/n/10 plied but not stated; see also []Dong et al.[] (2003)), \OT1/cm
 tt/m/n/10 GEI \OT1/cmr/m/n/10 is non-inertial by def-i-ni-tion. How- 
  []
 
 
-Overfull \hbox (2.70992pt too wide) in paragraph at lines 199--200
+Overfull \hbox (2.70992pt too wide) in paragraph at lines 198--199
 \OT1/cmr/m/n/10 ever, in the bul-leted list sum-mary of \OT1/cmtt/m/n/10 GEI\OT
 1/cmr/m/n/10 --related ref-er-ence sys-tems and frames be-low, 
  []
 
 
-Overfull \hbox (18.9601pt too wide) in paragraph at lines 201--202
+Overfull \hbox (18.9601pt too wide) in paragraph at lines 200--201
 []\OT1/cmr/m/n/10 The ob-jec-tive of the fol-low-ing sum-mary is to demon-strat
 e the di-ver-sity in the terms 
  []
 
 
-Overfull \hbox (8.5155pt too wide) in paragraph at lines 201--202
+Overfull \hbox (8.5155pt too wide) in paragraph at lines 200--201
 \OT1/cmr/m/n/10 and def-i-ni-tions used for \OT1/cmtt/m/n/10 GEI\OT1/cmr/m/n/10
  --related ref-er-ence sys-tems and to mo-ti-vate the need for the 
  []
 
 
-Overfull \hbox (2.54353pt too wide) in paragraph at lines 201--202
+Overfull \hbox (2.54353pt too wide) in paragraph at lines 200--201
 \OT1/cmr/m/n/10 stan-dard rec-om-mended in sec-tion 6.1[]. Sim-i-lar di-ver-sit
 y also ex-ists in ter-mi-nol-ogy and 
  []
 
 
-Overfull \hbox (13.23792pt too wide) in paragraph at lines 201--202
+Overfull \hbox (13.23792pt too wide) in paragraph at lines 200--201
 \OT1/cmr/m/n/10 def-i-ni-tions in other com-monly used ref-er-ence sys-tems in 
 space physics, pro-vid-ing fur-ther 
  []
 
 
-Overfull \hbox (5.76534pt too wide) in paragraph at lines 208--209
+Overfull \hbox (5.76534pt too wide) in paragraph at lines 207--208
 []\OT1/cmtt/m/n/10 J2000 \OT1/cmr/m/n/10 -- Used by Satel-lite Sit-u-a-tion Cen
 -ter Sys-tem and Ser-vices (2025c) to re-fer 
  []
 
 
-Overfull \hbox (13.22363pt too wide) in paragraph at lines 212--213
+Overfull \hbox (13.22363pt too wide) in paragraph at lines 211--212
 []\OT1/cmr/m/n/10 ``Geocentric Equa-to-rial In-er-tial for epoch J2000.0 (\OT1/
 cmtt/m/n/10 GEI2000\OT1/cmr/m/n/10 ), also known as Mean 
  []
 
 
-Overfull \hbox (29.40466pt too wide) in paragraph at lines 212--213
+Overfull \hbox (29.40466pt too wide) in paragraph at lines 211--212
 \OT1/cmr/m/n/10 Equa-tor and Mean Equinox of J2000.0 (Ju-lian date 2451545.0 TT
  (Ter-res-trial Time), 
  []
 
 
-Overfull \hbox (12.87689pt too wide) in paragraph at lines 212--213
+Overfull \hbox (12.87689pt too wide) in paragraph at lines 211--212
 \OT1/cmr/m/n/10 or 2000 Jan-uary 1 noon TT, or 2000 Jan-uary 1 11:59:27.816 TAI
  or 2000 Jan-uary 
  []
 
 
-Overfull \hbox (6.4879pt too wide) in paragraph at lines 212--213
+Overfull \hbox (6.4879pt too wide) in paragraph at lines 211--212
 \OT1/cmr/m/n/10 1 11:58:55.816 UTC.) This sys-tem has X-axis aligned with the m
 ean equinox for 
  []
 
 
-Overfull \hbox (12.04315pt too wide) in paragraph at lines 212--213
+Overfull \hbox (12.04315pt too wide) in paragraph at lines 211--212
 \OT1/cmr/m/n/10 epoch \OT1/cmtt/m/n/10 J2000\OT1/cmr/m/n/10 ; Z-axis is par-al-
 lel to the ro-ta-tion axis of the Earth, and Y com-pletes 
  []
 
 
-Overfull \hbox (9.38713pt too wide) in paragraph at lines 215--216
+Overfull \hbox (9.38713pt too wide) in paragraph at lines 214--215
 []$[]$[][]\OT1/cmr/m/n/10 For[] [][][]the[] [][][]SPICE[] [][][](Space[]-[]craf
 t,[] [][][]Planet,[] [][][]In[]-[]stru[]-[]ment,[] [][][]C[]-[]ma[]-[]trix,[] [
 ][][]Events;[] [][][][],[] 
  []
 
 
-Overfull \hbox (19.90434pt too wide) in paragraph at lines 215--216
+Overfull \hbox (19.90434pt too wide) in paragraph at lines 214--215
 [][][][]\OT1/cmr/m/n/10 )[] [][][]li[]-[]brary,[] [][][][]NAIF (2025a) notes th
 at \OT1/cmtt/m/n/10 J2000 \OT1/cmr/m/n/10 is ``gen-er-ally used in SPICE 
  []
 
 
-Overfull \hbox (20.70934pt too wide) in paragraph at lines 215--216
+Overfull \hbox (20.70934pt too wide) in paragraph at lines 214--215
 \OT1/cmr/m/n/10 to re-fer to the \OT1/cmtt/m/n/10 ICRF\OT1/cmr/m/n/10 "; ``The 
 ro-ta-tional off-set be-tween the \OT1/cmtt/m/n/10 J2000 \OT1/cmr/m/n/10 frame 
 and the \OT1/cmtt/m/n/10 ICRS 
  []
 
 
-Overfull \hbox (2.75153pt too wide) in paragraph at lines 215--216
+Overfull \hbox (2.75153pt too wide) in paragraph at lines 214--215
 \OT1/cmr/m/n/10 has mag-ni-tude of un-der 0.1 arc-sec-onds [$2\OML/cmm/m/it/10 
 :[] \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[]$ de-grees]."; ``The \OT1/cmtt/m/n
 /10 ICRF \OT1/cmr/m/n/10 frame is 
  []
 
 
-Overfull \hbox (11.84874pt too wide) in paragraph at lines 215--216
+Overfull \hbox (11.84874pt too wide) in paragraph at lines 214--215
 \OT1/cmr/m/n/10 de-fined by the adopted lo-ca-tions of 295 ex-tra-galac-tic ra-
 dio sources."; ``The \OT1/cmtt/m/n/10 J2000 
  []
 
 
-Overfull \hbox (6.09862pt too wide) in paragraph at lines 215--216
+Overfull \hbox (6.09862pt too wide) in paragraph at lines 214--215
 \OT1/cmr/m/n/10 (aka \OT1/cmtt/m/n/10 EME2000\OT1/cmr/m/n/10 ) frame def-i-ni-t
 ion is based on the Earth's equa-tor and equinox, de- 
  []
 
 
-Overfull \hbox (11.57129pt too wide) in paragraph at lines 215--216
+Overfull \hbox (11.57129pt too wide) in paragraph at lines 214--215
 \OT1/cmr/m/n/10 ter-mined from ob-ser-va-tions of plan-e-tary mo-tions, plus ot
 her data.''; and ``The re- 
  []
 
 
-Overfull \hbox (3.76524pt too wide) in paragraph at lines 221--222
+Overfull \hbox (3.76524pt too wide) in paragraph at lines 220--221
 []\OT1/cmtt/m/n/10 GEI2000 \OT1/cmr/m/n/10 -- []Satellite Sit-u-a-tion Cen-ter 
 Sys-tem and Ser-vices (2025c) iden-ti-fies this 
  []
 
 
-Overfull \hbox (29.6679pt too wide) in paragraph at lines 221--222
+Overfull \hbox (29.6679pt too wide) in paragraph at lines 220--221
 \OT1/cmr/m/n/10 as equiv-a-lent to \OT1/cmtt/m/n/10 J2000 \OT1/cmr/m/n/10 by a 
 par-en-thet-i-cal state-ment in the def-i-ni-tion of \OT1/cmtt/m/n/10 J2000\OT1
 /cmr/m/n/10 : ``Geo- 
  []
 
 
-Overfull \hbox (12.70876pt too wide) in paragraph at lines 223--224
+Overfull \hbox (12.70876pt too wide) in paragraph at lines 222--223
 []\OT1/cmtt/m/n/10 GeocentricEarthEquatorial \OT1/cmr/m/n/10 -- Used by SunPy [
 ]Mumford et al.[], 2025) with sup- 
  []
 
 
-Overfull \hbox (4.50183pt too wide) in paragraph at lines 223--224
+Overfull \hbox (4.50183pt too wide) in paragraph at lines 222--223
 \OT1/cmr/m/n/10 port-ing def-i-ni-tion of ``A co-or-di-nate or frame in the Geo
 -cen-tric Earth Equa-to-rial 
  []
 
 
-Overfull \hbox (13.95992pt too wide) in paragraph at lines 225--226
+Overfull \hbox (13.95992pt too wide) in paragraph at lines 224--225
 []\OT1/cmtt/m/n/10 GCRS \OT1/cmr/m/n/10 -- Used in As-tropy []Price-Whelan et a
 l.[], 2022) with sup-port-ing def-i-ni-tion ``A 
  []
 
 
-Overfull \hbox (9.80676pt too wide) in paragraph at lines 225--226
+Overfull \hbox (9.80676pt too wide) in paragraph at lines 224--225
 \OT1/cmr/m/n/10 co-or-di-nate or frame in the Geo-cen-tric Ce-les-tial Ref-er-e
 nce Sys-tem (\OT1/cmtt/m/n/10 GCRS\OT1/cmr/m/n/10 ). \OT1/cmtt/m/n/10 GCRS \OT1
 /cmr/m/n/10 is 
  []
 
 
-Overfull \hbox (17.76543pt too wide) in paragraph at lines 225--226
+Overfull \hbox (17.76543pt too wide) in paragraph at lines 224--225
 \OT1/cmr/m/n/10 dis-tinct from \OT1/cmtt/m/n/10 ICRS \OT1/cmr/m/n/10 mainly in 
 that it is rel-a-tive to the Earth's center-of-mass rather 
  []
 
 
-Overfull \hbox (4.32115pt too wide) in paragraph at lines 225--226
+Overfull \hbox (4.32115pt too wide) in paragraph at lines 224--225
 \OT1/cmr/m/n/10 than the so-lar sys-tem Barycen-ter. That means this frame in-c
 ludes the ef-fects of 
  []
@@ -1310,201 +1310,201 @@ ludes the ef-fects of
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-Overfull \hbox (26.23743pt too wide) in paragraph at lines 227--228
+Overfull \hbox (26.23743pt too wide) in paragraph at lines 226--227
 []\OT1/cmtt/m/n/10 GEI$[]$ \OT1/cmr/m/n/10 -- []Fr^^?anz and Harper (2002) stat
 e that \OT1/cmtt/m/n/10 GEI$[]$ \OT1/cmr/m/n/10 is re-al-ized through the \OT1/
 cmtt/m/n/10 ICRF\OT1/cmr/m/n/10 . 
  []
 
 
-Overfull \hbox (4.0431pt too wide) in paragraph at lines 227--228
+Overfull \hbox (4.0431pt too wide) in paragraph at lines 226--227
 \OT1/cmr/m/n/10 This is am-bigu-ous to-day, be-cause there are now three \OT1/c
 mtt/m/n/10 ICRF \OT1/cmr/m/n/10 ver-sions []Charlot et 
  []
 
 
-Overfull \hbox (6.68161pt too wide) in paragraph at lines 229--230
+Overfull \hbox (6.68161pt too wide) in paragraph at lines 228--229
 []\OT1/cmtt/m/n/10 EME2000 \OT1/cmr/m/n/10 -- Earth Mean Equa-tor and Equinox \
 OT1/cmtt/m/n/10 J2000.0\OT1/cmr/m/n/10 ; de-fined in []NAIF (2025a) 
  []
 
 
-Overfull \hbox (0.70941pt too wide) in paragraph at lines 229--230
+Overfull \hbox (0.70941pt too wide) in paragraph at lines 228--229
 \OT1/cmr/m/n/10 via ``... with those of the \OT1/cmtt/m/n/10 J2000 \OT1/cmr/m/n
 /10 (aka \OT1/cmtt/m/n/10 EME2000\OT1/cmr/m/n/10 ) ref-er-ence frame". []Satell
 ite Sit-u- 
  []
 
 
-Overfull \hbox (0.51563pt too wide) in paragraph at lines 229--230
+Overfull \hbox (0.51563pt too wide) in paragraph at lines 228--229
 \OT1/cmr/m/n/10 a-tion Cen-ter Sys-tem and Ser-vices (2025c) de-fines as ``Mean
  Equa-tor and Mean 
  []
 
 
-Overfull \hbox (4.34827pt too wide) in paragraph at lines 231--232
+Overfull \hbox (4.34827pt too wide) in paragraph at lines 230--231
 []\OT1/cmtt/m/n/10 ECI2000 \OT1/cmr/m/n/10 -- Earth Cen-tered In-er-tial for \O
 T1/cmtt/m/n/10 J2000 \OT1/cmr/m/n/10 epoch; used in SpacePy []Niehof et 
  []
 
 
-Overfull \hbox (15.89044pt too wide) in paragraph at lines 233--234
+Overfull \hbox (15.89044pt too wide) in paragraph at lines 232--233
 []\OT1/cmtt/m/n/10 ECI \OT1/cmr/m/n/10 -- Earth Cen-tered In-er-tial; used in [
 ]Burch, J. L. and Giles, Bar-bara L. and Ah- 
  []
 
 
-Overfull \hbox (19.43239pt too wide) in paragraph at lines 233--234
+Overfull \hbox (19.43239pt too wide) in paragraph at lines 232--233
 \OT1/cmr/m/n/10 madi, Narges and Ar-gall, Matthew, R. and Baker, Daniel N. and 
 Blake, J. Bernard 
  []
 
 
-Overfull \hbox (9.46016pt too wide) in paragraph at lines 233--234
+Overfull \hbox (9.46016pt too wide) in paragraph at lines 232--233
 \OT1/cmr/m/n/10 and Bro-mund, Ken-neth R. and Co-hen, Ian J. and Er-gun, Robert
  E. and Fen-nell, 
  []
 
 
-Overfull \hbox (3.72394pt too wide) in paragraph at lines 233--234
+Overfull \hbox (3.72394pt too wide) in paragraph at lines 232--233
 \OT1/cmr/m/n/10 Joseph F. and Fis-cher, David and Fuse-lier, Stephen A. and Gab
 rielse, Chris-tine 
  []
 
 
-Overfull \hbox (2.71008pt too wide) in paragraph at lines 233--234
+Overfull \hbox (2.71008pt too wide) in paragraph at lines 232--233
 \OT1/cmr/m/n/10 E. and Ger-sh-man, Daniel J. and Gomez, Ro-man G. and Gra-ham, 
 Daniel Bruce 
  []
 
 
-Overfull \hbox (1.0434pt too wide) in paragraph at lines 233--234
+Overfull \hbox (1.0434pt too wide) in paragraph at lines 232--233
 \OT1/cmr/m/n/10 and Hans, Ul-rich and Hen-der-son, Michael G. and Huang, B.G. a
 nd Jeszen-szky, 
  []
 
 
-Overfull \hbox (6.44618pt too wide) in paragraph at lines 233--234
+Overfull \hbox (6.44618pt too wide) in paragraph at lines 232--233
 \OT1/cmr/m/n/10 Har-ald and Eichel-berger, Hans Ul-richLe, Guan and Le Con-tel,
  Olivier and Lein- 
  []
 
 
-Overfull \hbox (6.98787pt too wide) in paragraph at lines 233--234
+Overfull \hbox (6.98787pt too wide) in paragraph at lines 232--233
 \OT1/cmr/m/n/10 we-ber, Hannes Karl, Lindqvist, Per-Arne and Magnes, Werner and
  Mauk, Barry 
  []
 
 
-Overfull \hbox (23.3213pt too wide) in paragraph at lines 233--234
+Overfull \hbox (23.3213pt too wide) in paragraph at lines 232--233
 \OT1/cmr/m/n/10 H. and Miri-oni, Lau-rent and Moore, Thomas E. and Mor-ley, Ste
 ven Karl and Naka- 
  []
 
 
-Overfull \hbox (9.01566pt too wide) in paragraph at lines 233--234
+Overfull \hbox (9.01566pt too wide) in paragraph at lines 232--233
 \OT1/cmr/m/n/10 mura, Rumi and Plaschke, Fer-di-nand and Pol-lock, Craig J. and
  Rus-sell, Christo- 
  []
 
 
-Overfull \hbox (17.82123pt too wide) in paragraph at lines 233--234
+Overfull \hbox (17.82123pt too wide) in paragraph at lines 232--233
 \OT1/cmr/m/n/10 pher T. and Strange-way, Robert J. and Torkar, Klaus M. and Tor
 -bert, Roy B. and 
  []
 
 
-Overfull \hbox (52.82079pt too wide) in paragraph at lines 233--234
+Overfull \hbox (52.82079pt too wide) in paragraph at lines 232--233
 \OT1/cmr/m/n/10 Turner, Drew L. and Wei, Hany-ing and Young, David T. (2024) wi
 th the note ``\OT1/cmtt/m/n/10 GEI/J2000 
  []
 
 
-Overfull \hbox (9.04323pt too wide) in paragraph at lines 233--234
+Overfull \hbox (9.04323pt too wide) in paragraph at lines 232--233
 \OT1/cmr/m/n/10 { Earth-Centered In-er-tial (\OT1/cmtt/m/n/10 ECI\OT1/cmr/m/n/1
 0 ). To fully spec-ify the sys-tem the equinox must be 
  []
 
 
-Overfull \hbox (4.34875pt too wide) in paragraph at lines 237--239
+Overfull \hbox (4.34875pt too wide) in paragraph at lines 236--238
 []\OT1/cmtt/m/n/10 GCI \OT1/cmr/m/n/10 -- Geo-cen-tric Ce-les-tial In-er-tial; 
 used in OGO satel-lite data anal-y-sis []NASA, 
  []
 
 
-Overfull \hbox (4.4323pt too wide) in paragraph at lines 254--255
+Overfull \hbox (4.4323pt too wide) in paragraph at lines 253--254
 []\OT1/cmr/m/n/10 Space physics re-searchers and an-a-lysts have sev-eral op-ti
 ons for ob-tain-ing data in 
  []
 
 
-Overfull \hbox (7.01569pt too wide) in paragraph at lines 260--261
+Overfull \hbox (7.01569pt too wide) in paragraph at lines 259--260
 []\OT1/cmr/m/n/10 From datasets pro-vided to a data archive, e.g., NASA's Co-or
 -di-nated Data Anal- 
  []
 
 
-Overfull \hbox (12.32106pt too wide) in paragraph at lines 260--261
+Overfull \hbox (12.32106pt too wide) in paragraph at lines 259--260
 \OT1/cmr/m/n/10 y-sis Web (CDAWeb) and ESA's Clus-ter Sci-ence Archive (CSA), w
 ith vec-tor mea- 
  []
 
 
-Overfull \hbox (1.20992pt too wide) in paragraph at lines 260--261
+Overfull \hbox (1.20992pt too wide) in paragraph at lines 259--260
 \OT1/cmr/m/n/10 sure-ments in dif-fer-ent ref-er-ence sys-tems; in this case, a
  dataset in a needed ref- 
  []
 
 
-Overfull \hbox (18.68225pt too wide) in paragraph at lines 262--263
+Overfull \hbox (18.68225pt too wide) in paragraph at lines 261--262
 []\OT1/cmr/m/n/10 Using data ser-vices that pro-vide vec-tor mea-sure-ments in 
 dif-fer-ent ref-er-ence frames. 
  []
 
 
-Overfull \hbox (16.04343pt too wide) in paragraph at lines 262--263
+Overfull \hbox (16.04343pt too wide) in paragraph at lines 261--262
 \OT1/cmr/m/n/10 For ex-am-ple, SS-CWeb pro-vides po-si-tions for space-craft in
  var-i-ous ref-er-ence frames 
  []
 
 
-Overfull \hbox (10.0157pt too wide) in paragraph at lines 262--263
+Overfull \hbox (10.0157pt too wide) in paragraph at lines 261--262
 \OT1/cmr/m/n/10 as a func-tion of time []Satellite Sit-u-a-tion Cen-ter Sys-tem
  and Ser-vices, 2025c) and 
  []
 
 
-Overfull \hbox (6.51561pt too wide) in paragraph at lines 262--263
+Overfull \hbox (6.51561pt too wide) in paragraph at lines 261--262
 \OT1/cmr/m/n/10 a cal-cu-la-tor that takes an in-put of a geo-cen-tric po-si-ti
 on in a given ref-er-ence sys- 
  []
 
 
-Overfull \hbox (20.48785pt too wide) in paragraph at lines 262--263
+Overfull \hbox (20.48785pt too wide) in paragraph at lines 261--262
 \OT1/cmr/m/n/10 tem at a spe-cific time and out-puts the po-si-tion in other re
 f-er-ence sys-tems []Satellite 
  []
 
 
-Overfull \hbox (6.46014pt too wide) in paragraph at lines 264--265
+Overfull \hbox (6.46014pt too wide) in paragraph at lines 263--264
 []\OT1/cmr/m/n/10 Using soft-ware pack-ages that have co-or-di-nate trans-form 
 func-tions. For ex-am-ple, 
  []
 
 
-Overfull \hbox (2.29355pt too wide) in paragraph at lines 264--265
+Overfull \hbox (2.29355pt too wide) in paragraph at lines 263--264
 \OT1/cmr/m/n/10 in Python, As-tropy []Price-Whelan et al.[], 2022), SunPy []Mum
 ford et al.[], 2025), 
  []
 
 
-Overfull \hbox (21.1547pt too wide) in paragraph at lines 264--265
+Overfull \hbox (21.1547pt too wide) in paragraph at lines 263--264
 \OT1/cmr/m/n/10 SpacePy []Morley et al.[], 2024), and PySPEDAS []Angelopoulos e
 t al.[], 2024a). Other 
  []
 
 
-Overfull \hbox (44.47379pt too wide) in paragraph at lines 264--265
+Overfull \hbox (44.47379pt too wide) in paragraph at lines 263--264
 \OT1/cmr/m/n/10 li-braries in-clude \OT1/cmtt/m/n/10 cxform []\OT1/cmr/m/n/10 B
 oller & San-ti-ago, 2025) in C, and Geopack-2008 []Tsyganenko, 
  []
@@ -1513,315 +1513,315 @@ oller & San-ti-ago, 2025) in C, and Geopack-2008 []Tsyganenko,
 Underfull \vbox (badness 7944) has occurred while \output is active []
 
  [7]
-Overfull \hbox (6.68236pt too wide) in paragraph at lines 270--271
+Overfull \hbox (6.68236pt too wide) in paragraph at lines 269--270
 []\OT1/cmr/m/n/10 It is some-times ar-gued that, al-though reference-frame im-p
 le-men-ta-tions may yield 
  []
 
 
-Overfull \hbox (5.23785pt too wide) in paragraph at lines 270--271
+Overfull \hbox (5.23785pt too wide) in paragraph at lines 269--270
 \OT1/cmr/m/n/10 dif-fer-ent re-sults, this un-cer-tainty is small rel-a-tive to
  mea-sure-ment un-cer-tainty. For ex- 
  []
 
 
-Overfull \hbox (5.23796pt too wide) in paragraph at lines 270--271
+Overfull \hbox (5.23796pt too wide) in paragraph at lines 269--270
 \OT1/cmr/m/n/10 am-ple, []Hapgood (1995) notes that ``The at-ti-tude er-ror tha
 t arises from an er-ror in the 
  []
 
 
-Overfull \hbox (12.22386pt too wide) in paragraph at lines 270--271
+Overfull \hbox (12.22386pt too wide) in paragraph at lines 269--270
 \OT1/cmr/m/n/10 epoch used to com-pute \OT1/cmtt/m/n/10 GEI \OT1/cmr/m/n/10 is 
 $0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 036[]$, which is small com-pared to the an-
 gu-lar res-o-lu-tion 
  []
 
 
-Overfull \hbox (0.21005pt too wide) in paragraph at lines 272--273
+Overfull \hbox (0.21005pt too wide) in paragraph at lines 271--272
 []\OT1/cmr/m/n/10 Although this state-ment was made thirty years ago, based on 
 the re-sults in this 
  []
 
 
-Overfull \hbox (19.35689pt too wide) in paragraph at lines 272--273
+Overfull \hbox (19.35689pt too wide) in paragraph at lines 271--272
 \OT1/cmr/m/n/10 sec-tion give$[]$[][]n[] be-low, it ap-pears the con-ven-tion i
 n space physics is that dif-fer-ences at this 
  []
 
 
-Overfull \hbox (0.2656pt too wide) in paragraph at lines 272--273
+Overfull \hbox (0.2656pt too wide) in paragraph at lines 271--272
 \OT1/cmr/m/n/10 level are con-sid-ered neg-li-gi-ble. That is, we find an-gu-la
 r dif-fer-ences in space-craft po-si- 
  []
 
 
-Overfull \hbox (15.00189pt too wide) in paragraph at lines 272--273
+Overfull \hbox (15.00189pt too wide) in paragraph at lines 271--272
 \OT1/cmr/m/n/10 tions from dif-fer-ent providers of $[]0\OML/cmm/m/it/10 :\OT1/
 cmr/m/n/10 3[]$ and co-or-di-nate trans-forms from dif-fer-ent soft-ware 
  []
 
 
-Overfull \hbox (13.80739pt too wide) in paragraph at lines 272--273
+Overfull \hbox (13.80739pt too wide) in paragraph at lines 271--272
 \OT1/cmr/m/n/10 pack-ages of $[]0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 03[]$, and t
 his un-cer-tainty is not dis-cussed in the doc-u-men-ta-tion, sug-gest- 
  []
 
 
-Overfull \hbox (4.65451pt too wide) in paragraph at lines 274--275
+Overfull \hbox (4.65451pt too wide) in paragraph at lines 273--274
 []\OT1/cmr/m/n/10 Although the con-ven-tion for de-ter-min-ing which un-cer-tai
 n-ties are con-sid-ered neg- 
  []
 
 
-Overfull \hbox (9.76569pt too wide) in paragraph at lines 274--275
+Overfull \hbox (9.76569pt too wide) in paragraph at lines 273--274
 \OT1/cmr/m/n/10 li-gi-ble may have been ap-pro-pri-ate at one time, we sug-gest
  re-vis-it-ing these as-sump-tions. 
  []
 
 
-Overfull \hbox (2.15456pt too wide) in paragraph at lines 278--279
+Overfull \hbox (2.15456pt too wide) in paragraph at lines 277--278
 []\OT1/cmr/m/n/10 Second, hav-ing dif-fer-ent data providers or soft-ware li-br
 aries com-pute trans-forms 
  []
 
 
-Overfull \hbox (1.57126pt too wide) in paragraph at lines 283--284
+Overfull \hbox (1.57126pt too wide) in paragraph at lines 282--283
 []\OT1/cmr/m/n/10 In an at-tempt to de-velop a 3D vi-su-al-iza-tion pro-gram th
 at re-turns the re-gion of 
  []
 
 
-Overfull \hbox (7.12677pt too wide) in paragraph at lines 283--284
+Overfull \hbox (7.12677pt too wide) in paragraph at lines 282--283
 \OT1/cmr/m/n/10 geospace (e.g., plasma sheet, in-ter-plan-e-tary medium, plas-m
 a-s-phere) given an ar- 
  []
 
 
-Overfull \hbox (0.57121pt too wide) in paragraph at lines 283--284
+Overfull \hbox (0.57121pt too wide) in paragraph at lines 282--283
 \OT1/cmr/m/n/10 bi-trary po-si-tion, we im-ple-mented the mod-els used by SS-CW
 eb []Satellite Sit-u-a- 
  []
 
 
-Overfull \hbox (4.7379pt too wide) in paragraph at lines 283--284
+Overfull \hbox (4.7379pt too wide) in paragraph at lines 282--283
 \OT1/cmr/m/n/10 tion Cen-ter Sys-tem and Ser-vices, 2025c) and at-tempted to va
 l-i-date our work by 
  []
 
 
-Overfull \hbox (4.43228pt too wide) in paragraph at lines 283--284
+Overfull \hbox (4.43228pt too wide) in paragraph at lines 282--283
 \OT1/cmr/m/n/10 com-par-ing our pre-dicted re-gions at the po-si-tions pro-vide
 d by its web ser-vice for 
  []
 
 
-Overfull \hbox (0.1822pt too wide) in paragraph at lines 283--284
+Overfull \hbox (0.1822pt too wide) in paragraph at lines 282--283
 \OT1/cmr/m/n/10 space-craft. Al-though our pre-dic-tions were gen-er-ally con-s
 is-tent, we were un-able 
  []
 
 
-Overfull \hbox (1.2934pt too wide) in paragraph at lines 283--284
+Overfull \hbox (1.2934pt too wide) in paragraph at lines 282--283
 \OT1/cmr/m/n/10 from one re-gion to an-other. Af-ter a search for er-rors in ou
 r model im-ple-men-ta- 
  []
 
 
-Overfull \hbox (6.73775pt too wide) in paragraph at lines 283--284
+Overfull \hbox (6.73775pt too wide) in paragraph at lines 282--283
 \OT1/cmr/m/n/10 tion failed to ex-plain the dif-fer-ences, we re-al-ized that t
 he dis-crep-an-cies were due 
  []
 
 
-Overfull \hbox (17.15456pt too wide) in paragraph at lines 283--284
+Overfull \hbox (17.15456pt too wide) in paragraph at lines 282--283
 \OT1/cmr/m/n/10 to the soft-ware that we used for reference-frame trans-for-ma-
 tion dif-fer-ing from that 
  []
 
 
-Overfull \hbox (3.46007pt too wide) in paragraph at lines 285--286
+Overfull \hbox (3.46007pt too wide) in paragraph at lines 284--285
 []\OT1/cmr/m/n/10 Not all global mag-ne-to-sphere sim-u-la-tion mod-els are ex-
 e-cuted in the same ref-er- 
  []
 
 
-Overfull \hbox (2.09894pt too wide) in paragraph at lines 285--286
+Overfull \hbox (2.09894pt too wide) in paragraph at lines 284--285
 \OT1/cmr/m/n/10 ence frame. To com-pare two mod-els, the so-lar wind in-put mus
 t be trans-formed 
  []
 
 
-Overfull \hbox (14.09904pt too wide) in paragraph at lines 285--286
+Overfull \hbox (14.09904pt too wide) in paragraph at lines 284--285
 \OT1/cmr/m/n/10 to the sim-u-la-tion ref-er-ence frame, and sim-u-lated vari-ab
 les from both mod-els must 
  []
 
 
-Overfull \hbox (14.68228pt too wide) in paragraph at lines 285--286
+Overfull \hbox (14.68228pt too wide) in paragraph at lines 284--285
 \OT1/cmr/m/n/10 be trans-formed into the same ref-er-ence frame for com-par-i-s
 on. The un-cer-tainty as- 
  []
 
 
-Overfull \hbox (4.5712pt too wide) in paragraph at lines 285--286
+Overfull \hbox (4.5712pt too wide) in paragraph at lines 284--285
 \OT1/cmr/m/n/10 so-ci-ated with trans-for-ma-tions must be known to de-ter-mine
  the dif-fer-ence in the 
  []
 
 
-Overfull \hbox (25.73785pt too wide) in paragraph at lines 288--289
+Overfull \hbox (25.73785pt too wide) in paragraph at lines 287--288
 []\OT1/cmr/m/n/10 The fact that dif-fer-ent soft-ware li-braries pro-vide dif-f
 er-ent op-tions for ref-er-ence frames 
  []
 
 
-Overfull \hbox (2.04344pt too wide) in paragraph at lines 288--289
+Overfull \hbox (2.04344pt too wide) in paragraph at lines 287--288
 \OT1/cmr/m/n/10 is in-di-rect ev-i-dence that dif-fer-ences can mat-ter. For ex
 -am-ple, SpacePy []Morley et al.[], 
  []
 
 
-Overfull \hbox (7.0156pt too wide) in paragraph at lines 288--289
+Overfull \hbox (7.0156pt too wide) in paragraph at lines 287--288
 \OT1/cmr/m/n/10 2024) pro-vides mul-ti-ple op-tions for com-put-ing the \OT1/cm
 tt/m/n/10 MAG \OT1/cmr/m/n/10 sys-tem, which have an-gu-lar dif- 
  []
 
 
-Overfull \hbox (16.72395pt too wide) in paragraph at lines 288--289
+Overfull \hbox (16.72395pt too wide) in paragraph at lines 287--288
 \OT1/cmr/m/n/10 fer-ences of $[]0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 01[]$, and S
 unPy []Mumford et al.[], 2025) has op-tions for how the \OT1/cmtt/m/n/10 GEI \O
 T1/cmr/m/n/10 frame 
  []
 
 
-Overfull \hbox (11.21011pt too wide) in paragraph at lines 288--289
+Overfull \hbox (11.21011pt too wide) in paragraph at lines 287--288
 \OT1/cmr/m/n/10 is com-puted. A gen-eral find-ing is that dif-fer-ences in tran
 s-form re-sults within a sin-gle li- 
  []
 
 
-Overfull \hbox (9.76573pt too wide) in paragraph at lines 288--289
+Overfull \hbox (9.76573pt too wide) in paragraph at lines 287--288
 \OT1/cmr/m/n/10 brary, with dif-fer-ent op-tions for the trans-form, are on the
  or-der of, or smaller than, dif- 
  []
 
 
-Overfull \hbox (0.26552pt too wide) in paragraph at lines 288--289
+Overfull \hbox (0.26552pt too wide) in paragraph at lines 287--288
 \OT1/cmr/m/n/10 fer-ences in trans-form re-sults be-tween two dif-fer-ent soft-
 ware li-braries. As a re-sult, im- 
  []
 
 
-Overfull \hbox (5.01566pt too wide) in paragraph at lines 288--289
+Overfull \hbox (5.01566pt too wide) in paragraph at lines 287--288
 \OT1/cmr/m/n/10 prove-ments in how a trans-form is com-puted within a sin-gle l
 i-brary are lost when com- 
  []
 
 [8]
-Overfull \hbox (25.93228pt too wide) in paragraph at lines 290--291
+Overfull \hbox (25.93228pt too wide) in paragraph at lines 289--290
 []\OT1/cmr/m/n/10 Even if the un-cer-tainty as-so-ci-ated with how a given ref-
 er-ence frame was im-ple-mented 
  []
 
 
-Overfull \hbox (10.3212pt too wide) in paragraph at lines 290--291
+Overfull \hbox (10.3212pt too wide) in paragraph at lines 289--290
 \OT1/cmr/m/n/10 is small rel-a-tive to that of the mea-sure-ments, we sug-gest 
 that it is il-log-i-cal for two data 
  []
 
 
-Overfull \hbox (21.65462pt too wide) in paragraph at lines 290--291
+Overfull \hbox (21.65462pt too wide) in paragraph at lines 289--290
 \OT1/cmr/m/n/10 providers to re-port the lo-ca-tion of a space-craft that dif-f
 ers by more than what is ex-pected 
  []
 
 
-Overfull \hbox (1.46005pt too wide) in paragraph at lines 290--291
+Overfull \hbox (1.46005pt too wide) in paragraph at lines 289--290
 \OT1/cmr/m/n/10 due to nu-mer-i-cal pre-ci-sion un-less the rea-son for dif-fer
 -ences is clearly doc-u-mented and 
  []
 
 
-Overfull \hbox (10.82132pt too wide) in paragraph at lines 290--291
+Overfull \hbox (10.82132pt too wide) in paragraph at lines 289--290
 \OT1/cmr/m/n/10 ide-ally ev-i-dent in the name of the dataset, e.g., by in-clud
 -ing the word ``pre-lim-i-nary". A 
  []
 
 
-Overfull \hbox (10.43231pt too wide) in paragraph at lines 298--299
+Overfull \hbox (10.43231pt too wide) in paragraph at lines 297--298
 []\OT1/cmr/m/n/10 In this sec-tion, we give ex-am-ples show-ing how po-si-tion 
 val-ues from data providers 
  []
 
 
-Overfull \hbox (9.2391pt too wide) in paragraph at lines 301--302
+Overfull \hbox (9.2391pt too wide) in paragraph at lines 300--301
 []$\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 ^^A\OT1/cmr/bx/n/10 r\OMS/cmsy/m/n/10 j\OM
 L/cmm/m/it/10 =R[]$\OT1/cmr/m/n/10 , the mag-ni-tude of the dif-fer-ence in po-
 si-tion vec-tors rel-a-tive to an Earth 
  []
 
 
-Overfull \hbox (2.8361pt too wide) in paragraph at lines 301--302
+Overfull \hbox (2.8361pt too wide) in paragraph at lines 300--301
 \OT1/cmr/m/n/10 ra-dius, with $\OML/cmm/m/it/10 R[] \OMS/cmsy/m/n/10 ^^Q \OT1/c
 mr/m/n/10 6378\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 16$ km, which is the value used
  by SS-CWeb (see dis-cus- 
  []
 
 
-Overfull \hbox (7.59665pt too wide) in paragraph at lines 302--303
+Overfull \hbox (7.59665pt too wide) in paragraph at lines 301--302
 []$\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 ^^A\OT1/cmr/bx/n/10 r\OMS/cmsy/m/n/10 j\OM
 L/cmm/m/it/10 =[]$ \OT1/cmr/m/n/10 the mag-ni-tude of the dif-fer-ence in po-si
 -tion vec-tors rel-a-tive to the av-er-age 
  []
 
 
-Overfull \hbox (24.57127pt too wide) in paragraph at lines 310--311
+Overfull \hbox (24.57127pt too wide) in paragraph at lines 309--310
 []\OT1/cmr/m/n/10 The av-er-age an-gu-lar change in Earth's dipole $\OML/cmm/m/
 it/10 Z$ \OT1/cmr/m/n/10 axis of $[]0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 04[]$ pe
 r year (from 1970-- 
  []
 
 
-Overfull \hbox (4.54337pt too wide) in paragraph at lines 312--313
+Overfull \hbox (4.54337pt too wide) in paragraph at lines 311--312
 []\OT1/cmr/m/n/10 The pre-ces-sion, also re-ferred to as luni--solar pre-ces-si
 on, of Earth's ro-ta-tion axis 
  []
 
 
-Overfull \hbox (15.88493pt too wide) in paragraph at lines 312--313
+Overfull \hbox (15.88493pt too wide) in paragraph at lines 311--312
 \OT1/cmr/m/n/10 (also the \OT1/cmtt/m/n/10 GEI$[]$ \OT1/cmr/m/n/10 ref-er-ence 
 sys-tem axis), which drifts by $[]0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 006[]$ per
  year []Hapgood, 
  []
 
 
-Overfull \hbox (48.61298pt too wide) in paragraph at lines 316--317
+Overfull \hbox (48.61298pt too wide) in paragraph at lines 315--316
 []\OT1/cmr/m/n/10 The pre-ces-sion of the eclip-tic (plan-e-tary pre-ces-sion) 
 of $^^A\OML/cmm/m/it/10 ^^R[]\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10
  000014[]$ per year []Hapgood, 
  []
 
 
-Overfull \hbox (19.94627pt too wide) in paragraph at lines 321--322
+Overfull \hbox (19.94627pt too wide) in paragraph at lines 320--321
 []\OT1/cmr/m/n/10 Figure 1[] shows the po-si-tion of the Geo-tail space-craft f
 rom 2021-11-25 through 2021- 
  []
 
 
-Overfull \hbox (0.75732pt too wide) in paragraph at lines 321--322
+Overfull \hbox (0.75732pt too wide) in paragraph at lines 320--321
 \OT1/cmr/m/n/10 12-05 from the SS-CWeb web ser-vice and the GE[]OR[]DEF dataset
  in CDF []Common 
  []
 
 
-Overfull \hbox (13.48788pt too wide) in paragraph at lines 321--322
+Overfull \hbox (13.48788pt too wide) in paragraph at lines 320--321
 \OT1/cmr/m/n/10 Data For-mat, 2025) files from CDAWeb. SS-CWeb pro-vides po-si-
 tions for sci-en-tific space- 
  []
 
 
-Overfull \hbox (2.59816pt too wide) in paragraph at lines 321--322
+Overfull \hbox (2.59816pt too wide) in paragraph at lines 320--321
 \OT1/cmr/m/n/10 craft in ref-er-ence sys-tems that in-clude \OT1/cmtt/m/n/10 GE
 I\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 J2K\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 GSE\O
 T1/cmr/m/n/10 , \OT1/cmtt/m/n/10 GSM\OT1/cmr/m/n/10 , and \OT1/cmtt/m/n/10 GM \
@@ -1829,31 +1829,31 @@ OT1/cmr/m/n/10 (fre-quently re-ferred
  []
 
 
-Overfull \hbox (9.80855pt too wide) in paragraph at lines 323--324
+Overfull \hbox (9.80855pt too wide) in paragraph at lines 322--323
 []\OT1/cmr/m/n/10 We used the SS-CWeb op-tion to re-turn data as a frac-tion of
  $\OML/cmm/m/it/10 R[]$ \OT1/cmr/m/n/10 with 10 frac-tional 
  []
 
 
-Overfull \hbox (21.93233pt too wide) in paragraph at lines 323--324
+Overfull \hbox (21.93233pt too wide) in paragraph at lines 322--323
 \OT1/cmr/m/n/10 dig-its. The CDAWeb dataset stores val-ues in km as IEEE-754 64
 -bit floats, and the meta- 
  []
 
 
-Overfull \hbox (4.87682pt too wide) in paragraph at lines 323--324
+Overfull \hbox (4.87682pt too wide) in paragraph at lines 322--323
 \OT1/cmr/m/n/10 data in-di-cates a rec-om-mended dis-play pre-ci-sion of 10 fra
 c-tional dig-its. The ca-dence of 
  []
 
 
-Overfull \hbox (4.23781pt too wide) in paragraph at lines 323--324
-\OT1/cmr/m/n/10 the SS-CWeb Geo-tail data is 12 min-utes while the CDAWeb Geo-t
-ail dataset is 10 min- 
+Overfull \hbox (7.0156pt too wide) in paragraph at lines 322--323
+\OT1/cmr/m/n/10 the SS-CWeb Geo-tail data is 12 min-utes, while the CDAWeb Geo-
+tail dataset is 10 min- 
  []
 
 
-Overfull \hbox (13.48792pt too wide) in paragraph at lines 323--324
+Overfull \hbox (13.48792pt too wide) in paragraph at lines 322--323
 \OT1/cmr/m/n/10 utes. In the time in-ter-val dis-played in Fig-ure 1[], val-ues
  from the datasets are only shown 
  []
@@ -1862,13 +1862,13 @@ Overfull \hbox (13.48792pt too wide) in paragraph at lines 323--324
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-Overfull \hbox (3.23788pt too wide) in paragraph at lines 325--326
+Overfull \hbox (3.23788pt too wide) in paragraph at lines 324--325
 []\OT1/cmr/m/n/10 Based on the pre-ci-sion of the data, and if both providers u
 se the same def-i-ni-tion 
  []
 
 
-Overfull \hbox (5.2794pt too wide) in paragraph at lines 325--326
+Overfull \hbox (5.2794pt too wide) in paragraph at lines 324--325
 \OT1/cmr/m/n/10 of \OT1/cmtt/m/n/10 GEI\OT1/cmr/m/n/10 , we ex-pect $\OMS/cmsy/
 m/n/10 j\OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/10 r\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10
  =R[] \OMS/cmsy/m/n/10 ' \OT1/cmr/m/n/10 10[]$ given that the SS-CWeb val-ues a
@@ -1876,44 +1876,44 @@ re re-ported in $\OML/cmm/m/it/10 R[]$
  []
 
 
-Overfull \hbox (19.46014pt too wide) in paragraph at lines 325--326
+Overfull \hbox (19.46014pt too wide) in paragraph at lines 324--325
 \OT1/cmr/m/n/10 to $10$ frac-tional dig-its and the CDAWeb val-ues are rec-om-m
 ended for dis-play with 10 frac- 
  []
 
 
-Overfull \hbox (4.26448pt too wide) in paragraph at lines 325--326
+Overfull \hbox (4.26448pt too wide) in paragraph at lines 324--325
 \OT1/cmr/m/n/10 tional dig-its. For $[] = 20\OML/cmm/m/it/10 R[]$\OT1/cmr/m/n/1
 0 , this cor-re-sponds to an un-cer-tainty due to the pre-ci-sion of 
  []
 
 
-Overfull \hbox (13.34906pt too wide) in paragraph at lines 327--328
+Overfull \hbox (13.34906pt too wide) in paragraph at lines 326--327
 []\OT1/cmr/m/n/10 In Fig-ure 1[](a), and based on the doc-u-men-ta-tion for []S
 atellite Sit-u-a-tion Cen-ter Sys- 
  []
 
 
-Overfull \hbox (17.7516pt too wide) in paragraph at lines 327--328
+Overfull \hbox (17.7516pt too wide) in paragraph at lines 326--327
 \OT1/cmr/m/n/10 tem and Ser-vices (2025c), which has the state-ment ``Geo-cen-t
 ric In-er-tial (\OT1/cmtt/m/n/10 GCI\OT1/cmr/m/n/10 ) and Earth- 
  []
 
 
-Overfull \hbox (38.1816pt too wide) in paragraph at lines 327--328
+Overfull \hbox (38.1816pt too wide) in paragraph at lines 326--327
 \OT1/cmr/m/n/10 Centered In-er-tial (\OT1/cmtt/m/n/10 ECI\OT1/cmr/m/n/10 ) are 
 the same as \OT1/cmtt/m/n/10 GEI\OT1/cmr/m/n/10 .", we ex-pect the SS-CWeb/\OT1
 /cmtt/m/n/10 GEI \OT1/cmr/m/n/10 and CDAWeb/\OT1/cmtt/m/n/10 GCI 
  []
 
 
-Overfull \hbox (18.47392pt too wide) in paragraph at lines 327--328
+Overfull \hbox (18.47392pt too wide) in paragraph at lines 326--327
 \OT1/cmr/m/n/10 po-si-tions dif-fer-ences to be near $\OMS/cmsy/m/n/10 ' \OT1/c
 mr/m/n/10 10[]$ de-grees, as-sum-ing both data sources use the same 
  []
 
 
-Overfull \hbox (9.83482pt too wide) in paragraph at lines 327--328
+Overfull \hbox (9.83482pt too wide) in paragraph at lines 326--327
 \OT1/cmr/m/n/10 def-i-ni-tion of \OT1/cmtt/m/n/10 GEI\OT1/cmr/m/n/10 . The av-e
 r-age an-gu-lar dif-fer-ence be-tween po-si-tion vec-tors is $^^A\OML/cmm/m/it/
 10 ^^R \OMS/cmsy/m/n/10 ^^X \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 
@@ -1921,7 +1921,7 @@ r-age an-gu-lar dif-fer-ence be-tween po-si-tion vec-tors is $^^A\OML/cmm/m/it/
  []
 
 
-Overfull \hbox (2.12788pt too wide) in paragraph at lines 327--328
+Overfull \hbox (2.12788pt too wide) in paragraph at lines 326--327
 \OT1/cmr/m/n/10 and the av-er-age er-ror rel-a-tive to an Earth ra-dius, $\OMS/
 cmsy/m/n/10 j\OT1/cmr/m/n/10 ^^A\OT1/cmr/bx/n/10 r\OMS/cmsy/m/n/10 j\OML/cmm/m/
 it/10 =R[] \OMS/cmsy/m/n/10 ^^X \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n
@@ -1929,225 +1929,225 @@ it/10 =R[] \OMS/cmsy/m/n/10 ^^X \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n
  []
 
 
-Overfull \hbox (33.9739pt too wide) in paragraph at lines 329--330
+Overfull \hbox (33.9739pt too wide) in paragraph at lines 328--329
 []\OT1/cmr/m/n/10 In Fig-ure 1[](b), there is a much closer match be-tween SS-C
 Web/J2K and CDAWeb/GCI 
  []
 
 
-Overfull \hbox (1.66853pt too wide) in paragraph at lines 329--330
+Overfull \hbox (1.66853pt too wide) in paragraph at lines 328--329
 \OT1/cmr/m/n/10 po-si-tions, with an av-er-age an-gu-lar dif-fer-ence in the po
 -si-tion vec-tor of $[]0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 001[]$ and an 
  []
 
 
-Overfull \hbox (13.76546pt too wide) in paragraph at lines 331--332
+Overfull \hbox (13.76546pt too wide) in paragraph at lines 330--331
 []\OT1/cmr/m/n/10 In sum-mary, Fig-ure 1[](a) and (b) show that what is la-bele
 d as \OT1/cmtt/m/n/10 GCI \OT1/cmr/m/n/10 in the CDAWeb 
  []
 
 
-Overfull \hbox (25.59877pt too wide) in paragraph at lines 331--332
+Overfull \hbox (25.59877pt too wide) in paragraph at lines 330--331
 \OT1/cmr/m/n/10 pected given the SS-CWeb doc-u-men-ta-tion that notes \OT1/cmtt
 /m/n/10 GCI \OT1/cmr/m/n/10 and \OT1/cmtt/m/n/10 GEI \OT1/cmr/m/n/10 are equiv-
 a-lent. Al-though 
  []
 
 
-Overfull \hbox (3.43198pt too wide) in paragraph at lines 331--332
+Overfull \hbox (3.43198pt too wide) in paragraph at lines 330--331
 \OT1/cmr/m/n/10 the CDAWeb/\OT1/cmtt/m/n/10 GCI \OT1/cmr/m/n/10 po-si-tions are
  a bet-ter match to the SS-CWeb/\OT1/cmtt/m/n/10 J2K \OT1/cmr/m/n/10 po-si-tion
 s, the dif- 
  []
 
 
-Overfull \hbox (8.79344pt too wide) in paragraph at lines 331--332
+Overfull \hbox (8.79344pt too wide) in paragraph at lines 330--331
 \OT1/cmr/m/n/10 fer-ences are not ex-plained by the nu-mer-i-cal pre-ci-sion of
  the re-ported val-ues. They may 
  []
 
 
-Overfull \hbox (28.23785pt too wide) in paragraph at lines 331--332
+Overfull \hbox (28.23785pt too wide) in paragraph at lines 330--331
 \OT1/cmr/m/n/10 be due to whether or how pre-ces-sion and nu-ta-tion in items 2
 --4 listed above were ac-counted 
  []
 
 
-Overfull \hbox (3.82098pt too wide) in paragraph at lines 333--334
+Overfull \hbox (3.82098pt too wide) in paragraph at lines 332--333
 []\OT1/cmr/m/n/10 In Fig-ure 1[](c), a com-par-i-son is made for the \OT1/cmtt/
 m/n/10 GSE \OT1/cmr/m/n/10 ref-er-ence sys-tem. To trans-form 
  []
 
 
-Overfull \hbox (3.31174pt too wide) in paragraph at lines 333--334
+Overfull \hbox (3.31174pt too wide) in paragraph at lines 332--333
 \OT1/cmr/m/n/10 a vec-tor from \OT1/cmtt/m/n/10 GEI \OT1/cmr/m/n/10 to \OT1/cmt
 t/m/n/10 GSE\OT1/cmr/m/n/10 , two ro-ta-tions are re-quired: a ro-ta-tion aroun
 d \OT1/cmtt/m/n/10 GEI$[]$ \OT1/cmr/m/n/10 to align 
  []
 
 
-Overfull \hbox (10.00996pt too wide) in paragraph at lines 333--334
+Overfull \hbox (10.00996pt too wide) in paragraph at lines 332--333
 \OT1/cmr/m/n/10 Earth's equa-tor with the eclip-tic plane and a ro-ta-tion arou
 nd the \OT1/cmtt/m/n/10 GEI$[]$ \OT1/cmr/m/n/10 axis (as it is af- 
  []
 
 
-Overfull \hbox (13.81198pt too wide) in paragraph at lines 333--334
+Overfull \hbox (13.81198pt too wide) in paragraph at lines 332--333
 \OT1/cmr/m/n/10 ter the first ro-ta-tion) to ori-ent \OT1/cmtt/m/n/10 GEI$[]$ \
 OT1/cmr/m/n/10 to point to cen-ter of the Sun. These two an-gles are 
  []
 
 
-Overfull \hbox (12.71022pt too wide) in paragraph at lines 333--334
+Overfull \hbox (12.71022pt too wide) in paragraph at lines 332--333
 \OT1/cmr/m/n/10 the obliq-uity of the eclip-tic and the eclip-tic lon-gi-tude o
 f the Sun, re-spec-tively ([]Hapgood 
  []
 
 
-Overfull \hbox (14.01543pt too wide) in paragraph at lines 335--336
+Overfull \hbox (14.01543pt too wide) in paragraph at lines 334--335
 []\OT1/cmr/m/n/10 In Fig-ure 1[](d), a com-par-i-son is made for the \OT1/cmtt/
 m/n/10 GSM \OT1/cmr/m/n/10 ref-er-ence sys-tem. A vec-tor in the 
  []
 
 
-Overfull \hbox (10.932pt too wide) in paragraph at lines 335--336
+Overfull \hbox (10.932pt too wide) in paragraph at lines 334--335
 \OT1/cmtt/m/n/10 GSE \OT1/cmr/m/n/10 ref-er-ence sys-tem is trans-formed to \OT
 1/cmtt/m/n/10 GSM \OT1/cmr/m/n/10 by an an-gle that de-pends on the ori-en-ta-t
 ion 
  []
 
 
-Overfull \hbox (2.15466pt too wide) in paragraph at lines 335--336
+Overfull \hbox (2.15466pt too wide) in paragraph at lines 334--335
 \OT1/cmr/m/n/10 of the North ge-o-mag-netic pole ([]Russell (1971); []Hapgood (
 1992)). The pri-mary un-cer- 
  []
 
 
-Overfull \hbox (16.46016pt too wide) in paragraph at lines 335--336
+Overfull \hbox (16.46016pt too wide) in paragraph at lines 334--335
 \OT1/cmr/m/n/10 tainty is how the ori-en-ta-tion of the North ge-o-mag-netic po
 le, which has an av-er-age yearly 
  []
 
 
-Overfull \hbox (1.7794pt too wide) in paragraph at lines 335--336
+Overfull \hbox (1.7794pt too wide) in paragraph at lines 334--335
 \OT1/cmr/m/n/10 change of $[]0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 04[]$, is com-p
 uted. If both SS-CWeb and CDAWeb com-puted the \OT1/cmtt/m/n/10 GSM \OT1/cmr/m/
 n/10 po- 
  []
 
 
-Overfull \hbox (10.70993pt too wide) in paragraph at lines 335--336
+Overfull \hbox (10.70993pt too wide) in paragraph at lines 334--335
 \OT1/cmr/m/n/10 si-tions based on a trans-form from \OT1/cmtt/m/n/10 GSE\OT1/cm
 r/m/n/10 , we could con-clude that the ob-served $^^A\OML/cmm/m/it/10 ^^R$ \OT1
 /cmr/m/n/10 are due 
  []
 
 
-Overfull \hbox (10.0435pt too wide) in paragraph at lines 335--336
+Overfull \hbox (10.0435pt too wide) in paragraph at lines 334--335
 \OT1/cmr/m/n/10 to the use of dif-fer-ent lo-ca-tions of the North ge-o-mag-net
 ic pole. How-ever, the max-i-mum 
  []
 
 
-Overfull \hbox (3.48778pt too wide) in paragraph at lines 335--336
+Overfull \hbox (3.48778pt too wide) in paragraph at lines 334--335
 \OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/10 ^^R \OMS/cmsy/m/n/10 ' \OT1/cmr/m/n/10 0\OM
 L/cmm/m/it/10 :\OT1/cmr/m/n/10 37[]$ is much larger than the av-er-age yearly a
 n-gu-lar change in Earth's dipole $\OML/cmm/m/it/10 Z$ 
  []
 
 
-Overfull \hbox (12.37672pt too wide) in paragraph at lines 348--349
+Overfull \hbox (12.37672pt too wide) in paragraph at lines 347--348
 []\OT1/cmr/m/n/10 In Fig-ure 2[], a com-par-i-son is made be-tween data from SS
 -CWeb, CDAWeb, and the 
  []
 
 
-Overfull \hbox (6.46007pt too wide) in paragraph at lines 348--349
+Overfull \hbox (6.46007pt too wide) in paragraph at lines 347--348
 \OT1/cmr/m/n/10 JPL Hori-zons web ser-vice []JPL, 2022), which pro-vides po-si-
 tions for some of the space- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--349
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
 \OT1/cmr/m/n/10 craft avail-able from SS-CWeb. The CDAWeb dataset is MMS2[]EPD-
 EIS[]SRVY[]L2 
  []
 
 
-Overfull \hbox (3.72372pt too wide) in paragraph at lines 348--349
+Overfull \hbox (3.72372pt too wide) in paragraph at lines 347--348
 []\OT1/cmr/m/n/10 ELECTRONENERGY. The JPL Hori-zons web ser-vice pro-vides po-s
 i-tions in the \OT1/cmtt/m/n/10 ICRF 
  []
 
 
-Overfull \hbox (1.07098pt too wide) in paragraph at lines 348--349
+Overfull \hbox (1.07098pt too wide) in paragraph at lines 347--348
 \OT1/cmr/m/n/10 ref-er-ence frame (the ver-sion of \OT1/cmtt/m/n/10 ICRF \OT1/c
 mr/m/n/10 is not doc-u-mented), and SunPy is used to trans- 
  []
 
 
-Overfull \hbox (3.72372pt too wide) in paragraph at lines 350--354
+Overfull \hbox (3.72372pt too wide) in paragraph at lines 349--353
 []\OT1/cmr/m/n/10 Figure 2[]a shows that the $^^A\OT1/cmr/bx/n/10 r$ \OT1/cmr/m
 /n/10 be-tween \OT1/cmtt/m/n/10 GSE \OT1/cmr/m/n/10 lo-ca-tions from CDAWeb and
  SS-CWeb 
  []
 
 
-Overfull \hbox (11.18236pt too wide) in paragraph at lines 350--354
+Overfull \hbox (11.18236pt too wide) in paragraph at lines 349--353
 \OT1/cmr/m/n/10 match to within $[]3$ km, which is much larger than ex-pected b
 y nu-mer-i-cal pre-ci-sion but 
  []
 
 
-Overfull \hbox (15.54352pt too wide) in paragraph at lines 350--354
+Overfull \hbox (15.54352pt too wide) in paragraph at lines 349--353
 \OT1/cmr/m/n/10 smaller than the clos-est sep-a-ra-tion dis-tance of MMS space-
 craft of $[]7$ km []NASA, 2016).  
  []
 
 
-Overfull \hbox (14.15443pt too wide) in paragraph at lines 355--356
+Overfull \hbox (14.15443pt too wide) in paragraph at lines 354--355
 []\OT1/cmr/m/n/10 In Fig-ure 2[]c, much larger dif-fer-ences are shown to ex-is
 t be-tween SS-CWeb and JPL 
  []
 
 
-Overfull \hbox (1.15457pt too wide) in paragraph at lines 355--356
+Overfull \hbox (1.15457pt too wide) in paragraph at lines 354--355
 \OT1/cmr/m/n/10 than be-tween SS-CWeb and CDAWeb, with the max-i-mum an-gu-lar 
 dif-fer-ence be-ing up 
  []
 
 
-Overfull \hbox (17.54353pt too wide) in paragraph at lines 355--356
+Overfull \hbox (17.54353pt too wide) in paragraph at lines 354--355
 \OT1/cmr/m/n/10 to $[]1[]$ in-stead of $0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 003[
 ]$ found in the com-par-i-son of SS-CWeb and CDAWeb in Fig-ure 2[]a. 
  []
 
 
-Overfull \hbox (1.12683pt too wide) in paragraph at lines 355--356
+Overfull \hbox (1.12683pt too wide) in paragraph at lines 354--355
 \OT1/cmr/m/n/10 A sim-i-lar con-clu-sion is made by a com-par-i-son of Fig-ure 
 2[]b and Fig-ure 2[]d. A pos-si-ble 
  []
 
 
-Overfull \hbox (8.71007pt too wide) in paragraph at lines 355--356
+Overfull \hbox (8.71007pt too wide) in paragraph at lines 354--355
 [][][]\OT1/cmr/m/n/10 on[] [][][]this[] [][][]day[] -- the raw JPL Hori-zons we
 b ser-vice out-put notes that ``The space-craft may 
  []
 
 
-Overfull \hbox (2.04346pt too wide) in paragraph at lines 355--356
+Overfull \hbox (2.04346pt too wide) in paragraph at lines 354--355
 \OT1/cmr/m/n/10 be ma-neu-vered fre-quently. There-fore, the JSpOC TLE-based [J
 oint Space Op-er-a-tions 
  []
 
 
-Overfull \hbox (3.15451pt too wide) in paragraph at lines 355--356
+Overfull \hbox (3.15451pt too wide) in paragraph at lines 354--355
 \OT1/cmr/m/n/10 Cen-ter Two--Line El-e-ment] tra-jec-tory pro-vided here may at
  times de-part from the ac- 
  []
 
 
-Overfull \hbox (8.04346pt too wide) in paragraph at lines 355--356
+Overfull \hbox (8.04346pt too wide) in paragraph at lines 354--355
 \OT1/cmr/m/n/10 tual tra-jec-tory. This can hap-pen be-cause TLEs do not model 
 thruster fir-ings; the TLE 
  []
@@ -2157,196 +2157,152 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
 [11]
-<figures/positions/Geotail_SSCWeb-GEI_vs_CDAWeb-GCI.pdf, id=59, 483.69685pt x 6
-48.72281pt>
-File: figures/positions/Geotail_SSCWeb-GEI_vs_CDAWeb-GCI.pdf Graphic file (type
- pdf)
-<use figures/positions/Geotail_SSCWeb-GEI_vs_CDAWeb-GCI.pdf>
-Package pdftex.def Info: figures/positions/Geotail_SSCWeb-GEI_vs_CDAWeb-GCI.pdf
-  used on input line 379.
-(pdftex.def)             Requested size: 218.61795pt x 293.2094pt.
-<figures/positions/Geotail_SSCWeb-J2K_vs_CDAWeb-GCI.pdf, id=60, 483.69685pt x 6
-48.72281pt>
-File: figures/positions/Geotail_SSCWeb-J2K_vs_CDAWeb-GCI.pdf Graphic file (type
- pdf)
-<use figures/positions/Geotail_SSCWeb-J2K_vs_CDAWeb-GCI.pdf>
-Package pdftex.def Info: figures/positions/Geotail_SSCWeb-J2K_vs_CDAWeb-GCI.pdf
-  used on input line 384.
-(pdftex.def)             Requested size: 218.61795pt x 293.2094pt.
-<figures/positions/Geotail_SSCWeb-GSE_vs_CDAWeb-GSE.pdf, id=61, 483.69685pt x 6
-48.72281pt>
-File: figures/positions/Geotail_SSCWeb-GSE_vs_CDAWeb-GSE.pdf Graphic file (type
- pdf)
-<use figures/positions/Geotail_SSCWeb-GSE_vs_CDAWeb-GSE.pdf>
-Package pdftex.def Info: figures/positions/Geotail_SSCWeb-GSE_vs_CDAWeb-GSE.pdf
-  used on input line 390.
-(pdftex.def)             Requested size: 218.61795pt x 293.2094pt.
-<figures/positions/Geotail_SSCWeb-GSM_vs_CDAWeb-GSM.pdf, id=62, 483.69685pt x 6
-48.72281pt>
-File: figures/positions/Geotail_SSCWeb-GSM_vs_CDAWeb-GSM.pdf Graphic file (type
- pdf)
-<use figures/positions/Geotail_SSCWeb-GSM_vs_CDAWeb-GSM.pdf>
-Package pdftex.def Info: figures/positions/Geotail_SSCWeb-GSM_vs_CDAWeb-GSM.pdf
-  used on input line 395.
-(pdftex.def)             Requested size: 218.61795pt x 293.2094pt.
+<figures/combined/figure1.pdf, id=59, 337.86327pt x 475.19432pt>
+File: figures/combined/figure1.pdf Graphic file (type pdf)
+<use figures/combined/figure1.pdf>
+Package pdftex.def Info: figures/combined/figure1.pdf  used on input line 374.
+(pdftex.def)             Requested size: 437.2359pt x 614.98997pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--397
+Overfull \hbox (39.75092pt too wide) in paragraph at lines 374--375
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
 []\OT1/cmr/m/n/10 Figure  1: |Com-par-i-son of po-si-tion val-ues for the Geo-t
-ail space-craft from SS-CWeb and CDAWeb in four
+ail space-craft from SS-CWeb and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--397
-\OT1/cmr/m/n/10 dif-fer-ent ref-er-ence sys-tems. The top panel in each sub-plo
-t dis-plays the $\OML/cmm/m/it/10 X$\OT1/cmr/m/n/10 , $\OML/cmm/m/it/10 Y$\OT1/
-cmr/m/n/10 , and $\OML/cmm/m/it/10 Z$ \OT1/cmr/m/n/10 val-ues from each
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
+\OT1/cmr/m/n/10 CDAWeb in four dif-fer-ent ref-er-ence sys-tems. The top panel 
+in each sub-plot dis-plays the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--397
-\OT1/cmr/m/n/10 provider (on this scale, dif-fer-ences are not vis-i-ble) and t
-he av-er-age ra-dial dis-tance, $[]$, be-tween the two
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
+\OML/cmm/m/it/10 X$\OT1/cmr/m/n/10 , $\OML/cmm/m/it/10 Y$\OT1/cmr/m/n/10 , and 
+$\OML/cmm/m/it/10 Z$ \OT1/cmr/m/n/10 val-ues from each provider (on this scale,
+ dif-fer-ences are not vis-i-ble) and the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--397
-\OT1/cmr/m/n/10 providers. The bot-tom panel of each sub-plot shows rel-a-tive 
-dif-fer-ences in the po-si-tion vec-tor $^^A\OT1/cmr/bx/n/10 r$ \OT1/cmr/m/n/10
- and
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
+\OT1/cmr/m/n/10 av-er-age ra-dial dis-tance, $[]$, be-tween the two providers. 
+The bot-tom panel of each sub-
  []
 
 
-LaTeX Warning: Float too large for page by 32.69493pt on input line 400.
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
+\OT1/cmr/m/n/10 plot shows rel-a-tive dif-fer-ences in the po-si-tion vec-tor $
+^^A\OT1/cmr/bx/n/10 r$ \OT1/cmr/m/n/10 and the an-gu-lar dif-fer-ence in the
+ []
 
-[12 <./figures/positions/Geotail_SSCWeb-GEI_vs_CDAWeb-GCI.pdf> <./figures/posit
-ions/Geotail_SSCWeb-J2K_vs_CDAWeb-GCI.pdf> <./figures/positions/Geotail_SSCWeb-
-GSE_vs_CDAWeb-GSE.pdf> <./figures/positions/Geotail_SSCWeb-GSM_vs_CDAWeb-GSM.pd
-f>]
-<figures/positions/MMS-2_SSCWeb-GSE_vs_CDAWeb-GSE.pdf, id=388, 483.69685pt x 64
-8.72281pt>
-File: figures/positions/MMS-2_SSCWeb-GSE_vs_CDAWeb-GSE.pdf Graphic file (type p
-df)
-<use figures/positions/MMS-2_SSCWeb-GSE_vs_CDAWeb-GSE.pdf>
-Package pdftex.def Info: figures/positions/MMS-2_SSCWeb-GSE_vs_CDAWeb-GSE.pdf  
-used on input line 410.
-(pdftex.def)             Requested size: 218.61795pt x 293.2094pt.
-<figures/positions/MMS-2_SSCWeb-GSM_vs_CDAWeb-GSM.pdf, id=389, 483.69685pt x 64
-8.72281pt>
-File: figures/positions/MMS-2_SSCWeb-GSM_vs_CDAWeb-GSM.pdf Graphic file (type p
-df)
-<use figures/positions/MMS-2_SSCWeb-GSM_vs_CDAWeb-GSM.pdf>
-Package pdftex.def Info: figures/positions/MMS-2_SSCWeb-GSM_vs_CDAWeb-GSM.pdf  
-used on input line 415.
-(pdftex.def)             Requested size: 218.61795pt x 293.2094pt.
-<figures/positions/MMS-2_SSCWeb-GSE_vs_JPL-GSE.pdf, id=390, 483.69685pt x 648.7
-2281pt>
-File: figures/positions/MMS-2_SSCWeb-GSE_vs_JPL-GSE.pdf Graphic file (type pdf)
 
-<use figures/positions/MMS-2_SSCWeb-GSE_vs_JPL-GSE.pdf>
-Package pdftex.def Info: figures/positions/MMS-2_SSCWeb-GSE_vs_JPL-GSE.pdf  use
-d on input line 421.
-(pdftex.def)             Requested size: 218.61795pt x 293.2094pt.
-<figures/positions/MMS-2_SSCWeb-GSM_vs_JPL-GSM.pdf, id=391, 483.69685pt x 648.7
-2281pt>
-File: figures/positions/MMS-2_SSCWeb-GSM_vs_JPL-GSM.pdf Graphic file (type pdf)
+LaTeX Warning: Float too large for page by 24.26611pt on input line 377.
 
-<use figures/positions/MMS-2_SSCWeb-GSM_vs_JPL-GSM.pdf>
-Package pdftex.def Info: figures/positions/MMS-2_SSCWeb-GSM_vs_JPL-GSM.pdf  use
-d on input line 426.
-(pdftex.def)             Requested size: 218.61795pt x 293.2094pt.
+[12 <./figures/combined/figure1.pdf>]
+<figures/combined/figure2.pdf, id=402, 334.5308pt x 487.19415pt>
+File: figures/combined/figure2.pdf Graphic file (type pdf)
+<use figures/combined/figure2.pdf>
+Package pdftex.def Info: figures/combined/figure2.pdf  used on input line 383.
+(pdftex.def)             Requested size: 437.2359pt x 636.82399pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--428
+Overfull \hbox (39.75092pt too wide) in paragraph at lines 383--384
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
 []\OT1/cmr/m/n/10 Figure  2: |Com-par-i-son of po-si-tion val-ues for the MMS-2
- space-craft from (a)--(b) SS-CWeb and
+ space-craft from (a)--(b) SS-CWeb
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13 <./figures/positions/MMS-2_SSCWeb-GSE_vs_CDAWeb-GSE.pdf> <./figures/positio
-ns/MMS-2_SSCWeb-GSM_vs_CDAWeb-GSM.pdf> <./figures/positions/MMS-2_SSCWeb-GSE_vs
-_JPL-GSE.pdf> <./figures/positions/MMS-2_SSCWeb-GSM_vs_JPL-GSM.pdf>]
-Overfull \hbox (2.8489pt too wide) in paragraph at lines 444--445
+[13 <./figures/combined/figure2.pdf>]
+Overfull \hbox (2.8489pt too wide) in paragraph at lines 399--400
 []\OT1/cmr/m/n/10 In this sec-tion, we com-pare ref-er-ence frame cal-cu-la-tio
 ns us-ing the fol-low-ing soft- 
  []
 
 
-Overfull \hbox (8.97775pt too wide) in paragraph at lines 447--449
+Overfull \hbox (8.97775pt too wide) in paragraph at lines 402--404
 []\OT1/cmr/m/n/10 Geopack-2008 dou-ble pre-ci-sion ([]Tsyganenko (2008); la-bel
 ed as \OT1/cmtt/m/n/10 geopack[]08[]dp \OT1/cmr/m/n/10 in 
  []
 
 
-Overfull \hbox (7.65451pt too wide) in paragraph at lines 447--449
+Overfull \hbox (7.65451pt too wide) in paragraph at lines 402--404
 \OT1/cmr/m/n/10 the fig-ures in this sec-tion), a For-tran li-brary that was up
 -graded from ear-lier ver- 
  []
 
 
-Overfull \hbox (14.2678pt too wide) in paragraph at lines 449--450
+Overfull \hbox (14.2678pt too wide) in paragraph at lines 404--405
 []\OT1/cmr/m/n/8 sion[] [][][]of[] [][][]PySPEDAS[][][]$[]$[][]\OT1/cmr/m/n/10 
 SPEDAS,[] [][][]which[] [][][]is[] [][][]writ[]-[]ten[] [][][]in[] [][][]IDL[] 
 []Angelopoulos et al.[], 2024b)$[]$[][]\OT1/cmr/m/n/8 ,[] 
  []
 
 
-Overfull \hbox (13.37674pt too wide) in paragraph at lines 449--450
+Overfull \hbox (13.37674pt too wide) in paragraph at lines 404--405
 []\OT1/cmr/m/n/10 CDPP/IRAP, 2025) li-brary, which was used for data from the C
 lus-ter space-craft 
  []
 
 
-Overfull \hbox (7.87675pt too wide) in paragraph at lines 450--451
+Overfull \hbox (7.87675pt too wide) in paragraph at lines 405--406
 []\OT1/cmr/m/n/10 SpacePy 0.6, which has an op-tion to use the IRBEM For-tran l
 i-brary ([]Boscher et 
  []
 
 
-Overfull \hbox (12.45946pt too wide) in paragraph at lines 450--451
+Overfull \hbox (12.45946pt too wide) in paragraph at lines 405--406
 \OT1/cmr/m/n/10 al.[] (2022); la-beled as \OT1/cmtt/m/n/10 spacepy-irbem\OT1/cm
 r/m/n/10 ) or an al-ter-na-tive and na-tive Python im-ple- 
  []
 
 
-Overfull \hbox (18.68239pt too wide) in paragraph at lines 451--452
+Overfull \hbox (18.68239pt too wide) in paragraph at lines 406--407
 []\OT1/cmr/m/n/10 SpiceyPy 6.0.0 is a Python wrap-per for the SPICE toolkit. Tw
 o ver-sions of SPICE 
  []
 
 
-Overfull \hbox (8.15306pt too wide) in paragraph at lines 451--452
+Overfull \hbox (8.15306pt too wide) in paragraph at lines 406--407
 \OT1/cmr/m/n/10 ker-nel files were used, in-di-cated by \OT1/cmtt/m/n/10 spicep
 y1 \OT1/cmr/m/n/10 and \OT1/cmtt/m/n/10 spicepy2\OT1/cmr/m/n/10 . \OT1/cmtt/m/n
 /10 spicepy1 \OT1/cmr/m/n/10 was used 
  []
 
 
-Overfull \hbox (3.54295pt too wide) in paragraph at lines 451--452
+Overfull \hbox (3.54295pt too wide) in paragraph at lines 406--407
 \OT1/cmr/m/n/10 for ref-er-ence frame trans-forms for the Van Allen Probes mis-
 sion. \OT1/cmtt/m/n/10 spicepy2 \OT1/cmr/m/n/10 had 
  []
 
 
-Overfull \hbox (13.61264pt too wide) in paragraph at lines 451--452
+Overfull \hbox (13.61264pt too wide) in paragraph at lines 406--407
 \OT1/cmr/m/n/10 an up-date to the \OT1/cmtt/m/n/10 MAG \OT1/cmr/m/n/10 frame, w
 hich used a more re-cent ver-sion of the IGRF model 
  []
 
 
-Overfull \hbox (11.52603pt too wide) in paragraph at lines 451--452
+Overfull \hbox (11.52603pt too wide) in paragraph at lines 406--407
 []\OT1/cmr/m/n/10 Alken et al.[], 2021) to de-ter-mine the Earth's mag-netic di
 pole ori-en-ta-tion. $[]$[][](The[] 
  []
 
 
-Overfull \hbox (13.34903pt too wide) in paragraph at lines 452--453
+Overfull \hbox (13.34903pt too wide) in paragraph at lines 407--408
 []\OT1/cmr/m/n/10 SunPy ver-sion 7.0.0, which ex-tends the As-tropy co-or-di-na
 tes frame-work to in-clude 
  []
 
 
-Overfull \hbox (15.64607pt too wide) in paragraph at lines 455--456
+Overfull \hbox (15.64607pt too wide) in paragraph at lines 410--411
 \OT1/cmr/m/n/10 and the $\OML/cmm/m/it/10 Z$ \OT1/cmr/m/n/10 axis in frame \OT1
 /cmtt/m/n/10 B\OT1/cmr/m/n/10 , $[](\OML/cmm/m/it/10 Z[]; Z[]\OT1/cmr/m/n/10 )$
 , was com-puted by trans-form-ing the $\OML/cmm/m/it/10 Z$ \OT1/cmr/m/n/10 axis
@@ -2354,60 +2310,60 @@ Overfull \hbox (15.64607pt too wide) in paragraph at lines 455--456
  []
 
 
-Overfull \hbox (1.52942pt too wide) in paragraph at lines 455--456
+Overfull \hbox (1.52942pt too wide) in paragraph at lines 410--411
 \OT1/cmtt/m/n/10 A \OT1/cmr/m/n/10 into frame \OT1/cmtt/m/n/10 B\OT1/cmr/m/n/10
  , and the an-gle was com-puted be-tween this trans-formed axis and the $\OML/c
 mm/m/it/10 Z$ 
  []
 
 
-Overfull \hbox (7.1721pt too wide) in paragraph at lines 457--458
+Overfull \hbox (7.1721pt too wide) in paragraph at lines 412--413
 \OT1/cmr/m/n/10 the an-gles be-tween the $\OML/cmm/m/it/10 Z$ \OT1/cmr/m/n/10 a
 xes for each li-brary with re-spect to that for \OT1/cmtt/m/n/10 geopack[]08[]d
 p\OT1/cmr/m/n/10 . 
  []
 
 
-Overfull \hbox (10.9879pt too wide) in paragraph at lines 457--458
+Overfull \hbox (10.9879pt too wide) in paragraph at lines 412--413
 \OT1/cmr/m/n/10 The choice of li-brary used as the base-line for this com-par-i
 -son is ar-bi-trary, and it should 
  []
 
 
-Overfull \hbox (15.0712pt too wide) in paragraph at lines 457--458
+Overfull \hbox (15.0712pt too wide) in paragraph at lines 412--413
 \OT1/cmr/m/n/10 not be in-ter-preted as im-ply-ing that this li-brary is pre-fe
 rred; in gen-eral, we are in-ter-ested 
  []
 
 
-Overfull \hbox (9.69022pt too wide) in paragraph at lines 457--458
+Overfull \hbox (9.69022pt too wide) in paragraph at lines 412--413
 \OT1/cmr/m/n/10 in the max-i-mum differences$[]$[][],[] [][][][],[] among the l
 i-braries, which are shown in the 
  []
 
 
-Overfull \hbox (1.50092pt too wide) in paragraph at lines 457--458
+Overfull \hbox (1.50092pt too wide) in paragraph at lines 412--413
 \OT1/cmtt/m/n/10 pyspedas \OT1/cmr/m/n/10 in Fig-ure [](a) to $1 \OMS/cmsy/m/n/
 10 ^^A \OT1/cmr/m/n/10 10[]$ de-grees for \OT1/cmtt/m/n/10 spicepy1 \OT1/cmr/m/
 n/10 in Fig-ure [](c); the val-ues for 
  []
 
 
-Overfull \hbox (6.10007pt too wide) in paragraph at lines 457--458
+Overfull \hbox (6.10007pt too wide) in paragraph at lines 412--413
 \OT1/cmr/m/n/10 each li-brary are given in the leg-end in the mid-dle $[]$[][]\
 OT1/cmr/m/n/8 panel[][][]$[]$[][]\OT1/cmr/m/n/10 row[] of each sub-plot. $[]$[]
 []From[] 
  []
 
 
-Overfull \hbox (14.94463pt too wide) in paragraph at lines 459--460
+Overfull \hbox (14.94463pt too wide) in paragraph at lines 414--415
 []\OT1/cmr/m/n/10 The bot-tom $[]$[][]\OT1/cmr/m/n/8 sub[]-[]plots[][][]$[]$[][
 ]\OT1/cmr/m/n/10 rows[] in Fig-ure 3[]$[]$[][](a)[]-[](d)[] shows that across a
 ll li-braries, the 
  []
 
 
-Overfull \hbox (0.60576pt too wide) in paragraph at lines 459--460
+Overfull \hbox (0.60576pt too wide) in paragraph at lines 414--415
 \OT1/cmr/m/n/10 max-i-mum ab-so-lute value of lines in the mid-dle $[]$[][]\OT1
 /cmr/m/n/8 panel[][][]$[]$[][]\OT1/cmr/m/n/10 rows[] are $[]0\OML/cmm/m/it/10 :
 \OT1/cmr/m/n/10 01[]$ for \OT1/cmtt/m/n/10 GEO\OT1/cmr/m/n/10 /\OT1/cmtt/m/n/10
@@ -2415,7 +2371,7 @@ Overfull \hbox (0.60576pt too wide) in paragraph at lines 459--460
  []
 
 
-Overfull \hbox (11.86198pt too wide) in paragraph at lines 459--460
+Overfull \hbox (11.86198pt too wide) in paragraph at lines 414--415
 []\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 03[]$ for \OT1/cmtt/m/n/10
  GEO\OT1/cmr/m/n/10 /\OT1/cmtt/m/n/10 GSM\OT1/cmr/m/n/10 , $[]0\OML/cmm/m/it/10
  :\OT1/cmr/m/n/10 04[]$ for \OT1/cmtt/m/n/10 GSE\OT1/cmr/m/n/10 /\OT1/cmtt/m/n/
@@ -2425,63 +2381,63 @@ which are com-
  []
 
 
-Overfull \hbox (3.93234pt too wide) in paragraph at lines 461--462
+Overfull \hbox (3.93234pt too wide) in paragraph at lines 416--417
 []\OT1/cmr/m/n/10 We have also per-formed co-or-di-nate trans-forms us-ing the 
 []Satellite Sit-u-a-tion Cen- 
  []
 
 
-Overfull \hbox (0.8767pt too wide) in paragraph at lines 461--462
+Overfull \hbox (0.8767pt too wide) in paragraph at lines 416--417
 \OT1/cmr/m/n/10 ter Sys-tem and Ser-vices (2025a) co-or-di-nate cal-cu-la-tor w
 eb ser-vice. How-ever, this ser- 
  []
 
 
-Overfull \hbox (28.39072pt too wide) in paragraph at lines 461--462
+Overfull \hbox (28.39072pt too wide) in paragraph at lines 416--417
 \OT1/cmr/m/n/10 vice out-puts val-ues only to two dec-i-mal places, lead-ing to
  an-gu-lar dif-fer-ences of $0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3[]$. These 
  []
 
 
-Overfull \hbox (1.04344pt too wide) in paragraph at lines 463--464
+Overfull \hbox (1.04344pt too wide) in paragraph at lines 418--419
 []\OT1/cmr/m/n/10 The range of the max-i-mum ab-so-lute dif-fer-ences, $0\OML/c
 mm/m/it/10 :\OT1/cmr/m/n/10 001[]$-$0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 04[]$, s
 hown in the bot- 
  []
 
 
-Overfull \hbox (10.73311pt too wide) in paragraph at lines 463--464
+Overfull \hbox (10.73311pt too wide) in paragraph at lines 418--419
 \OT1/cmr/m/n/10 tom $[]$[][]\OT1/cmr/m/n/8 pan[]-[]els[][][]$[]$[][]\OT1/cmr/m/
 n/10 rows[] of the sub-plots in Fig-ure 3[]$[]$[][](a)[]-[](d)[] is smaller tha
 n the range, $0[]$-$1[]$, 
  []
 
 
-Overfull \hbox (6.18237pt too wide) in paragraph at lines 463--464
+Overfull \hbox (6.18237pt too wide) in paragraph at lines 418--419
 \OT1/cmr/m/n/10 of an-gu-lar dif-fer-ence in space-craft po-si-tion vec-tors in
  the same co-or-di-nate sys-tem from 
  []
 
 
-Overfull \hbox (11.90457pt too wide) in paragraph at lines 463--464
+Overfull \hbox (11.90457pt too wide) in paragraph at lines 418--419
 \OT1/cmr/m/n/10 two dif-fer-ent data providers found in sec-tion 4.1[]. The po-
 si-tion vec-tors can dif-fer for two 
  []
 
 
-Overfull \hbox (25.96013pt too wide) in paragraph at lines 463--464
+Overfull \hbox (25.96013pt too wide) in paragraph at lines 418--419
 \OT1/cmr/m/n/10 rea-sons: dif-fer-ences in the source of the po-si-tion data an
 d dif-fer-ences in the data providers' 
  []
 
 
-Overfull \hbox (1.349pt too wide) in paragraph at lines 463--464
+Overfull \hbox (1.349pt too wide) in paragraph at lines 418--419
 \OT1/cmr/m/n/10 soft-ware li-braries, if a trans-for-ma-tion is needed. To de-t
 er-mine the mag-ni-tude of each, 
  []
 
 
-Overfull \hbox (26.37677pt too wide) in paragraph at lines 463--464
+Overfull \hbox (26.37677pt too wide) in paragraph at lines 418--419
 \OT1/cmr/m/n/10 one must an-a-lyze the source code used to gen-er-ate the po-si
 -tions, which is not read-ily avail- 
  []
@@ -2494,261 +2450,242 @@ Underfull \vbox (badness 3417) has occurred while \output is active []
 
 
 ]
-Overfull \hbox (4.23782pt too wide) in paragraph at lines 465--467
+Overfull \hbox (4.23782pt too wide) in paragraph at lines 420--422
 []\OT1/cmr/m/n/10 In sum-mary, in this sec-tion, we have shown that dif-fer-enc
 es in li-brary im-ple-men- 
  []
 
 
-Overfull \hbox (2.2379pt too wide) in paragraph at lines 465--467
+Overfull \hbox (2.2379pt too wide) in paragraph at lines 420--422
 \OT1/cmr/m/n/10 ta-tions of ref-er-ence frames range from $0\OML/cmm/m/it/10 :\
 OT1/cmr/m/n/10 001[]$ to $0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 04[]$ for the cho-
 sen set of co-or-di-nate 
  []
 
 
-Overfull \hbox (10.6268pt too wide) in paragraph at lines 465--467
+Overfull \hbox (10.6268pt too wide) in paragraph at lines 420--422
 \OT1/cmr/m/n/10 frames and com-par-i-son axis. This range of dif-fer-ences is c
 om-pa-ra-ble to the range of an- 
  []
 
 
-Overfull \hbox (16.12679pt too wide) in paragraph at lines 465--467
+Overfull \hbox (16.12679pt too wide) in paragraph at lines 420--422
 \OT1/cmr/m/n/10 gles iden-ti-fied in sec-tion 4.1[], which in-cludes the av-er-
 age an-gu-lar change in Earth's dipole 
  []
 
 
-Overfull \hbox (4.22395pt too wide) in paragraph at lines 465--467
+Overfull \hbox (4.22395pt too wide) in paragraph at lines 420--422
 \OML/cmm/m/it/10 Z$\OT1/cmr/m/n/10 -axis over the past 45 years, the pre-ces-si
 on of Earth's ro-ta-tion axis, changes in nu-ta- 
  []
 
 
-Overfull \hbox (2.5712pt too wide) in paragraph at lines 465--467
+Overfull \hbox (2.5712pt too wide) in paragraph at lines 420--422
 \OT1/cmr/m/n/10 tion of Earth's ro-ta-tion axis over one year, and the pre-ces-
 sion of the eclip-tic. The im- 
  []
 
 
-Overfull \hbox (2.07127pt too wide) in paragraph at lines 465--467
+Overfull \hbox (2.07127pt too wide) in paragraph at lines 420--422
 \OT1/cmr/m/n/10 pli-ca-tion is that in-ter-com-par-i-son of mea-sure-ments tran
 s-formed with dif-fer-ent li-braries 
  []
 
 
-Overfull \hbox (1.93237pt too wide) in paragraph at lines 465--467
+Overfull \hbox (1.93237pt too wide) in paragraph at lines 420--422
 \OT1/cmr/m/n/10 may re-quire an anal-y-sis of the dif-fer-ences in the trans-fo
 rm im-ple-men-ta-tions if the dif- 
  []
 
 
-Overfull \hbox (19.84895pt too wide) in paragraph at lines 465--467
+Overfull \hbox (19.84895pt too wide) in paragraph at lines 420--422
 \OT1/cmr/m/n/10 fer-ences in the mea-sure-ments are not sig-nif-i-cantly larger
  than these dif-fer-ences. This type 
  []
 
 
-Overfull \hbox (16.0434pt too wide) in paragraph at lines 465--467
+Overfull \hbox (16.0434pt too wide) in paragraph at lines 420--422
 \OT1/cmr/m/n/10 of anal-y-sis is chal-leng-ing be-cause it re-quires ac-cess to
  the trans-form soft-ware, which may 
  []
 
 
-Overfull \hbox (4.48796pt too wide) in paragraph at lines 465--467
+Overfull \hbox (4.48796pt too wide) in paragraph at lines 420--422
 \OT1/cmr/m/n/10 not be main-tained or avail-able, and be-cause cal-cu-la-tions 
 are needed to quan-tify dif-fer- 
  []
 
 [15]
-<figures/angles/z-delta=1days_20100101-20150101/GEO_GSE.pdf, id=725, 490.95996p
-t x 657.1438pt>
-File: figures/angles/z-delta=1days_20100101-20150101/GEO_GSE.pdf Graphic file (
-type pdf)
-<use figures/angles/z-delta=1days_20100101-20150101/GEO_GSE.pdf>
-Package pdftex.def Info: figures/angles/z-delta=1days_20100101-20150101/GEO_GSE
-.pdf  used on input line 475.
-(pdftex.def)             Requested size: 218.61795pt x 292.61357pt.
-<figures/angles/z-delta=1days_20100101-20150101/GEO_GSM.pdf, id=726, 492.12474p
-t x 657.1454pt>
-File: figures/angles/z-delta=1days_20100101-20150101/GEO_GSM.pdf Graphic file (
-type pdf)
-<use figures/angles/z-delta=1days_20100101-20150101/GEO_GSM.pdf>
-Package pdftex.def Info: figures/angles/z-delta=1days_20100101-20150101/GEO_GSM
-.pdf  used on input line 480.
-(pdftex.def)             Requested size: 218.61795pt x 291.93243pt.
-<figures/angles/z-delta=1days_20100101-20150101/GSE_GSM.pdf, id=727, 492.12474p
-t x 657.14294pt>
-File: figures/angles/z-delta=1days_20100101-20150101/GSE_GSM.pdf Graphic file (
-type pdf)
-<use figures/angles/z-delta=1days_20100101-20150101/GSE_GSM.pdf>
-Package pdftex.def Info: figures/angles/z-delta=1days_20100101-20150101/GSE_GSM
-.pdf  used on input line 487.
-(pdftex.def)             Requested size: 218.61795pt x 291.93134pt.
-<figures/angles/z-delta=1days_20100101-20150101/MAG_GSM.pdf, id=728, 492.12474p
-t x 657.15385pt>
-File: figures/angles/z-delta=1days_20100101-20150101/MAG_GSM.pdf Graphic file (
-type pdf)
-<use figures/angles/z-delta=1days_20100101-20150101/MAG_GSM.pdf>
-Package pdftex.def Info: figures/angles/z-delta=1days_20100101-20150101/MAG_GSM
-.pdf  used on input line 492.
-(pdftex.def)             Requested size: 218.61795pt x 291.93619pt.
+<figures/combined/figure3.pdf, id=749, 344.99991pt x 540.13396pt>
+File: figures/combined/figure3.pdf Graphic file (type pdf)
+<use figures/combined/figure3.pdf>
+Package pdftex.def Info: figures/combined/figure3.pdf  used on input line 427.
+(pdftex.def)             Requested size: 397.48499pt x 622.35254pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--494
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
 []\OT1/cmr/m/n/10 Figure  3: |An-gles be-tween $\OML/cmm/m/it/10 Z$ \OT1/cmr/m/
-n/10 axes in se-lect co-or-di-nate frames as com-puted by dif-fer-ent soft-ware
- pack-
+n/10 axes in se-lect co-or-di-nate frames as com-puted by dif-fer-ent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--494
-\OT1/cmr/m/n/10 ages. In the top pan-els of each sub-plot, the no-ta-tion $[](\
-OML/cmm/m/it/10 Z[]; Z[]\OT1/cmr/m/n/10 )$ means the an-gle be-tween the $\OML/
-cmm/m/it/10 Z$ \OT1/cmr/m/n/10 axis of
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
+\OT1/cmr/m/n/10 soft-ware pack-ages. In the top pan-els of each sub-plot, the n
+o-ta-tion $[](\OML/cmm/m/it/10 Z[]; Z[]\OT1/cmr/m/n/10 )$ means the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--494
-\OT1/cmr/m/n/10 co-or-di-nate frame $\OT1/cmtt/m/n/10 A$ \OT1/cmr/m/n/10 and th
-e $\OML/cmm/m/it/10 Z$ \OT1/cmr/m/n/10 axis of co-or-di-nate frame $\OT1/cmtt/m
-/n/10 B$ \OT1/cmr/m/n/10 com-puted us-ing \OT1/cmtt/m/n/10 geopack[]08[]dp\OT1/
-cmr/m/n/10 . The mid-dle
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
+\OT1/cmr/m/n/10 an-gle be-tween the $\OML/cmm/m/it/10 Z$ \OT1/cmr/m/n/10 axis o
+f co-or-di-nate frame $\OT1/cmtt/m/n/10 A$ \OT1/cmr/m/n/10 and the $\OML/cmm/m/
+it/10 Z$ \OT1/cmr/m/n/10 axis of co-or-di-nate frame $\OT1/cmtt/m/n/10 B$ \OT1/
+cmr/m/n/10 com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--494
-\OT1/cmr/m/n/10 that com-puted us-ing the li-brary in-di-cated in the leg-end; 
-the max-i-mum of the ab-so-lute value of each
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
+\OT1/cmr/m/n/10 puted us-ing \OT1/cmtt/m/n/10 geopack[]08[]dp\OT1/cmr/m/n/10 . 
+The mid-dle panel of each sub-plot shows the difference$[]$[][],[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--494
-\OT1/cmr/m/n/10 line is shown in paren-the-ses. The bot-tom pan-els show the ma
-x-i-mum ab-so-lute dif-fer-ences in the mid-dle
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
+[][][][]\OT1/cmr/m/n/10 ,[] be-tween $[](\OML/cmm/m/it/10 Z[]; Z[]\OT1/cmr/m/n/
+10 )$ com-puted us-ing \OT1/cmtt/m/n/10 geopack[]08[]dp \OT1/cmr/m/n/10 and tha
+t com-puted us-ing the li-
  []
 
 
-LaTeX Warning: Float too large for page by 43.44498pt on input line 497.
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
+\OT1/cmr/m/n/10 brary in-di-cated in the leg-end; the max-i-mum of the ab-so-lu
+te value of each line is shown
+ []
 
-[16 <./figures/angles/z-delta=1days_20100101-20150101/GEO_GSE.pdf> <./figures/a
-ngles/z-delta=1days_20100101-20150101/GEO_GSM.pdf> <./figures/angles/z-delta=1d
-ays_20100101-20150101/GSE_GSM.pdf> <./figures/angles/z-delta=1days_20100101-201
-50101/MAG_GSM.pdf>]
-Overfull \hbox (2.68228pt too wide) in paragraph at lines 504--505
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
+\OT1/cmr/m/n/10 in paren-the-ses. The bot-tom pan-els show the max-i-mum ab-so-
+lute dif-fer-ences in the mid-dle
+ []
+
+
+LaTeX Warning: Float too large for page by 51.36093pt on input line 430.
+
+[16 <./figures/combined/figure3.pdf>]
+Overfull \hbox (2.68228pt too wide) in paragraph at lines 437--438
 []\OT1/cmr/m/n/10 Archival data for space physics space-craft mis-sions typ-i-c
 ally in-clude vec-tor mea- 
  []
 
 
-Overfull \hbox (8.93233pt too wide) in paragraph at lines 504--505
+Overfull \hbox (8.93233pt too wide) in paragraph at lines 437--438
 \OT1/cmr/m/n/10 sure-ments in mul-ti-ple ref-er-ence frames. For NASA mis-sions
 , archival data prod-ucts are 
  []
 
 
-Overfull \hbox (6.4324pt too wide) in paragraph at lines 504--505
+Overfull \hbox (6.4324pt too wide) in paragraph at lines 437--438
 \OT1/cmr/m/n/10 de-liv-ered to the Space Physics Data Fa-cil-ity []NASA, 2025).
  Mod-ern mis-sions typ-i-cally 
  []
 
 
-Overfull \hbox (23.71017pt too wide) in paragraph at lines 504--505
+Overfull \hbox (23.71017pt too wide) in paragraph at lines 437--438
 \OT1/cmr/m/n/10 take one of two ap-proaches for trans-forms: (a) A mis-sion op-
 er-a-tions team de-vel-ops SPICE 
  []
 
 
-Overfull \hbox (23.68219pt too wide) in paragraph at lines 504--505
+Overfull \hbox (23.68219pt too wide) in paragraph at lines 437--438
 \OT1/cmr/m/n/10 ker-nels for se-lect space physics ref-er-ence frames, and SPIC
 E soft-ware is used for the trans- 
  []
 
 
-Overfull \hbox (14.73792pt too wide) in paragraph at lines 504--505
+Overfull \hbox (14.73792pt too wide) in paragraph at lines 437--438
 \OT1/cmr/m/n/10 forms; or (b) A non-SPICE soft-ware li-brary is used for the tr
 ans-forms, for ex-am-ple, RO- 
  []
 
 
-Overfull \hbox (5.32117pt too wide) in paragraph at lines 506--507
+Overfull \hbox (5.32117pt too wide) in paragraph at lines 439--440
 []\OT1/cmr/m/n/10 There is sig-nif-i-cant over-lap in ef-fort across mis-sions;
  typ-i-cally, a sci-en-tist fa-mil-iar 
  []
 
 
-Overfull \hbox (11.76564pt too wide) in paragraph at lines 506--507
+Overfull \hbox (11.76564pt too wide) in paragraph at lines 439--440
 \OT1/cmr/m/n/10 with space physics ref-er-ence sys-tems but not with their im-p
 le-men-ta-tion op-tions will use 
  []
 
 
-Overfull \hbox (11.48785pt too wide) in paragraph at lines 506--507
+Overfull \hbox (11.48785pt too wide) in paragraph at lines 439--440
 \OT1/cmr/m/n/10 avail-able soft-ware or SPICE ker-nels and de-velop tests. As n
 oted in the con-clu-sions, this 
  []
 
 
-Overfull \hbox (38.07133pt too wide) in paragraph at lines 506--507
+Overfull \hbox (38.07133pt too wide) in paragraph at lines 439--440
 \OT1/cmr/m/n/10 ef-fort to de-velop and ver-ify trans-form cal-cu-la-tions woul
 d not be nec-es-sary if ei-ther a database 
  []
 
 
-Overfull \hbox (5.90446pt too wide) in paragraph at lines 506--507
+Overfull \hbox (5.90446pt too wide) in paragraph at lines 439--440
 \OT1/cmr/m/n/10 of trans-form ma-tri-ces or ver-sioned SPICE ker-nels were avai
 l-able that were ac-cepted as 
  []
 
 
-Overfull \hbox (27.04346pt too wide) in paragraph at lines 508--509
+Overfull \hbox (27.04346pt too wide) in paragraph at lines 441--442
 []\OT1/cmr/m/n/10 For the SS-CWeb data ser-vice []Satellite Sit-u-a-tion Cen-te
 r Sys-tem and Ser-vices, 2025c), 
  []
 
 
-Overfull \hbox (2.26563pt too wide) in paragraph at lines 508--509
+Overfull \hbox (2.26563pt too wide) in paragraph at lines 441--442
 \OT1/cmr/m/n/10 which pro-vides space-craft po-si-tions, three ap-proaches have
  been taken in or-der of pri- 
  []
 
 
-Overfull \hbox (6.23796pt too wide) in paragraph at lines 508--509
+Overfull \hbox (6.23796pt too wide) in paragraph at lines 441--442
 \OT1/cmr/m/n/10 or-ity (see []Satellite Sit-u-a-tion Cen-ter Sys-tem and Ser-vi
 ces (2025b) for a ta-ble in-di-cat-ing 
  []
 
 
-Overfull \hbox (1.90456pt too wide) in paragraph at lines 513--514
+Overfull \hbox (1.90456pt too wide) in paragraph at lines 446--447
 []\OT1/cmr/m/n/10 Mission--developed SPICE ker-nels for po-si-tions that are ob
 -tained from the mis- 
  []
 
 
-Overfull \hbox (4.65439pt too wide) in paragraph at lines 513--514
+Overfull \hbox (4.65439pt too wide) in paragraph at lines 446--447
 \OT1/cmr/m/n/10 sion team pe-ri-od-i-cally and archived. The \OT1/cmtt/m/n/10 G
 EI \OT1/cmr/m/n/10 position--related SPICE ker-nel in- 
  []
 
 
-Overfull \hbox (6.7653pt too wide) in paragraph at lines 513--514
+Overfull \hbox (6.7653pt too wide) in paragraph at lines 446--447
 \OT1/cmr/m/n/10 for-ma-tion is used to gen-er-ate the \OT1/cmtt/m/n/10 J2000 \O
 T1/cmr/m/n/10 space-craft po-si-tions. Then, soft-ware de- 
  []
 
 
-Overfull \hbox (16.54344pt too wide) in paragraph at lines 513--514
+Overfull \hbox (16.54344pt too wide) in paragraph at lines 446--447
 \OT1/cmr/m/n/10 vel-oped as part of the In-ter-na-tional Solar-Terrestrial Phys
 ics pro-gram in the 1990s 
  []
 
 
-Overfull \hbox (17.26567pt too wide) in paragraph at lines 513--514
+Overfull \hbox (17.26567pt too wide) in paragraph at lines 446--447
 \OT1/cmr/m/n/10 (ISTP; []International So-lar Ter-res-trial Physics (2025)) is 
 used to com-pute po-si-tions 
  []
 
 
-Overfull \hbox (18.70056pt too wide) in paragraph at lines 513--514
+Overfull \hbox (18.70056pt too wide) in paragraph at lines 446--447
 \OT1/cmr/m/n/10 in dif-fer-ent co-or-di-nate frames, in-clud-ing \OT1/cmtt/m/n/
 10 GEI\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 GEO\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 
 GM\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 GSE\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 GSM\
@@ -2757,91 +2694,91 @@ OT1/cmr/m/n/10 , and \OT1/cmtt/m/n/10 SM\OT1/cmr/m/n/10 . $[]$[][]\OT1/cmr/m/n/
  []
 
 
-Overfull \hbox (9.20999pt too wide) in paragraph at lines 515--516
+Overfull \hbox (9.20999pt too wide) in paragraph at lines 448--449
 []\OT1/cmr/m/n/10 A mission--computed \OT1/cmtt/m/n/10 GEI \OT1/cmr/m/n/10 posi
 tion--related vari-able in archival data files de-liv-ered 
  []
 
 
-Overfull \hbox (34.68236pt too wide) in paragraph at lines 515--516
+Overfull \hbox (34.68236pt too wide) in paragraph at lines 448--449
 \OT1/cmr/m/n/10 to SPDF is then used to com-pute or-bit and at-ti-tude data in 
 dif-fer-ent ref-er-ence frames; 
  []
 
 
-Overfull \hbox (11.0432pt too wide) in paragraph at lines 515--516
+Overfull \hbox (11.0432pt too wide) in paragraph at lines 448--449
 \OT1/cmr/m/n/10 only data in the \OT1/cmtt/m/n/10 GEI\OT1/cmr/m/n/10 --related 
 frame is used. This is a pos-si-ble source of the dif-fer- 
  []
 
 
-Overfull \hbox (25.34901pt too wide) in paragraph at lines 515--516
+Overfull \hbox (25.34901pt too wide) in paragraph at lines 448--449
 \OT1/cmr/m/n/10 ences shown in Fig-ure 1[] if the mis-sion com-puted po-si-tion
 s in the archival data prod- 
  []
 
 
-Overfull \hbox (10.90434pt too wide) in paragraph at lines 515--516
+Overfull \hbox (10.90434pt too wide) in paragraph at lines 448--449
 \OT1/cmr/m/n/10 ucts by trans-form-ing \OT1/cmtt/m/n/10 GEI \OT1/cmr/m/n/10 wit
 h soft-ware other than that used by SS-CWeb. Dif-fer- 
  []
 
 
-Overfull \hbox (16.70988pt too wide) in paragraph at lines 515--516
+Overfull \hbox (16.70988pt too wide) in paragraph at lines 448--449
 \OT1/cmr/m/n/10 ences can also oc-cur if the mis-sion uses a dif-fer-ent def-i-
 ni-tion of \OT1/cmtt/m/n/10 GEI \OT1/cmr/m/n/10 than SS-CWeb.  
  []
 
 
-Overfull \hbox (4.57103pt too wide) in paragraph at lines 517--518
+Overfull \hbox (4.57103pt too wide) in paragraph at lines 450--451
 []\OT1/cmr/m/n/10 If SPICE ker-nels or other mission--computed \OT1/cmtt/m/n/10
  GEI \OT1/cmr/m/n/10 position-related val-ues are not 
  []
 
 
-Overfull \hbox (17.18231pt too wide) in paragraph at lines 517--518
+Overfull \hbox (17.18231pt too wide) in paragraph at lines 450--451
 \OT1/cmr/m/n/10 avail-able, TLE (Two-Line El-e-ment) files are ob-tained from N
 O-RAD (North Amer- 
  []
 
 
-Overfull \hbox (2.98787pt too wide) in paragraph at lines 517--518
+Overfull \hbox (2.98787pt too wide) in paragraph at lines 450--451
 \OT1/cmr/m/n/10 i-can Aerospace De-fense Com-mand), and a trans-la-tion of the 
 C NO-RAD li-brary 
  []
 
 
-Overfull \hbox (10.23767pt too wide) in paragraph at lines 517--518
+Overfull \hbox (10.23767pt too wide) in paragraph at lines 450--451
 \OT1/cmr/m/n/10 to Pas-cal []Brodowski, 2002) is used to com-pute po-si-tions i
 n \OT1/cmtt/m/n/10 TEME \OT1/cmr/m/n/10 (True Equa-tor, 
  []
 
 
-Overfull \hbox (2.82117pt too wide) in paragraph at lines 517--518
+Overfull \hbox (2.82117pt too wide) in paragraph at lines 450--451
 \OT1/cmr/m/n/10 Mean Equinox). Of-ten, TLEs are used at the start of the mis-si
 on, and a switch 
  []
 
 
-Overfull \hbox (6.59898pt too wide) in paragraph at lines 517--518
+Overfull \hbox (6.59898pt too wide) in paragraph at lines 450--451
 \OT1/cmr/m/n/10 is made to ap-proaches 1. or 2. as in-for-ma-tion be-comes avai
 l-able. This switch-ing 
  []
 
 
-Overfull \hbox (8.65451pt too wide) in paragraph at lines 517--518
+Overfull \hbox (8.65451pt too wide) in paragraph at lines 450--451
 \OT1/cmr/m/n/10 has im-pli-ca-tions for re-pro-ducibil-ity that are dis-cussed 
 in sec-tion 6.5[] be-cause pre- 
  []
 
 
-Overfull \hbox (13.04335pt too wide) in paragraph at lines 544--545
+Overfull \hbox (13.04335pt too wide) in paragraph at lines 477--478
 []\OT1/cmr/m/n/10 In this sec-tion, we pro-vide rec-om-men-da-tions to ad-dress
  the is-sues iden-ti-fied in this 
  []
 
 
-Overfull \hbox (9.04347pt too wide) in paragraph at lines 544--545
+Overfull \hbox (9.04347pt too wide) in paragraph at lines 477--478
 \OT1/cmr/m/n/10 ar-ti-cle. Up-dates on ac-tiv-i-ties re-lated to these rec-om-m
 en-da-tions will be avail-able on the 
  []
@@ -2850,104 +2787,104 @@ en-da-tions will be avail-able on the
 
 
 ]
-Overfull \hbox (3.55374pt too wide) in paragraph at lines 554--555
+Overfull \hbox (3.55374pt too wide) in paragraph at lines 487--488
 []$[]$[][]\OT1/cmr/m/n/10 The[] [][][]In[]-[]ter[]-[]na[]-[]tional[] [][][]Eart
 h[] [][][]Ro[]-[]ta[]-[]tion[] [][][]and[] [][][]Ref[]-[]er[]-[]ence[] [][][]Sy
 s[]-[]tems[] [][][]Ser[]-[]vice[] [][][][],[] 
  []
 
 
-Overfull \hbox (6.46463pt too wide) in paragraph at lines 566--567
+Overfull \hbox (6.46463pt too wide) in paragraph at lines 499--500
 []\OT1/cmr/m/n/10 As de-fined in sec-tion 2[], an \OT1/cmr/m/it/10 ideal ref-er
 -ence sys-tem \OT1/cmr/m/n/10 is a gen-eral de-scrip-tion of a ref- 
  []
 
 
-Overfull \hbox (16.3212pt too wide) in paragraph at lines 566--567
+Overfull \hbox (16.3212pt too wide) in paragraph at lines 499--500
 \OT1/cmr/m/n/10 er-ence frame that lacks key de-tails nec-es-sary for its im-pl
 e-men-ta-tion. Ex-am-ples were pro- 
  []
 
 
-Overfull \hbox (5.9044pt too wide) in paragraph at lines 566--567
+Overfull \hbox (5.9044pt too wide) in paragraph at lines 499--500
 \OT1/cmr/m/n/10 vided in which the \OT1/cmtt/m/n/10 GEI \OT1/cmr/m/n/10 acronym
  had dif-fer-ent ex-pan-sions, and dif-fer-ent acronyms were 
  []
 
 
-Overfull \hbox (12.09827pt too wide) in paragraph at lines 568--569
+Overfull \hbox (12.09827pt too wide) in paragraph at lines 501--502
 []\OT1/cmr/m/n/10 The next level of speci-ficity rel-a-tive to an ideal ref-er-
 ence sys-tem is a \OT1/cmr/m/it/10 ref-er-ence sys- 
  []
 
 
-Overfull \hbox (17.64334pt too wide) in paragraph at lines 568--569
+Overfull \hbox (17.64334pt too wide) in paragraph at lines 501--502
 \OT1/cmr/m/it/10 tem\OT1/cmr/m/n/10 , which de-fines con-stants, mod-els with f
 ree pa-ram-e-ters, and al-go-rithms for trans-form- 
  []
 
 
-Overfull \hbox (7.87045pt too wide) in paragraph at lines 570--571
+Overfull \hbox (7.87045pt too wide) in paragraph at lines 503--504
 []\OT1/cmr/m/n/10 Finally, a \OT1/cmr/m/it/10 ref-er-ence frame \OT1/cmr/m/n/10
  is a re-al-iza-tion of a ref-er-ence sys-tem based on mea-sure- 
  []
 
 
-Overfull \hbox (9.04329pt too wide) in paragraph at lines 572--573
+Overfull \hbox (9.04329pt too wide) in paragraph at lines 505--506
 []\OT1/cmr/m/n/10 These terms are used in the as-tro-physics and Earth sci-ence
 s com-mu-ni-ties, and we 
  []
 
 
-Overfull \hbox (22.0713pt too wide) in paragraph at lines 572--573
+Overfull \hbox (22.0713pt too wide) in paragraph at lines 505--506
 \OT1/cmr/m/n/10 rec-om-mend that the space physics com-mu-nity adopt them in pl
 ace of the am-bigu-ous term 
  []
 
 
-Overfull \hbox (8.90462pt too wide) in paragraph at lines 574--575
+Overfull \hbox (8.90462pt too wide) in paragraph at lines 507--508
 []\OT1/cmr/m/n/10 A community-developed stan-dard for acronyms and def-i-ni-tio
 ns should be cre-ated. 
  []
 
 
-Overfull \hbox (28.98805pt too wide) in paragraph at lines 574--575
+Overfull \hbox (28.98805pt too wide) in paragraph at lines 507--508
 \OT1/cmr/m/n/10 The stan-dard should pro-vide ab-bre-vi-a-tion/definition pairs
  for com-monly used space physics 
  []
 
 
-Overfull \hbox (3.40453pt too wide) in paragraph at lines 574--575
+Overfull \hbox (3.40453pt too wide) in paragraph at lines 507--508
 \OT1/cmr/m/n/10 ideal ref-er-ence frames, so that data providers and pa-per au-
 thors can use them and re- 
  []
 
 
-Overfull \hbox (4.01566pt too wide) in paragraph at lines 574--575
+Overfull \hbox (4.01566pt too wide) in paragraph at lines 507--508
 \OT1/cmr/m/n/10 duce am-bi-gu-ity. As-so-ci-ated with each ideal ref-er-ence fr
 ame def-i-ni-tion, there should be 
  []
 
 
-Overfull \hbox (9.2379pt too wide) in paragraph at lines 574--575
+Overfull \hbox (9.2379pt too wide) in paragraph at lines 507--508
 \OT1/cmr/m/n/10 at least one ref-er-ence sys-tem ab-bre-vi-a-tion/definition pa
 ir. If mul-ti-ple ref-er-ence sys-tems 
  []
 
 
-Overfull \hbox (15.68236pt too wide) in paragraph at lines 574--575
+Overfull \hbox (15.68236pt too wide) in paragraph at lines 507--508
 \OT1/cmr/m/n/10 are in com-mon use, their def-i-ni-tions and ref-er-enc-ing con
 -ven-tions should be spec-i-fied. For 
  []
 
 
-Overfull \hbox (0.96002pt too wide) in paragraph at lines 576--577
+Overfull \hbox (0.96002pt too wide) in paragraph at lines 509--510
 []\OT1/cmr/m/n/10 The ref-er-ence sys-tem def-i-ni-tions will in-volve key quan
 -ti-ties, such as the po-si-tion 
  []
 
 
-Overfull \hbox (8.96013pt too wide) in paragraph at lines 576--577
+Overfull \hbox (8.96013pt too wide) in paragraph at lines 509--510
 \OT1/cmr/m/n/10 of the Sun and Earth's dipole ori-en-ta-tion. As a re-sult, the
 se key quan-ti-ties will need to 
  []
@@ -2956,172 +2893,172 @@ se key quan-ti-ties will need to
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
-Overfull \hbox (46.65468pt too wide) in paragraph at lines 580--581
+Overfull \hbox (46.65468pt too wide) in paragraph at lines 513--514
 [][][]\OT1/cmr/m/n/10 space[] [][][]physics[] [][][]ref[]-[]er[]-[]ence[] [][][
 ]frame[] [][][]trans[]-[]forms[] [][][]in[] [][][]1982[] [][][][],[] [][][]2000
 [] [][][][],[] 
  []
 
 
-Overfull \hbox (11.40454pt too wide) in paragraph at lines 595--596
+Overfull \hbox (11.40454pt too wide) in paragraph at lines 528--529
 []\OT1/cmr/m/n/10 For a given trans-form be-tween ref-er-ence frames, a trans-f
 or-ma-tion ma-trix at a spe- 
  []
 
 
-Overfull \hbox (5.48793pt too wide) in paragraph at lines 595--596
+Overfull \hbox (5.48793pt too wide) in paragraph at lines 528--529
 \OT1/cmr/m/n/10 cific in-stant in time (or, equiv-a-lently, ro-ta-tion an-gles 
 or quater-nions) rel-a-tive to a base 
  []
 
 
-Overfull \hbox (2.32114pt too wide) in paragraph at lines 595--596
+Overfull \hbox (2.32114pt too wide) in paragraph at lines 528--529
 \OT1/cmr/m/n/10 ref-er-ence frame is re-quired. We also note that im-ple-ment-i
 ng trans-forms re-quires tech- 
  []
 
 
-Overfull \hbox (34.37683pt too wide) in paragraph at lines 595--596
+Overfull \hbox (34.37683pt too wide) in paragraph at lines 528--529
 \OT1/cmr/m/n/10 ni-cal ex-per-tise in soft-ware and main-te-nance, in-clud-ing 
 up-dat-ing free pa-ram-e-ters in reference- 
  []
 
 
-Overfull \hbox (2.87695pt too wide) in paragraph at lines 595--596
+Overfull \hbox (2.87695pt too wide) in paragraph at lines 528--529
 \OT1/cmr/m/n/10 frame mod-els, ver-i-fy-ing cal-cu-la-tions, and doc-u-ment-ing
  changes. Al-though pro-vid-ing a 
  []
 
 
-Overfull \hbox (10.87675pt too wide) in paragraph at lines 595--596
+Overfull \hbox (10.87675pt too wide) in paragraph at lines 528--529
 \OT1/cmr/m/n/10 soft-ware ver-sion en-ables re-pro-ducibil-ity in prin-ci-ple, 
 in prac-tice, not all users will be fa- 
  []
 
 
-Overfull \hbox (17.37675pt too wide) in paragraph at lines 595--596
+Overfull \hbox (17.37675pt too wide) in paragraph at lines 528--529
 \OT1/cmr/m/n/10 mil-iar with or want to use the cited soft-ware, and in the lon
 g term, the soft-ware may not 
  []
 
 
-Overfull \hbox (3.01569pt too wide) in paragraph at lines 597--598
+Overfull \hbox (3.01569pt too wide) in paragraph at lines 530--531
 []\OT1/cmr/m/n/10 Based on this, we rec-om-mend that a stan-dards body de-velop
  a stan-dard dataset 
  []
 
 
-Overfull \hbox (3.90454pt too wide) in paragraph at lines 597--598
+Overfull \hbox (3.90454pt too wide) in paragraph at lines 530--531
 \OT1/cmr/m/n/10 with a long-term plan to keep it up-to-date. Each record in the
  dataset should con-sist 
  []
 
 
-Overfull \hbox (0.23795pt too wide) in paragraph at lines 597--598
+Overfull \hbox (0.23795pt too wide) in paragraph at lines 530--531
 \OT1/cmr/m/n/10 of a times-tamp and a trans-form ma-trix that re-lates a co-or-
 di-nate frame to a ref-er-ence 
  []
 
 
-Overfull \hbox (9.96013pt too wide) in paragraph at lines 597--598
+Overfull \hbox (9.96013pt too wide) in paragraph at lines 530--531
 \OT1/cmr/m/n/10 co-or-di-nate frame. The records should be made avail-able in a
  stan-dard sci-en-tific file for- 
  []
 
 
-Overfull \hbox (11.01576pt too wide) in paragraph at lines 597--598
+Overfull \hbox (11.01576pt too wide) in paragraph at lines 530--531
 \OT1/cmr/m/n/10 mat and from a web ser-vice API (Ap-pli-ca-tion Pro-gram-ming I
 n-ter-face). A par-si-mo-nious 
  []
 
 
-Overfull \hbox (22.46024pt too wide) in paragraph at lines 597--598
+Overfull \hbox (22.46024pt too wide) in paragraph at lines 530--531
 \OT1/cmr/m/n/10 al-ter-na-tive to pro-vid-ing 9 trans-form ma-trix val-ues is t
 o de-fine only one or two an-gles (and 
  []
 
 
-Overfull \hbox (25.65454pt too wide) in paragraph at lines 599--600
+Overfull \hbox (25.65454pt too wide) in paragraph at lines 532--533
 []\OT1/cmr/m/n/10 With such a dataset, if a sci-en-tist wants to al-low for re-
 pro-ducibil-ity, they could state, 
  []
 
 
-Overfull \hbox (24.54309pt too wide) in paragraph at lines 599--600
+Overfull \hbox (24.54309pt too wide) in paragraph at lines 532--533
 \OT1/cmr/m/n/10 for ex-am-ple, ``the vec-tor mea-sure-ments in \OT1/cmtt/m/n/10
  ABC \OT1/cmr/m/n/10 were trans-formed into ref-er-ence frame \OT1/cmtt/m/n/10 
 XYZ\OT1/cmr/m/n/10 ," 
  []
 
 
-Overfull \hbox (2.9595pt too wide) in paragraph at lines 599--600
+Overfull \hbox (2.9595pt too wide) in paragraph at lines 532--533
 \OT1/cmtt/m/n/10 ABC \OT1/cmr/m/n/10 to \OT1/cmtt/m/n/10 REF \OT1/cmr/m/n/10 an
 d \OT1/cmtt/m/n/10 REF \OT1/cmr/m/n/10 to \OT1/cmtt/m/n/10 XYZ \OT1/cmr/m/n/10 
 us-ing trans-for-ma-tion ma-tri-ces in the stan-dard dataset and 
  []
 
 
-Overfull \hbox (4.68234pt too wide) in paragraph at lines 601--602
+Overfull \hbox (4.68234pt too wide) in paragraph at lines 534--535
 []\OT1/cmr/m/n/10 Many soft-ware li-braries do spot checks of trans-forms. For 
 ex-am-ple, SunPy's unit 
  []
 
 
-Overfull \hbox (5.87686pt too wide) in paragraph at lines 601--602
+Overfull \hbox (5.87686pt too wide) in paragraph at lines 534--535
 \OT1/cmr/m/n/10 tests []Mumford et al.[], 2025) in-volve a com-par-i-son with a
  ta-ble from []Fr^^?anz and Harper 
  []
 
 
-Overfull \hbox (7.43205pt too wide) in paragraph at lines 601--602
+Overfull \hbox (7.43205pt too wide) in paragraph at lines 534--535
 \OT1/cmr/m/n/10 (2002) at sev-eral time in-stants; \OT1/cmtt/m/n/10 cxform []\O
 T1/cmr/m/n/10 Boller & San-ti-ago, 2025) tests its im-ple-men-ta- 
  []
 
 
-Overfull \hbox (2.04335pt too wide) in paragraph at lines 601--602
+Overfull \hbox (2.04335pt too wide) in paragraph at lines 534--535
 \OT1/cmr/m/n/10 tion by com-par-ing the po-si-tions in \OT1/cmtt/m/n/10 GSE \OT
 1/cmr/m/n/10 of one year of data from three space-craft from 
  []
 
 
-Overfull \hbox (9.37683pt too wide) in paragraph at lines 601--602
+Overfull \hbox (9.37683pt too wide) in paragraph at lines 534--535
 []\OT1/cmr/m/n/10 Satellite Sit-u-a-tion Cen-ter Sys-tem and Ser-vices (2025c);
  a com-par-i-son is also made with 
  []
 
 
-Overfull \hbox (4.2379pt too wide) in paragraph at lines 601--602
+Overfull \hbox (4.2379pt too wide) in paragraph at lines 534--535
 \OT1/cmr/m/n/10 a ta-ble in []Fr^^?anz and Harper (2002). With the pro-posed re
 f-er-ence database, a soft-ware 
  []
 
 
-Overfull \hbox (0.59898pt too wide) in paragraph at lines 601--602
+Overfull \hbox (0.59898pt too wide) in paragraph at lines 534--535
 \OT1/cmr/m/n/10 li-brary de-vel-oper could make a more com-pre-hen-sive com-par
 -i-son, al-low-ing users to es- 
  []
 
 
-Overfull \hbox (3.87686pt too wide) in paragraph at lines 601--602
+Overfull \hbox (3.87686pt too wide) in paragraph at lines 534--535
 \OT1/cmr/m/n/10 ti-mate un-cer-tain-ties as-so-ci-ated with co-or-di-nate trans
 -forms di-rectly. An ad-di-tional ad- 
  []
 
 
-Overfull \hbox (20.98785pt too wide) in paragraph at lines 601--602
+Overfull \hbox (20.98785pt too wide) in paragraph at lines 534--535
 \OT1/cmr/m/n/10 van-tage of this dataset is that soft-ware de-vel-op-ers can us
 e it for more com-pre-hen-sive test- 
  []
 
 
-Overfull \hbox (26.48785pt too wide) in paragraph at lines 603--604
+Overfull \hbox (26.48785pt too wide) in paragraph at lines 536--537
 []\OT1/cmr/m/n/10 We also sug-gest that this dataset con-tains com-mon time rep
 -re-sen-ta-tions. Each record 
  []
 
 
-Overfull \hbox (25.07077pt too wide) in paragraph at lines 603--604
+Overfull \hbox (25.07077pt too wide) in paragraph at lines 536--537
 \OT1/cmr/m/n/10 should be a UTC times-tamp along with val-ues for \OT1/cmtt/m/n
 /10 UT1\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 TAI\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10
  TT\OT1/cmr/m/n/10 , and \OT1/cmtt/m/n/10 ET \OT1/cmr/m/n/10 ([]McCarthy (2011)
@@ -3129,79 +3066,79 @@ Overfull \hbox (25.07077pt too wide) in paragraph at lines 603--604
  []
 
 
-Overfull \hbox (10.71004pt too wide) in paragraph at lines 610--611
+Overfull \hbox (10.71004pt too wide) in paragraph at lines 543--544
 []\OT1/cmr/m/n/10 The ad-van-tage of the stan-dard dataset over soft-ware li-br
 aries is that the lat-ter re- 
  []
 
 
-Overfull \hbox (23.34908pt too wide) in paragraph at lines 610--611
+Overfull \hbox (23.34908pt too wide) in paragraph at lines 543--544
 \OT1/cmr/m/n/10 quire con-tin-ual up-grades, and not all users per-form their a
 nal-y-sis in the lan-guage in which 
  []
 
 
-Overfull \hbox (4.3352pt too wide) in paragraph at lines 610--611
+Overfull \hbox (4.3352pt too wide) in paragraph at lines 543--544
 \OT1/cmr/m/n/10 the li-brary is im-ple-mented. Al-though soft-ware that au-to-m
 at-i-cally up-dates IGRF co-ef- 
  []
 
 
-Overfull \hbox (20.65465pt too wide) in paragraph at lines 610--611
+Overfull \hbox (20.65465pt too wide) in paragraph at lines 543--544
 \OT1/cmr/m/n/10 fi-cients and leap-second in-for-ma-tion may work now, it is no
 t guar-an-teed to be main-tained 
  []
 
 
-Overfull \hbox (1.4046pt too wide) in paragraph at lines 610--611
+Overfull \hbox (1.4046pt too wide) in paragraph at lines 543--544
 \OT1/cmr/m/n/10 and us-able in-def-i-nitely. In ad-di-tion, trans-form re-sults
  may change as a given soft-ware 
  []
 
 
-Overfull \hbox (19.44627pt too wide) in paragraph at lines 610--611
+Overfull \hbox (19.44627pt too wide) in paragraph at lines 543--544
 \OT1/cmr/m/n/10 pack-age evolves. For ex-am-ple, con-sider a pack-age that uti-
 lizes non-definitive IGRF model 
  []
 
 
-Overfull \hbox (8.12663pt too wide) in paragraph at lines 610--611
+Overfull \hbox (8.12663pt too wide) in paragraph at lines 543--544
 \OT1/cmr/m/n/10 co-ef-fi-cients for \OT1/cmtt/m/n/10 MAG \OT1/cmr/m/n/10 and co
 m-putes a trans-for-ma-tion. Five years later, the re-sult will not 
  []
 
 
-Overfull \hbox (5.5295pt too wide) in paragraph at lines 610--611
+Overfull \hbox (5.5295pt too wide) in paragraph at lines 543--544
 \OT1/cmr/m/n/10 be the same if the soft-ware then uses defini-tive IGRF co-ef-f
 i-cients. Al-though, in prin-ci- 
  []
 
 
-Overfull \hbox (13.82126pt too wide) in paragraph at lines 610--611
+Overfull \hbox (13.82126pt too wide) in paragraph at lines 543--544
 \OT1/cmr/m/n/10 ple, the pack-age de-vel-op-ers can main-tain re-pro-ducibil-it
 y, do-ing so re-quires sig-nif-i-cant ef- 
  []
 
 
-Overfull \hbox (34.51553pt too wide) in paragraph at lines 610--611
+Overfull \hbox (34.51553pt too wide) in paragraph at lines 543--544
 \OT1/cmr/m/n/10 fort. The pro-posed stan-dard dataset could ad-dress this by de
 fin-ing two \OT1/cmtt/m/n/10 MAG \OT1/cmr/m/n/10 ref-er-ence frames. 
  []
 
 
-Overfull \hbox (7.77951pt too wide) in paragraph at lines 610--611
+Overfull \hbox (7.77951pt too wide) in paragraph at lines 543--544
 \OT1/cmr/m/n/10 One uses only defini-tive IGRF co-ef-fi-cients. The other only 
 uses non-definitive. We also 
  []
 
 
-Overfull \hbox (16.97392pt too wide) in paragraph at lines 610--611
+Overfull \hbox (16.97392pt too wide) in paragraph at lines 543--544
 \OT1/cmr/m/n/10 rec-om-mend that each re-lease of the IGRF co-ef-fi-cients be g
 iven its own DOI and archived 
  []
 
 
-Overfull \hbox (28.15457pt too wide) in paragraph at lines 610--611
+Overfull \hbox (28.15457pt too wide) in paragraph at lines 543--544
 \OT1/cmr/m/n/10 in a gen-er-al-ized repos-i-tory. (At present, it is only pos-s
 i-ble to cite de-scrip-tions of the model, 
  []
@@ -3210,91 +3147,91 @@ i-ble to cite de-scrip-tions of the model,
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
-Overfull \hbox (10.2934pt too wide) in paragraph at lines 615--616
+Overfull \hbox (10.2934pt too wide) in paragraph at lines 548--549
 []\OT1/cmr/m/n/10 Having a dataset of ref-er-ence frame trans-form ma-tri-ces w
 ill ad-dress an-other is-sue. 
  []
 
 
-Overfull \hbox (23.59898pt too wide) in paragraph at lines 615--616
+Overfull \hbox (23.59898pt too wide) in paragraph at lines 548--549
 \OT1/cmr/m/n/10 In the de-vel-op-ment of sec-tion 4.2[], we en-coun-tered sig-n
 if-i-cant er-rors in four of the li-braries, 
  []
 
 
-Overfull \hbox (19.57109pt too wide) in paragraph at lines 615--616
+Overfull \hbox (19.57109pt too wide) in paragraph at lines 548--549
 \OT1/cmr/m/n/10 de-spite these li-braries pass-ing their tests. (These er-rors 
 were re-ported, and a ver-sion with 
  []
 
 
-Overfull \hbox (11.29333pt too wide) in paragraph at lines 615--616
+Overfull \hbox (11.29333pt too wide) in paragraph at lines 548--549
 \OT1/cmr/m/n/10 the cor-rec-tions was used in sec-tion 4.2[]). If these li-brar
 ies had a more com-pre-hen-sive set 
  []
 
 
-Overfull \hbox (6.61404pt too wide) in paragraph at lines 630--631
+Overfull \hbox (6.61404pt too wide) in paragraph at lines 563--564
 []\OT1/cmr/m/n/10 Ideally, all mission-specific SPICE ker-nels would be avail-a
 ble from a $[]$[][]\OT1/cmr/m/n/8 sin[]-[]gle[] [][][]repos[]- 
  []
 
 
-Overfull \hbox (10.62668pt too wide) in paragraph at lines 630--631
+Overfull \hbox (10.62668pt too wide) in paragraph at lines 563--564
 []\OT1/cmr/m/n/10 tions[], ker-nels re-lated to stan-dard space physics ref-er-
 ence frames would be shared across 
  []
 
 
-Overfull \hbox (16.0434pt too wide) in paragraph at lines 630--631
+Overfull \hbox (16.0434pt too wide) in paragraph at lines 563--564
 \OT1/cmr/m/n/10 mis-sions, and these shared ker-nels would ei-ther be used to g
 en-er-ate the stan-dard dataset 
  []
 
 
-Overfull \hbox (20.37677pt too wide) in paragraph at lines 630--631
+Overfull \hbox (20.37677pt too wide) in paragraph at lines 563--564
 \OT1/cmr/m/n/10 de-scribed in sec-tion 6.2[] or an eval-u-a-tion of the dif-fer
 -ences be-tween trans-forms us-ing these 
  []
 
 
-Overfull \hbox (7.18227pt too wide) in paragraph at lines 632--633
+Overfull \hbox (7.18227pt too wide) in paragraph at lines 565--566
 []\OT1/cmr/m/n/10 We also rec-om-mend us-ing mod-ern ver-sion con-trol sys-tems
  for the SPICE ker-nels. 
  []
 
 
-Overfull \hbox (10.79337pt too wide) in paragraph at lines 632--633
+Overfull \hbox (10.79337pt too wide) in paragraph at lines 565--566
 \OT1/cmr/m/n/10 At present, ker-nels can be found on var-i-ous web-sites, and k
 er-nel ver-sions are some-times 
  []
 
 
-Overfull \hbox (3.79347pt too wide) in paragraph at lines 632--633
+Overfull \hbox (3.79347pt too wide) in paragraph at lines 565--566
 \OT1/cmr/m/n/10 in-di-cated in the file name, but prior ver-sions are not al-wa
 ys pro-vided, thereby in-hibit- 
  []
 
 
-Overfull \hbox (7.32123pt too wide) in paragraph at lines 632--633
+Overfull \hbox (7.32123pt too wide) in paragraph at lines 565--566
 \OT1/cmr/m/n/10 ing re-pro-ducibil-ity. Stor-ing ker-nels in a source code repo
 s-i-tory, which pro-vides ver-sion- 
  []
 
 
-Overfull \hbox (1.2657pt too wide) in paragraph at lines 632--633
+Overfull \hbox (1.2657pt too wide) in paragraph at lines 565--566
 \OT1/cmr/m/n/10 ing and sim-pli-fies change track-ing, will im-prove this. Ad-d
 i-tion-ally, we rec-om-mend as- 
  []
 
 
-Overfull \hbox (53.68251pt too wide) in paragraph at lines 665--666
+Overfull \hbox (53.68251pt too wide) in paragraph at lines 598--599
 [][][][][] [][][]\OT1/cmr/m/n/10 uses[] [][][]6,378.16[] [][][]km,[] [][][][][]
  
  []
 
 
-Overfull \hbox (13.15456pt too wide) in paragraph at lines 665--666
+Overfull \hbox (13.15456pt too wide) in paragraph at lines 598--599
 [][][]\OT1/cmr/m/n/10 uses[] [][][]6,378.14[] [][][]km.[] [][][]Ref[]-[]er[]-[]
 ences[] [][][]to[] [][][]these[] [][][]two[] [][][]val[]-[]ues[] [][][]and[] []
 [][]oth[]-[]ers[] [][][]may[] [][][]be[] [][][]found[] [][][]in[] [][][][].[] 
@@ -3304,182 +3241,182 @@ ences[] [][][]to[] [][][]these[] [][][]two[] [][][]val[]-[]ues[] [][][]and[] []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
-Overfull \hbox (4.21008pt too wide) in paragraph at lines 678--679
+Overfull \hbox (4.21008pt too wide) in paragraph at lines 611--612
 []\OT1/cmr/m/n/10 In this work, we have been pri-mar-ily in-ter-ested in the pr
 ob-lem of trans-form-ing a 
  []
 
 
-Overfull \hbox (9.65456pt too wide) in paragraph at lines 678--679
+Overfull \hbox (9.65456pt too wide) in paragraph at lines 611--612
 \OT1/cmr/m/n/10 vec-tor from one ref-er-ence frame to an-other. In the case of 
 po-si-tions pro-vided in a given 
  []
 
 
-Overfull \hbox (3.5156pt too wide) in paragraph at lines 678--679
+Overfull \hbox (3.5156pt too wide) in paragraph at lines 611--612
 \OT1/cmr/m/n/10 ref-er-ence frame, there is an un-cer-tainty due to what is mea
 nt by that ref-er-ence frame, 
  []
 
 
-Overfull \hbox (0.68225pt too wide) in paragraph at lines 680--681
+Overfull \hbox (0.68225pt too wide) in paragraph at lines 613--614
 []\OT1/cmr/m/n/10 There is an ad-di-tional source of un-cer-tainty --- the sour
 ce of the po-si-tions. Mis- 
  []
 
 
-Overfull \hbox (2.55455pt too wide) in paragraph at lines 680--681
+Overfull \hbox (2.55455pt too wide) in paragraph at lines 613--614
 \OT1/cmr/m/n/10 sions have used di-rect $[]$[][]Doppler[] [][][]and[] [][][]$[]
 $[][]\OT1/cmr/m/n/8 GPS[][][][][]\OT1/cmr/m/n/10 GNSS[] mea-sure-ments, com-mer
 -cial soft-ware 
  []
 
 
-Overfull \hbox (8.25179pt too wide) in paragraph at lines 680--681
+Overfull \hbox (8.25179pt too wide) in paragraph at lines 613--614
 \OT1/cmr/m/n/10 such as STK (Sys-tems Tool Kit), and data from fa-cil-i-ties su
 ch as the GSFC Flight Dy- 
  []
 
 
-Overfull \hbox (14.54349pt too wide) in paragraph at lines 680--681
+Overfull \hbox (14.54349pt too wide) in paragraph at lines 613--614
 \OT1/cmr/m/n/10 nam-ics Fa-cil-ity (FDF), the Deep Space Net-work (DSN), NAIF, 
 and NO-RAD to pro-duce 
  []
 
 
-Overfull \hbox (3.73782pt too wide) in paragraph at lines 693--694
+Overfull \hbox (3.73782pt too wide) in paragraph at lines 626--627
 []\OT1/cmr/m/n/10 To ad-dress this, we sug-gest that data providers in-di-cate 
 how they ob-tained their 
  []
 
 
-Overfull \hbox (14.6546pt too wide) in paragraph at lines 693--694
+Overfull \hbox (14.6546pt too wide) in paragraph at lines 626--627
 \OT1/cmr/m/n/10 space-craft po-si-tions. We also sug-gest that if two data prov
 iders pro-vide po-si-tions for the 
  []
 
 
-Overfull \hbox (11.57124pt too wide) in paragraph at lines 693--694
+Overfull \hbox (11.57124pt too wide) in paragraph at lines 626--627
 \OT1/cmr/m/n/10 same space-craft, they doc-u-ment how and why their re-sults ma
 y dif-fer, if ap-pli-ca-ble. We 
  []
 
 
-Overfull \hbox (16.40468pt too wide) in paragraph at lines 693--694
+Overfull \hbox (16.40468pt too wide) in paragraph at lines 626--627
 \OT1/cmr/m/n/10 also rec-om-mend that the meta-data in-di-cate the un-cer-taint
 y in the lo-ca-tions. Of-ten, data 
  []
 
 
-Overfull \hbox (12.40463pt too wide) in paragraph at lines 693--694
+Overfull \hbox (12.40463pt too wide) in paragraph at lines 626--627
 \OT1/cmr/m/n/10 providers will mod-ify the po-si-tion val-ues when more ac-cu-r
 ate cal-cu-la-tions be-come avail- 
  []
 
 
-Overfull \hbox (12.18245pt too wide) in paragraph at lines 693--694
+Overfull \hbox (12.18245pt too wide) in paragraph at lines 626--627
 \OT1/cmr/m/n/10 able. This makes re-pro-ducibil-ity dif-fi-cult. Ide-ally, for 
 re-pro-ducibil-ity, old ver-sions of po- 
  []
 
 
-Overfull \hbox (17.1824pt too wide) in paragraph at lines 693--694
+Overfull \hbox (17.1824pt too wide) in paragraph at lines 626--627
 \OT1/cmr/m/n/10 si-tions would be made avail-able. Of-ten, this is im-prac-ti-c
 al, so an al-ter-na-tive is to in-clude 
  []
 
 
-Overfull \hbox (5.21022pt too wide) in paragraph at lines 693--694
+Overfull \hbox (5.21022pt too wide) in paragraph at lines 626--627
 \OT1/cmr/m/n/10 ver-sion in-for-ma-tion in the meta-data, in-clud-ing a short d
 e-scrip-tion of the changes from 
  []
 
 
-Overfull \hbox (22.23792pt too wide) in paragraph at lines 693--694
+Overfull \hbox (22.23792pt too wide) in paragraph at lines 626--627
 \OT1/cmr/m/n/10 the last ver-sion to the new one. The meta-data for pre-vi-ous 
 ver-sions should be made avail- 
  []
 
 
-Overfull \hbox (1.15445pt too wide) in paragraph at lines 693--694
+Overfull \hbox (1.15445pt too wide) in paragraph at lines 626--627
 \OT1/cmr/m/n/10 able so users can un-der-stand the changes from ear-lier ver-si
 ons to the cur-rent one. Fi- 
  []
 
 
-Overfull \hbox (0.5434pt too wide) in paragraph at lines 697--698
+Overfull \hbox (0.5434pt too wide) in paragraph at lines 630--631
 []\OT1/cmr/m/n/10 If the above rec-om-men-da-tions are fol-lowed, the nec-es-sa
 ry doc-u-men-ta-tion for re- 
  []
 
 
-Overfull \hbox (8.65468pt too wide) in paragraph at lines 697--698
+Overfull \hbox (8.65468pt too wide) in paragraph at lines 630--631
 \OT1/cmr/m/n/10 pro-ducibil-ity re-lated to co-or-di-nate trans-forms will be s
 im-pli-fied. For ex-am-ple, if an au- 
  []
 
 
-Overfull \hbox (8.48785pt too wide) in paragraph at lines 697--698
+Overfull \hbox (8.48785pt too wide) in paragraph at lines 630--631
 \OT1/cmr/m/n/10 thor or soft-ware pack-age used the stan-dard dataset de-scribe
 d in sec-tion 6.2[] for a trans- 
  []
 
 
-Overfull \hbox (4.12688pt too wide) in paragraph at lines 697--698
+Overfull \hbox (4.12688pt too wide) in paragraph at lines 630--631
 \OT1/cmr/m/n/10 form, only the stan-dard dataset is needed for re-pro-ducibil-i
 ty. Sim-i-larly, if one or more 
  []
 
 
-Overfull \hbox (11.96005pt too wide) in paragraph at lines 697--698
+Overfull \hbox (11.96005pt too wide) in paragraph at lines 630--631
 \OT1/cmr/m/n/10 SPICE ker-nels are used, each with a unique DOI and stored in a
  per-ma-nent gen-er-al-ized 
  []
 
 
-Overfull \hbox (18.18224pt too wide) in paragraph at lines 697--698
+Overfull \hbox (18.18224pt too wide) in paragraph at lines 630--631
 \OT1/cmr/m/n/10 repos-i-tory, only the DOIs are needed to re-trieve the ker-nel
 s. In this case, these DOIs and 
  []
 
 
-Overfull \hbox (0.82123pt too wide) in paragraph at lines 702--704
+Overfull \hbox (0.82123pt too wide) in paragraph at lines 635--637
 []\OT1/cmr/m/n/10 Software pack-age de-vel-op-ers pro-vide doc-u-men-ta-tion on
  im-ple-men-ta-tion choices 
  []
 
 
-Overfull \hbox (2.90457pt too wide) in paragraph at lines 702--704
+Overfull \hbox (2.90457pt too wide) in paragraph at lines 635--637
 \OT1/cmr/m/n/10 (e.g., model used for obliq-uity and its pa-ram-e-ters). If dat
 a from an ex-ter-nal re- 
  []
 
 
-Overfull \hbox (10.72397pt too wide) in paragraph at lines 702--704
+Overfull \hbox (10.72397pt too wide) in paragraph at lines 635--637
 \OT1/cmr/m/n/10 source is used, for ex-am-ple, if the IGRF co-ef-fi-cients are 
 dy-nam-i-cally down-loaded, 
  []
 
 
-Overfull \hbox (9.96005pt too wide) in paragraph at lines 702--704
+Overfull \hbox (9.96005pt too wide) in paragraph at lines 635--637
 \OT1/cmr/m/n/10 the user should have an op-tion to eas-ily view the data used, 
 so that, if nec-es-sary, 
  []
 
 
-Overfull \hbox (11.51566pt too wide) in paragraph at lines 702--704
+Overfull \hbox (11.51566pt too wide) in paragraph at lines 635--637
 \OT1/cmr/m/n/10 the val-ues used can be doc-u-mented in a pub-li-ca-tion. Soft-
 ware should have a DOI 
  []
 
 
-Overfull \hbox (2.23776pt too wide) in paragraph at lines 702--704
+Overfull \hbox (2.23776pt too wide) in paragraph at lines 635--637
 \OT1/cmr/m/n/10 for each ma-jor ver-sion, so the ver-sion used can be ref-er-en
 ced rather than just a 
  []
 
 
-Overfull \hbox (13.93236pt too wide) in paragraph at lines 702--704
+Overfull \hbox (13.93236pt too wide) in paragraph at lines 635--637
 \OT1/cmr/m/n/10 top-level DOI. Ad-di-tional soft-ware ci-ta-tion rec-om-men-da-
 tions are given in []Jackson 
  []
@@ -3488,79 +3425,79 @@ tions are given in []Jackson
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
-Overfull \hbox (11.82127pt too wide) in paragraph at lines 705--706
+Overfull \hbox (11.82127pt too wide) in paragraph at lines 638--639
 []\OT1/cmr/m/n/10 Data providers en-sure that meta-data as-so-ci-ated with po-s
 i-tions and vari-ables that 
  []
 
 
-Overfull \hbox (14.29343pt too wide) in paragraph at lines 705--706
+Overfull \hbox (14.29343pt too wide) in paragraph at lines 638--639
 \OT1/cmr/m/n/10 are trans-formed in-clude de-tails about the soft-ware ver-sion
  used for the trans-forms 
  []
 
 
-Overfull \hbox (15.29337pt too wide) in paragraph at lines 705--706
+Overfull \hbox (15.29337pt too wide) in paragraph at lines 638--639
 \OT1/cmr/m/n/10 or the data used for the trans-form, such as SPICE ker-nels. Th
 e meta-data de-scrip- 
  []
 
 
-Overfull \hbox (1.65454pt too wide) in paragraph at lines 705--706
+Overfull \hbox (1.65454pt too wide) in paragraph at lines 638--639
 \OT1/cmr/m/n/10 tion should be val-i-dated by hav-ing a third party as-sess whe
 ther it con-tains suf- 
  []
 
 
-Overfull \hbox (14.21008pt too wide) in paragraph at lines 707--708
+Overfull \hbox (14.21008pt too wide) in paragraph at lines 640--641
 []\OT1/cmr/m/n/10 When data are pro-vided that have been trans-formed to a ref-
 er-ence frame that de- 
  []
 
 
-Overfull \hbox (17.91844pt too wide) in paragraph at lines 707--708
+Overfull \hbox (17.91844pt too wide) in paragraph at lines 640--641
 \OT1/cmr/m/n/10 pends on a mag-netic field model (such as the IGRF model), data
  are also pro-vided 
  []
 
 
-Overfull \hbox (10.39072pt too wide) in paragraph at lines 707--708
+Overfull \hbox (10.39072pt too wide) in paragraph at lines 640--641
 \OT1/cmr/m/n/10 in a frame such as GEI/J2000 or ECI/J2000. The mo-ti-va-tion is
  the vari-abil-ity in 
  []
 
 
-Overfull \hbox (10.18233pt too wide) in paragraph at lines 709--710
+Overfull \hbox (10.18233pt too wide) in paragraph at lines 642--643
 []\OT1/cmr/m/n/10 Paper au-thors in-clude the ver-sion of soft-ware, a DOI for 
 that ver-sion if avail-able, 
  []
 
 
-Overfull \hbox (14.68233pt too wide) in paragraph at lines 709--710
+Overfull \hbox (14.68233pt too wide) in paragraph at lines 642--643
 \OT1/cmr/m/n/10 and the op-tions passed to the trans-form func-tion. If SPICE k
 er-nels are used, they 
  []
 
 
-Overfull \hbox (14.29341pt too wide) in paragraph at lines 709--710
+Overfull \hbox (14.29341pt too wide) in paragraph at lines 642--643
 \OT1/cmr/m/n/10 should be per-ma-nently pub-licly ac-ces-si-ble and citable wit
 h a version-specific iden- 
  []
 
 
-Overfull \hbox (22.73769pt too wide) in paragraph at lines 720--721
+Overfull \hbox (22.73769pt too wide) in paragraph at lines 653--654
 []\OT1/cmtt/m/n/10 CD \OT1/cmr/m/n/10 -- Cen-tered Dipole (ref-er-ence frame). 
 Same as GM and MAG if they use a model 
  []
 
 
-Overfull \hbox (12.83154pt too wide) in paragraph at lines 736--737
+Overfull \hbox (12.83154pt too wide) in paragraph at lines 669--670
 []\OT1/cmr/m/n/10 IGRF -- In-ter-na-tional Ge-o-mag-netic Ref-er-ence Field (ge
 -o-mag-netic model)$[]$[][];[] [][][]main[]- 
  []
 
 
-Overfull \hbox (8.04353pt too wide) in paragraph at lines 738--739
+Overfull \hbox (8.04353pt too wide) in paragraph at lines 671--672
 []\OT1/cmr/m/n/10 IRBEM -- In-ter-na-tional Ra-di-a-tion Belt En-vi-ron-ment Mo
 d-el-ing (soft-ware li-brary)  
  []
@@ -3569,19 +3506,19 @@ d-el-ing (soft-ware li-brary)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
-Overfull \hbox (5.52913pt too wide) in paragraph at lines 745--746
+Overfull \hbox (5.52913pt too wide) in paragraph at lines 678--679
 []\OT1/cmtt/m/n/10 MAG \OT1/cmr/m/n/10 -- Ge-o-mag-netic (ref-er-ence sys-tem).
  Also re-ferred to as Cen-tered Dipole (\OT1/cmtt/m/n/10 CD\OT1/cmr/m/n/10 ) 
  []
 
 
-Overfull \hbox (11.87679pt too wide) in paragraph at lines 752--753
+Overfull \hbox (11.87679pt too wide) in paragraph at lines 685--686
 []\OT1/cmr/m/n/10 SPEDAS -- Space Physics En-vi-ron-ment Data Anal-y-sis Soft-w
 are (soft-ware li-brary)  
  []
 
 
-Overfull \hbox (18.18886pt too wide) in paragraph at lines 766--767
+Overfull \hbox (18.18886pt too wide) in paragraph at lines 699--700
 []$[]$[][] [][][]\OT1/cmr/m/n/8 The[] [][][]soft[]-[]ware,[] [][][]data,[] [][]
 []and[] [][][]as[]-[]so[]-[]ci[]-[]ated[] [][][]cal[]-[]cu[]-[]la[]-[]tions[] [
 ][][]for[] [][][]this[] [][][]ar[]-[]ti[]-[]cle[] [][][]are[] [][][]avail[]-[]a
@@ -3589,44 +3526,44 @@ ble[] [][][]in[] [][][][].[]
  []
 
 
-Overfull \hbox (11.52597pt too wide) in paragraph at lines 768--770
+Overfull \hbox (11.52597pt too wide) in paragraph at lines 701--703
 []$[]$[][]\OT1/cmr/m/n/10 The[] [][][]soft[]-[]ware[] [][][]for[] [][][]the[] [
 ][][]as[]-[]so[]-[]ci[]-[]ated[] [][][]cal[]-[]cu[]-[]la[]-[]tions[] [][][]and[
 ] [][][]plots[] [][][]is[] [][][]avail[]-[]able[] [][][]in[] [][][][].[] 
  []
 
 
-Overfull \hbox (6.00182pt too wide) in paragraph at lines 773--774
+Overfull \hbox (6.00182pt too wide) in paragraph at lines 706--707
 []\OT1/cmr/m/n/10 This work was sup-ported by NASA Grant 80NSSC24K0199. We than
 k Fer-nando 
  []
 
 
-Overfull \hbox (7.22406pt too wide) in paragraph at lines 773--774
+Overfull \hbox (7.22406pt too wide) in paragraph at lines 706--707
 \OT1/cmr/m/n/10 Car-ca-boso Morales, Lan Jian, Rita John-son, Leonard Gar-cia, 
 Tami Ko-val-ick, Boris Se- 
  []
 
 
-Overfull \hbox (14.76581pt too wide) in paragraph at lines 773--774
+Overfull \hbox (14.76581pt too wide) in paragraph at lines 706--707
 \OT1/cmr/m/n/10 menov, Jon Niehof, Steve Morely, Ed-mund Hen-ley, and Nathaniel
  Bach-man for feed-back 
  []
 
 
-Overfull \hbox (8.01582pt too wide) in paragraph at lines 773--774
+Overfull \hbox (8.01582pt too wide) in paragraph at lines 706--707
 \OT1/cmr/m/n/10 on the manuscript or ad-di-tional back-ground in-for-ma-tion, a
 nd Jim Lewis for ad-dress-ing 
  []
 
 
-Overfull \hbox (4.34906pt too wide) in paragraph at lines 773--774
+Overfull \hbox (4.34906pt too wide) in paragraph at lines 706--707
 \OT1/cmr/m/n/10 ques-tions about PySPEDAS. We also thank the re-view-ers, who i
 n-clude an anony-mous 
  []
 
 
-Overfull \hbox (5.43239pt too wide) in paragraph at lines 773--774
+Overfull \hbox (5.43239pt too wide) in paragraph at lines 706--707
 \OT1/cmr/m/n/10 re-viewer and M. Hap-good, who pro-vided ex-ten-sive feed-back 
 and sug-ges-tions that have 
  []
@@ -3653,10 +3590,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 6075 strings out of 469006
- 104967 string characters out of 5454814
- 624342 words of memory out of 5000000
- 34684 multiletter control sequences out of 15000+600000
+ 6016 strings out of 469006
+ 100616 string characters out of 5454814
+ 623803 words of memory out of 5000000
+ 34625 multiletter control sequences out of 15000+600000
  638336 words of font info for 77 fonts, out of 8000000 for 9000
  325 hyphenation exceptions out of 8191
  72i,12n,79p,2091b,860s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3688,10 +3625,10 @@ pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmtt8.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmtt9.pfb>
-Output written on submitted2-track.pdf (27 pages, 991892 bytes).
+Output written on submitted2-track.pdf (27 pages, 1002266 bytes).
 PDF statistics:
- 1177 PDF objects out of 1200 (max. 8388607)
- 471 compressed objects within 5 object streams
+ 1221 PDF objects out of 1440 (max. 8388607)
+ 503 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -13,7 +13,14 @@ $BIBTEX submitted2-track
 $PDFLATEX submitted2-track.tex
 $PDFLATEX submitted2-track.tex
 
+sed 's/\\mbox{\\cite\([^}]*\)}/\\cite\1/g' submitted2-track.tex > submitted2.tex
+#cp submitted2-track.tex submitted2.tex
+sed -i '' 's/\\usepackage\[inline\]/\\usepackage[finalnew]/' submitted2.tex
+
 $PDFLATEX submitted2.tex
 $BIBTEX submitted2
 $PDFLATEX submitted2.tex
 $PDFLATEX submitted2.tex
+
+
+

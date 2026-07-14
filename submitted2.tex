@@ -3,9 +3,9 @@
 %\usepackage{xurl}
 \usepackage{lineno}
 \usepackage{subcaption}
-%\usepackage[inline]{trackchanges} %for better track changes. finalnew option will compile document with changes incorporated.
 
-\usepackage[finalnew]{trackchanges} %for better track changes. finalnew option will compile document with changes incorporated.
+\usepackage[finalnew]{trackchanges}
+%for better track changes. finalnew option will compile document with changes incorporated.
 
 \addeditor{a}
 \addeditor{r1}
@@ -229,10 +229,10 @@ The objective of the following summary is to demonstrate the diversity in the te
 
     \item \texttt{ECI2000} -- Earth Centered Inertial for \texttt{J2000} epoch; used in SpacePy \cite{Niehof2022}.
 
-    \item \texttt{ECI} -- Earth Centered Inertial; used in \citeA{Burch2026} with the note ``\texttt{GEI/J2000} - Earth-Centered Inertial (\texttt{ECI}). To fully specify the system the equinox must be defined. This system uses the mean equinox at the J2000 epoch."
-
+    \item \texttt{ECI} -- Earth Centered Inertial; used in \citeA{Burch2026} with the note ``\texttt{GEI/J2000} – Earth-Centered Inertial (\texttt{ECI}). To fully specify the system the equinox must be defined. This system uses the mean equinox at the J2000 epoch."
+    
     %Also used by the PUNCH MOC.
-
+    
    \item \texttt{GCI} -- Geocentric Celestial Inertial; used in OGO satellite data analysis \cite{NASA1970} and stated in \citeA{Russell1971} as equivalent to \texttt{GEI}.
     %\url{https://www.reddit.com/r/gis/comments/16wf78z/understanding_ecef_wgs_and_nad_coordinate_systems/}
 
@@ -510,7 +510,7 @@ The reference system definitions will involve key quantities, such as the positi
 
 \add[r2]{Although this article did not provide details on the relevance of time standards to reference frame transforms, this topic is an important part of the definition of a reference frame. Several space physics reference frames depend on time-related quantities. Both \citeA{Hapgood1992} and \citeA{Franz2002} discuss the relevance of time scales to reference-frame calculations and approximations that may be used (for example, using UTC in place of UT1). Even if using an approximation is justified for the precision needed in most calculations, we must account for the fact that, when defining a reference frame, all quantities used in the calculation must be explicitly specified.}
 
-\add[r2]{There exist standards that reference frame definitions can be built upon. For example, in the past 50 years, the astronomy community, through International Astronomical Union (IAU) resolutions, has adopted standards related to quantities used in space physics reference-frame transforms in 1982~\cite{Aoki1982}, 2000~\cite{Capitaine2003}, and 2006~\cite{Capitaine2005}. The IGRF model \cite{IAGA_V-MOD2026} is a standard for specifying Earth's dipole orientation, which is required for defining geomagnetic reference frames.}
+\add[r2]{There exist standards that reference frame definitions can be built upon. For example, in the past 50 years, the astronomy community, through International Astronomical Union (IAU) resolutions, has adopted standards related to quantities used in space physics reference frame transforms in 1982~\cite{Aoki1982}, 2000~\cite{Capitaine2003}, and 2006~\cite{Capitaine2005}. The IGRF model \cite{IAGA_V-MOD2026} is a standard for specifying Earth's dipole orientation, which is required for defining geomagnetic reference frames.}
 
 %\subsection{\add[r2]{Time-Related Standards}}
 

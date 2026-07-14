@@ -4,9 +4,8 @@
 \usepackage{lineno}
 \usepackage{subcaption}
 
-\usepackage[inline]{trackchanges} %for better track changes. finalnew option will compile document with changes incorporated.
-
-%\usepackage[inline]{trackchanges} %for better track changes. finalnew option will compile document with changes incorporated.
+\usepackage[inline]{trackchanges}
+%for better track changes. finalnew option will compile document with changes incorporated.
 
 \addeditor{a}
 \addeditor{r1}
@@ -371,63 +370,19 @@ In Figure~\ref{fig:mms-2}c, much larger differences are shown to exist between S
 
 \clearpage
 \begin{figure}[htb]
-\vspace{-0.5cm}
-\begin{adjustwidth}{-1cm}{-1cm} % Left and Right margin changes
-     \begin{subfigure}[b]{0.55\textwidth}
-         (a) Geotail SSCWeb/\texttt{GEI} vs. CDAWeb/\texttt{GCI}
-         \centering
-         \includegraphics[width=\textwidth]{figures/positions/Geotail_SSCWeb-GEI_vs_CDAWeb-GCI.pdf}
-     \end{subfigure}
-     \begin{subfigure}[b]{0.55\textwidth}
-         (b) Geotail SSCWeb/\texttt{J2K} vs. CDAWeb/\texttt{GCI}
-         \centering
-         \includegraphics[width=\textwidth]{figures/positions/Geotail_SSCWeb-J2K_vs_CDAWeb-GCI.pdf}
-     \end{subfigure}
-     \par\bigskip\bigskip
-     \begin{subfigure}[b]{0.55\textwidth}
-         (c) Geotail SSCWeb/\texttt{GSE} vs. CDAWeb/\texttt{GSE}
-         \centering
-         \includegraphics[width=\textwidth]{figures/positions/Geotail_SSCWeb-GSE_vs_CDAWeb-GSE.pdf}
-     \end{subfigure}
-     \begin{subfigure}[b]{0.55\textwidth}
-         (d) Geotail SSCWeb/\texttt{GSM} vs. CDAWeb/\texttt{GSM}
-         \centering
-         \includegraphics[width=\textwidth]{figures/positions/Geotail_SSCWeb-GSM_vs_CDAWeb-GSM.pdf}
-     \end{subfigure}
-     \caption{Comparison of position values for the Geotail spacecraft from SSCWeb and CDAWeb in four different reference systems. The top panel in each subplot displays the $X$, $Y$, and $Z$ values from each provider (on this scale, differences are not visible) and the average radial distance, $\overline{r}$, between the two providers. The bottom panel of each subplot shows relative differences in the position vector $\Delta\mathbf{r}$ and the angular difference in the position vectors, $\Delta\theta$.}
-     \label{fig:geotail}
-\end{adjustwidth}
+    \vspace{-0.5cm}
+    \includegraphics[width=1.1\textwidth]{figures/combined/figure1}
+    \caption{Comparison of position values for the Geotail spacecraft from SSCWeb and CDAWeb in four different reference systems. The top panel in each subplot displays the $X$, $Y$, and $Z$ values from each provider (on this scale, differences are not visible) and the average radial distance, $\overline{r}$, between the two providers. The bottom panel of each subplot shows relative differences in the position vector $\Delta\mathbf{r}$ and the angular difference in the position vectors, $\Delta\theta$.}
+    \label{fig:geotail}
 \end{figure}
 
 \clearpage
 
 \begin{figure}[h]
-\vspace{-0.5cm}
-\begin{adjustwidth}{-1cm}{-1cm} % Left and Right margin changes
-     \begin{subfigure}[b]{0.55\textwidth}
-         (a) MMS-2 SSCWeb/\texttt{GSE} vs. CDAWeb/\texttt{GSE}
-         \centering
-         \includegraphics[width=\textwidth]{figures/positions/MMS-2_SSCWeb-GSE_vs_CDAWeb-GSE.pdf}
-     \end{subfigure}
-     \begin{subfigure}[b]{0.55\textwidth}
-         (b) MMS-2 SSCWeb/\texttt{GSM} vs. CDAWeb/\texttt{GSM}
-         \centering
-         \includegraphics[width=\textwidth]{figures/positions/MMS-2_SSCWeb-GSM_vs_CDAWeb-GSM.pdf}
-     \end{subfigure}
-     \par\bigskip\bigskip
-     \begin{subfigure}[b]{0.55\textwidth}
-         (c) MMS-2 SSCWeb/\texttt{GSE} vs. JPL/\texttt{GSE}
-         \centering
-         \includegraphics[width=\textwidth]{figures/positions/MMS-2_SSCWeb-GSE_vs_JPL-GSE.pdf}
-     \end{subfigure}
-     \begin{subfigure}[b]{0.55\textwidth}
-         (d) MMS-2 SSCWeb/\texttt{GSM} vs. JPL/\texttt{GSM}
-         \centering
-         \includegraphics[width=\textwidth]{figures/positions/MMS-2_SSCWeb-GSM_vs_JPL-GSM.pdf}
-     \end{subfigure}
-     \caption{Comparison of position values for the MMS-2 spacecraft from (a)--(b) SSCWeb and CDAWeb; (c)--(d) SSCWeb and JPL Horizons in two different reference systems.}
-     \label{fig:mms-2}
-\end{adjustwidth}
+    \vspace{-0.5cm}
+    \includegraphics[width=1.1\textwidth]{figures/combined/figure2}
+    \caption{Comparison of position values for the MMS-2 spacecraft from (a)--(b) SSCWeb and CDAWeb; (c)--(d) SSCWeb and JPL Horizons in two different reference systems.}
+    \label{fig:mms-2}
 \end{figure}
 
 \clearpage
@@ -466,34 +421,12 @@ In summary, in this section, we have shown that differences in library implement
 This range of differences is comparable to the range of angles identified in section~\ref{sect:comparisons_ephemeris}, which includes the average angular change in Earth's dipole $Z$-axis over the past 45 years, the precession of Earth's rotation axis, changes in nutation of Earth's rotation axis over one year, and the precession of the ecliptic. The implication is that intercomparison of measurements transformed with different libraries may require an analysis of the differences in the transform implementations if the differences in the measurements are not significantly larger than these differences. This type of analysis is challenging because it requires access to the transform software, which may not be maintained or available, and because calculations are needed to quantify differences due to transform implementation choices.
 
 \clearpage
+
 \begin{figure}[htb]
-\vspace{-0.5cm}
-\begin{adjustwidth}{-1cm}{-1cm} % Left and Right margin changes
-     \begin{subfigure}[b]{0.55\textwidth}
-         (a) $\angle (Z_{\mathtt{GEO}}, Z_{\mathtt{GSE}})$
-         \centering
-         \includegraphics[width=\textwidth]{figures/angles/z-delta=1days_20100101-20150101/GEO_GSE.pdf}
-     \end{subfigure}
-     \begin{subfigure}[b]{0.55\textwidth}
-         (b) $\angle (Z_\mathtt{{GEO}}, Z_\mathtt{{GSM}})$
-         \centering
-         \includegraphics[width=\textwidth]{figures/angles/z-delta=1days_20100101-20150101/GEO_GSM.pdf}
-     \end{subfigure}
-     \par\bigskip\bigskip
-\vspace{-0.4cm}
-     \begin{subfigure}[b]{0.55\textwidth}
-         (c) $\angle (Z_\mathtt{{GSE}}, Z_\mathtt{{GSM}})$
-         \centering
-         \includegraphics[width=\textwidth]{figures/angles/z-delta=1days_20100101-20150101/GSE_GSM.pdf}
-     \end{subfigure}
-     \begin{subfigure}[b]{0.55\textwidth}
-         (d) $\angle (Z_\mathtt{{MAG}}, Z_\mathtt{{GSM}})$
-         \centering
-         \includegraphics[width=\textwidth]{figures/angles/z-delta=1days_20100101-20150101/MAG_GSM.pdf}
-     \end{subfigure}
-     \caption{Angles between $Z$ axes in select coordinate frames as computed by different software packages. In the top panels of each subplot, the notation $\angle (Z_\mathtt{A}, Z_\mathtt{B})$ means the angle between the $Z$ axis of coordinate frame $\mathtt{A}$ and the $Z$ axis of coordinate frame $\mathtt{B}$ computed using \texttt{geopack\_08\_dp}. The middle panel of each subplot shows the difference\add[r2]{, $\Delta$,} between $\angle (Z_\mathtt{A}, Z_\mathtt{B})$ computed using \texttt{geopack\_08\_dp} and that computed using the library indicated in the legend; the maximum of the absolute value of each line is shown in parentheses. The bottom panels show the maximum absolute differences in the middle panel.}
-     \label{fig:angles}
-\end{adjustwidth}
+    \vspace{-0.65cm}
+    \includegraphics[width=\textwidth]{figures/combined/figure3}
+    \caption{Angles between $Z$ axes in select coordinate frames as computed by different software packages. In the top panels of each subplot, the notation $\angle (Z_\mathtt{A}, Z_\mathtt{B})$ means the angle between the $Z$ axis of coordinate frame $\mathtt{A}$ and the $Z$ axis of coordinate frame $\mathtt{B}$ computed using \texttt{geopack\_08\_dp}. The middle panel of each subplot shows the difference\add[r2]{, $\Delta$,} between $\angle (Z_\mathtt{A}, Z_\mathtt{B})$ computed using \texttt{geopack\_08\_dp} and that computed using the library indicated in the legend; the maximum of the absolute value of each line is shown in parentheses. The bottom panels show the maximum absolute differences in the middle panel.}
+    \label{fig:angles}
 \end{figure}
 
 \clearpage
